@@ -186,15 +186,16 @@ a.sidebar-nav-item:focus {
 @media (max-width: 48em) {
   .social-icons {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    margin-top: 10px; /* Adjust as needed */
+    margin-bottom: 10px;
   }
 
   .social-icons a {
-    margin: 0.5rem;
+    margin: 0 5px; /* Adjust as needed */
+    display: inline-block; /* Ensure proper spacing between icons */
   }
 }
-
 
 /*
  * Themes
