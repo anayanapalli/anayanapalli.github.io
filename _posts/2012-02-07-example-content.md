@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why the Stock Market is the Best Vehicle to Build Wealth
+title: This is an example blog post that shows several types of HTML content supported in this theme 
 ---
 
 
