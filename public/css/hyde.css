@@ -183,6 +183,17 @@ a.sidebar-nav-item:focus {
   }
 }
 
+@media (max-width: 48em) {
+  .social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .social-icons a {
+    margin: 0.5rem;
+  }
+}
 
 
 /*
