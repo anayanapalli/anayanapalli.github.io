@@ -1,0 +1,27 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      none
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Anish's Blog
+tagline:          '🗒️ Notes | 📚 Books | 💻 Code | 💡 Ideas | 🍿 Movies'
+description:      'Collection of my notes, ideas, thoughts, experiences, and reflections.'
+url:              http://hyde.getpoole.com
+baseurl:          /
+
+author:
+  name:           'Anish Nayanapalli'
+  url:            https://twitter.com/anayanapalli
+
+paginate:         1
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
+
+plugins: [jekyll-paginate]
