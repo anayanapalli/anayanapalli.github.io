@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vector Databases: The Go-To Databases for the AI Era"
+title: "Vector Databases: The Databases Powering the AI Era"
 ---
 
 
