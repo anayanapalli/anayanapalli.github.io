@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vector Databases: Revolutionizing Data Management in the Era of AI"
+title: "Vector Databases: Enabling Intelligent Applications at Scale"
 ---
 
 
