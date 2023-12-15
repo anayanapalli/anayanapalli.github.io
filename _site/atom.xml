@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-12-15T02:38:53-05:00</updated>
+ <updated>2023-12-15T02:58:51-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>Vector Databases: Enabling Intelligent Applications at Scale</title>
+   <title>Vector Databases: The Go-To Databases for the AI Era</title>
    <link href="http://localhost:4000/2023/12/14/vector-databases/"/>
    <updated>2023-12-14T00:00:00-05:00</updated>
    <id>http://localhost:4000/2023/12/14/vector-databases</id>
