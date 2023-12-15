@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Is this Age of AI Adoption the Era of Vector Databases?"
+title: "Vector Databases: The Databases Powering the AI Era"
 ---
 
 ## Introduction:
