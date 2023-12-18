@@ -11,7 +11,7 @@ For those of us who cringe at the very thought of self-promotion and sharing ide
 
 ## Pondering Before Posting:
 
-The mental chatter before taking the plunge into sharing can be overwhelming. Questions like, "Have I ever written anything worthwhile?" or "Can I articulate my thoughts clearly as a non-native English speaker?" might echo in your mind. Concerns about whether anyone will read your post, the judgments of coworkers, and the opinions of more knowledgeable friends may also loom large. What if people perceive you as less intelligent? Or worse, what if your future boss looks at your posts?
+The mental chatter before taking the plunge into sharing can be overwhelming. Questions like, "Have I ever written anything worthwhile?" or "Can I articulate my thoughts clearly as a non-native English speaker?" might echo in your mind. Concerns about whether anyone will read your post, the judgments of co-workers, and the opinions of more knowledgeable friends may also loom large. What if people perceive you as less intelligent? Or worse, what if your future boss looks at your posts?
 
 ## Reality Check:
 
