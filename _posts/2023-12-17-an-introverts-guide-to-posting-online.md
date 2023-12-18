@@ -24,7 +24,7 @@ What if people perceive you as less intelligent? Or worse, what if your future b
 The truth is, NOBODY CARES. Those who read your content are the ones genuinely interested in the topics you hold dear. The preoccupations about what others might think gradually fade away when you realize that the audience you attract is precisely the audience that resonates with your passions.
 
 
-With that said here are a few tips to get you started.
+With that said here are five tips to get you started.
 
 ## 1. Be Positive
 
