@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-12-17T20:14:40-05:00</updated>
+ <updated>2023-12-17T20:21:20-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>An Introvert's Guide to Posting Online</title>
-   <link href="http://localhost:4000/2023/12/17/an-introverts-guide-to-posting-onlie/"/>
+   <link href="http://localhost:4000/2023/12/17/an-introverts-guide-to-posting-online/"/>
    <updated>2023-12-17T00:00:00-05:00</updated>
-   <id>http://localhost:4000/2023/12/17/an-introverts-guide-to-posting-onlie</id>
+   <id>http://localhost:4000/2023/12/17/an-introverts-guide-to-posting-online</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;Only about 1% of LinkedIn’s 260 million monthly users share posts, and those 3 million or so users net the 9 billion impressions 🤯&lt;/p&gt;
 &lt;/blockquote&gt;
