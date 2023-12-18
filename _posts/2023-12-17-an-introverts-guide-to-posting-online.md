@@ -9,7 +9,7 @@ title: "An Introvert's Guide to Posting Online"
 
 For those of us who cringe at the very thought of self-promotion and sharing ideas online, this post is for you. If, by the end of this read, you find yourself more at ease with the idea of posting and sharing online, then I consider this blog post a success—even if it changes just one person's perspective.
 
-Much of the content in this post draws inspiration from Austin Kleon's insightful book, <a href = "https://www.amazon.com/Show-Your-Work-Austin-Kleon/dp/076117897X/ref=sr_1_1?crid=YM6GI67DH5GJ&keywords=Show+your+work&qid=1702854935&sprefix=show+your+work%2Caps%2C126&sr=8-1"  target="_blank">"Show Your Work."</a> I strongly recommend giving it a read; it's a brief yet impactful book that you can easily finish in a day.
+Much of the content in this post draws inspiration from Austin Kleon's insightful book, <a href = "https://www.amazon.com/Show-Your-Work-Austin-Kleon/dp/076117897X/ref=sr_1_1?crid=YM6GI67DH5GJ&keywords=Show+your+work&qid=1702854935&sprefix=show+your+work%2Caps%2C126&sr=8-1"  target="_blank">"Show Your Work."</a> I highly recommend giving it a read; it's a brief yet impactful book that you can easily finish in a day.
 
 ## Pondering Before Posting:
 
