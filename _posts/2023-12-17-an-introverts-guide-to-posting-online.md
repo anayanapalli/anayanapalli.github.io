@@ -26,7 +26,7 @@ The truth is, NOBODY CARES. Those who read your content are the ones genuinely i
 
 With that said here are a few tips to get you started.
 
-#### 1. Be Positive
+## 1. Be Positive
 
 Imagine if your next boss didn’t have to read your résumé because they already read your blog. Picture being a student and landing your first gig based on a school project you posted online. Envision losing your job but having a social network of people familiar with your work and ready to help you find a new one. Think about turning a side project or a hobby into your profession because you had a following that could support you.
 
@@ -34,7 +34,7 @@ Or imagine something simpler and just as satisfying: spending the majority of yo
 
 All you have to do is SHARE.
 
-#### 2. You Don't Have to Be an "Expert"
+## 2. You Don't Have to Be an "Expert"
 
 We’re all terrified of being revealed as amateurs, but in fact, today it is the amateur—the enthusiast who pursues her work in the spirit of love (in French, the word means “lover”), regardless of the potential for fame, money, or career—who often has the advantage over the professional. Because they have little to lose, amateurs are willing to try anything and share the results. They take chances, experiment, and follow their whims. Sometimes, in the process of doing things in an unprofessional way, they make new discoveries.
 
@@ -50,7 +50,7 @@ Amateurs might lack formal training, but they’re all lifelong learners, and th
 
 The world is changing at such a rapid rate that it’s turning us all into amateurs. Even for professionals, the best way to flourish is to retain an amateur’s spirit and embrace uncertainty and the unknown.
 
-#### 3. Share What You Know
+## 3. Share What You Know
 
 > “The impulse to keep to yourself what you have learned is not only shameful, it is destructive. Anything you do not give freely and abundantly becomes lost to you. You open your safe and find ashes.” —Annie Dillard
 
@@ -62,7 +62,7 @@ As blogger Kathy Sierra says, “Make people better at something they want to be
 
 Best of all, when you share your knowledge and your work with others, you receive an education in return. Author Christopher Hitchens said that the great thing about putting out a book is that “it brings you into contact with people whose opinions you should have canvassed before you ever pressed pen to paper. They write to you. They telephone you. They come to your bookstore events and give you things to read that you should have read already.” He said that having his work out in the world was “a free education that goes on for a lifetime.”
 
-#### 4. Don't Turn Into a Human Spammer
+## 4. Don't Turn Into a Human Spammer
 
 > "You want hearts, not eyeballs." - Austin Kleon
 
@@ -74,7 +74,7 @@ Of course, you don’t have to be a nobody to be a human spammer—I’ve watche
 
 If you’re only pointing to your stuff online, you’re doing it wrong. You have to be a connector. The writer Blake Butler calls this being an open node. If you want to get, you have to give. If you want to be noticed, you have to notice. Shut up and listen once in a while. Be thoughtful. Be considerate. Don’t turn into a human spammer. Be an open node.
 
-#### 5. Stick Around, Don't Quit
+## 5. Stick Around, Don't Quit
 
 > "The people who get what they’re after are very often the ones who just stick around long enough. It’s very important not to quit prematurely." - Austin Kleon
 
