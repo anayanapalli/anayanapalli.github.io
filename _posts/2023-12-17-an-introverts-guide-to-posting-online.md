@@ -21,7 +21,7 @@ What if people perceive you as less intelligent? Or worse, what if your future b
 
 > "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind." - Dr. Suess
 
-The truth is, NOBODY CARES. Those who read your content are the ones genuinely interested in the topics you hold dear. The preoccupations about what others might think gradually fade away when you realize that the audience you attract is precisely the audience that resonates with your passions.
+The truth is, **NOBODY CARES.** Those who read your content are the ones genuinely interested in the topics you hold dear. The preoccupations about what others might think gradually fade away when you realize that the audience you attract is precisely the audience that resonates with your passions.
 
 
 With that said here are five tips to get you started.
@@ -32,7 +32,7 @@ Imagine if your next boss didn’t have to read your résumé because they alrea
 
 Or imagine something simpler and just as satisfying: spending the majority of your time, energy, and attention practicing a craft, learning a trade, or running a business, while also allowing for the possibility that your work might attract a group of people who share your interests.
 
-All you have to do is SHARE.
+All you have to do is **SHARE!**
 
 ## 2. You Don't Have to Be an "Expert"
 
