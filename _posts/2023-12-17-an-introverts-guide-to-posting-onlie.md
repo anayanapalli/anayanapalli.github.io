@@ -3,7 +3,7 @@ layout: post
 title: "An Introvert's Guide to Posting Online"
 ---
 
-> Only about 1% of LinkedIn's 260 million monthly active users share posts, and those 3 million or so users net the 9 billion impressions 🤯
+> Only about 1% of LinkedIn's 260 million monthly users share posts, and those 3 million or so users net the 9 billion impressions 🤯
 
 ## Introduction:
 
