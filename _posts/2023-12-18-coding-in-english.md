@@ -6,7 +6,7 @@ title: "Coding in English: AGI's Game-Changing Role in Software 3.0"
 > "The hottest new programming language is English" - Andrej Karpathy
 
 ## Introduction:
-The ever-evolving landscape of software development has witnessed transformative shifts over the years, each marked by a distinctive paradigm. As we delve into the realm of cutting-edge technologies, the emergence of Artificial General Intelligence (AGI) is playing a pivotal role in shaping the future—ushering in an era known as Software 3.0.
+The ever-evolving landscape of software development has witnessed transformative shifts over the years, each marked by a distinctive paradigm. As we delve into the realm of cutting-edge technologies, the emergence of Artificial General Intelligence (AGI) is playing a pivotal role in shaping the future—ushering in an era known as <a href = "https://divgarg.substack.com/p/software-3"  target="_blank">Software 3.0</a>.
 
 ## Software 1.0: Laying the Foundation
 Traditionally, software development has been synonymous with the classical stack, represented by Software 1.0. This paradigm requires meticulous coding in languages like Python and C++, with every line meticulously crafted to achieve the desired behavior. While Software 1.0 has been the cornerstone of development, it comes with its challenges, demanding extensive human effort and time.
@@ -15,7 +15,7 @@ Traditionally, software development has been synonymous with the classical stack
 Enter  <a href = "https://karpathy.medium.com/software-2-0-a64152b37c35"  target="_blank">Software 2.0</a>, the neural network stack, which introduces abstraction and optimization through neural networks. This paradigm, often driven by optimization techniques like backpropagation and gradient descent, allows machines to learn from datasets, reducing the burden of explicit human coding. However, it remains less accessible to humans due to its abstract nature.
 
 ## The Dawn of Software 3.0: AGI Takes the Lead
-Now, the spotlight is on  <a href = "https://divgarg.substack.com/p/software-3"  target="_blank">Software 3.0</a>, a paradigm that revolutionizes programming by leveraging AGI. Unlike its predecessors, Software 3.0 is characterized by its use of simple natural language, where programming involves **"prompt engineering"** to query a powerful AGI model. This marks a departure from the conventional coding practices, allowing developers to interact with AGI models like GPT to generate a spectrum of outputs—from human-indistinguishable text to surrealistic images and functional code.
+Now, the spotlight is on Software 3.0, a paradigm that revolutionizes programming by leveraging AGI. Unlike its predecessors, Software 3.0 is characterized by its use of simple natural language, where programming involves **"prompt engineering"** to query a powerful AGI model. This marks a departure from the conventional coding practices, allowing developers to interact with AGI models like GPT to generate a spectrum of outputs—from human-indistinguishable text to surrealistic images and functional code.
 
 ## The AGI Advantage:
 What sets Software 3.0 apart is its reliance on AGI, a form of AI that exhibits remarkable zero-shot performance across a multitude of tasks. AGI, as the driving force, eliminates the need for extensive data collection or explicit human coding, making programming more accessible and efficient.
