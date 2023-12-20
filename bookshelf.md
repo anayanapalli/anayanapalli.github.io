@@ -17,6 +17,8 @@ title: Bookfolio
     });
 </script>
 
+> "Not all knowledge needs to be useful; it's okay to pursue knowledge for pure pleasure, just like art or music." - Walter Isaacson, in the book "Leonardo Da Vinci"
+
 ## 📖 Currently Reading:
 
 [Stuff Matters: Exploring the Marvelous Materials That Shape Our Man-Made World](https://www.amazon.ca/gp/product/0544483944/ref=ox_sc_saved_image_9?smid=A3138YT622QJ7K&psc=1)
