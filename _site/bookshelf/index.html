@@ -11,7 +11,7 @@
 
   <title>
     
-      Anish's Blog &middot; All Posts
+      Anish's Blog &middot; Bookfolio
     
   </title>
 
@@ -71,7 +71,7 @@
       
         
           
-            <a class="sidebar-nav-item active" href="/archive/">All Posts</a>
+            <a class="sidebar-nav-item" href="/archive/">All Posts</a>
           
         
       
@@ -79,7 +79,7 @@
       
         
           
-            <a class="sidebar-nav-item" href="/bookshelf/">Bookfolio</a>
+            <a class="sidebar-nav-item active" href="/bookshelf/">Bookfolio</a>
           
         
       
@@ -119,59 +119,60 @@
 
     <div class="content container">
       <div class="page">
-  <h1 class="page-title">All Posts</h1>
-  
-<div class="page">
-<ul class="related-posts">
+  <h1 class="page-title">Bookfolio</h1>
+  <!-- Include DataTables CSS and JS files -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css" />
 
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
 
+<script>
+    $(document).ready(function () {
+        // Initialize DataTable without the "Show [ ] entries" dropdown
+        $('#bookTable').DataTable({
+            "lengthChange": false
+        });
+    });
+</script>
 
-  
-    
-      <li><b><a class="sidebar-nav-item" href="/2023/12/18/coding-in-english/">Coding in English: AGI's Game-Changing Role in Software 3.0 <small>18 Dec 2023</small></a></b></li>
-    
-  
+<h2 id="-currently-reading">📖 Currently Reading:</h2>
 
-  
-    
-      <li><b><a class="sidebar-nav-item" href="/2023/12/17/an-introverts-guide-to-posting-online/">An Introvert's Guide to Posting Online <small>17 Dec 2023</small></a></b></li>
-    
-  
+<p><a href="https://www.amazon.ca/gp/product/0544483944/ref=ox_sc_saved_image_9?smid=A3138YT622QJ7K&amp;psc=1">Stuff Matters: Exploring the Marvelous Materials That Shape Our Man-Made World</a></p>
 
-  
-    
-      <li><b><a class="sidebar-nav-item" href="/2023/12/09/vector-databases-copy/">Vector Databases: The Databases Powering the AI Era <small>09 Dec 2023</small></a></b></li>
-    
-  
+<h2 id="-books-that-i-read">📚 Books That I Read:</h2>
 
-  
-    
-      <li><b><a class="sidebar-nav-item" href="/2023/12/03/rag-unleashed/">RAG Unleashed: The Fusion of Retrieval and Generation in AI Content Creation <small>03 Dec 2023</small></a></b></li>
-    
-  
-
-  
-    
-      <li><b><a class="sidebar-nav-item" href="/2023/11/23/dining-dating-decisions/">Dining, Dating, and Decisions: How the Optimal Stopping Algorithm Reshapes Your World <small>23 Nov 2023</small></a></b></li>
-    
-  
-
-  
-    
-      <li><b><a class="sidebar-nav-item" href="/2023/11/19/parallel-shifts/">Parallel Shifts: How Large Language Models Echo the Cloud Revolution in AI Development <small>19 Nov 2023</small></a></b></li>
-    
-  
-
-  
-    
-      <li><b><a class="sidebar-nav-item" href="/2023/11/17/from-phds-to-programmers/">From PhDs to Programmers: The AI App Revolution with LLMs <small>17 Nov 2023</small></a></b></li>
-    
-  
-
-</ul>
-</div>
-
+<table id="bookTable">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Rating</th>
+            <th>Review</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Curious: The Desire to Know and Why Your Future Depends On It</td>
+            <td>Ian Leslie</td>
+            <td>4</td>
+            <td>I was looking for a book on the topic and this is the only one that I found. Yeah, it's a good read with some interesting stories and solid research behind it. I would give it a four or 3.5.I was looking for a book on the topic and this is the only one that I found. Yeah, it's a good read with some interesting stories and solid research behind it. I would give it a four or 3.5.I was looking for a book on the topic and this is the only one that I found. Yeah, it's a good read with some interesting stories and solid research behind it. I would give it a four or 3.5.I was looking for a book on the topic and this is the only one that I found. Yeah, it's a good read with some interesting stories and solid research behind it. I would give it a four or 3.5.</td>
+        </tr>
+        <tr>
+            <td>Example Book 2</td>
+            <td>Author 2</td>
+            <td>3.5</td>
+            <td>This is a sample review for the second book. It has some unique content and provides valuable insights. I'd rate it 3.5 out of 5.</td>
+        </tr>
+        <tr>
+            <td>Another Book</td>
+            <td>Author 3</td>
+            <td>5</td>
+            <td>Absolutely loved this book! It's a must-read with a compelling storyline and well-developed characters. Solid 5 out of 5.</td>
+        </tr>
+        <!-- Add more rows as needed -->
+    </tbody>
+</table>
 
 </div>
 
