@@ -5,18 +5,6 @@ title: Bookfolio
 
 ## 📚 Books That I Read Recently (WIP)
 
-
-### [Doing Justice: A Prosecutor's Thoughts on Crime, Punishment, and the Rule of Law](https://www.amazon.ca/Doing-Justice-Prosecutors-Thoughts-Punishment/dp/0525521127/ref=sr_1_1?crid=139U7Y739LKOY&keywords=Doing+Justice&qid=1703333225&sprefix=doing+justice%2Caps%2C81&sr=8-1){:target="_blank"}
-**Author:** Preet Bharara **Rating:** 5.0/5.0 **Difficulty:** Intermediate
-
-"Smart laws do not assure justice any more than a good recipe guarantees a delicious meal. The law is merely an instrument, and without the involvement of human hands it is as lifeless and uninspiring as a violin kept in its case. The law cannot compel us to love each other or respect each other. It cannot cancel hate or conquer evil; teach grace or extinguish apathy. Every day, the law’s best aims are carried out, for good or ill, by human beings. Justice is served, or thwarted, by human beings. Mercy is bestowed, or refused, by human beings." - Preet Bharara in the preface of the book.
-
-It’s not the laws and the system per se that make a judicial system top notch. But it’s the humans who are parts of it in various roles that make it top notch. Those lacking or possessing integrity, determination to get to the truth and only the truth instead of merely improving their successful prosecution record make or break the system.
-
-This book is a must read for every man/woman who wants actively participate in the democracy of his/her country.
-
-Unfortunately Preet doesn't talk much about the Galleon case they proscecuted which I was very curious about.
-
 ### [Chip War: The Fight for the World's Most Critical Technology](https://www.amazon.ca/Chip-War-Worlds-Critical-Technology/dp/1982172002){:target="_blank"}
 **Author:** Chris Miller **Rating:** 5.0/5.0 **Difficulty:** Intermediate
 
@@ -36,6 +24,17 @@ I read this book twice—yes, it's that good. Growing up in India, Rajat Gupta w
 The narrative unfolds with numerous immigrants who rose from humble beginnings to climb into the elitist echelons of society. Notable figures such as Raj Rajaratnam, a Sri Lankan immigrant, billionaire hedge fund manager, and Anil Kumar, a partner at McKinsey, contribute to the rich narrative. It's a story about many individuals and the repercussions when ambition goes too far.
 
 Anita Raghavan's writing is exceptional. I've become a fan of hers and have even watched her interviews. She is incredible, and I eagerly await her future works. In my opinion, this is a solid, unequivocal five out of five book.
+
+### [Doing Justice: A Prosecutor's Thoughts on Crime, Punishment, and the Rule of Law](https://www.amazon.ca/Doing-Justice-Prosecutors-Thoughts-Punishment/dp/0525521127/ref=sr_1_1?crid=139U7Y739LKOY&keywords=Doing+Justice&qid=1703333225&sprefix=doing+justice%2Caps%2C81&sr=8-1){:target="_blank"}
+**Author:** Preet Bharara **Rating:** 5.0/5.0 **Difficulty:** Intermediate
+
+"Smart laws do not assure justice any more than a good recipe guarantees a delicious meal. The law is merely an instrument, and without the involvement of human hands it is as lifeless and uninspiring as a violin kept in its case. The law cannot compel us to love each other or respect each other. It cannot cancel hate or conquer evil; teach grace or extinguish apathy. Every day, the law’s best aims are carried out, for good or ill, by human beings. Justice is served, or thwarted, by human beings. Mercy is bestowed, or refused, by human beings." - Preet Bharara in the preface of the book.
+
+It’s not the laws and the system per se that make a judicial system top notch. But it’s the humans who are parts of it in various roles that make it top notch. Those lacking or possessing integrity, determination to get to the truth and only the truth instead of merely improving their successful prosecution record make or break the system.
+
+This book is a must read for every man/woman who wants actively participate in the democracy of his/her country.
+
+Unfortunately Preet doesn't talk much about the Galleon case they proscecuted which I was very curious about.
 
 ### [Guns, Germs, and Steel: The Fates of Human Societies](https://www.amazon.ca/Guns-Germs-Steel-Fates-Societies/dp/0393354326/ref=sr_1_1?crid=G9V5TJO44PR8&keywords=guns+germs+and+steel+book&qid=1703319699&s=books&sprefix=Guns+%2Cstripbooks%2C115&sr=1-1){:target="_blank"}
 **Author:** Jared Diamond **Rating:** 4.0/5.0 **Difficulty:** Hard
