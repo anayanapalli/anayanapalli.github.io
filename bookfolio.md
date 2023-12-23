@@ -46,7 +46,7 @@ Now, a fair warning – it's not a walk in the park. It's only for the persisten
 Kahneman's writing is crystal clear, and the way he explains stuff is mind-blowing. It really shows how deep his understanding is. So, if you've got the time, I'd totally recommend giving this book a go. It's written by one of the OGs in the field, and it's enlightening.
 
 ### [Made in Japan: Akio Morita and Sony](https://www.amazon.ca/Made-Japan-Akio-Morita-Sony/dp/0006383424/ref=sr_1_1?crid=2FOFX9BS6J9US&keywords=Akio+Morita&qid=1703325747&sprefix=akio+morita%2Caps%2C100&sr=8-1){:target="_blank"}
-**Author:** Akio Morita **Rating:** 5.0/5.0 **Difficulty:** Easy
+**Author:** Akio Morita **Rating:** 4.0/5.0 **Difficulty:** Easy
 
 Sony is one of the very few Eastern technology companies that became highly successful in the West, challenging many big American companies in their own game. This book unfolds the story of Sony, narrated by the man himself, Akio Morita, the founder of Sony.
 
