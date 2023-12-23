@@ -13,7 +13,7 @@ This book gives you all the information you need to understand the semiconductor
 
 It not only provides insights into the semiconductor industry but also showcases how great human society is and how much technology and collaboration are involved in driving technological growth. It's truly inspiring. I highly recommend this book; it's a very important read.
 
-If you want to understand the current state of geo-politics and technology, it's a great read—a solid five out of five. I was so excited after reading this book that I also gave a talk to my team on this topic.
+If you want to understand the current state of geo-politics and technology, it's a fantastic read—a solid five out of five. I was so excited after reading this book that I also gave a talk to my team on this topic.
 
 ### [The Billionaire's Apprentice: The Rise of The Indian-American Elite and The Fall of The Galleon Hedge Fund](https://www.amazon.ca/Billionaires-Apprentice-Indian-American-Elite-Galleon-ebook/dp/B008TUNLWM/ref=sr_1_1?crid=1JMGHOB71IMGN&keywords=the+billionaires+apprentice&qid=1703320349&sprefix=the+billionaires+apprentice%2Caps%2C100&sr=8-1)
 **Author:** Anita Raghavan **Rating:** 5.0/5.0 **Difficulty:** Intermediate
