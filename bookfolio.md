@@ -16,7 +16,7 @@ It not only provides insights into the semiconductor industry but also showcases
 
 If you want to understand the current state of geo-politics and technology, it's a fantastic read—a solid five out of five. I was so excited after reading this book that I also gave a talk to my team on this topic.
 
-### [Made in Japan : Akio Morita and Sony](https://www.amazon.ca/Made-Japan-Akio-Morita-Sony/dp/0006383424/ref=sr_1_1?crid=2FOFX9BS6J9US&keywords=Akio+Morita&qid=1703325747&sprefix=akio+morita%2Caps%2C100&sr=8-1){:target="_blank"}
+### [Made in Japan: Akio Morita and Sony](https://www.amazon.ca/Made-Japan-Akio-Morita-Sony/dp/0006383424/ref=sr_1_1?crid=2FOFX9BS6J9US&keywords=Akio+Morita&qid=1703325747&sprefix=akio+morita%2Caps%2C100&sr=8-1){:target="_blank"}
 **Author:** Akio Morita **Rating:** 5.0/5.0 **Difficulty:** Easy
 
 Sony is one of the very few Eastern technology companies that became highly successful in the West. This book unfolds the story of Sony, narrated by the man himself, Akio Morita, the founder of Sony.
