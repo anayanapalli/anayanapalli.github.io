@@ -2,9 +2,10 @@
 layout: page
 title: Bookfolio
 ---
+
 ## 📚 Books That I Read (WIP)
 
-### [Chip War: The Fight for the World's Most Critical Technology](https://www.amazon.ca/Chip-War-Worlds-Critical-Technology/dp/1982172002)
+### [Chip War: The Fight for the World's Most Critical Technology](https://www.amazon.ca/Chip-War-Worlds-Critical-Technology/dp/1982172002){:target="_blank"}
 **Author:** Chris Miller **Rating:** 5.0/5.0 **Difficulty:** Intermediate
 
 I've always wanted to understand more about the semiconductor industry as a whole because I have been dabbling with semiconductor stocks for a while, and I never really understood why some stocks went up, and others went down.
@@ -15,7 +16,7 @@ It not only provides insights into the semiconductor industry but also showcases
 
 If you want to understand the current state of geo-politics and technology, it's a fantastic read—a solid five out of five. I was so excited after reading this book that I also gave a talk to my team on this topic.
 
-### [The Billionaire's Apprentice: The Rise of The Indian-American Elite and The Fall of The Galleon Hedge Fund](https://www.amazon.ca/Billionaires-Apprentice-Indian-American-Elite-Galleon-ebook/dp/B008TUNLWM/ref=sr_1_1?crid=1JMGHOB71IMGN&keywords=the+billionaires+apprentice&qid=1703320349&sprefix=the+billionaires+apprentice%2Caps%2C100&sr=8-1)
+### [The Billionaire's Apprentice: The Rise of The Indian-American Elite and The Fall of The Galleon Hedge Fund](https://www.amazon.ca/Billionaires-Apprentice-Indian-American-Elite-Galleon-ebook/dp/B008TUNLWM/ref=sr_1_1?crid=1JMGHOB71IMGN&keywords=the+billionaires+apprentice&qid=1703320349&sprefix=the+billionaires+apprentice%2Caps%2C100&sr=8-1){:target="_blank"}
 **Author:** Anita Raghavan **Rating:** 5.0/5.0 **Difficulty:** Intermediate
 
 I read this book twice—yes, it's that good. Growing up in India, Rajat Gupta was a role model for every kid who aspired to move to the US. He came from very humble beginnings and went on to become the CEO of one of the most prestigious companies in the world, McKinsey, which was a very white firm at the time. He exemplified that irrespective of one's origin, America accepts everybody and provides opportunities for everyone who works hard. It was genuinely disheartening to see that he was involved in the scandal. This book presents an unbiased view of all the events leading to the greatest insider trading scandal of our times.
@@ -24,7 +25,7 @@ The narrative unfolds with numerous immigrants who rose from humble beginnings t
 
 Anita Raghavan's writing is exceptional. I've become a fan of hers and have even watched her interviews. She is incredible, and I eagerly await her future works. In my opinion, this is a solid, unequivocal five out of five book.
 
-### [Guns, Germs, and Steel: The Fates of Human Societies](https://www.amazon.ca/Guns-Germs-Steel-Fates-Societies/dp/0393354326/ref=sr_1_1?crid=G9V5TJO44PR8&keywords=guns+germs+and+steel+book&qid=1703319699&s=books&sprefix=Guns+%2Cstripbooks%2C115&sr=1-1)
+### [Guns, Germs, and Steel: The Fates of Human Societies](https://www.amazon.ca/Guns-Germs-Steel-Fates-Societies/dp/0393354326/ref=sr_1_1?crid=G9V5TJO44PR8&keywords=guns+germs+and+steel+book&qid=1703319699&s=books&sprefix=Guns+%2Cstripbooks%2C115&sr=1-1){:target="_blank"}
 **Author:** Jared Diamond **Rating:** 4.0/5.0 **Difficulty:** Hard
 
 Before reading this book, my perspective on developed countries rested on the belief that developed nations achieved their status due to the sophistication, intelligence, or drive of their inhabitants. However, this insightful read convincingly shatters that notion. The author skillfully unpacks the intricate web of external factors that influence the destiny of civilizations and countries.
