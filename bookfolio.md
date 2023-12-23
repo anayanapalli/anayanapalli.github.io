@@ -44,3 +44,4 @@ If you've checked out Malcolm Gladwell's 'Blink,' think of this book as the 'God
 Now, a fair warning – it's not a walk in the park. It's only for the persistent ones out there. I took my sweet time with it, picking it up and putting it down for a few months. But once you crack it open, you might feel like you've hit the jackpot and won't need a million other books on behavioral finance.
 
 Kahneman's writing is crystal clear, and the way he explains stuff is mind-blowing. It really shows how deep his understanding is. So, if you've got the time, I'd totally recommend giving this book a go. It's written by one of the OGs in the field, and it's enlightening.
+
