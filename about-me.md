@@ -11,6 +11,6 @@ Having called India, the US, and currently Canada home, my experiences have fuel
 
 The internet has been a generous source of knowledge for me, and this blog is my way of paying it forward. I’m eager to engage with you—whether you agree with or challenge the ideas presented here. Remember, I’m on a learning journey myself, and I’m only human. So, please consider the information here as a mere data point in your quest.
 
-I’m always open to meeting new people, so don’t hesitate to drop me an email with the best book you’ve recently read and why—it’s a great conversation starter.
+I’m always open to meeting new people (like you), so don’t hesitate to drop me an email with the best book you’ve recently read and why—it’s a great conversation starter.
 
 Thanks for reading, and I hope to talk to you soon! 😊
