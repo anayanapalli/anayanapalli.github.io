@@ -25,7 +25,7 @@ The narrative delves into Morita's beliefs, vision, and patriotism for Japan. It
 
 There's no brashness, no adoption of unfair means, and no flaunting of economic strength. Instead, it is a plain and simple story of a dreamer who dared to dream and succeeded. An inspiring read that offers a glimpse into the journey of a visionary entrepreneur.
 
-This book gives us an insight into the Japanese working ethos, their dedication and commitment.
+This book gives us insight into the Japanese working ethos, their dedication, and commitment.
 
 ### [The Billionaire's Apprentice: The Rise of The Indian-American Elite and The Fall of The Galleon Hedge Fund](https://www.amazon.ca/Billionaires-Apprentice-Indian-American-Elite-Galleon-ebook/dp/B008TUNLWM/ref=sr_1_1?crid=1JMGHOB71IMGN&keywords=the+billionaires+apprentice&qid=1703320349&sprefix=the+billionaires+apprentice%2Caps%2C100&sr=8-1){:target="_blank"}
 **Author:** Anita Raghavan **Rating:** 5.0/5.0 **Difficulty:** Intermediate
