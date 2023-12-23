@@ -55,3 +55,8 @@ The narrative delves into Morita's beliefs, vision, and patriotism for Japan. It
 There's no brashness, no adoption of unfair means, and no flaunting of economic strength. Instead, it is a plain and simple story of a dreamer who dared to dream and succeeded. An inspiring read that offers a glimpse into the journey of a visionary entrepreneur.
 
 This book gives us insight into the Japanese working ethos, their dedication, and commitment.
+
+### [Stuff Matters: Exploring the Marvelous Materials That Shape Our Man-Made World](https://www.amazon.ca/Stuff-Matters-Exploring-Marvelous-Materials/dp/0544483944/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1703331963&sr=8-2){:target="_blank"}
+**Author:** Mark Miodownik **Rating:** 4.5/5.0 **Difficulty:** Easy
+ 
+If you hated chemistry in high school, this book will make you fall in love with it. The author, a materials scientist, walks you through the materials we encounter daily, providing fascinating stories about their history, atomic structure, and impact on humanity. It's intriguing to realize we take these things for granted, not knowing the centuries of human work behind them. I really enjoyed the book, giving it a 4.5, as it gets a bit boring at times.
