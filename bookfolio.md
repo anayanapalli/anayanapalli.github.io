@@ -45,29 +45,7 @@ Now, a fair warning – it's not a walk in the park. It's only for the persisten
 
 Kahneman's writing is crystal clear, and the way he explains stuff is mind-blowing. It really shows how deep his understanding is. So, if you've got the time, I'd totally recommend giving this book a go. It's written by one of the OGs in the field, and it's enlightening.
 
-### [Made in Japan: Akio Morita and Sony](https://www.amazon.ca/Made-Japan-Akio-Morita-Sony/dp/0006383424/ref=sr_1_1?crid=2FOFX9BS6J9US&keywords=Akio+Morita&qid=1703325747&sprefix=akio+morita%2Caps%2C100&sr=8-1){:target="_blank"}
-**Author:** Akio Morita **Rating:** 4.0/5.0 **Difficulty:** Easy
-
-Sony is one of the very few Eastern technology companies that became highly successful in the West, challenging many big American companies in their own game. This book unfolds the story of Sony, narrated by the man himself, Akio Morita, the founder of Sony.
-
-The narrative delves into Morita's beliefs, vision, and patriotism for Japan. It is fascinating to read and travel along as the story progresses, witnessing the small seedling's growth into the big corporate giant that Sony is today.
-
-There's no brashness, no adoption of unfair means, and no flaunting of economic strength. Instead, it is a plain and simple story of a dreamer who dared to dream and succeeded. An inspiring read that offers a glimpse into the journey of a visionary entrepreneur.
-
-This book gives us insight into the Japanese working ethos, their dedication, and commitment.
-
 ### [Stuff Matters: Exploring the Marvelous Materials That Shape Our Man-Made World](https://www.amazon.ca/Stuff-Matters-Exploring-Marvelous-Materials/dp/0544483944/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1703331963&sr=8-2){:target="_blank"}
 **Author:** Mark Miodownik **Rating:** 4.5/5.0 **Difficulty:** Easy
  
 If you hated Chemistry in high school, this book will make you fall in love with it. The author, a materials scientist, walks you through the materials we encounter daily, providing fascinating stories about their history, their atomic structure, their properties and their impact on humanity. It's intriguing to realize that we take these things for granted, not knowing the centuries of human work behind them. I really enjoyed the book, giving it a 4.5, as it gets a bit boring at times.
-
-### [Doing Justice: A Prosecutor's Thoughts on Crime, Punishment, and the Rule of Law](https://www.amazon.ca/Doing-Justice-Prosecutors-Thoughts-Punishment/dp/0525521127/ref=sr_1_1?crid=139U7Y739LKOY&keywords=Doing+Justice&qid=1703333225&sprefix=doing+justice%2Caps%2C81&sr=8-1){:target="_blank"}
-**Author:** Preet Bharara **Rating:** 5.0/5.0 **Difficulty:** Intermediate
-
-"Smart laws do not assure justice any more than a good recipe guarantees a delicious meal. The law is merely an instrument, and without the involvement of human hands it is as lifeless and uninspiring as a violin kept in its case. The law cannot compel us to love each other or respect each other. It cannot cancel hate or conquer evil; teach grace or extinguish apathy. Every day, the law’s best aims are carried out, for good or ill, by human beings. Justice is served, or thwarted, by human beings. Mercy is bestowed, or refused, by human beings." - Preet Bharara in the preface of the book.
-
-It’s not the laws and the system per se that make a judicial system top notch. But it’s the humans who are parts of it in various roles that make it top notch. Those lacking or possessing integrity, determination to get to the truth and only the truth instead of merely improving their successful prosecution record make or break the system.
-
-This book is a must read for every man/woman who wants actively participate in the democracy of his/her country.
-
-Unfortunately Preet doesn't talk much about the Galleon case they proscecuted which I was very curious about.
