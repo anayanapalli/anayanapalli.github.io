@@ -39,7 +39,7 @@ Despite my appreciation for the book's ideas and its transformative impact on my
 ### [Thinking, Fast and Slow](https://www.amazon.ca/Thinking-Fast-Slow-Daniel-Kahneman/dp/0385676530/ref=sr_1_1?crid=3TRN60Y8EDGZO&keywords=Thinking+fast+and+slow&qid=1703323714&sprefix=thinking+fast+and+slow%2Caps%2C108&sr=8-1){:target="_blank"}
 **Author:** Daniel Kahneman **Rating:** 4.5/5.0 **Difficulty:** Hard
 
-If you've checked out Malcolm Gladwell's 'Blink,' think of this book as the 'Godfather' of that read. Daniel Kahneman, a big shot (He and Teversky invented the field) in the world of behavioral finance and a Nobel Prize winner, wrote this gem.
+If you've checked out Malcolm Gladwell's 'Blink,' think of this book as the 'Godfather' of that book. Daniel Kahneman, a big shot (He and Teversky invented the field) in the world of behavioral finance and a Nobel Prize winner, wrote this gem.
 
 Now, a fair warning – it's not a walk in the park. It's only for the persistent ones out there. I took my sweet time with it, picking it up and putting it down for a few months. But once you crack it open, you might feel like you've hit the jackpot and won't need a million other books on behavioral finance.
 
