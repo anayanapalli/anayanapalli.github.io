@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bookolio
+title: Bookfolio
 ---
 ## 📚 Books That I Read (WIP)
 
