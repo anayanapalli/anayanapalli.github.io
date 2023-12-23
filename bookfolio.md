@@ -35,3 +35,12 @@ The book doesn't merely highlight the why; it serves as a profound exploration i
 This exploration into the fate of different countries offers a compelling perspective, challenging pre-conceived notions and prompting readers to reconsider their understanding of societal development. It's a thought-provoking journey that transforms the way we perceive the global landscape.
 
 Despite my appreciation for the book's ideas and its transformative impact on my worldview, I would rate it at 4.0 out of 5. The only drawback lies in the slightly challenging language, which might pose a hurdle for most readers. However, the originality of the ideas presented makes it a highly recommended and intellectually enriching read.
+
+### [Thinking, Fast and Slow](https://www.amazon.ca/Thinking-Fast-Slow-Daniel-Kahneman/dp/0385676530/ref=sr_1_1?crid=3TRN60Y8EDGZO&keywords=Thinking+fast+and+slow&qid=1703323714&sprefix=thinking+fast+and+slow%2Caps%2C108&sr=8-1){:target="_blank"}
+**Author:** Daniel Kahneman **Rating:** 4.5/5.0 **Difficulty:** Hard
+
+If you've checked out Malcolm Gladwell's 'Blink,' think of this book as the 'Godfather' of that read. Daniel Kahneman, a big shot (He and Teversky invented the field) in the world of behavioral finance and a Nobel Prize winner, wrote this gem.
+
+Now, a fair warning – it's not a walk in the park. It's only for the persistent ones out there. I took my sweet time with it, picking it up and putting it down for a few months. But once you crack it open, you might feel like you've hit the jackpot and won't need a million other books on behavioral finance.
+
+Kahneman's writing is crystal clear, and the way he explains stuff is mind-blowing. It really shows how deep his understanding is. So, if you've got the time, I'd totally recommend giving this book a go. It's written by one of the OGs in the field, and it's a game-changer.
