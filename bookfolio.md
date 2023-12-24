@@ -2,9 +2,9 @@
 layout: page
 title: Bookfolio
 ---
-Last updated Dec 24, 2023
+<span class="post-date">Last updated Dec 20, 2023</span>
 
-## 📚 Books That I Read Recently (WIP)
+## 📚 Books That I Read (WIP):
 
 ### [Chip War: The Fight for the World's Most Critical Technology](https://www.amazon.ca/Chip-War-Worlds-Critical-Technology/dp/1982172002){:target="_blank"}
 **Author:** Chris Miller **Rating:** 5.0/5.0 **Difficulty:** Intermediate
