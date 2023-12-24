@@ -2,7 +2,7 @@
 layout: page
 title: Bookfolio
 ---
-<span class="post-date">Last updated Dec 20, 2023</span>
+<span class="post-date">Last updated Dec 24, 2023</span>
 
 ## 📚 Books That I Read (WIP):
 
