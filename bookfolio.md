@@ -2,6 +2,7 @@
 layout: page
 title: Bookfolio
 ---
+Last updated Dec 24, 2023
 
 ## 📚 Books That I Read Recently (WIP)
 
