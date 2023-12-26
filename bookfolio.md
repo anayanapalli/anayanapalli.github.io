@@ -31,7 +31,7 @@ Anita Raghavan's writing is gripping. I've become a fan of hers and have even wa
 
 Before reading this book, I used to think that developed countries or civilizations were better than underdeveloped or developing countries because the people in the "developed" world were just better: more intelligent, more driven, more ambitious, etc. After reading this book, that perspective of mine is completely transformed. The author goes back in time and gives many examples as to why the West advanced more rapidly than the East, and they are mostly due to external factors like location, time, etc.
 
-This is one of those perspective-transforming books, and I am glad that I read it. Giving it a 4.0 because I felt the language of the book was a bit too academic and hard to follow at
+This is one of those perspective-transforming books, and I am glad that I read it. Giving it a 4.0 because I felt the language of the book was a bit too academic and hard to follow certain times.
 
 ### [Thinking, Fast and Slow](https://www.amazon.ca/Thinking-Fast-Slow-Daniel-Kahneman/dp/0385676530/ref=sr_1_1?crid=3TRN60Y8EDGZO&keywords=Thinking+fast+and+slow&qid=1703323714&sprefix=thinking+fast+and+slow%2Caps%2C108&sr=8-1){:target="_blank"}
 **Author:** Daniel Kahneman **Rating:** 4.5/5.0 **Difficulty:** Hard
