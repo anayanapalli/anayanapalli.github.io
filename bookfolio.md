@@ -13,7 +13,7 @@ I've always wanted to understand more about the semiconductor industry as a whol
 
 This book gives you all the information you need to understand the semiconductor industry holistically. The book covers economics, politics, and technology—a very interesting combination. The author has done an incredible job researching all the facts required to write a compelling book.
 
-It not only provides insights into the semiconductor industry but also showcases how advanced human society is and how much technology and collaboration are involved in driving technological growth. It’s truly inspiring. I highly recommend this book; it’s a very important read during this time of the AI craze.
+It not only provides insights into the semiconductor industry but also showcases how advanced human society is and how much technology and collaboration are involved in driving technological growth. It’s truly inspiring. I highly recommend this book; it’s a very important read during this AI craze.
 
 If you want to understand the current state of geopolitics and technology, it’s a fantastic read—a solid five out of five. This is probably the best book that I read this year. I was so excited after reading this book that I also gave a talk to my team on this topic.
 
