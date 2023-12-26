@@ -13,9 +13,9 @@ I've always wanted to understand more about the semiconductor industry as a whol
 
 This book gives you all the information you need to understand the semiconductor industry holistically. The book covers economics, politics, and technology—a very interesting combination. The author has done an incredible job researching all the facts required to write a compelling book.
 
-It not only provides insights into the semiconductor industry but also showcases how advanced human society is and how much technology and collaboration are involved in driving technological growth. It's truly inspiring. I highly recommend this book; it's a very important read during this time of AI craze.
+It not only provides insights into the semiconductor industry but also showcases how advanced human society is and how much technology and collaboration are involved in driving technological growth. It’s truly inspiring. I highly recommend this book; it’s a very important read during this time of the AI craze.
 
-If you want to understand the current state of geo-politics and technology, it's a fantastic read—a solid five out of five. This is probably the best book that I read this year. I was so excited after reading this book that I also gave a talk to my team on this topic.
+If you want to understand the current state of geopolitics and technology, it’s a fantastic read—a solid five out of five. This is probably the best book that I read this year. I was so excited after reading this book that I also gave a talk to my team on this topic.
 
 ### [The Billionaire's Apprentice: The Rise of The Indian-American Elite and The Fall of The Galleon Hedge Fund](https://www.amazon.ca/Billionaires-Apprentice-Indian-American-Elite-Galleon-ebook/dp/B008TUNLWM/ref=sr_1_1?crid=1JMGHOB71IMGN&keywords=the+billionaires+apprentice&qid=1703320349&sprefix=the+billionaires+apprentice%2Caps%2C100&sr=8-1){:target="_blank"}
 **Author:** Anita Raghavan **Rating:** 5.0/5.0 **Difficulty:** Intermediate
@@ -31,7 +31,7 @@ Anita Raghavan's writing is gripping. I've become a fan of hers and have even wa
 
 Before reading this book, I used to think that developed countries or civilizations were better than underdeveloped or developing countries because the people in the "developed" world were just better: more intelligent, more driven, more ambitious, etc. After reading this book, that perspective of mine is completely transformed. The author goes back in time and gives many examples as to why the West advanced more rapidly than the East, and they are mostly due to external factors like location, time, etc.
 
-This is one of those perspective-transforming books, and I am glad that I read it. Giving it a 4.0 because I felt the language of the book was a bit too academic and hard to follow at times.
+This is one of those perspective-transforming books, and I am glad that I read it. Giving it a 4.0 because I felt the language of the book was a bit too academic and hard to follow at
 
 ### [Thinking, Fast and Slow](https://www.amazon.ca/Thinking-Fast-Slow-Daniel-Kahneman/dp/0385676530/ref=sr_1_1?crid=3TRN60Y8EDGZO&keywords=Thinking+fast+and+slow&qid=1703323714&sprefix=thinking+fast+and+slow%2Caps%2C108&sr=8-1){:target="_blank"}
 **Author:** Daniel Kahneman **Rating:** 4.5/5.0 **Difficulty:** Hard
