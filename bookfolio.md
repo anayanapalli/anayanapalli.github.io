@@ -58,4 +58,4 @@ Kahneman's writing is crystal clear, and the way he explains stuff is mind-blowi
 
 Before reading this book, I used to think that developed countries or civilizations were better than underdeveloped or developing countries because the people in the "developed" world were just better: more intelligent, more driven, more ambitious, etc. After reading this book, that perspective of mine is completely transformed. The author goes back in time and gives many examples as to why the West advanced more rapidly than the East, and they are mostly due to external factors like location, time, etc.
 
-This is one of those perspective-transforming books, and I am glad that I read it. Giving it a 4.0 because I felt the language of the book was a bit too academic and hard to follow certain times.
+This is one of those perspective-transforming books, and I am glad that I read it. Giving it a 4.0 because I felt the language of the book was a bit too academic and hard to follow at certain times.
