@@ -4,13 +4,57 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-01-01T23:05:01-05:00</updated>
+ <updated>2024-01-02T13:08:54-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Is Your Job AI-Proof? A Closer Look at Job Vulnerability</title>
+   <link href="http://localhost:4000/2024/01/02/is-your-job-ai-proof/"/>
+   <updated>2024-01-02T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2024/01/02/is-your-job-ai-proof</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;“It is easier to build a world champion chess player than to build a mediocre plumber.” - Kai-Fu Lee&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction:&lt;/h2&gt;
+
+&lt;p&gt;In the relentless march of technology, the advent of Artificial Intelligence (AI) has cast a formidable shadow over the job market. The narrative of job replacement, however, is far from a simplistic dichotomy of low-skill versus high-skill labor. AI, with its intricate biases, shapes a complex landscape of winners and losers based on the nuanced nature of job tasks.&lt;/p&gt;
+
+&lt;p&gt;While AI excels in narrow, data-driven tasks, it struggles to replicate the natural interaction with humans or mimic the dexterity inherent in our fingers and limbs. Cross-domain thinking on creative and strategically complex tasks, where inputs and outcomes resist easy quantification, remains an uncharted territory for AI.&lt;/p&gt;
+
+&lt;p&gt;Please note that this post is based on the information in &lt;a href=&quot;https://www.amazon.ca/AI-Superpowers-China-Silicon-Valley/dp/0358105587/ref=sr_1_1?crid=LQ88F8SYT7AB&amp;amp;keywords=ai+superpowers+china%2C+silicon+valley&amp;amp;qid=1704217212&amp;amp;sprefix=AI+s%2Caps%2C103&amp;amp;sr=8-1&quot; target=&quot;_blank&quot;&gt;this &lt;/a&gt;book written by the brilliant &lt;a href=&quot;https://www.linkedin.com/in/kaifulee/&quot; target=&quot;_blank&quot;&gt;Kai-Fu Lee&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-ai-can-and-cant-do---the-risk-of-replacement-graphs&quot;&gt;What AI Can and Can’t Do - The Risk-of-Replacement Graphs&lt;/h2&gt;
+
+&lt;h2 id=&quot;physical-labor&quot;&gt;Physical Labor:&lt;/h2&gt;
+&lt;p&gt;The X-axis spans from “low dexterity and structured environment” to “high dexterity and unstructured environment,” while the Y-axis ranges from “asocial” to “highly social.” The resulting graph delineates four quadrants: the “Danger Zone,” “Safe Zone,” “Human Veneer,” and “Slow Creep.” Occupations in the “Danger Zone” (e.g., dishwasher, entry-level translators) face a high risk of imminent replacement.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/images/2.png&quot; alt=&quot;Physical Labor&quot; title=&quot;Risk of Replacement: Physical Labor&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;cognitive-labor&quot;&gt;Cognitive Labor:&lt;/h2&gt;
+&lt;p&gt;Sharing the same Y-axis but with a distinct X-axis, ranging from “optimization-based” to “creativity- or strategy-based,” the cognitive labor chart categorizes tasks. Again, the quadrants guide our understanding.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/images/1.png&quot; alt=&quot;Cognitive Labor&quot; title=&quot;Risk of Replacement: Cognitive Labor&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Danger Zone:&lt;/strong&gt; Jobs entailing core tasks in this zone face a high risk of replacement.&lt;br /&gt;
+&lt;strong&gt;Safe Zone:&lt;/strong&gt; Professions in this zone, like psychiatrist and home-care nurse, seem insulated from automation.&lt;br /&gt;
+&lt;strong&gt;Human Veneer:&lt;/strong&gt; Jobs like bartender and schoolteacher are not entirely replaceable now, but restructuring or technological advances could pose a threat.&lt;br /&gt;
+&lt;strong&gt;Slow Creep:&lt;/strong&gt; Occupations such as plumber and entry-level graphic designer, relying on manual dexterity or creativity, face a gradual threat.&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion:&lt;/h2&gt;
+
+&lt;p&gt;The “Human Veneer” quadrant foresees a future where computational or physical work can be accomplished by machines, yet the indispensable social interactive element remains a challenge for mass automation. This quadrant embodies a symbiotic relationship between humans and machines, where AI undertakes behind-the-scenes optimization, while human workers act as the social interface.&lt;/p&gt;
+
+&lt;p&gt;In the “Slow Creep” category, jobs dependent on manual dexterity, creativity, or adaptability to unstructured environments confront hurdles for AI. However, the slow erosion of these hurdles poses a potential threat, especially at the far right end, offering opportunities for creative professionals to synergize with AI tools.&lt;/p&gt;
+
+&lt;p&gt;While these graphs provide a heuristic for understanding job vulnerability, the broader implications for total employment on an economy-wide scale necessitate an economist’s lens.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>AGI's Triumph: Democratisation of Innovation or Consolidation of Wealth?</title>
