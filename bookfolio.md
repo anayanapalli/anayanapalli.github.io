@@ -2,9 +2,9 @@
 layout: page
 title: Bookfolio
 ---
-<span class="post-date">Last updated Dec 24, 2023</span>
+<span class="post-date">Last updated Jan 01, 2024</span>
 
-## 📚 Books That I Read (WIP):
+## 📚 Books That I Read:
 
 ### [Chip War: The Fight for the World's Most Critical Technology](https://www.amazon.ca/Chip-War-Worlds-Critical-Technology/dp/1982172002){:target="_blank"}
 **Author:** Chris Miller **Rating:** 5.0/5.0 **Difficulty:** Intermediate
@@ -59,3 +59,23 @@ Kahneman's writing is crystal clear, and the way he explains stuff is mind-blowi
 Before reading this book, I used to think that developed countries or civilizations were better than underdeveloped or developing countries because the people in the "developed" world were just better: more intelligent, more driven, more ambitious, etc. After reading this book, that perspective of mine is completely transformed. The author goes back in time and gives many examples as to why the West advanced more rapidly than the East, and they are mostly due to external factors like location, time, etc.
 
 This is one of those perspective-transforming books, and I am glad that I read it. Giving it a 4.0 because I felt the language of the book was a bit too academic and hard to follow at certain times.
+
+### [Show Your Work!: 10 Ways to Share Your Creativity and Get Discovered](https://www.amazon.ca/Show-Your-Work-Creativity-Discovered/dp/076117897X/ref=sr_1_1?crid=3FEYDNGCGCKIL&keywords=show+your+work+austin+kleon&qid=1704164941&sprefix=Show+your+work%2Caps%2C81&sr=8-1){:target="_blank"}
+**Author:** Austin Kleon **Rating:** 4.0/5.0 **Difficulty:** Easy
+
+If you've hesitated to publish your work online, this book provides the nudge needed to transform your attitude and openly share and discuss your projects. It emphasizes that sharing your work is not about pursuing perfection but rather using it as a valuable tool for networking and continuous learning.
+
+Filled with valuable insights, it's a quick read that I highly recommend to anyone contemplating the reasons behind sharing their work. Personally, this book inspired me to start my blog.
+
+Its brevity allows you to complete it within a few hours, making it a truly worthwhile read.
+
+### [AI Superpowers: China, Silicon Valley, and the New World Order](https://www.amazon.ca/AI-Superpowers-China-Silicon-Valley/dp/0358105587/ref=sr_1_1?crid=2MWDP3MMIBG&keywords=ai+superpowers&qid=1704165739&sprefix=AI+Su%2Caps%2C80&sr=8-1){:target="_blank"}
+**Author:** Kai-Fu Lee **Rating:** 4.5/5.0 **Difficulty:** Easy
+
+This is a good book, despite some minor inaccuracies in its predictions. It guides readers in the right direction, with a keen focus on the profound influence of AI on our future. The author, a leading AI researcher turned venture capitalist, provides a clear and insightful explanation of the subject and its implications.
+
+At its core, the book revolves around the premise that data, technology, and AI-rich countries like the United States and China will hold a substantial advantage in the AI-led future. The author substantiates this idea through a wealth of studies and predictions, exploring the potential impacts on various fields, job disruptions, and the overall transformation of life with the ascent of AI.
+
+What sets this book apart are the multitude of great ideas and intriguing thoughts presented by the author. The narrative not only effectively elucidates the potential of artificial intelligence but also adds a human touch to the discussion. The exploration of the Chinese startup ecosystem, the Chinese government's support and vision, and the ferocious competition in Chinese markets provides valuable insights into the rapid AI adoption in China.
+
+In summary, I found this to be a pretty good read. It not only delves into the exciting possibilities of AI but also offers a thoughtful examination of its potential impact on our lives.
