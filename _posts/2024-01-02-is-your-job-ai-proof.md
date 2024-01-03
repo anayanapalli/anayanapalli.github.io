@@ -7,9 +7,9 @@ title: "Is Your Job AI-Proof? A Closer Look at Job Vulnerability"
 
 ## Introduction:
 
-In the ever-advancing realm of technology, the rise of Artificial Intelligence (AI) poses a significant threat to the job market. However, the story of job replacement is not a simple matter of low-skill versus high-skill labor. AI, with its intricate biases, creates an intricate landscape where winners and losers emerge based on the specific nature of job tasks.
+In the ever-advancing realm of technology, the rise of AI poses a significant threat to the job market. However, the story of job replacement is not a simple matter of low-skill versus high-skill labor. AI, with its intricate biases, creates a complex landscape where winners and losers emerge based on the specific nature of job tasks.
 
-While AI excels in focused, data-driven tasks, it still is a bit far from replicating natural human interaction and the intricate dexterity found in our fingers and limbs. Tasks involving creative and strategically complex thinking, where inputs and outcomes aren't easily quantifiable, pose a significant challenge for AI.
+While AI excels in focused, data-driven tasks, it still is a bit far from replicating natural human interaction and the intricate dexterity found in our fingers and limbs. We need many breakthroughs in robotics and AI for this to happen. Tasks involving creative and strategically complex thinking, where inputs and outcomes aren't easily quantifiable, also pose a significant challenge for AI.
 
 Please note that this post is based on the information in [this](https://www.amazon.ca/AI-Superpowers-China-Silicon-Valley/dp/0358105587/ref=sr_1_1?crid=LQ88F8SYT7AB&keywords=ai+superpowers+china%2C+silicon+valley&qid=1704217212&sprefix=AI+s%2Caps%2C103&sr=8-1){:target="_blank"} book written by the brilliant [Kai-Fu Lee](https://www.linkedin.com/in/kaifulee/){:target="_blank"}.
 
