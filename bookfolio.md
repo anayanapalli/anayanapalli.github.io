@@ -11,11 +11,11 @@ title: Bookfolio
 
 I've always wanted to understand more about the semiconductor industry as a whole because I have been dabbling with semiconductor stocks for a while now, and I never really understood why some stocks went up, and others went down.
 
-This book gives you all the information you need to understand the semiconductor industry holistically. The book covers economics, politics, and technology—a very interesting combination. The author has done an incredible job researching all the facts required to write a compelling book.
+This book provides all the information you need to understand the semiconductor industry holistically. It covers economics, politics, and technology—a very interesting combination. The author has done an incredible job researching all the facts required to write a compelling book.
 
-It not only provides insights into the semiconductor industry but also showcases how advanced human society is and how much technology and collaboration are involved in driving technological growth. It’s truly inspiring. I highly recommend this book; it’s a very important read during this AI craze.
+The book offers insight into the great effort and cooperation involved among various scientists, engineers, companies, and countries in driving technological growth and solving complex engineering problems. It’s truly inspiring. I highly recommend this book; it’s a very important read during this time of AI craze.
 
-If you want to understand the current state of geopolitics and technology, it’s a fantastic read—a solid five out of five. This is probably **the best book that I read this year.** I was so excited after reading this book that I also gave a talk to my team on this topic.
+If you want to understand the current state of geopolitics and the bleeding edge technology of semiconductors, it’s a fantastic read—a solid five out of five. This is probably **the best book I've read this year.** I was so excited after reading this book that I also gave a talk to my team on this topic.
 
 ### [The Billionaire's Apprentice: The Rise of The Indian-American Elite and The Fall of The Galleon Hedge Fund](https://www.amazon.ca/Billionaires-Apprentice-Indian-American-Elite-Galleon-ebook/dp/B008TUNLWM/ref=sr_1_1?crid=1JMGHOB71IMGN&keywords=the+billionaires+apprentice&qid=1703320349&sprefix=the+billionaires+apprentice%2Caps%2C100&sr=8-1){:target="_blank"}
 **Author:** Anita Raghavan **Rating:** 5.0/5.0 **Difficulty:** Intermediate
@@ -37,7 +37,7 @@ There's no brashness, no adoption of unfair means, and no flaunting of economic 
 
 This book gives us insight into the Japanese working ethos, their dedication, and commitment.
 
-P.S: I got interested in Mr. Morita after reading the book "Chip War" as he was pivotal in putting Japan back on the world stage as a key player after WWII.
+**P.S:** I got interested in Mr. Morita after reading the book "Chip War" as he was pivotal in putting Japan back on the world stage as a key player after WWII.
 
 ### [Stuff Matters: Exploring the Marvelous Materials That Shape Our Man-Made World](https://www.amazon.ca/Stuff-Matters-Exploring-Marvelous-Materials/dp/0544483944/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1703331963&sr=8-2){:target="_blank"}
 **Author:** Mark Miodownik **Rating:** 4.5/5.0 **Difficulty:** Easy
@@ -63,16 +63,16 @@ This is one of those perspective-transforming books, and I am glad that I read i
 ### [Show Your Work!: 10 Ways to Share Your Creativity and Get Discovered](https://www.amazon.ca/Show-Your-Work-Creativity-Discovered/dp/076117897X/ref=sr_1_1?crid=3FEYDNGCGCKIL&keywords=show+your+work+austin+kleon&qid=1704164941&sprefix=Show+your+work%2Caps%2C81&sr=8-1){:target="_blank"}
 **Author:** Austin Kleon **Rating:** 4.0/5.0 **Difficulty:** Easy
 
-If you've hesitated to publish your work online, this book provides the nudge needed to transform your attitude and openly share and discuss your projects. It emphasizes that sharing your work is not about pursuing perfection but rather using it as a valuable tool for networking and continuous learning.
+If you've hesitated to publish your work online, this book provides the nudge needed to transform your attitude and openly share and discuss your projects. It emphasizes that sharing your work is not about pursuing perfection but rather a valuable tool for networking and continuous learning.
 
-Filled with valuable insights, it's a quick read that I highly recommend to anyone contemplating the reasons behind sharing their work. Personally, this book inspired me to start my blog.
+Filled with valuable insights, it's a quick read that I highly recommend to anyone contemplating the reasons to share their work. Personally, this book inspired me to start my blog.
 
 Its brevity allows you to complete it within a few hours, making it a truly worthwhile read.
 
 ### [AI Superpowers: China, Silicon Valley, and the New World Order](https://www.amazon.ca/AI-Superpowers-China-Silicon-Valley/dp/0358105587/ref=sr_1_1?crid=2MWDP3MMIBG&keywords=ai+superpowers&qid=1704165739&sprefix=AI+Su%2Caps%2C80&sr=8-1){:target="_blank"}
 **Author:** Kai-Fu Lee **Rating:** 4.5/5.0 **Difficulty:** Easy
 
-This is a good book, despite some minor inaccuracies in its predictions. It guides readers in the right direction, with a keen focus on the profound influence of AI on our future. The author, a leading AI researcher turned venture capitalist, provides a clear and insightful explanation of the subject and its implications.
+This is a good book, despite some inaccuracies in its predictions. It guides readers in the right direction, with a keen focus on the profound influence of AI on our future. The author, a leading AI researcher turned venture capitalist, provides a clear and insightful explanation of the subject and its implications.
 
 At its core, the book revolves around the premise that data, technology, and AI-rich countries like the United States and China will hold a substantial advantage in the AI-led future. The author substantiates this idea through a wealth of studies and predictions, exploring the potential impacts on various fields, job disruptions, and the overall transformation of life with the ascent of AI.
 
