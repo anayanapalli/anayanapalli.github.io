@@ -11,7 +11,7 @@ In the relentless march of technology, the advent of Artificial Intelligence (AI
 
 While AI excels in narrow, data-driven tasks, it struggles to replicate the natural interaction with humans or mimic the dexterity inherent in our fingers and limbs. Cross-domain thinking on creative and strategically complex tasks, where inputs and outcomes resist easy quantification, remains an uncharted territory for AI.
 
-Please note that this post is based on the information in <a href = "https://www.amazon.ca/AI-Superpowers-China-Silicon-Valley/dp/0358105587/ref=sr_1_1?crid=LQ88F8SYT7AB&keywords=ai+superpowers+china%2C+silicon+valley&qid=1704217212&sprefix=AI+s%2Caps%2C103&sr=8-1"  target="_blank">this</a> book written by the brilliant <a href = "https://www.linkedin.com/in/kaifulee/"  target="_blank">Kai-Fu Lee</a>.
+Please note that this post is based on the information in [this](https://www.amazon.ca/AI-Superpowers-China-Silicon-Valley/dp/0358105587/ref=sr_1_1?crid=LQ88F8SYT7AB&keywords=ai+superpowers+china%2C+silicon+valley&qid=1704217212&sprefix=AI+s%2Caps%2C103&sr=8-1){:target="_blank"} book written by the brilliant [Kai-Fu Lee](https://www.linkedin.com/in/kaifulee/){:target="_blank"}.
 
 ## What AI Can and Can't Do - The Risk-of-Replacement Graphs
 
@@ -25,7 +25,7 @@ The cognitive labor chart shares the same Y-axis but uses a different X-axis: "o
 
 ![Cognitive Labor](/public/images/1.png "Risk of Replacement: Cognitive Labor")
 
-## Job Quadrants
+## Job Quadrants:
 
 **Danger Zone:** Jobs like dishwasher and entry-level translators are at high risk of replacement.<br>
 **Safe Zone:** Professions like psychiatrist and home-care nurse are likely secure from automation.<br>

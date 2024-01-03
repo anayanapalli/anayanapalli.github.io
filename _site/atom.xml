@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-01-02T20:35:08-05:00</updated>
+ <updated>2024-01-02T20:39:15-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -41,7 +41,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/public/images/1.png&quot; alt=&quot;Cognitive Labor&quot; title=&quot;Risk of Replacement: Cognitive Labor&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;job-quadrants&quot;&gt;Job Quadrants&lt;/h2&gt;
+&lt;h2 id=&quot;job-quadrants&quot;&gt;Job Quadrants:&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Danger Zone:&lt;/strong&gt; Jobs like dishwasher and entry-level translators are at high risk of replacement.&lt;br /&gt;
 &lt;strong&gt;Safe Zone:&lt;/strong&gt; Professions like psychiatrist and home-care nurse are likely secure from automation.&lt;br /&gt;
