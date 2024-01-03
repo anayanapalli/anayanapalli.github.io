@@ -11,7 +11,7 @@ In the relentless march of technology, the advent of Artificial Intelligence (AI
 
 While AI excels in narrow, data-driven tasks, it struggles to replicate the natural interaction with humans or mimic the dexterity inherent in our fingers and limbs. Cross-domain thinking on creative and strategically complex tasks, where inputs and outcomes resist easy quantification, remains an uncharted territory for AI.
 
-Please note that this post is based on the information in <a href = "https://www.amazon.ca/AI-Superpowers-China-Silicon-Valley/dp/0358105587/ref=sr_1_1?crid=LQ88F8SYT7AB&keywords=ai+superpowers+china%2C+silicon+valley&qid=1704217212&sprefix=AI+s%2Caps%2C103&sr=8-1"  target="_blank">this </a>book written by the brilliant <a href = "https://www.linkedin.com/in/kaifulee/"  target="_blank">Kai-Fu Lee</a>.
+Please note that this post is based on the information in <a href = "https://www.amazon.ca/AI-Superpowers-China-Silicon-Valley/dp/0358105587/ref=sr_1_1?crid=LQ88F8SYT7AB&keywords=ai+superpowers+china%2C+silicon+valley&qid=1704217212&sprefix=AI+s%2Caps%2C103&sr=8-1"  target="_blank">this</a> book written by the brilliant <a href = "https://www.linkedin.com/in/kaifulee/"  target="_blank">Kai-Fu Lee</a>.
 
 ## What AI Can and Can't Do - The Risk-of-Replacement Graphs
 
