@@ -16,24 +16,22 @@ Please note that this post is based on the information in <a href = "https://www
 ## What AI Can and Can't Do - The Risk-of-Replacement Graphs
 
 ## Physical Labor:
-The X-axis spans from "low dexterity and structured environment" to "high dexterity and unstructured environment," while the Y-axis ranges from "asocial" to "highly social." The resulting graph delineates four quadrants: the "Danger Zone," "Safe Zone," "Human Veneer," and "Slow Creep." Occupations in the "Danger Zone" (e.g., dishwasher, entry-level translators) face a high risk of imminent replacement.
+The X-axis spans from "low dexterity and structured environment" to "high dexterity and unstructured environment," while the Y-axis ranges from "asocial" at the bottom to "highly social" at the top. Jobs in the "Danger Zone" (e.g., dishwasher, entry-level translators) face a high risk of replacement due to their task characteristics.
 
 ![Physical Labor](/public/images/2.png "Risk of Replacement: Physical Labor")
 
 ## Cognitive Labor:
-Sharing the same Y-axis but with a distinct X-axis, ranging from "optimization-based" to "creativity- or strategy-based," the cognitive labor chart categorizes tasks. Again, the quadrants guide our understanding.
+The cognitive labor chart shares the same Y-axis but uses a different X-axis: "optimization-based" on the left to "creativity- or strategy-based" on the right. This categorization helps distinguish jobs based on the core tasks they involve. Quadrants - "Danger Zone," "Safe Zone," "Human Veneer," and "Slow Creep" - guide our understanding of job vulnerability.
 
 ![Cognitive Labor](/public/images/1.png "Risk of Replacement: Cognitive Labor")
 
-**Danger Zone:** Jobs entailing core tasks in this zone face a high risk of replacement.<br>
-**Safe Zone:** Professions in this zone, like psychiatrist and home-care nurse, seem insulated from automation.<br>
-**Human Veneer:** Jobs like bartender and schoolteacher are not entirely replaceable now, but restructuring or technological advances could pose a threat.<br>
-**Slow Creep:** Occupations such as plumber and entry-level graphic designer, relying on manual dexterity or creativity, face a gradual threat.<br>
+## Job Quadrants
+
+**Danger Zone:** Jobs like dishwasher and entry-level translators are at high risk of replacement.<br>
+**Safe Zone:** Professions like psychiatrist and home-care nurse are likely secure from automation.<br>
+**Human Veneer:** Occupations like bartender, schoolteacher, and medical caregiver may see optimization but rely on a human-social interface.<br>
+**Slow Creep:** Jobs such as plumber, construction worker, and entry-level graphic designer, dependent on manual dexterity or creativity, face a slower creep towards automation.<br>
 
 ## Conclusion:
 
-The "Human Veneer" quadrant foresees a future where computational or physical work can be accomplished by machines, yet the indispensable social interactive element remains a challenge for mass automation. This quadrant embodies a symbiotic relationship between humans and machines, where AI undertakes behind-the-scenes optimization, while human workers act as the social interface.
-
-In the "Slow Creep" category, jobs dependent on manual dexterity, creativity, or adaptability to unstructured environments confront hurdles for AI. However, the slow erosion of these hurdles poses a potential threat, especially at the far right end, offering opportunities for creative professionals to synergize with AI tools.
-
-While these graphs provide a heuristic for understanding job vulnerability, the broader implications for total employment on an economy-wide scale necessitate an economist's lens.
+These graphs serve as a heuristic for understanding job vulnerability, offering insights into the diverse spectrum of occupations and their susceptibility to AI replacement. The "Human Veneer" and "Slow Creep" quadrants present intriguing challenges, where the future landscape of work is less clear-cut.
