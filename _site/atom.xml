@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-01-03T11:37:36-05:00</updated>
+ <updated>2024-01-28T16:03:09-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Is Your Job AI-Proof? A Closer Look at Job Vulnerability</title>
-   <link href="http://localhost:4000/2024/01/02/is-your-job-ai-proof/"/>
+   <link href="http://localhost:4000/2024/01/02/is-your-job-ai-proof-copy/"/>
    <updated>2024-01-02T00:00:00-05:00</updated>
-   <id>http://localhost:4000/2024/01/02/is-your-job-ai-proof</id>
+   <id>http://localhost:4000/2024/01/02/is-your-job-ai-proof copy</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;“It is easier to build a world champion chess player than to build a mediocre plumber.” - Kai-Fu Lee&lt;/p&gt;
 &lt;/blockquote&gt;
