@@ -11,10 +11,10 @@ People often categorize themselves as either naturally curious or incurious, ass
 
 ## What is Curiosity Anyway?
 
-Consulting the dictionary, we find that curiosity is defined as "a strong desire to know or learn something." While this definition suffices, it fails to explain the mechanics behind curiosity or how we can leverage it effectively. Let's explore with a couple of examples. Consider these two questions:
+Consulting the dictionary, we find that curiosity is defined as *"a strong desire to know or learn something."* While this definition suffices, it fails to explain the mechanics behind curiosity or how we can leverage it effectively. Let's explore with a couple of examples. Consider these two questions:
 
-- Do you know about Deinonychus and where it was found?
-- Do you know of a dinosaur whose fossil was found right in your state?
+- *Do you know about Deinonychus and where it was found?*
+- *Do you know of a dinosaur whose fossil was found right in your state?*
 
 Chances are, the first question failed to spark much curiosity unless you're a dinosaur expert. However, the second question likely piqued your interest significantly more. Why is that? This brings us to the concept of **"information gaps."**
 
@@ -24,7 +24,7 @@ In essence, to be curious about a topic, one must possess foundational knowledge
 
 ## How to Utilize Information Gaps:
 
-When striving to stimulate curiosity about a subject, start by creating an information gap. The simplest method is to see how the new information relates to your existing knowledge. Metaphors often evoke "aha" moments by bridging information gaps between your old and new knowledge. Renowned authors like Agatha Christie strategically commence novels with scenes that create information gaps, keeping readers engaged and curious. The same goes with directors of movies and TV series, engaging professors and presenters in general.
+When striving to stimulate curiosity about a subject, start by creating an information gap. The simplest method is to see how the new information relates to your existing knowledge. *Metaphors often evoke "aha" moments by bridging information gaps between your old and new knowledge.* Renowned authors like Agatha Christie strategically commence novels with scenes that create information gaps, keeping readers engaged and curious. The same goes with directors of movies and TV series, engaging professors and presenters in general.
 
 ## Conclusion:
 
