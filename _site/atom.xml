@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-01-31T14:08:08-05:00</updated>
+ <updated>2024-01-31T14:09:52-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -129,9 +129,9 @@
  
  <entry>
    <title>Understanding Curiosity: The Knowledge Emotion</title>
-   <link href="http://localhost:4000/2024/01/28/how-does-curiosity-work-copy/"/>
+   <link href="http://localhost:4000/2024/01/28/how-does-curiosity-work/"/>
    <updated>2024-01-28T00:00:00-05:00</updated>
-   <id>http://localhost:4000/2024/01/28/how-does-curiosity-work copy</id>
+   <id>http://localhost:4000/2024/01/28/how-does-curiosity-work</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;“Millions saw the apple fall, but Newton was the one who asked why.” – Bernard Baruch&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -167,9 +167,9 @@
  
  <entry>
    <title>Is Your Job AI-Proof? A Closer Look at Job Vulnerability</title>
-   <link href="http://localhost:4000/2024/01/02/is-your-job-ai-proof-copy-2/"/>
+   <link href="http://localhost:4000/2024/01/02/is-your-job-ai-proof/"/>
    <updated>2024-01-02T00:00:00-05:00</updated>
-   <id>http://localhost:4000/2024/01/02/is-your-job-ai-proof copy 2</id>
+   <id>http://localhost:4000/2024/01/02/is-your-job-ai-proof</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;“It is easier to build a world champion chess player than to build a mediocre plumber.” - Kai-Fu Lee&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -244,9 +244,9 @@
  
  <entry>
    <title>Coding in English: AGI's Game-Changing Role in Software 3.0</title>
-   <link href="http://localhost:4000/2023/12/18/coding-in-english-copy/"/>
+   <link href="http://localhost:4000/2023/12/18/coding-in-english/"/>
    <updated>2023-12-18T00:00:00-05:00</updated>
-   <id>http://localhost:4000/2023/12/18/coding-in-english copy</id>
+   <id>http://localhost:4000/2023/12/18/coding-in-english</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;“The hottest new programming language is English” - Andrej Karpathy&lt;/p&gt;
 &lt;/blockquote&gt;
