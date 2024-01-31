@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-01-31T14:15:06-05:00</updated>
+ <updated>2024-01-31T14:23:08-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -96,7 +96,7 @@
 
 &lt;h2 id=&quot;detach-from-a-session&quot;&gt;Detach from a session&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux d
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&amp;lt;control + b&amp;gt; + d
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&quot;view-all-tmux-sessions&quot;&gt;View all &lt;code&gt;tmux&lt;/code&gt; sessions&lt;/h2&gt;

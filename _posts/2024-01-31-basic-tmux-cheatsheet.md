@@ -96,7 +96,7 @@ tmux new -s <session_name>
 ## Detach from a session
 
 ```bash
-tmux d
+<control + b> + d
 ```
 
 ## View all `tmux` sessions
