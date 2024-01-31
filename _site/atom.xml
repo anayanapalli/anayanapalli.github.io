@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-01-31T14:09:52-05:00</updated>
+ <updated>2024-01-31T14:11:53-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Basic tmux Cheatsheet</title>
-   <link href="http://localhost:4000/2024/01/31/tmux-cheatsheet/"/>
+   <link href="http://localhost:4000/2024/01/31/basic-tmux-cheatsheet/"/>
    <updated>2024-01-31T00:00:00-05:00</updated>
-   <id>http://localhost:4000/2024/01/31/tmux-cheatsheet</id>
+   <id>http://localhost:4000/2024/01/31/basic-tmux-cheatsheet</id>
    <content type="html">&lt;h2 id=&quot;install-tmux-on-a-mac&quot;&gt;Install &lt;code&gt;tmux&lt;/code&gt; on a Mac&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;brew install tmux
