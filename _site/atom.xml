@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-01-29T16:19:37-05:00</updated>
+ <updated>2024-01-31T14:08:08-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -13,10 +13,125 @@
 
  
  <entry>
+   <title>Basic tmux Cheatsheet</title>
+   <link href="http://localhost:4000/2024/01/31/tmux-cheatsheet/"/>
+   <updated>2024-01-31T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2024/01/31/tmux-cheatsheet</id>
+   <content type="html">&lt;h2 id=&quot;install-tmux-on-a-mac&quot;&gt;Install &lt;code&gt;tmux&lt;/code&gt; on a Mac&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;brew install tmux
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;check-tmux-version&quot;&gt;Check &lt;code&gt;tmux&lt;/code&gt; version&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux -V
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;tmux-abstractions&quot;&gt;&lt;code&gt;tmux&lt;/code&gt; abstractions&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Sessions&lt;/strong&gt; are composed of &lt;strong&gt;windows&lt;/strong&gt; which inturn are composed of &lt;strong&gt;panes.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Sessions are terminated when the system restarts.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tmux-prefix&quot;&gt;&lt;code&gt;tmux&lt;/code&gt; prefix&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&amp;lt;control + b&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;All shortcuts are preceded by the prefix.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;enter-into-tmux-session&quot;&gt;Enter into &lt;code&gt;tmux&lt;/code&gt; session&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;create-a-new-window&quot;&gt;Create a new window&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&amp;lt;control + b&amp;gt; + c
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Current windows are indicated with an asterisk.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;rename-a-window&quot;&gt;Rename a window&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&amp;lt;control + b&amp;gt; + ,
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;move-between-windows&quot;&gt;Move between windows&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&amp;lt;control + b&amp;gt; + &amp;lt;window_number&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;create-a-vertical-pane-in-window&quot;&gt;Create a vertical pane in window&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&amp;lt;control + b&amp;gt; + %
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;create-a-horizontal-pane-in-window&quot;&gt;Create a horizontal pane in window&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&amp;lt;control + b&amp;gt; + &quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;move-cursor-between-panes&quot;&gt;Move cursor between panes&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&amp;lt;control + b&amp;gt; + &amp;lt;left|up|down|right&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;delete-a-pane&quot;&gt;Delete a pane&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;exit
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;If you delete all the panes in a window you delete the window.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;delete-a-window-tmux&quot;&gt;Delete a window tmux&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux kill-window -t &amp;lt;window-number&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;If you delete all the windows, you delete the session.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;create-a-new-session&quot;&gt;Create a new session&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux new -s &amp;lt;session_name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;detach-from-a-session&quot;&gt;Detach from a session&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux d
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;view-all-tmux-sessions&quot;&gt;View all &lt;code&gt;tmux&lt;/code&gt; sessions&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux ls
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;attach-to-a-session&quot;&gt;Attach to a session&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux attach -t &amp;lt;session_name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;The session_name is the session_number if it is not named.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;rename-a-session&quot;&gt;Rename a session&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux rename-session -t &amp;lt;sessions_number&amp;gt; &amp;lt;session_name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;kill-a-session&quot;&gt;Kill a session&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux kill-session -t &amp;lt;sessions_name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;The session_name is the session_number if it is not named.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;kill-all-sessions&quot;&gt;Kill all sessions&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux kill-server
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Understanding Curiosity: The Knowledge Emotion</title>
-   <link href="http://localhost:4000/2024/01/28/how-does-curiosity-work/"/>
+   <link href="http://localhost:4000/2024/01/28/how-does-curiosity-work-copy/"/>
    <updated>2024-01-28T00:00:00-05:00</updated>
-   <id>http://localhost:4000/2024/01/28/how-does-curiosity-work</id>
+   <id>http://localhost:4000/2024/01/28/how-does-curiosity-work copy</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;“Millions saw the apple fall, but Newton was the one who asked why.” – Bernard Baruch&lt;/p&gt;
 &lt;/blockquote&gt;
