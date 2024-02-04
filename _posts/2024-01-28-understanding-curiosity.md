@@ -28,7 +28,7 @@ In essence, to be curious about a topic, one must possess foundational knowledge
 
 When striving to stimulate curiosity about a subject, start by creating information gaps. The simplest method is to see how the new information relates to your existing knowledge. *Metaphors and analogies often evoke "aha" moments by creating and filling in information gaps between your old and new knowledge.*
 
-Renowned authors like Agatha Christie strategically commence novels with mysterious scenes that create information gaps, keeping readers engaged and curious. The same goes with directors of movies and TV series, great professors, teachers and presenters in general, who start with questions or facts or figures that create information gaps in thier audience's minds, thus keeping them engaged.
+Renowned authors like Agatha Christie strategically commence novels with mysterious scenes that create information gaps, keeping readers engaged and curious. The same goes with directors of movies and TV series, great professors, teachers and presenters in general, who start with interesting questions or facts or figures.
 
 ## Conclusion:
 
