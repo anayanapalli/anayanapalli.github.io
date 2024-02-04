@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-02-04T15:08:25-05:00</updated>
+ <updated>2024-02-04T15:09:59-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -129,9 +129,9 @@
  
  <entry>
    <title>Understanding Curiosity: The Knowledge Emotion</title>
-   <link href="http://localhost:4000/2024/01/28/understanding-curiosity-copy/"/>
+   <link href="http://localhost:4000/2024/01/28/understanding-curiosity/"/>
    <updated>2024-01-28T00:00:00-05:00</updated>
-   <id>http://localhost:4000/2024/01/28/understanding-curiosity copy</id>
+   <id>http://localhost:4000/2024/01/28/understanding-curiosity</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;“Millions saw the apple fall, but Newton was the one who asked why.” – Bernard Baruch&lt;/p&gt;
 &lt;/blockquote&gt;
