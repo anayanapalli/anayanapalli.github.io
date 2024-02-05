@@ -11,7 +11,7 @@ People often categorize themselves as either naturally curious or incurious, ass
 
 ## What is Curiosity Anyway?
 
-Curiosity is defined as *"a strong desire to know or learn something."*  While this definition suffices, it fails to explain the mechanics behind curiosity that we can use to leverage it effectively. Let's try to understand it with an example. Consider the following questions:
+Curiosity is defined as *"a strong desire to know or learn something."*  While this definition suffices, it fails to explain the mechanics of curiosity that we can use to leverage it effectively. Let's try to understand it with an example. Consider the following questions:
 
 - *Do you know about Deinonychus and where it was found?*
 - *Do you know of a dinosaur whose fossil was found right in your state?*
