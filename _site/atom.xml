@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-02-06T13:40:45-05:00</updated>
+ <updated>2024-02-06T13:55:41-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -229,19 +229,19 @@ The cognitive labor chart shares the same Y-axis but uses a different X-axis: &q
 &lt;h2 id=&quot;job-quadrants&quot;&gt;Job Quadrants:&lt;/h2&gt;
 
 &lt;p align=&quot;justify&quot;&gt;
-**Danger Zone:** Jobs like dishwasher and entry-level translators are at high risk of replacement.&lt;br /&gt;
+&lt;b&gt;Danger Zone:&lt;/b&gt; Jobs like dishwasher and entry-level translators are at high risk of replacement.&lt;br /&gt;
 &lt;/p&gt;
 
 &lt;p align=&quot;justify&quot;&gt;
-**Safe Zone:** Professions like psychiatrist and home-care nurse are likely secure from automation.&lt;br /&gt;
+&lt;b&gt;Safe Zone:&lt;/b&gt; Professions like psychiatrist and home-care nurse are likely secure from automation.&lt;br /&gt;
 &lt;/p&gt;
 
 &lt;p align=&quot;justify&quot;&gt;
-**Human Veneer:** Occupations like bartender, schoolteacher, and medical caregiver may see optimization but rely on a human-social interface.&lt;br /&gt;
+&lt;b&gt;Human Veneer:&lt;/b&gt; Occupations like bartender, schoolteacher, and medical caregiver may see optimization but rely on a human-social interface.&lt;br /&gt;
 &lt;/p&gt;
 
 &lt;p align=&quot;justify&quot;&gt;
-**Slow Creep:** Jobs such as plumber, construction worker, and entry-level graphic designer, dependent on manual dexterity or creativity, face a slower creep towards automation.&lt;br /&gt;
+&lt;b&gt;Slow Creep:&lt;/b&gt; Jobs such as plumber, construction worker, and entry-level graphic designer, dependent on manual dexterity or creativity, face a slower creep towards automation.&lt;br /&gt;
 &lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion:&lt;/h2&gt;
