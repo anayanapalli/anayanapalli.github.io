@@ -26,7 +26,7 @@ Enter  <a href = "https://karpathy.medium.com/software-2-0-a64152b37c35"  target
 ## The Dawn of Software 3.0: AGI Takes the Lead
 
 <p align="justify">
-Now, the spotlight is on Software 3.0, a paradigm that revolutionizes programming by leveraging AGI. Unlike its predecessors, Software 3.0 is characterized by its use of simple natural language, where programming involves **"prompt engineering"** to query a powerful AGI model. This marks a departure from the conventional coding practices, allowing developers to interact with AGI models like GPT to generate a spectrum of outputs—from human-indistinguishable text to surrealistic images and functional code.
+Now, the spotlight is on Software 3.0, a paradigm that revolutionizes programming by leveraging AGI. Unlike its predecessors, Software 3.0 is characterized by its use of simple natural language, where programming involves <b>"prompt engineering"</b> to query a powerful AGI model. This marks a departure from the conventional coding practices, allowing developers to interact with AGI models like GPT to generate a spectrum of outputs—from human-indistinguishable text to surrealistic images and functional code.
 </p>
 
 ## The AGI Advantage:
