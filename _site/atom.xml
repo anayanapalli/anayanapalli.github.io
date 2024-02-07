@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-02-06T13:55:41-05:00</updated>
+ <updated>2024-02-07T10:20:23-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -631,19 +631,19 @@ The architecture of RAG comprises two main components – a retriever and a gene
 &lt;h2 id=&quot;real-world-applications&quot;&gt;Real-World Applications:&lt;/h2&gt;
 
 &lt;p align=&quot;justify&quot;&gt;
-Content Creation and Copywriting: RAG can be employed to assist content creators in generating engaging and contextually relevant articles, blog posts, and marketing copy.
+&lt;b&gt;Content Creation and Copywriting:&lt;/b&gt; RAG can be employed to assist content creators in generating engaging and contextually relevant articles, blog posts, and marketing copy.
 &lt;/p&gt;
 
 &lt;p align=&quot;justify&quot;&gt;
-Question Answering Systems: Enhancing question answering systems by providing more accurate and context-aware responses, making them invaluable in customer support or information retrieval applications.
+&lt;b&gt;Question Answering Systems:&lt;/b&gt; Enhancing question answering systems by providing more accurate and context-aware responses, making them invaluable in customer support or information retrieval applications.
 &lt;/p&gt;
 
 &lt;p align=&quot;justify&quot;&gt;
-Language Translation: Improving the accuracy of machine translation by incorporating contextual information from the retrieved knowledge base.
+&lt;b&gt;Language Translation:&lt;/b&gt; Improving the accuracy of machine translation by incorporating contextual information from the retrieved knowledge base.
 &lt;/p&gt;
 
 &lt;p align=&quot;justify&quot;&gt;
-Educational Assistance: Supporting students and educators by generating informative and contextually rich study materials.
+&lt;b&gt;Educational Assistance:&lt;/b&gt; Supporting students and educators by generating informative and contextually rich study materials.
 &lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion:&lt;/h2&gt;
