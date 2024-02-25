@@ -7,8 +7,8 @@ permalink:        pretty
 
 # Setup
 title:            Anish's Blog
-tagline:          '🗒️ Notes | 📚 Books | 💻 Code | 💡 Ideas | 🍿 Movies'
-description:      'Collection of my notes, ideas, thoughts, experiences, and reflections.'
+tagline:          ''
+description:      'Collection of my notes, ideas, and thoughts.'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
