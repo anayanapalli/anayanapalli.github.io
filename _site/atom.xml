@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-02-25T19:58:11-05:00</updated>
+ <updated>2024-02-25T20:17:31-05:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Starting a Community from Scratch: Lessons from the Trenches</title>
-   <link href="http://localhost:4000/2024/02/25/things-i-learnt-starting-a-community/"/>
+   <link href="http://localhost:4000/2024/02/25/starting-a-community-from-scratch/"/>
    <updated>2024-02-25T00:00:00-05:00</updated>
-   <id>http://localhost:4000/2024/02/25/things-i-learnt-starting-a-community</id>
+   <id>http://localhost:4000/2024/02/25/starting-a-community-from-scratch</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;“Coming together is a beginning; keeping together is progress; working together is success.” - Henry Ford&lt;/p&gt;
 &lt;/blockquote&gt;
