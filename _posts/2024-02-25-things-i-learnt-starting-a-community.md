@@ -28,7 +28,7 @@ title: "Starting a Community from Scratch: Lessons from the Trenches"
 <p align="justify">Those initial members? They're your tribe. They're the ones who truly care about what you're building. Pay attention to them; they're your biggest supporters.</p>
 
 ## 5. Understanding Your Community
-<p align="justify">The best way to understand what your community wants is to ask them. It's as simple as that. Forget the notion that people don't know what they want until you show them. Your community knows best.</p>
+<p align="justify">The best way to understand what your community wants is to ask them. It's as simple as that. Forget the notion that people don't know what they want until you show them. We are not building a high tech startup here. Your community knows best.</p>
 
 ## 6. Addressing Drop-Offs
 <p align="justify">If people are dropping off, don't just throw more marketing at the problem. Take a step back and figure out why. Fix the root cause, not just the symptoms.</p>
