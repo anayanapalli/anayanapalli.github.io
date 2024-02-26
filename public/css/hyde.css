@@ -105,7 +105,6 @@ a.sidebar-nav-item:focus {
 .sidebar-nav-item.active {
   font-weight: bold;
 }
-
 .social-icons {
   display: flex;
   margin-top: 10px; /* Adjust as needed */
