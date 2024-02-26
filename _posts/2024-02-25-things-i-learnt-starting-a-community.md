@@ -3,7 +3,7 @@ layout: post
 title: "Starting a Community from Scratch: Lessons from the Trenches"
 ---
 
-> "Little knowledge that acts is worth infinitely more than much knowledge that is idle." - Kahlil Gibran
+> "Coming together is a beginning; keeping together is progress; working together is success." - Henry Ford
 
 <p align="justify">So...I recently started a community within my company and I learnt a lot of things in the process. Maybe you are passionate about a particular topic, or you're eager to help others, but you're not quite sure where to begin. Well then, this post might be of some help to you.</p>
 
