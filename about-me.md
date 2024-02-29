@@ -4,7 +4,7 @@ title: About Me
 ---
 
 <div>
-    <img src="/public/images/Anish.jpg" style="width: 40%; margin-right: 15px; margin-top: 10px; margin-bottom: 2%; float: left">
+    <img src="/public/images/Anish.jpg" style="width: 40%; margin-right: 30px; margin-top: 10px; margin-bottom: 2%; float: left">
     <div>
         <p align="justify">
             Hey there! I’m Anish, a Software Engineer, and I'm very curious about everything in life. I like to read a lot, and delve into topics ranging from ancient history to the frontiers of technology. I enjoy contemplating ideas deeply, and I strive to understand why things are the way they are.
