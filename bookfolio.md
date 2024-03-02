@@ -129,3 +129,5 @@ What sets this book apart are the multitude of great ideas and intriguing though
 <p align="justify">
 In summary, I found this to be a pretty good read. It not only delves into the exciting possibilities of AI but also offers a thoughtful examination of its potential impact on our lives.
 </p>
+
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="anayanapalli" data-color="#FFDD00" data-emoji="☕"  data-font="Cookie" data-text="Buy me a coffee?" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
