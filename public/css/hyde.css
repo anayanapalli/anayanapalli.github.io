@@ -116,6 +116,9 @@ a.sidebar-nav-item:focus {
   height: 30px; /* Adjust as needed */
 }
 
+.social-icons img:hover {
+  filter: drop-shadow(0 0 0.12rem white);
+}
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
@@ -194,6 +197,10 @@ a.sidebar-nav-item:focus {
   .social-icons a {
     margin: 0 5px; /* Adjust as needed */
     display: inline-block; /* Ensure proper spacing between icons */
+  }
+
+  .social-icons img:hover {
+    filter: drop-shadow(0 0 0.12rem white);
   }
 }
 
