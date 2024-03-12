@@ -69,5 +69,3 @@ In the journey of technological evolution, each era has witnessed the emergence 
 <p align="justify">
 As we move forward, the synergy between vector databases and AI technologies will likely shape the next wave of innovations, opening doors to new possibilities in areas such as personalized user experiences, advanced analytics, and breakthroughs in scientific research. The era of vector databases marks a revolutionary leap, propelling us into a future where the marriage of databases and AI powers unprecedented advancements in technology.
 </p>
-
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="anayanapalli" data-color="#FFDD00" data-emoji="☕"  data-font="Cookie" data-text="Buy me a coffee?" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>

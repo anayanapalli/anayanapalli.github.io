@@ -40,5 +40,3 @@ title: "Starting a Community from Scratch: Lessons from the Trenches"
 <p align="justify">Starting a community isn't just about the destination; it's about the journey. Along the way, you'll learn a lot about people, influence, marketing, leadership and so much more. Trust me; it's worth it.</p>
 
 <p align="justify">In conclusion, starting a community is not easy. But if you're willing to put in the effort and take a small risk, the rewards can be truly fulfilling, even if they are tiny.</p>
-
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="anayanapalli" data-color="#FFDD00" data-emoji="☕"  data-font="Cookie" data-text="Buy me a coffee?" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>

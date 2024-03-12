@@ -39,5 +39,3 @@ As we embrace the era of LLMs, we're witnessing a surge in AI innovation driven 
 <p align="justify">
 In conclusion, the paradigm of AI app development has shifted dramatically. Thanks to LLMs, the once-elusive realm of crafting powerful AI applications is now within reach of anyone who can code. The democratization of intelligence and the simplification of complexities are paving the way for a new era of innovation. So, whether you're a coding enthusiast, a seasoned developer, or somewhere in between, it's time to unleash your creativity and explore the vast possibilities that LLMs bring to the world of AI.
 </p>
-
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="anayanapalli" data-color="#FFDD00" data-emoji="☕"  data-font="Cookie" data-text="Buy me a coffee?" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
