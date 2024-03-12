@@ -1,5 +1,5 @@
-/* PrismJS 1.25.0
-https://prismjs.com/download.html#themes=prism-twilight&languages=markup+css+clike+javascript+abap+abnf+actionscript+ada+agda+al+antlr4+apacheconf+apex+apl+applescript+aql+arduino+arff+asciidoc+aspnet+asm6502+asmatmel+autohotkey+autoit+avisynth+avro-idl+bash+basic+batch+bbcode+bicep+birb+bison+bnf+brainfuck+brightscript+bro+bsl+c+csharp+cpp+cfscript+chaiscript+cil+clojure+cmake+cobol+coffeescript+concurnas+csp+coq+crystal+css-extras+csv+cypher+d+dart+dataweave+dax+dhall+diff+django+dns-zone-file+docker+dot+ebnf+editorconfig+eiffel+ejs+elixir+elm+etlua+erb+erlang+excel-formula+fsharp+factor+false+firestore-security-rules+flow+fortran+ftl+gml+gap+gcode+gdscript+gedcom+gherkin+git+glsl+gn+go+graphql+groovy+haml+handlebars+haskell+haxe+hcl+hlsl+hoon+http+hpkp+hsts+ichigojam+icon+icu-message-format+idris+ignore+inform7+ini+io+j+java+javadoc+javadoclike+javastacktrace+jexl+jolie+jq+jsdoc+js-extras+json+json5+jsonp+jsstacktrace+js-templates+julia+keepalived+keyman+kotlin+kumir+kusto+latex+latte+less+lilypond+liquid+lisp+livescript+llvm+log+lolcode+lua+magma+makefile+markdown+markup-templating+matlab+maxscript+mel+mermaid+mizar+mongodb+monkey+moonscript+n1ql+n4js+nand2tetris-hdl+naniscript+nasm+neon+nevod+nginx+nim+nix+nsis+objectivec+ocaml+opencl+openqasm+oz+parigp+parser+pascal+pascaligo+psl+pcaxis+peoplecode+perl+php+phpdoc+php-extras+plsql+powerquery+powershell+processing+prolog+promql+properties+protobuf+pug+puppet+pure+purebasic+purescript+python+qsharp+q+qml+qore+r+racket+cshtml+jsx+tsx+reason+regex+rego+renpy+rest+rip+roboconf+robotframework+ruby+rust+sas+sass+scss+scala+scheme+shell-session+smali+smalltalk+smarty+sml+solidity+solution-file+soy+sparql+splunk-spl+sqf+sql+squirrel+stan+iecst+stylus+swift+systemd+t4-templating+t4-cs+t4-vb+tap+tcl+tt2+textile+toml+tremor+turtle+twig+typescript+typoscript+unrealscript+uri+v+vala+vbnet+velocity+verilog+vhdl+vim+visual-basic+warpscript+wasm+web-idl+wiki+wolfram+wren+xeora+xml-doc+xojo+xquery+yaml+yang+zig&plugins=highlight-keywords+inline-color+autoloader */
+/* PrismJS 1.29.0
+https://prismjs.com/download.html#themes=prism-twilight&languages=markup+css+clike+javascript */
 /**
  * prism.js Twilight theme
  * Based (more or less) on the Twilight theme originally of Textmate fame.
@@ -10,7 +10,7 @@ pre[class*="language-"] {
 	color: white;
 	background: none;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 0.9em;
+	font-size: .9em;
 	text-align: left;
 	text-shadow: 0 -.1em .2em black;
 	white-space: pre;
@@ -36,6 +36,7 @@ pre[class*="language-"],
 
 /* Code blocks */
 pre[class*="language-"] {
+	border-radius: .25em;
 	margin: .5em 0;
 	overflow: auto;
 	padding: 1em;
@@ -167,36 +168,3 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 	color: hsl(24, 20%, 95%); /* #F5F2F0 */
 }
 
-span.inline-color-wrapper {
-	/*
-	 * The background image is the following SVG inline in base 64:
-	 *
-	 * <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 2">
-	 *     <path fill="gray" d="M0 0h2v2H0z"/>
-	 *     <path fill="white" d="M0 0h1v1H0zM1 1h1v1H1z"/>
-	 * </svg>
-	 *
-	 * SVG-inlining explained:
-	 * https://stackoverflow.com/a/21626701/7595472
-	 */
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyIDIiPjxwYXRoIGZpbGw9ImdyYXkiIGQ9Ik0wIDBoMnYySDB6Ii8+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDBoMXYxSDB6TTEgMWgxdjFIMXoiLz48L3N2Zz4=");
-	/* This is to prevent visual glitches where one pixel from the repeating pattern could be seen. */
-	background-position: center;
-	background-size: 110%;
-
-	display: inline-block;
-	height: 1.333ch;
-	width: 1.333ch;
-	margin: 0 .333ch;
-	box-sizing: border-box;
-	border: 1px solid white;
-	outline: 1px solid rgba(0,0,0,.5);
-	overflow: hidden;
-}
-
-span.inline-color {
-	display: block;
-	/* To prevent visual glitches again */
-	height: 120%;
-	width: 120%;
-}
