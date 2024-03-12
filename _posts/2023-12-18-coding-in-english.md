@@ -7,7 +7,7 @@ title: "Coding in English: AGI's Game-Changing Role in Software 3.0"
 
 ## Introduction:
 
-The ever-evolving landscape of software development has witnessed transformative shifts over the years, each marked by a distinctive paradigm. As we delve into the realm of cutting-edge technologies, the emergence of Artificial General Intelligence (AGI) is playing a pivotal role in shaping the future—ushering in an era known as <a href = "https://divgarg.substack.com/p/software-3"  target="_blank">Software 3.0</a>.
+The ever-evolving landscape of software development has witnessed transformative shifts over the years, each marked by a distinctive paradigm. As we delve into the realm of cutting-edge technologies, the emergence of Artificial General Intelligence (AGI) is playing a pivotal role in shaping the future—ushering in an era known as [Software 3.0](https://divgarg.substack.com/p/software-3){:target="_blank"}.
 
 ## Software 1.0: Laying the Foundation
 
@@ -15,7 +15,7 @@ Traditionally, software development has been synonymous with the classical stack
 
 ## Software 2.0: The Rise of Neural Networks
 
-Enter  <a href = "https://karpathy.medium.com/software-2-0-a64152b37c35"  target="_blank">Software 2.0</a>, the neural network stack, which introduces abstraction and optimization through neural networks. This paradigm, often driven by optimization techniques like backpropagation and gradient descent, allows machines to learn from datasets, reducing the burden of explicit human coding. However, it remains less accessible to humans due to its abstract nature.
+Enter [Software 2.0](https://karpathy.medium.com/software-2-0-a64152b37c35){:target="_blank"}, the neural network stack, which introduces abstraction and optimization through neural networks. This paradigm, often driven by optimization techniques like backpropagation and gradient descent, allows machines to learn from datasets, reducing the burden of explicit human coding. However, it remains less accessible to humans due to its abstract nature.
 
 ## The Dawn of Software 3.0: AGI Takes the Lead
 
@@ -27,11 +27,11 @@ What sets Software 3.0 apart is its reliance on AGI, a form of AI that exhibits 
 
 ## Benefits of Software 3.0:
 
-<b>Ease of Use:</b> Interacting with AGI models simplifies the programming process, enabling developers to achieve diverse tasks effortlessly.
+**Ease of Use:** Interacting with AGI models simplifies the programming process, enabling developers to achieve diverse tasks effortlessly.
 
-<b>Versatility:</b> AGI's ability to handle a broad range of tasks makes Software 3.0 a versatile and powerful programming paradigm.
+**Versatility:** AGI's ability to handle a broad range of tasks makes Software 3.0 a versatile and powerful programming paradigm.
 
-<b>Efficiency:</b> The efficiency gains are substantial, as developers can obtain desired outputs through well-crafted natural language prompts.
+**Efficiency:** The efficiency gains are substantial, as developers can obtain desired outputs through well-crafted natural language prompts.
 
 ## Conclusion:
 

@@ -9,7 +9,7 @@ title: "An Introvert's Guide to Posting Online"
 
 This post is for those of us who cringe at the very thought of self-promotion and sharing ideas online. If, by the end of this read, you find yourself more at ease with the idea of posting and sharing online, then I consider this blog post a success—even if it changes just one person's perspective.
 
-Much of the content in this post draws inspiration from Austin Kleon's insightful book, <a href = "https://www.amazon.com/Show-Your-Work-Austin-Kleon/dp/076117897X/ref=sr_1_1?crid=YM6GI67DH5GJ&keywords=Show+your+work&qid=1702854935&sprefix=show+your+work%2Caps%2C126&sr=8-1"  target="_blank">"Show Your Work."</a> I highly recommend giving it a read; it's a brief yet impactful book that you can easily finish in a day.
+Much of the content in this post draws inspiration from Austin Kleon's insightful book, ["Show Your Work."](https://www.amazon.com/Show-Your-Work-Austin-Kleon/dp/076117897X/ref=sr_1_1?crid=YM6GI67DH5GJ&keywords=Show+your+work&qid=1702854935&sprefix=show+your+work%2Caps%2C126&sr=8-1){:target="_blank"} I highly recommend giving it a read; it's a brief yet impactful book that you can easily finish in a day.
 
 ## Pondering Before Posting:
 
@@ -21,7 +21,7 @@ What if people perceive you as less intelligent? Or worse, what if your future b
 
 > "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind." - Dr. Suess
 
-The truth is, <b>NOBODY CARES.</b> Those who read your content are the ones genuinely interested in the topics you hold dear. The preoccupations about what others might think gradually fade away when you realize that the audience you attract is precisely the audience that resonates with your passions.
+The truth is, **NOBODY CARES.** Those who read your content are the ones genuinely interested in the topics you hold dear. The preoccupations about what others might think gradually fade away when you realize that the audience you attract is precisely the audience that resonates with your passions.
 
 With that said here are five tips to get you started.
 

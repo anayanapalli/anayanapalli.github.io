@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-03-12T18:03:37-04:00</updated>
+ <updated>2024-03-12T19:08:14-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -327,7 +327,7 @@
 
 &lt;h2 id=&quot;software-20-the-rise-of-neural-networks&quot;&gt;Software 2.0: The Rise of Neural Networks&lt;/h2&gt;
 
-&lt;p&gt;Enter  &lt;a href=&quot;https://karpathy.medium.com/software-2-0-a64152b37c35&quot; target=&quot;_blank&quot;&gt;Software 2.0&lt;/a&gt;, the neural network stack, which introduces abstraction and optimization through neural networks. This paradigm, often driven by optimization techniques like backpropagation and gradient descent, allows machines to learn from datasets, reducing the burden of explicit human coding. However, it remains less accessible to humans due to its abstract nature.&lt;/p&gt;
+&lt;p&gt;Enter &lt;a href=&quot;https://karpathy.medium.com/software-2-0-a64152b37c35&quot; target=&quot;_blank&quot;&gt;Software 2.0&lt;/a&gt;, the neural network stack, which introduces abstraction and optimization through neural networks. This paradigm, often driven by optimization techniques like backpropagation and gradient descent, allows machines to learn from datasets, reducing the burden of explicit human coding. However, it remains less accessible to humans due to its abstract nature.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-dawn-of-software-30-agi-takes-the-lead&quot;&gt;The Dawn of Software 3.0: AGI Takes the Lead&lt;/h2&gt;
 
@@ -339,11 +339,11 @@
 
 &lt;h2 id=&quot;benefits-of-software-30&quot;&gt;Benefits of Software 3.0:&lt;/h2&gt;
 
-&lt;p&gt;&lt;b&gt;Ease of Use:&lt;/b&gt; Interacting with AGI models simplifies the programming process, enabling developers to achieve diverse tasks effortlessly.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ease of Use:&lt;/strong&gt; Interacting with AGI models simplifies the programming process, enabling developers to achieve diverse tasks effortlessly.&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;Versatility:&lt;/b&gt; AGI’s ability to handle a broad range of tasks makes Software 3.0 a versatile and powerful programming paradigm.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Versatility:&lt;/strong&gt; AGI’s ability to handle a broad range of tasks makes Software 3.0 a versatile and powerful programming paradigm.&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;Efficiency:&lt;/b&gt; The efficiency gains are substantial, as developers can obtain desired outputs through well-crafted natural language prompts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Efficiency:&lt;/strong&gt; The efficiency gains are substantial, as developers can obtain desired outputs through well-crafted natural language prompts.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion:&lt;/h2&gt;
 
@@ -378,7 +378,7 @@
   &lt;p&gt;“Be who you are and say what you feel, because those who mind don’t matter, and those who matter don’t mind.” - Dr. Suess&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;The truth is, &lt;b&gt;NOBODY CARES.&lt;/b&gt; Those who read your content are the ones genuinely interested in the topics you hold dear. The preoccupations about what others might think gradually fade away when you realize that the audience you attract is precisely the audience that resonates with your passions.&lt;/p&gt;
+&lt;p&gt;The truth is, &lt;strong&gt;NOBODY CARES.&lt;/strong&gt; Those who read your content are the ones genuinely interested in the topics you hold dear. The preoccupations about what others might think gradually fade away when you realize that the audience you attract is precisely the audience that resonates with your passions.&lt;/p&gt;
 
 &lt;p&gt;With that said here are five tips to get you started.&lt;/p&gt;
 
@@ -536,13 +536,13 @@
 
 &lt;h2 id=&quot;real-world-applications&quot;&gt;Real-World Applications:&lt;/h2&gt;
 
-&lt;p&gt;&lt;b&gt;Content Creation and Copywriting:&lt;/b&gt; RAG can be employed to assist content creators in generating engaging and contextually relevant articles, blog posts, and marketing copy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Content Creation and Copywriting:&lt;/strong&gt; RAG can be employed to assist content creators in generating engaging and contextually relevant articles, blog posts, and marketing copy.&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;Question Answering Systems:&lt;/b&gt; Enhancing question answering systems by providing more accurate and context-aware responses, making them invaluable in customer support or information retrieval applications.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Question Answering Systems:&lt;/strong&gt; Enhancing question answering systems by providing more accurate and context-aware responses, making them invaluable in customer support or information retrieval applications.&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;Language Translation:&lt;/b&gt; Improving the accuracy of machine translation by incorporating contextual information from the retrieved knowledge base.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Language Translation:&lt;/strong&gt; Improving the accuracy of machine translation by incorporating contextual information from the retrieved knowledge base.&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;Educational Assistance:&lt;/b&gt; Supporting students and educators by generating informative and contextually rich study materials.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Educational Assistance:&lt;/strong&gt; Supporting students and educators by generating informative and contextually rich study materials.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion:&lt;/h2&gt;
 

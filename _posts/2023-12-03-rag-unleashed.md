@@ -24,13 +24,13 @@ The architecture of RAG comprises two main components – a retriever and a gene
 
 ## Real-World Applications:
 
-<b>Content Creation and Copywriting:</b> RAG can be employed to assist content creators in generating engaging and contextually relevant articles, blog posts, and marketing copy.
+**Content Creation and Copywriting:** RAG can be employed to assist content creators in generating engaging and contextually relevant articles, blog posts, and marketing copy.
 
-<b>Question Answering Systems:</b> Enhancing question answering systems by providing more accurate and context-aware responses, making them invaluable in customer support or information retrieval applications.
+**Question Answering Systems:** Enhancing question answering systems by providing more accurate and context-aware responses, making them invaluable in customer support or information retrieval applications.
 
-<b>Language Translation:</b> Improving the accuracy of machine translation by incorporating contextual information from the retrieved knowledge base.
+**Language Translation:** Improving the accuracy of machine translation by incorporating contextual information from the retrieved knowledge base.
 
-<b>Educational Assistance:</b> Supporting students and educators by generating informative and contextually rich study materials.
+**Educational Assistance:** Supporting students and educators by generating informative and contextually rich study materials.
 
 ## Conclusion:
 
