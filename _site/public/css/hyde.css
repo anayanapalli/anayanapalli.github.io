@@ -90,6 +90,10 @@ html {
   font-size: 2.00rem;
 }
 
+.sidebar p {
+  text-align: left;
+}
+
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
@@ -195,6 +199,10 @@ a.sidebar-nav-item:focus {
     margin: 0 5px; /* Adjust as needed */
     display: inline-block; /* Ensure proper spacing between icons */
   }
+
+  .sidebar p {
+    text-align: center;
+  }  
 }
 
 /*
