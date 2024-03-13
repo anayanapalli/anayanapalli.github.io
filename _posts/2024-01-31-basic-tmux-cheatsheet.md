@@ -11,19 +11,19 @@ $ brew install tmux
 $ tmux -V
 
 # tmux abstractions:
-# Sessions are composed of windows, which inturn are composed of panes.
-# Sessions are terminated when the system restarts.
+# Sessions are composed of windows, which inturn are composed of panes
+# Sessions are terminated when the system restarts
 
 # tmux prefix
 # <control + b>
-# All shortcuts are preceded by the prefix.
+# All shortcuts are preceded by the prefix
 
 # Enter into tmux session
 $ tmux
 
 # Create a new window
 # <control + b> + c
-# Current windows are indicated with an asterisk.
+# Current windows are indicated with an *asterisk
 
 # Rename a window
 # <control + b> + ,
@@ -42,11 +42,11 @@ $ tmux
 
 # Delete a pane
 $ exit
-# If you delete all the panes in a window you delete the window.
+# If you delete all the panes in a window you delete the window
 
 # Delete a window tmux
 $ tmux kill-window -t <window-number>
-# If you delete all the windows, you delete the session.
+# If you delete all the windows, you delete the session
 
 # Create a new session
 $ tmux new -s <session_name>
@@ -59,14 +59,14 @@ $ tmux ls
 
 # Attach to a session
 $ tmux attach -t <session_name>
-# The session_name is the session_number if it is not named.
+# The session_name is the session_number if it is not named
 
 # Rename a session
 $ tmux rename-session -t <sessions_number> <session_name>
 
 # Kill a session
 $ tmux kill-session -t <sessions_name>
-# The session_name is the session_number if it is not named.*
+# The session_name is the session_number if it is not named
 
 # Kill all sessions
 $ tmux kill-server
