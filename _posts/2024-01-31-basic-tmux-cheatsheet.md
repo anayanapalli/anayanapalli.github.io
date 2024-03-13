@@ -3,129 +3,71 @@ layout: post
 title: "Basic tmux Cheatsheet"
 ---
 
-## Install `tmux` on a Mac
+```python
+# Install tmux on a Mac
+$ brew install tmux
 
-```bash
-brew install tmux
-```
+# Check tmux version
+$ tmux -V
 
-## Check `tmux` version
+# tmux abstractions:
+# Sessions are composed of windows, which inturn are composed of panes.
+# Sessions are terminated when the system restarts.
 
-```bash
-tmux -V
-```
+# tmux prefix
+# <control + b>
+# All shortcuts are preceded by the prefix.
 
-## `tmux` abstractions
+# Enter into tmux session
+$ tmux
 
-**Sessions** are composed of **windows** which inturn are composed of **panes.**
+# Create a new window
+# <control + b> + c
+# Current windows are indicated with an asterisk.
 
-*Sessions are terminated when the system restarts.*
+# Rename a window
+# <control + b> + ,
 
-## `tmux` prefix
+# Move between windows
+# <control + b> + <window_number>
 
-```bash
-<control + b>
-```
+# Create a vertical pane in window
+# <control + b> + %
 
-*All shortcuts are preceded by the prefix.*
+# Create a horizontal pane in window
+# <control + b> + "
 
-## Enter into `tmux` session
+# Move cursor between panes
+# <control + b> + <left|up|down|right>
 
-```bash
-tmux
-```
+# Delete a pane
+$ exit
+# If you delete all the panes in a window you delete the window.
 
-## Create a new window
+# Delete a window tmux
+$ tmux kill-window -t <window-number>
+# If you delete all the windows, you delete the session.
 
-```bash
-<control + b> + c
-```
+# Create a new session
+$ tmux new -s <session_name>
 
-*Current windows are indicated with an asterisk.*
+# Detach from a session
+# <control + b> + d
 
-## Rename a window
+# View all tmux sessions
+$ tmux ls
 
-```bash
-<control + b> + ,
-```
+# Attach to a session
+$ tmux attach -t <session_name>
+# The session_name is the session_number if it is not named.
 
-## Move between windows
+# Rename a session
+$ tmux rename-session -t <sessions_number> <session_name>
 
-```bash
-<control + b> + <window_number>
-```
+# Kill a session
+$ tmux kill-session -t <sessions_name>
+# The session_name is the session_number if it is not named.*
 
-## Create a vertical pane in window
-
-```bash
-<control + b> + %
-```
-
-## Create a horizontal pane in window
-
-```bash
-<control + b> + "
-```
-
-## Move cursor between panes
-
-```bash
-<control + b> + <left|up|down|right>
-```
-
-## Delete a pane
-
-```bash
-exit
-```
-*If you delete all the panes in a window you delete the window.*
-
-## Delete a window tmux
-
-```bash
-tmux kill-window -t <window-number>
-```
-*If you delete all the windows, you delete the session.*
-
-## Create a new session
-
-```bash
-tmux new -s <session_name>
-```
-
-## Detach from a session
-
-```bash
-<control + b> + d
-```
-
-## View all `tmux` sessions
-
-```bash
-tmux ls
-```
-
-## Attach to a session
-
-```bash
-tmux attach -t <session_name>
-```
-*The session_name is the session_number if it is not named.*
-
-## Rename a session
-
-```bash
-tmux rename-session -t <sessions_number> <session_name>
-```
-
-## Kill a session
-
-```bash
-tmux kill-session -t <sessions_name>
-```
-*The session_name is the session_number if it is not named.*
-## Kill all sessions
-
-```bash
-tmux kill-server
+# Kill all sessions
+$ tmux kill-server
 ```

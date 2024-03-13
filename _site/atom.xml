@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-03-12T19:20:44-04:00</updated>
+ <updated>2024-03-13T07:51:23-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -74,112 +74,72 @@
    <link href="http://localhost:4000/2024/01/31/basic-tmux-cheatsheet/"/>
    <updated>2024-01-31T00:00:00-05:00</updated>
    <id>http://localhost:4000/2024/01/31/basic-tmux-cheatsheet</id>
-   <content type="html">&lt;h2 id=&quot;install-tmux-on-a-mac&quot;&gt;Install &lt;code&gt;tmux&lt;/code&gt; on a Mac&lt;/h2&gt;
+   <content type="html">&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;# Install tmux on a Mac
+$ brew install tmux
 
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;brew install tmux
-&lt;/code&gt;&lt;/pre&gt;
+# Check tmux version
+$ tmux -V
 
-&lt;h2 id=&quot;check-tmux-version&quot;&gt;Check &lt;code&gt;tmux&lt;/code&gt; version&lt;/h2&gt;
+# tmux abstractions:
+# Sessions are composed of windows, which inturn are composed of panes.
+# Sessions are terminated when the system restarts.
 
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux -V
-&lt;/code&gt;&lt;/pre&gt;
+# tmux prefix
+# &amp;lt;control + b&amp;gt;
+# All shortcuts are preceded by the prefix.
 
-&lt;h2 id=&quot;tmux-abstractions&quot;&gt;&lt;code&gt;tmux&lt;/code&gt; abstractions&lt;/h2&gt;
+# Enter into tmux session
+$ tmux
 
-&lt;p&gt;&lt;strong&gt;Sessions&lt;/strong&gt; are composed of &lt;strong&gt;windows&lt;/strong&gt; which inturn are composed of &lt;strong&gt;panes.&lt;/strong&gt;&lt;/p&gt;
+# Create a new window
+# &amp;lt;control + b&amp;gt; + c
+# Current windows are indicated with an asterisk.
 
-&lt;p&gt;&lt;em&gt;Sessions are terminated when the system restarts.&lt;/em&gt;&lt;/p&gt;
+# Rename a window
+# &amp;lt;control + b&amp;gt; + ,
 
-&lt;h2 id=&quot;tmux-prefix&quot;&gt;&lt;code&gt;tmux&lt;/code&gt; prefix&lt;/h2&gt;
+# Move between windows
+# &amp;lt;control + b&amp;gt; + &amp;lt;window_number&amp;gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&amp;lt;control + b&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+# Create a vertical pane in window
+# &amp;lt;control + b&amp;gt; + %
 
-&lt;p&gt;&lt;em&gt;All shortcuts are preceded by the prefix.&lt;/em&gt;&lt;/p&gt;
+# Create a horizontal pane in window
+# &amp;lt;control + b&amp;gt; + &quot;
 
-&lt;h2 id=&quot;enter-into-tmux-session&quot;&gt;Enter into &lt;code&gt;tmux&lt;/code&gt; session&lt;/h2&gt;
+# Move cursor between panes
+# &amp;lt;control + b&amp;gt; + &amp;lt;left|up|down|right&amp;gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux
-&lt;/code&gt;&lt;/pre&gt;
+# Delete a pane
+$ exit
+# If you delete all the panes in a window you delete the window.
 
-&lt;h2 id=&quot;create-a-new-window&quot;&gt;Create a new window&lt;/h2&gt;
+# Delete a window tmux
+$ tmux kill-window -t &amp;lt;window-number&amp;gt;
+# If you delete all the windows, you delete the session.
 
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&amp;lt;control + b&amp;gt; + c
-&lt;/code&gt;&lt;/pre&gt;
+# Create a new session
+$ tmux new -s &amp;lt;session_name&amp;gt;
 
-&lt;p&gt;&lt;em&gt;Current windows are indicated with an asterisk.&lt;/em&gt;&lt;/p&gt;
+# Detach from a session
+# &amp;lt;control + b&amp;gt; + d
 
-&lt;h2 id=&quot;rename-a-window&quot;&gt;Rename a window&lt;/h2&gt;
+# View all tmux sessions
+$ tmux ls
 
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&amp;lt;control + b&amp;gt; + ,
-&lt;/code&gt;&lt;/pre&gt;
+# Attach to a session
+$ tmux attach -t &amp;lt;session_name&amp;gt;
+# The session_name is the session_number if it is not named.
 
-&lt;h2 id=&quot;move-between-windows&quot;&gt;Move between windows&lt;/h2&gt;
+# Rename a session
+$ tmux rename-session -t &amp;lt;sessions_number&amp;gt; &amp;lt;session_name&amp;gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&amp;lt;control + b&amp;gt; + &amp;lt;window_number&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+# Kill a session
+$ tmux kill-session -t &amp;lt;sessions_name&amp;gt;
+# The session_name is the session_number if it is not named.*
 
-&lt;h2 id=&quot;create-a-vertical-pane-in-window&quot;&gt;Create a vertical pane in window&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&amp;lt;control + b&amp;gt; + %
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;create-a-horizontal-pane-in-window&quot;&gt;Create a horizontal pane in window&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&amp;lt;control + b&amp;gt; + &quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;move-cursor-between-panes&quot;&gt;Move cursor between panes&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&amp;lt;control + b&amp;gt; + &amp;lt;left|up|down|right&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;delete-a-pane&quot;&gt;Delete a pane&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;exit
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;em&gt;If you delete all the panes in a window you delete the window.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;delete-a-window-tmux&quot;&gt;Delete a window tmux&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux kill-window -t &amp;lt;window-number&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;em&gt;If you delete all the windows, you delete the session.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;create-a-new-session&quot;&gt;Create a new session&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux new -s &amp;lt;session_name&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;detach-from-a-session&quot;&gt;Detach from a session&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;&amp;lt;control + b&amp;gt; + d
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;view-all-tmux-sessions&quot;&gt;View all &lt;code&gt;tmux&lt;/code&gt; sessions&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux ls
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;attach-to-a-session&quot;&gt;Attach to a session&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux attach -t &amp;lt;session_name&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;em&gt;The session_name is the session_number if it is not named.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;rename-a-session&quot;&gt;Rename a session&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux rename-session -t &amp;lt;sessions_number&amp;gt; &amp;lt;session_name&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;kill-a-session&quot;&gt;Kill a session&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux kill-session -t &amp;lt;sessions_name&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;em&gt;The session_name is the session_number if it is not named.&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&quot;kill-all-sessions&quot;&gt;Kill all sessions&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux kill-server
+# Kill all sessions
+$ tmux kill-server
 &lt;/code&gt;&lt;/pre&gt;
 </content>
  </entry>
