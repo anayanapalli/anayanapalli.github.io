@@ -198,8 +198,8 @@ a.sidebar-nav-item:focus {
   .social-icons a {
     margin: 0 5px; /* Adjust as needed */
     display: inline-block; /* Ensure proper spacing between icons */
-    width: 25px;
-    height: 25px;
+    width: 26px;
+    height: 26px;
   }
 
   .sidebar p {
