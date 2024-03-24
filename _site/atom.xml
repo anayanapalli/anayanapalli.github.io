@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-03-24T15:12:20-04:00</updated>
+ <updated>2024-03-24T15:22:10-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -28,7 +28,7 @@
 &lt;p&gt;The following figure gives an overview of the architectures we will be discussing.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/public/images/3.png&quot; alt=&quot;The Evolution of Data Architectures&quot; /&gt;
-&lt;em&gt;Picture Credit: James Serra and Zhamak Dehghani&lt;/em&gt;&lt;/p&gt;
+&lt;em&gt;Picture Credit: &lt;a href=&quot;https://www.linkedin.com/in/jamesserra/&quot; target=&quot;_blank&quot;&gt;James Serra&lt;/a&gt; and &lt;a href=&quot;https://www.linkedin.com/in/zhamak-dehghani/&quot; target=&quot;_blank&quot;&gt;Zhamak Dehghani&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Please note that there is still no consensus in the data community about what exactly some of these architectures entail, as the field is still very new and rapidly evolving. Therefore, the following definitions reflect my thoughts based on my research and experience.&lt;/p&gt;
 
@@ -122,7 +122,7 @@
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;As you can see data architectures are moving from a centralized to a decentralized paradigm recently. The pace of evolution has also sped up drastically. Hopefully the above overview gave you an insight into the past and possibly the future of data architecures.&lt;/p&gt;
+&lt;p&gt;As you can see data architectures are moving from a “centralized” to a “decentralized” paradigm recently. The pace of evolution of data architectures has also sped up drastically. Hopefully the above overview gave you an insight into the past and possibly the future of data architecures.&lt;/p&gt;
 
 &lt;p&gt;Please feel free to dig deeper into any of the above architectures that you are using to solve your specific data problem(s). There are many great resources to help you do that.&lt;/p&gt;
 

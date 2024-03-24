@@ -12,7 +12,7 @@ This blog post offers a high-level exploration of this evolutionary trajectory, 
 The following figure gives an overview of the architectures we will be discussing.
 
 ![The Evolution of Data Architectures](/public/images/3.png)
-*Picture Credit: James Serra and Zhamak Dehghani*
+*Picture Credit: [James Serra](https://www.linkedin.com/in/jamesserra/){:target="_blank"} and [Zhamak Dehghani](https://www.linkedin.com/in/zhamak-dehghani/){:target="_blank"}*
 
 Please note that there is still no consensus in the data community about what exactly some of these architectures entail, as the field is still very new and rapidly evolving. Therefore, the following definitions reflect my thoughts based on my research and experience.
 
@@ -86,7 +86,7 @@ The data mesh architecture represents a paradigm shift in data management, empha
 
 ## Conclusion
 
-As you can see data architectures are moving from a centralized to a decentralized paradigm recently. The pace of evolution has also sped up drastically. Hopefully the above overview gave you an insight into the past and possibly the future of data architecures.
+As you can see data architectures are moving from a "centralized" to a "decentralized" paradigm recently. The pace of evolution of data architectures has also sped up drastically. Hopefully the above overview gave you an insight into the past and possibly the future of data architecures.
 
 Please feel free to dig deeper into any of the above architectures that you are using to solve your specific data problem(s). There are many great resources to help you do that.
 
