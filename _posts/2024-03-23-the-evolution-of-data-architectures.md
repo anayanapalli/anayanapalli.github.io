@@ -5,17 +5,16 @@ title: "The Evolution of Data Architectures: From Data Warehouses to Data Meshes
 
 > "If you want to understand today you have to search yesterday." - Pearl S. Buck
 
-Over the past few decades, data architectures have undergone significant transformations in response to evolving data needs. While some changes successfully addressed existing challenges, others inadvertently gave rise to new complexities. This journey through data architectures reflects a dynamic interplay between innovation and adaptation, shaping the landscape of data management for generations to come.
+Over the past few decades, data architectures have undergone significant transformations in response to evolving data needs. While some changes successfully addressed existing challenges, others inadvertently gave rise to new complexities.
 
-This article offers a high-level exploration of this evolutionary journey, providing insights into the direction and pace of change in the field. Rather than delving into specific technologies, our focus is on understanding the overarching trends that have shaped data architecture over time.
+This blog post offers a high-level exploration of this evolutionary trajectory, providing insights into the direction and pace of change in the field. Rather than delving into specific technologies, our focus is on understanding the overarching trends that have shaped data architecture over time.
 
 The following figure gives an overview of the architectures we will be discussing.
 
-<img src="/public/images/3.png" width=1000 height=auto>
-
+![The Evolution of Data Architectures](/public/images/3.png)
 *Picture Credit: James Serra and Zhamak Dehghani*
 
-Please note that there is still no consensus in the data community about what exactly these architectures entail, as the field is still very new and rapidly evolving. Therefore, the following definitions reflect my thoughts based on my research and experience.
+Please note that there is still no consensus in the data community about what exactly some of these architectures entail, as the field is still very new and rapidly evolving. Therefore, the following definitions reflect my thoughts based on my research and experience.
 
 ## The Data Warehouse Architecture (Late 1980s)
 
@@ -87,6 +86,6 @@ The data mesh architecture represents a paradigm shift in data management, empha
 
 ## Conclusion
 
-The evolution of data architectures reflects a continuous quest to harness the power of data in driving business insights and innovation. From the centralized repositories of the past to the decentralized ecosystems of the future, each architecture reflects the evolving needs and capabilities of organizations in managing their data assets.
+Hopefully the above overview gave you an insight into the past and hopefully the future of data architecures. Please feel free to dig deeper into any of the above architectures that you are using to solve your specific data problem(s). There are many great resources to help you do that.
 
-As we navigate the complexities of modern data architecture, embracing flexibility, scalability, and collaboration will be key to unlocking the full potential of data-driven initiatives. By staying informed and adaptive, organizations can chart a course towards a more resilient and agile data infrastructure, poised to meet the challenges and opportunities of tomorrow's data-driven economy.
+Thanks for reading!
