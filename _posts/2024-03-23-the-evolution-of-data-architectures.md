@@ -86,6 +86,8 @@ The data mesh architecture represents a paradigm shift in data management, empha
 
 ## Conclusion
 
-Hopefully the above overview gave you an insight into the past and hopefully the future of data architecures. Please feel free to dig deeper into any of the above architectures that you are using to solve your specific data problem(s). There are many great resources to help you do that.
+As you can see data architectures are moving from a centralized to a decentralized paradigm recently. The pace of evolution has also sped up drastically. Hopefully the above overview gave you an insight into the past and possibly the future of data architecures.
+
+Please feel free to dig deeper into any of the above architectures that you are using to solve your specific data problem(s). There are many great resources to help you do that.
 
 Thanks for reading!
