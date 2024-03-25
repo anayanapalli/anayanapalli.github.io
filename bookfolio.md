@@ -9,7 +9,7 @@ title: Bookfolio
 ### [A Mathematicaian's Lament](https://www.amazon.ca/Mathematicians-Lament-School-Fascinating-Imaginative/dp/1934137170){:target="_blank"}
 **Author:** Paul Lockhart **Rating:** 5.0/5.0 **Difficulty:** Easy
 
-This book is written by a very passionate mathematician who is upset by the way math is taught in schools around the world. He teaches us what math is all about and how beautiful and interesting it could be, if taught in the right way. Honestly, Paul is the great math teacher we all never had.
+This book is written by a very passionate mathematician who is upset by the way math is taught in schools around the world. He teaches us what math is all about and how beautiful and interesting it could be, if taught in the right way. Honestly, Paul is the greatest math teacher we all never had.
 
 He gives a buch of examples and goes about thinking and solving these problems in elegant ways from first principles that leave us with an "aha" moment once we land on the solutions.
 
