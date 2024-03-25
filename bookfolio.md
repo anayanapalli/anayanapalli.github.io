@@ -6,6 +6,24 @@ title: Bookfolio
 
 ## 📚 Books That I Read:
 
+### [Digital Minimalism: Choosing a Focused Life in a Noisy World](https://www.amazon.ca/Digital-Minimalism-Choosing-Focused-Noisy/dp/0525536515){:target="_blank"}
+**Author:** Cal Newport **Rating:** 2.0/5.0 **Difficulty:** Easy
+
+I read this book as part of a community that I'm running, and while there are some good takeaways in it, you don't have to spend much time reading the entire book to grasp those lessons.
+
+Honestly, I'm not particularly fond of reading business books (most of them can be summarized in a blog post), and very rarely do I encounter ones that I find worthwhile. In my opinion, this book isn't a good read.
+
+You can essentially learn all the important points by watching a summary video; you don't need to invest a significant amount of time reading the entire book.
+
+### [Problem Solving 101: A Simple Book for Smart People](https://www.amazon.ca/Problem-Solving-101-Simple-People/dp/1591842425){:target="_blank"}
+**Author:** Ken Watanabe **Rating:** 5.0/5.0 **Difficulty:** Easy
+
+I was searching for a book to read related to consulting since I'm currently working in that field. After sifting through a bunch of dull business books, I stumbled upon this awesome find. I am glad that I read it.
+
+Though this book is intended for kids, I believe the frameworks and thought processes it presents are applicable across any domain and audience. I loved how the author presented concepts through an engaging story format.
+
+Later, I  found out that many people at top-tier consulting firms have been recommending this book to their newly hired consultants. I highly recommend it to anyone seeking to learn how to tackle vague real-life problems systematically and rationally.
+
 ### [Chip War: The Fight for the World's Most Critical Technology](https://www.amazon.ca/Chip-War-Worlds-Critical-Technology/dp/1982172002){:target="_blank"}
 **Author:** Chris Miller **Rating:** 5.0/5.0 **Difficulty:** Intermediate
 
@@ -17,7 +35,7 @@ The book offers insight into the great effort and cooperation involved among var
 
 If you want to understand the current state of geopolitics and the bleeding edge technology of semiconductors, it’s a fantastic read—a solid five out of five. This is probably **the best book I've read this year.** I was so excited after reading this book that I also gave a talk to my team on this topic.
 
-### [The Billionaire's Apprentice: The Rise of The Indian-American Elite and The Fall of The Galleon Hedge Fund](https://www.amazon.ca/Billionaires-Apprentice-Indian-American-Elite-Galleon-ebook/dp/B008TUNLWM/ref=sr_1_1?crid=1JMGHOB71IMGN&keywords=the+billionaires+apprentice&qid=1703320349&sprefix=the+billionaires+apprentice%2Caps%2C100&sr=8-1){:target="_blank"}
+### [The Billionaire's Apprentice: The Rise of The Indian-American Elite and The Fall of The Galleon Hedge Fund](https://www.amazon.ca/Billionaires-Apprentice-Indian-American-Elite-Galleon-ebook/dp/B008TUNLWM){:target="_blank"}
 **Author:** Anita Raghavan **Rating:** 5.0/5.0 **Difficulty:** Intermediate
 
 I read this book twice—yes, it's that good. Growing up in India, Rajat Gupta was a role model for every kid who aspired to move to the US. He came from very humble beginnings and went on to become the head of one of the most prestigious companies in the world, McKinsey, which was a very white firm at the time. He exemplified that irrespective of one's origin, America accepts everybody and provides opportunities for everyone who works hard. It was genuinely disheartening to see that he was involved in the scandal. This book presents an unbiased view of all the events leading to the greatest insider trading scandal of our times.
