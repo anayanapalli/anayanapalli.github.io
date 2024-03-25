@@ -9,11 +9,11 @@ title: Bookfolio
 ### [A Mathematicaian's Lament](https://www.amazon.ca/Mathematicians-Lament-School-Fascinating-Imaginative/dp/1934137170){:target="_blank"}
 **Author:** Paul Lockhart **Rating:** 5.0/5.0 **Difficulty:** Easy
 
-This book is written by a very passionate mathematician who is upset by the way math is taught in schools around the world. He teaches us what math is all about and how beautiful and interesting it could be, if taught in the right way. Honestly, Paul is the greatest math teacher we all never had.
+This book is written by a passionate mathematician who is deeply concerned about the way math is taught in schools worldwide. He enlightens us on what math truly entails and how beautiful and intriguing it can be if taught correctly. Honestly, Paul is the greatest math teacher we never had.
 
-He gives a buch of examples and goes about thinking and solving these problems in elegant ways from first principles that leave us with an "aha" moment once we land on the solutions.
+He presents numerous problems and elegantly solves them from first principles, leaving us with an "aha" moment once we reach their solutions.
 
-After reading this book, I realized [3Blue1Brown](https://www.3blue1brown.com/){:target="_blank"} is today's Paul Lockhart.
+After reading this book, I came to the realization that [3Blue1Brown](https://www.3blue1brown.com/){:target="_blank"} is today's Paul Lockhart.
 
 ### [Digital Minimalism: Choosing a Focused Life in a Noisy World](https://www.amazon.ca/Digital-Minimalism-Choosing-Focused-Noisy/dp/0525536515){:target="_blank"}
 **Author:** Cal Newport **Rating:** 2.0/5.0 **Difficulty:** Easy
