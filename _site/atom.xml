@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-03-24T23:25:07-04:00</updated>
+ <updated>2024-03-24T23:36:06-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -104,7 +104,7 @@
 
 &lt;h2 id=&quot;the-data-mesh-2021&quot;&gt;The Data Mesh (2021)&lt;/h2&gt;
 
-&lt;p&gt;The data mesh architecture represents a paradigm shift in data management, emphasizing decentralized data ownership and governance. By treating data as a product and empowering domain teams to manage their data, it fosters collaboration, agility, and innovation across organizations.&lt;/p&gt;
+&lt;p&gt;The data mesh architecture is not technically an architecture per se, but a methodology. It represents a paradigm shift in data management, emphasizing decentralized data ownership and governance. By treating data as a product and empowering domain teams to manage their data, it fosters collaboration, agility, and innovation across organizations. Note that a data mesh can be implemented using any of the above architectures.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
 

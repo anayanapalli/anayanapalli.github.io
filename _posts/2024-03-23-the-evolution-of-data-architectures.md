@@ -72,7 +72,7 @@ Challenging the traditional distinction between data lakes and data warehouses, 
 
 ## The Data Mesh (2021)
 
-The data mesh architecture represents a paradigm shift in data management, emphasizing decentralized data ownership and governance. By treating data as a product and empowering domain teams to manage their data, it fosters collaboration, agility, and innovation across organizations.
+The data mesh architecture is not technically an architecture per se, but a methodology. It represents a paradigm shift in data management, emphasizing decentralized data ownership and governance. By treating data as a product and empowering domain teams to manage their data, it fosters collaboration, agility, and innovation across organizations. Note that a data mesh can be implemented using any of the above architectures.
 
 **Pros:**
 
