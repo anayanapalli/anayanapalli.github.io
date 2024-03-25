@@ -6,12 +6,21 @@ title: Bookfolio
 
 ## 📚 Books That I Read:
 
+### [A Mathematicaian's Lament](https://www.amazon.ca/Mathematicians-Lament-School-Fascinating-Imaginative/dp/1934137170){:target="_blank"}
+**Author:** Paul Lockhart **Rating:** 5.0/5.0 **Difficulty:** Easy
+
+This book is written by a very passionate mathematician who is upset by the way math is taught in schools around the world. He teaches us what math is all about and how beautiful and interesting it could be, if taught in the right way. Honestly, Paul is the great math teacher we all never had.
+
+He gives a buch of examples and goes about thinking and solving these problems in elegant ways from first principles that leave us with an "aha" moment once we land on the solutions.
+
+After reading this book, I realized [3Blue1Brown](https://www.3blue1brown.com/){:target="_blank"} is today's Paul Lockhart.
+
 ### [Digital Minimalism: Choosing a Focused Life in a Noisy World](https://www.amazon.ca/Digital-Minimalism-Choosing-Focused-Noisy/dp/0525536515){:target="_blank"}
 **Author:** Cal Newport **Rating:** 2.0/5.0 **Difficulty:** Easy
 
 I read this book as part of a community that I'm running, and while there are some good takeaways in it, you don't have to spend much time reading the entire book to grasp those lessons.
 
-Honestly, I'm not particularly fond of reading business books (most of them can be summarized in a blog post), and very rarely do I encounter ones that I find worthwhile. In my opinion, this book isn't a good read.
+Honestly, I'm not particularly fond of books written by popular authors whose real work is in another domain (most of their essense can be summarized in a blog post), and very rarely do I encounter ones that I find worthwhile. In my opinion, this book isn't a good read.
 
 You can essentially learn all the important points by watching a summary video.
 
