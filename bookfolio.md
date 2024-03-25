@@ -13,7 +13,7 @@ I read this book as part of a community that I'm running, and while there are so
 
 Honestly, I'm not particularly fond of reading business books (most of them can be summarized in a blog post), and very rarely do I encounter ones that I find worthwhile. In my opinion, this book isn't a good read.
 
-You can essentially learn all the important points by watching a summary video; you don't need to invest a significant amount of time reading the entire book.
+You can essentially learn all the important points by watching a summary video.
 
 ### [Problem Solving 101: A Simple Book for Smart People](https://www.amazon.ca/Problem-Solving-101-Simple-People/dp/1591842425){:target="_blank"}
 **Author:** Ken Watanabe **Rating:** 5.0/5.0 **Difficulty:** Easy
