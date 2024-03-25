@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-03-24T23:36:06-04:00</updated>
+ <updated>2024-03-24T23:36:47-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -18,7 +18,7 @@
    <updated>2024-03-23T00:00:00-04:00</updated>
    <id>http://localhost:4000/2024/03/23/the-evolution-of-data-architectures</id>
    <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;“If you want to understand today you have to search yesterday.” - Pearl S. Buck&lt;/p&gt;
+  &lt;p&gt;“If you want to understand today, you have to search yesterday.” - Pearl S. Buck&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Over the past few decades, data architectures have undergone significant transformations in response to evolving data needs. While some changes successfully addressed existing challenges, others inadvertently gave rise to new complexities.&lt;/p&gt;
