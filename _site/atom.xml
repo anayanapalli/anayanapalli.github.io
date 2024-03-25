@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-03-24T23:01:57-04:00</updated>
+ <updated>2024-03-24T23:02:55-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -122,7 +122,7 @@
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;As you can see data architectures are moving from a &lt;strong&gt;“centralized”&lt;/strong&gt; to a &lt;strong&gt;“decentralized”&lt;/strong&gt; paradigm recently. The pace of evolution of data architectures has also sped up drastically. Hopefully the above overview gave you an insight into the past and possibly the future of data architecures.&lt;/p&gt;
+&lt;p&gt;As you can see data architectures are moving from a &lt;strong&gt;centralized&lt;/strong&gt; to a &lt;strong&gt;decentralized&lt;/strong&gt; paradigm recently. The pace of evolution of data architectures has also sped up drastically. Hopefully the above overview gave you an insight into the past and possibly the future of data architecures.&lt;/p&gt;
 
 &lt;p&gt;Please feel free to dig deeper into any of the above architectures that you are using to solve your specific data problem(s). There are many great resources to help you do that.&lt;/p&gt;
 
