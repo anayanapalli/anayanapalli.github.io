@@ -6,30 +6,39 @@ title: Bookfolio
 
 ## 📚 Books That I Read:
 
+### [Naked Money](https://www.amazon.ca/Naked-Money-Revealing-Look-Matters/dp/0393353737){:target="_blank"}
+**Author:** Charles Wheelan **Rating:** 5.0/5.0 **Difficulty:** Intermediate
+
+A very well-written book by an extremely knowledgeable policy expert. I have read and loved "Naked Economics," and all I can say is that this book is even better. Charles has a knack for explaining complex topics in a way that even outsiders to the field can understand without watering down the content.
+
+This book presents all the details about how money works: money vs. currency, what inflation and deflation are, how they affect the economy, historical case studies, the role of central banking, cryptocurrencies, Euro vs. dollar, gold standard vs. fiat currencies, how exchange rates affect business, etc.
+
+I learned so much about economics, business, politics, etc., reading this book. The book is very readable for a 500+ page tome. I would highly recommend reading this book if any of the above topics interest you. This book is undoubtedly the **best** economics/money-related book that I ever read.
+
 ### [A Mathematicaian's Lament](https://www.amazon.ca/Mathematicians-Lament-School-Fascinating-Imaginative/dp/1934137170){:target="_blank"}
 **Author:** Paul Lockhart **Rating:** 5.0/5.0 **Difficulty:** Easy
 
-This book is written by a passionate mathematician who is deeply concerned about the way math is taught in schools worldwide. He enlightens us on what math truly entails and how beautiful and intriguing it can be if taught correctly. Honestly, Paul is the greatest math teacher we never had.
+This book is written by a passionate mathematician who is deeply concerned about the way math is taught in schools worldwide. He enlightens us on what math truly is about and how beautiful and intriguing it could be, if taught correctly.
 
-He presents numerous problems and elegantly solves them from first principles, leaving us with an "aha" moment once we reach their solutions.
+He presents numerous problems and elegantly solves them from first principles, leaving us with an "aha" moment once we arrive at their solutions.
 
 After reading this book, I came to the realization that [3Blue1Brown](https://www.3blue1brown.com/){:target="_blank"} is today's Paul Lockhart.
 
 ### [Digital Minimalism: Choosing a Focused Life in a Noisy World](https://www.amazon.ca/Digital-Minimalism-Choosing-Focused-Noisy/dp/0525536515){:target="_blank"}
 **Author:** Cal Newport **Rating:** 2.0/5.0 **Difficulty:** Easy
 
-I read this book as part of a community that I'm running, and while there are some good takeaways in it, you don't have to spend much time reading the entire book to grasp those lessons.
+I read this book as part of a community that I'm running, and while there are some good takeaways in it, you don't have to read the entire book to grasp those lessons.
 
-Honestly, I'm not particularly fond of books written by popular authors whose real work is in another domain (most of their essense can be summarized in a blog post), and very rarely do I encounter ones that I find worthwhile. In my opinion, this book isn't a good read.
+I'm not particularly fond of books written by popular authors whose real work is in another domain (most of these work's essense can be summarized in a blog post), and very rarely do I encounter ones that I find worthwhile. In my opinion, this book isn't a good read.
 
-You can essentially learn all the important points by watching a summary video.
+You can learn all the important points just by watching a summary video.
 
 ### [Problem Solving 101: A Simple Book for Smart People](https://www.amazon.ca/Problem-Solving-101-Simple-People/dp/1591842425){:target="_blank"}
 **Author:** Ken Watanabe **Rating:** 5.0/5.0 **Difficulty:** Easy
 
-I was searching for a book to read related to consulting since I'm currently working in that field. After sifting through a bunch of dull business books, I stumbled upon this awesome find. I am glad that I read it.
+I was searching for a book to read related to consulting, as I'm currently working in that field. After sifting through a bunch of dull business books, I stumbled upon this awesome find. I am glad that I read it.
 
-Though this book is intended for kids, I believe the frameworks and thought processes it presents are applicable across any domain and audience. I loved how the author presented concepts through an engaging story format.
+Though this book is intended for kids, I believe the frameworks and thought processes it presents are applicable across any domain and audience. I loved how the author presented concepts via an engaging story format.
 
 Later, I  found out that many people at top-tier consulting firms have been recommending this book to their newly hired consultants. I highly recommend it to anyone seeking to learn how to tackle vague real-life problems systematically and rationally.
 
