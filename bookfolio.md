@@ -11,7 +11,7 @@ title: Bookfolio
 
 A very well-written book by an extremely knowledgeable policy expert. I have read and loved "Naked Economics," and all I can say is that this book is even better. Charles has a knack for explaining complex topics in a way that even outsiders to the field can understand without watering down the content.
 
-This book presents all the details about how money works: money vs. currency, what inflation and deflation are, how they affect the economy, historical case studies, the role of central banking, cryptocurrencies, Euro vs. dollar, gold standard vs. fiat currencies, how exchange rates affect businessess and so much more.
+This book presents all the details about how money works: money vs. currency, what inflation and deflation are, how they affect the economy, historical case studies, the role of central banking, cryptocurrencies, euro vs. dollar, gold standard vs. fiat currencies, how exchange rates affect businessess and so much more.
 
 I learned so much about economics, business, politics, etc., reading this book. The book is very readable for a 500+ page tome. I would highly recommend reading this book if any of the above topics interest you. This book is undoubtedly the **best** economics/money-related book that I ever read.
 
