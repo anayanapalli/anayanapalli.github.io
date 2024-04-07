@@ -6,7 +6,7 @@ title: Bookfolio
 
 ## 📚 Books That I Read:
 
-### [Naked Money](https://www.amazon.ca/Naked-Money-Revealing-Look-Matters/dp/0393353737){:target="_blank"}
+### [Naked Money: A Revealing Look at What It Is and Why It Matters](https://www.amazon.ca/Naked-Money-Revealing-Look-Matters/dp/0393353737){:target="_blank"}
 **Author:** Charles Wheelan **Rating:** 5.0/5.0 **Difficulty:** Intermediate
 
 A very well-written book by an extremely knowledgeable policy expert. I have read and loved "Naked Economics," and all I can say is that this book is even better. Charles has a knack for explaining complex topics in a way that even outsiders to the field can understand without watering down the content.
