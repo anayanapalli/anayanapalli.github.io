@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-04-09T20:36:15-04:00</updated>
+ <updated>2024-04-10T19:52:39-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -25,16 +25,15 @@
 
 &lt;p&gt;Unfortunately, they’re expiring assets. Your knowledge becomes out of date as new techniques, languages, and environments are developed. Changing market forces may render your experience obsolete or irrelevant. Given the ever-increasing pace of change in our technological society, this can happen pretty quickly.&lt;/p&gt;
 
-&lt;p&gt;As the value of your knowledge declines, so does your value to your company or client. You have to prevent this from ever happening.
-Your ability to learn new things is your most important strategic asset. But how do you learn how to learn, and how do you know what to learn?&lt;/p&gt;
+&lt;p&gt;As the value of your knowledge declines, so does your value to your company or client. You have to prevent this from ever happening. Your ability to learn new things is your most important strategic asset. But how do you learn how to learn, and how do you know what to learn?&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This post is based on an excerpt drawn from the book &lt;a href=&quot;https://www.amazon.ca/Pragmatic-Programmer-journey-mastery-Anniversary-dp-0135957052/dp/0135957052/ref=dp_ob_title_bk&quot; target=&quot;_blank&quot;&gt;“The Pragmatic Programmer”&lt;/a&gt; by David Thomas and Andy Hunt. While this advice is aimed at programmers, the wisdom contained within is broadly applicable to any knowledge professional.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This post is based on an excerpt drawn from the book &lt;a href=&quot;https://www.amazon.ca/Pragmatic-Programmer-journey-mastery-Anniversary-dp-0135957052/dp/0135957052/ref=dp_ob_title_bk&quot; target=&quot;_blank&quot;&gt;“The Pragmatic Programmer”&lt;/a&gt; by the wise David Thomas and Andy Hunt. While this advice is aimed at programmers, the wisdom contained within is broadly applicable to any knowledge professional.&lt;/p&gt;
 
 &lt;h2 id=&quot;your-knowledge-portfolio&quot;&gt;Your Knowledge Portfolio&lt;/h2&gt;
 
 &lt;p&gt;Think of all the facts programmers know about computing, the application domains they work in, and all their experience as their knowledge portfolios. Managing a knowledge portfolio is very similar to managing a financial portfolio:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;1. Serious investors invest regularly—as a habit.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Serious investors invest regularly — as a habit.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;2. Diversification is the key to long-term success.&lt;/strong&gt;&lt;/p&gt;
 
@@ -46,23 +45,23 @@ Your ability to learn new things is your most important strategic asset. But how
 
 &lt;p&gt;To be successful in your career, you must invest in your knowledge portfolio using these same guidelines.&lt;/p&gt;
 
-&lt;p&gt;The good news is that managing this kind of investment is a skill just like any other—it can be learned. The trick is to make yourself do it initially and form a habit. Develop a routine which you follow until your brain internalizes it. At that point, you’ll find yourself sucking up new knowledge automatically.&lt;/p&gt;
+&lt;p&gt;The good news is that managing this kind of investment is a skill just like any other — it can be learned. The trick is to make yourself do it initially and form a habit. Develop a routine which you follow until your brain internalizes it. At that point, you’ll find yourself sucking up new knowledge automatically.&lt;/p&gt;
 
 &lt;h2 id=&quot;building-your-portfolio&quot;&gt;Building Your Portfolio&lt;/h2&gt;
 
-&lt;h2 id=&quot;invest-regularly&quot;&gt;Invest regularly&lt;/h2&gt;
+&lt;h3 id=&quot;invest-regularly&quot;&gt;Invest regularly&lt;/h3&gt;
 &lt;p&gt;Just as in financial investing, you must invest in your knowledge portfolio regularly, even if it’s just a small amount. The habit is as important as the sums, so plan to use a consistent time and place, away from interruptions.&lt;/p&gt;
 
-&lt;h2 id=&quot;diversify&quot;&gt;Diversify&lt;/h2&gt;
-&lt;p&gt;The more different things you know, the more valuable you are. As a baseline, you need to know the ins and outs of the particular technology you are working with currently. But don’t stop there. The face of computing changes rapidly—hot technology today may well be close to useless (or at least not in demand) tomorrow. The more technologies you are comfortable with, the better you will be able to adjust to change. And don’t forget all the other skills you need, including those in non-technical areas.&lt;/p&gt;
+&lt;h3 id=&quot;diversify&quot;&gt;Diversify&lt;/h3&gt;
+&lt;p&gt;The more different things you know, the more valuable you are. As a baseline, you need to know the ins and outs of the particular technology you are working with currently. But don’t stop there. The face of computing changes rapidly — hot technology today may well be close to useless (or at least not in demand) tomorrow. The more technologies you are comfortable with, the better you will be able to adjust to change. And don’t forget all the other skills you need, including those in non-technical areas.&lt;/p&gt;
 
-&lt;h2 id=&quot;manage-risk&quot;&gt;Manage risk&lt;/h2&gt;
+&lt;h3 id=&quot;manage-risk&quot;&gt;Manage risk&lt;/h3&gt;
 &lt;p&gt;Technology exists along a spectrum from risky, potentially high-reward to low-risk, low-reward standards. It’s not a good idea to invest all of your money in high-risk stocks that might collapse suddenly, nor should you invest all of it conservatively and miss out on possible opportunities. Don’t put all your technical eggs in one basket.&lt;/p&gt;
 
-&lt;h2 id=&quot;buy-low-sell-high&quot;&gt;Buy low, sell high&lt;/h2&gt;
+&lt;h3 id=&quot;buy-low-sell-high&quot;&gt;Buy low, sell high&lt;/h3&gt;
 &lt;p&gt;Learning an emerging technology before it becomes popular can be just as hard as finding an undervalued stock, but the payoff can be just as rewarding. Learning Java back when it was first introduced and unknown may have been risky at the time, but it paid off handsomely for the early adopters when it became an industry mainstay later.&lt;/p&gt;
 
-&lt;h2 id=&quot;review-and-rebalance&quot;&gt;Review and rebalance&lt;/h2&gt;
+&lt;h3 id=&quot;review-and-rebalance&quot;&gt;Review and rebalance&lt;/h3&gt;
 &lt;p&gt;This is a very dynamic industry. That hot technology you started investigating last month might be stone cold by now. Maybe you need to brush up on that database technology that you haven’t used in a while. Or perhaps you could be better positioned for that new job opening if you tried out that other language…&lt;/p&gt;
 
 &lt;p&gt;Of all these guidelines, the most important one is the simplest to do:&lt;/p&gt;
