@@ -15,7 +15,7 @@ This book presents all the details about how money works: money vs. currency, wh
 
 I learned so much about economics, business, politics, etc., reading this book. The book is very readable for a 500+ page tome. I would highly recommend reading this book if any of the above topics interest you. This book is undoubtedly the **best** economics/money-related book that I ever read.
 
-### [A Mathematicaian's Lament](https://www.amazon.ca/Mathematicians-Lament-School-Fascinating-Imaginative/dp/1934137170){:target="_blank"}
+### [A Mathematician's Lament](https://www.amazon.ca/Mathematicians-Lament-School-Fascinating-Imaginative/dp/1934137170){:target="_blank"}
 **Author:** Paul Lockhart **Rating:** 5.0/5.0 **Difficulty:** Easy
 
 This book is written by a passionate mathematician who is deeply concerned about the way math is taught in schools worldwide. He enlightens us on what math truly is about and how beautiful and intriguing it could be, if taught correctly.
