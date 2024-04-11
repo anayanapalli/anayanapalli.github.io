@@ -17,7 +17,7 @@ As the value of your knowledge declines, so does your value to your company or c
 
 Think of all the facts programmers know about computing, the application domains they work in, and all their experience as their knowledge portfolios. Managing a knowledge portfolio is very similar to managing a financial portfolio:
 
-**1. Serious investors invest regularly — as a habit.**
+**1. Serious investors invest regularly—as a habit.**
 
 **2. Diversification is the key to long-term success.**
 
@@ -29,7 +29,7 @@ Think of all the facts programmers know about computing, the application domains
 
 To be successful in your career, you must invest in your knowledge portfolio using these same guidelines.
 
-The good news is that managing this kind of investment is a skill just like any other — it can be learned. The trick is to make yourself do it initially and form a habit. Develop a routine which you follow until your brain internalizes it. At that point, you’ll find yourself sucking up new knowledge automatically.
+The good news is that managing this kind of investment is a skill just like any other—it can be learned. The trick is to make yourself do it initially and form a habit. Develop a routine which you follow until your brain internalizes it. At that point, you’ll find yourself sucking up new knowledge automatically.
 
 ## Building Your Portfolio
 
@@ -37,7 +37,7 @@ The good news is that managing this kind of investment is a skill just like any 
 Just as in financial investing, you must invest in your knowledge portfolio regularly, even if it’s just a small amount. The habit is as important as the sums, so plan to use a consistent time and place, away from interruptions.
 
 ### Diversify
-The more different things you know, the more valuable you are. As a baseline, you need to know the ins and outs of the particular technology you are working with currently. But don’t stop there. The face of computing changes rapidly — hot technology today may well be close to useless (or at least not in demand) tomorrow. The more technologies you are comfortable with, the better you will be able to adjust to change. And don’t forget all the other skills you need, including those in non-technical areas.
+The more different things you know, the more valuable you are. As a baseline, you need to know the ins and outs of the particular technology you are working with currently. But don’t stop there. The face of computing changes rapidly—hot technology today may well be close to useless (or at least not in demand) tomorrow. The more technologies you are comfortable with, the better you will be able to adjust to change. And don’t forget all the other skills you need, including those in non-technical areas.
 
 ### Manage risk
 Technology exists along a spectrum from risky, potentially high-reward to low-risk, low-reward standards. It’s not a good idea to invest all of your money in high-risk stocks that might collapse suddenly, nor should you invest all of it conservatively and miss out on possible opportunities. Don’t put all your technical eggs in one basket.
