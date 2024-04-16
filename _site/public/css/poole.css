@@ -216,8 +216,8 @@ blockquote {
   font-family: cursive;
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #bb1b1b;
-  border-left: .25rem solid #bb1b1b;
+  color: #c12926;
+  border-left: .25rem solid #c12926;
 }
 blockquote p:last-child {
   margin-bottom: 0;
