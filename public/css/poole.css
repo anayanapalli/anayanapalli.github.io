@@ -213,11 +213,11 @@ pre code {
 
 /* Quotes */
 blockquote {
-  font-family: cursive;
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #c12926;
   border-left: .25rem solid #c12926;
+  font-style: oblique;
 }
 blockquote p:last-child {
   margin-bottom: 0;

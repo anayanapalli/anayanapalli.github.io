@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-04-16T16:59:32-04:00</updated>
+ <updated>2024-04-16T17:23:20-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -27,7 +27,7 @@
 
 &lt;p&gt;As the value of your knowledge declines, so does your value to your company or client. You have to prevent this from ever happening. Your ability to learn new things is your most important strategic asset. But how do you learn how to learn, and how do you know what to learn?&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This post is based on an excerpt drawn from the book &lt;a href=&quot;https://www.amazon.ca/Pragmatic-Programmer-journey-mastery-Anniversary-dp-0135957052/dp/0135957052/ref=dp_ob_title_bk&quot; target=&quot;_blank&quot;&gt;“The Pragmatic Programmer”&lt;/a&gt; by the wise David Thomas and Andy Hunt. While this advice is aimed at programmers, the wisdom contained within is broadly applicable to any knowledge professional.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This post is based on an excerpt drawn from the book &lt;a href=&quot;https://www.amazon.ca/Pragmatic-Programmer-journey-mastery-Anniversary-dp-0135957052/dp/0135957052/ref=dp_ob_title_bk&quot; target=&quot;\_blank&quot;&gt;“The Pragmatic Programmer”&lt;/a&gt; by the wise David Thomas and Andy Hunt. While this advice is aimed at programmers, the wisdom contained within is broadly applicable to any knowledge professional.&lt;/p&gt;
 
 &lt;h2 id=&quot;your-knowledge-portfolio&quot;&gt;Your Knowledge Portfolio&lt;/h2&gt;
 
@@ -50,18 +50,23 @@
 &lt;h2 id=&quot;building-your-portfolio&quot;&gt;Building Your Portfolio&lt;/h2&gt;
 
 &lt;h3 id=&quot;invest-regularly&quot;&gt;Invest regularly&lt;/h3&gt;
+
 &lt;p&gt;Just as in financial investing, you must invest in your knowledge portfolio regularly, even if it’s just a small amount. The habit is as important as the sums, so plan to use a consistent time and place, away from interruptions.&lt;/p&gt;
 
 &lt;h3 id=&quot;diversify&quot;&gt;Diversify&lt;/h3&gt;
+
 &lt;p&gt;The more different things you know, the more valuable you are. As a baseline, you need to know the ins and outs of the particular technology you are working with currently. But don’t stop there. The face of computing changes rapidly—hot technology today may well be close to useless (or at least not in demand) tomorrow. The more technologies you are comfortable with, the better you will be able to adjust to change. And don’t forget all the other skills you need, including those in non-technical areas.&lt;/p&gt;
 
 &lt;h3 id=&quot;manage-risk&quot;&gt;Manage risk&lt;/h3&gt;
+
 &lt;p&gt;Technology exists along a spectrum from risky, potentially high-reward to low-risk, low-reward standards. It’s not a good idea to invest all of your money in high-risk stocks that might collapse suddenly, nor should you invest all of it conservatively and miss out on possible opportunities. Don’t put all your technical eggs in one basket.&lt;/p&gt;
 
 &lt;h3 id=&quot;buy-low-sell-high&quot;&gt;Buy low, sell high&lt;/h3&gt;
+
 &lt;p&gt;Learning an emerging technology before it becomes popular can be just as hard as finding an undervalued stock, but the payoff can be just as rewarding. Learning Java back when it was first introduced and unknown may have been risky at the time, but it paid off handsomely for the early adopters when it became an industry mainstay later.&lt;/p&gt;
 
 &lt;h3 id=&quot;review-and-rebalance&quot;&gt;Review and rebalance&lt;/h3&gt;
+
 &lt;p&gt;This is a very dynamic industry. That hot technology you started investigating last month might be stone cold by now. Maybe you need to brush up on that database technology that you haven’t used in a while. Or perhaps you could be better positioned for that new job opening if you tried out that other language…&lt;/p&gt;
 
 &lt;p&gt;Of all these guidelines, the most important one is the simplest to do:&lt;/p&gt;
