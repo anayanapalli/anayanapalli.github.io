@@ -55,4 +55,4 @@ This is a very dynamic industry. That hot technology you started investigating l
 
 Of all these guidelines, the most important one is the simplest to do:
 
-**INVEST REGULARLY IN YOUR KNOWLEDGE PORTFOLIO!!!**
+**Invest regularly in your knowledge portfolio!!!**
