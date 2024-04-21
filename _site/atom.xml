@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-04-17T22:39:05-04:00</updated>
+ <updated>2024-04-21T15:07:06-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -538,7 +538,7 @@
    <updated>2023-12-17T00:00:00-05:00</updated>
    <id>http://localhost:4000/2023/12/17/an-introverts-guide-to-posting-online</id>
    <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;Only about 1% of LinkedIn’s 260 million monthly users share posts, and those 3 million or so users net the 9 billion impressions 🤯&lt;/p&gt;
+  &lt;p&gt;Only about 1% of LinkedIn’s 260 million monthly users share posts, and those 3 million or so users net the 9 billion impressions. 🤯&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction:&lt;/h2&gt;
@@ -594,7 +594,7 @@
 &lt;h2 id=&quot;3-share-what-you-know&quot;&gt;3. Share What You Know&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;“The impulse to keep to yourself what you have learned is not only shameful, it is destructive. Anything you do not give freely and abundantly becomes lost to you. You open your safe and find ashes.” —Annie Dillard&lt;/p&gt;
+  &lt;p&gt;“The impulse to keep to yourself what you have learned is not only shameful, it is destructive. Anything you do not give freely and abundantly becomes lost to you. You open your safe and find ashes.” - Annie Dillard&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Think about what you can share from your process that would inform the people you’re trying to reach. Have you learned a craft? What are your techniques? Are you skilled at using certain tools and materials? What kind of knowledge comes along with your job?&lt;/p&gt;

@@ -3,7 +3,7 @@ layout: post
 title: "An Introvert's Guide to Posting Online"
 ---
 
-> Only about 1% of LinkedIn's 260 million monthly users share posts, and those 3 million or so users net the 9 billion impressions 🤯
+> Only about 1% of LinkedIn's 260 million monthly users share posts, and those 3 million or so users net the 9 billion impressions. 🤯
 
 ## Introduction:
 
@@ -51,7 +51,7 @@ The world is changing at such a rapid rate that it’s turning us all into amate
 
 ## 3. Share What You Know
 
-> “The impulse to keep to yourself what you have learned is not only shameful, it is destructive. Anything you do not give freely and abundantly becomes lost to you. You open your safe and find ashes.” —Annie Dillard
+> “The impulse to keep to yourself what you have learned is not only shameful, it is destructive. Anything you do not give freely and abundantly becomes lost to you. You open your safe and find ashes.” - Annie Dillard
 
 Think about what you can share from your process that would inform the people you’re trying to reach. Have you learned a craft? What are your techniques? Are you skilled at using certain tools and materials? What kind of knowledge comes along with your job?
 
