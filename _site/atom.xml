@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-04-30T00:37:17-04:00</updated>
+ <updated>2024-04-30T00:46:53-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Making the Most of Your Vacation Days 🌴</title>
-   <link href="http://localhost:4000/2024/04/29/a-guide-to-smart-vacations/"/>
+   <link href="http://localhost:4000/2024/04/29/making-the-most-of-your-vacation-days/"/>
    <updated>2024-04-29T00:00:00-04:00</updated>
-   <id>http://localhost:4000/2024/04/29/a-guide-to-smart-vacations</id>
+   <id>http://localhost:4000/2024/04/29/making-the-most-of-your-vacation-days</id>
    <content type="html">&lt;p&gt;The following are some tips to make the most of your vacation days and all of them are backed by science, so pay close attention.&lt;/p&gt;
 
 &lt;h2 id=&quot;ideal-length-8-days&quot;&gt;Ideal Length: 8 Days&lt;/h2&gt;
