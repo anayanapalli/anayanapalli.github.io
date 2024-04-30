@@ -18,7 +18,7 @@ Got limited vacation days? No problem. Get strategic with those long weekends an
 Here’s a fun fact: the anticipation of a vacation can be just as awesome as the vacation itself. So, don’t procrastinate on planning. And while you’re at it, pay for stuff upfront. It’s some weird brain trickery, but pre-paying seems to make us enjoy things even more.
 
 ## Mix It Up
-Don’t just stick to the same old routine. Get adventurous! Trying out new experiences is like hitting the reset button on your brain. They don’t have to expensive, just new and exciting.
+Don’t just stick to the same old routine. Get adventurous! Trying out new experiences is like hitting the reset button on your brain. They don’t have to be expensive, but just new and exciting.
 
 Hope these tips were useful.
 
