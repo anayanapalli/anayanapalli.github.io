@@ -139,10 +139,6 @@
           
         
       
-        
-          
-        
-      
     </nav>
 
     <p>&copy; 2024. All rights reserved.</p>
@@ -154,68 +150,123 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/2024/04/09/managing-your-knowledge-portfolio/">
-        Managing Your Knowledge Portfolio 📈
+      <a href="/2024/03/23/the-evolution-of-data-architectures/">
+        The Evolution of Data Architectures: From Data Warehouses to Data Meshes
       </a>
     </h1>
 
-    <span class="post-date">09 Apr 2024</span>
+    <span class="post-date">23 Mar 2024</span>
 
     <blockquote>
-  <p>“An investment in knowledge pays the best interest.” - Benjamin Franklin</p>
+  <p>“If you want to understand today, you have to search yesterday.” - Pearl S. Buck</p>
 </blockquote>
 
-<p>Your knowledge and experience are your most important day-to-day professional assets.</p>
+<p>Over the past few decades, data architectures have undergone significant transformations in response to evolving data needs. While some changes successfully addressed existing challenges, others inadvertently gave rise to new complexities.</p>
 
-<p>Unfortunately, they’re expiring assets. Your knowledge becomes out of date as new techniques, languages, and environments are developed. Changing market forces may render your experience obsolete or irrelevant. Given the ever-increasing pace of change in our technological society, this can happen pretty quickly.</p>
+<p>This blog post offers a high-level exploration of this evolutionary trajectory, providing insights into the direction and pace of change in the field. Rather than delving into specific technologies, our focus is on understanding the overarching trends that have shaped data architecture over time.</p>
 
-<p>As the value of your knowledge declines, so does your value to your company or client. You have to prevent this from ever happening. Your ability to learn new things is your most important strategic asset. But how do you learn how to learn, and how do you know what to learn?</p>
+<p>The following figure gives an overview of the architectures we will be discussing.</p>
 
-<p><strong>Note:</strong> This post is based on an excerpt drawn from the book <a href="https://www.amazon.ca/Pragmatic-Programmer-journey-mastery-Anniversary-dp-0135957052/dp/0135957052/ref=dp_ob_title_bk" target="\_blank">“The Pragmatic Programmer”</a> by the wise David Thomas and Andy Hunt. While this advice is aimed at programmers, the wisdom contained within is broadly applicable to any knowledge professional.</p>
+<p><img src="/public/images/3.png" alt="The Evolution of Data Architectures" />
+<em>Picture Credit: <a href="https://www.linkedin.com/in/jamesserra/" target="_blank">James Serra</a> and <a href="https://www.linkedin.com/in/zhamak-dehghani/" target="_blank">Zhamak Dehghani</a></em></p>
 
-<h2 id="your-knowledge-portfolio">Your Knowledge Portfolio</h2>
+<p>Please note that there is still no consensus in the data community about what exactly some of these architectures entail, as the field is still very new and rapidly evolving. Therefore, the following definitions reflect my thoughts based on my research and experience.</p>
 
-<p>Think of all the facts programmers know about computing, the application domains they work in, and all their experience as their knowledge portfolios. Managing a knowledge portfolio is very similar to managing a financial portfolio:</p>
+<h2 id="the-data-warehouse-architecture-late-1980s">The Data Warehouse Architecture (Late 1980s)</h2>
 
-<p><strong>1. Serious investors invest regularly—as a habit.</strong></p>
+<p>The data warehouse architecture stands as a cornerstone in the history of data management. Originating in the late 1980s, it revolutionized the way organizations stored, managed, and analyzed data. By centralizing data into structured repositories optimized for reporting and analysis, it offered a robust solution for business intelligence needs.</p>
 
-<p><strong>2. Diversification is the key to long-term success.</strong></p>
+<p><strong>Pros:</strong></p>
 
-<p><strong>3. Smart investors balance their portfolios between conservative and high-risk, high-reward investments.</strong></p>
+<ul>
+  <li>Relies on the relational data model, ensuring data quality and consistency.</li>
+  <li>Eliminates the need for additional presentation layers, simplifying data access and analysis.</li>
+</ul>
 
-<p><strong>4. Investors try to buy low and sell high for maximum return.</strong></p>
+<p><strong>Cons:</strong></p>
 
-<p><strong>5. Portfolios should be reviewed and rebalanced periodically.</strong></p>
+<ul>
+  <li>Lacks support for unstructured data, limiting its utility in the era of big data.</li>
+  <li>Initial limitations in horizontal scaling required subsequent technological advancements.</li>
+</ul>
 
-<p>To be successful in your career, you must invest in your knowledge portfolio using these same guidelines.</p>
+<h2 id="the-data-lake-architecture-late-2000s">The Data Lake Architecture (Late 2000s)</h2>
 
-<p>The good news is that managing this kind of investment is a skill just like any other—it can be learned. The trick is to make yourself do it initially and form a habit. Develop a routine which you follow until your brain internalizes it. At that point, you’ll find yourself sucking up new knowledge automatically.</p>
+<p>In response to the emergence of big data, the data lake architecture sought to address the limitations of traditional data warehouses. By providing a scalable storage layer capable of accommodating diverse data types, it promised to unlock new possibilities for data-driven insights.</p>
 
-<h2 id="building-your-portfolio">Building Your Portfolio</h2>
+<p><strong>Pros:</strong></p>
 
-<h3 id="invest-regularly">Invest regularly</h3>
+<ul>
+  <li>Offers a solution for storing unstructured data, expanding the scope of data analysis.</li>
+  <li>Enables horizontal scalability to accommodate growing data volumes.</li>
+</ul>
 
-<p>Just as in financial investing, you must invest in your knowledge portfolio regularly, even if it’s just a small amount. The habit is as important as the sums, so plan to use a consistent time and place, away from interruptions.</p>
+<p><strong>Cons:</strong></p>
 
-<h3 id="diversify">Diversify</h3>
+<ul>
+  <li>Requires external computation engines, such as Spark, for data processing, posing challenges for implementation and maintenance.</li>
+  <li>Complex management and high operational costs detract from its potential benefits.</li>
+</ul>
 
-<p>The more different things you know, the more valuable you are. As a baseline, you need to know the ins and outs of the particular technology you are working with currently. But don’t stop there. The face of computing changes rapidly—hot technology today may well be close to useless (or at least not in demand) tomorrow. The more technologies you are comfortable with, the better you will be able to adjust to change. And don’t forget all the other skills you need, including those in non-technical areas.</p>
+<h2 id="the-cloud-data-platform-mid-2010s">The Cloud Data Platform (Mid 2010s)</h2>
 
-<h3 id="manage-risk">Manage risk</h3>
+<p>Combining the strengths of both data lake and data warehouse architectures, the cloud data platform represents a hybrid approach to data management. By leveraging cloud infrastructure and services, it offers a flexible and scalable solution for modern data needs.</p>
 
-<p>Technology exists along a spectrum from risky, potentially high-reward to low-risk, low-reward standards. It’s not a good idea to invest all of your money in high-risk stocks that might collapse suddenly, nor should you invest all of it conservatively and miss out on possible opportunities. Don’t put all your technical eggs in one basket.</p>
+<p><strong>Pros:</strong></p>
 
-<h3 id="buy-low-sell-high">Buy low, sell high</h3>
+<ul>
+  <li>Integrates features of data lakes and data warehouses, catering to diverse data requirements.</li>
+  <li>Streamlines infrastructure setup and management through cloud providers, reducing overhead costs.</li>
+</ul>
 
-<p>Learning an emerging technology before it becomes popular can be just as hard as finding an undervalued stock, but the payoff can be just as rewarding. Learning Java back when it was first introduced and unknown may have been risky at the time, but it paid off handsomely for the early adopters when it became an industry mainstay later.</p>
+<p><strong>Cons:</strong></p>
 
-<h3 id="review-and-rebalance">Review and rebalance</h3>
+<ul>
+  <li>Involves significant data copying and movement, leading to potential inefficiencies and increased storage costs.</li>
+</ul>
 
-<p>This is a very dynamic industry. That hot technology you started investigating last month might be stone cold by now. Maybe you need to brush up on that database technology that you haven’t used in a while. Or perhaps you could be better positioned for that new job opening if you tried out that other language…</p>
+<h2 id="the-data-lakehouse-2020">The Data Lakehouse (2020)</h2>
 
-<p>Of all these guidelines, the most important one is the simplest to do:</p>
+<p>Challenging the traditional distinction between data lakes and data warehouses, the data lakehouse architecture proposes a unified approach to data management. By enhancing data lakes with ACID-like properties and query capabilities, it aims to streamline data processing and eliminate redundant data storage.</p>
 
-<p><strong>Invest regularly in your knowledge portfolio!!!</strong></p>
+<p><strong>Pros:</strong></p>
+
+<ul>
+  <li>Minimizes data movement and storage costs, enhancing efficiency and resource utilization.</li>
+  <li>Facilitates seamless data querying without the need for a separate data warehouse.</li>
+</ul>
+
+<p><strong>Cons:</strong></p>
+
+<ul>
+  <li>Complexity and technical barriers may hinder widespread adoption and self-service capabilities.</li>
+</ul>
+
+<h2 id="the-data-mesh-2021">The Data Mesh (2021)</h2>
+
+<p>The data mesh architecture is not technically an architecture per se, but a methodology. It represents a paradigm shift in data management, emphasizing decentralized data ownership and governance. By treating data as a product and empowering domain teams to manage their data, it fosters collaboration, agility, and innovation across organizations. Note that a data mesh can be implemented using any of the above architectures.</p>
+
+<p><strong>Pros:</strong></p>
+
+<ul>
+  <li>Decentralizes data ownership, empowering domain experts and promoting autonomy.</li>
+  <li>Promotes scalability and agility by distributing data management responsibilities.</li>
+</ul>
+
+<p><strong>Cons:</strong></p>
+
+<ul>
+  <li>Requires significant organizational and cultural shifts, posing implementation challenges.</li>
+  <li>Ongoing refinement and evolution are needed to establish best practices and overcome adoption barriers.</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>As you can see data architectures are moving from a <strong>centralized</strong> to a <strong>decentralized</strong> paradigm recently. The pace of evolution of data architectures has also sped up drastically. Hopefully the above overview gave you an insight into the past and possibly the future of data architecures.</p>
+
+<p>Please feel free to dig deeper into any of the above architectures that you are using to solve your specific data problem(s). There are many great resources to help you do that.</p>
+
+<p>Thanks for reading!</p>
 
     <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="anayanapalli" data-color="#FFDD00" data-emoji="☕"  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
 <script src="/public/js/prism.js"></script>
