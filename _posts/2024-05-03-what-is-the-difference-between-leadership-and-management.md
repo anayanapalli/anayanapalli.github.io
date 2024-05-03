@@ -19,4 +19,4 @@ You can be someone’s manager, but if that person does not trust or respect you
 
 The world needs more leaders—individuals who can actually mobilize people to solve important problems plaguing our communities.
 
-**Note:** This post is based on an exercept from the book ["The Making of a Manager"](https://www.amazon.ca/Making-Manager-What-Everyone-Looks/dp/0735219567){:target="\_blank"} by the amazing Julie Zhuo.
+**Note:** This post is based on an excerpt from the book ["The Making of a Manager"](https://www.amazon.ca/Making-Manager-What-Everyone-Looks/dp/0735219567){:target="\_blank"} by the amazing Julie Zhuo.
