@@ -5,6 +5,8 @@ title: "What Is the Difference Between Leadership and Management?"
 
 > "Your title makes you a manager. Your people make you a leader." - Bill Campbell
 
+**Note:** This post is based on an excerpt from the book ["The Making of a Manager"](https://www.amazon.ca/Making-Manager-What-Everyone-Looks/dp/0735219567){:target="\_blank"} by the amazing Julie Zhuo.
+
 I always considered the words "manager" and "leader" to be synonyms. Managers lead, and leaders manage, right? Nope, wrong. "Manager" is a specific role, just as an elementary school teacher and a heart surgeon are specific roles. There are clear principles outlining what a manager does and how their success is measured.
 
 **Leadership**, on the other hand, is the particular skill of being able **to guide and influence** other people. Now, a manager who doesn’t know how to influence others isn’t going to be particularly effective at improving the outcomes of their team. So, to be a great manager, one must certainly be a leader.
@@ -18,5 +20,3 @@ Leadership is a quality rather than a job. **We are all leaders and followers at
 You can be someone’s manager, but if that person does not trust or respect you, you will have limited ability to influence them. So, great leaders make for great managers.
 
 The world needs more leaders—individuals who can actually mobilize people to solve important problems plaguing our communities.
-
-**Note:** This post is based on an excerpt from the book ["The Making of a Manager"](https://www.amazon.ca/Making-Manager-What-Everyone-Looks/dp/0735219567){:target="\_blank"} by the amazing Julie Zhuo.
