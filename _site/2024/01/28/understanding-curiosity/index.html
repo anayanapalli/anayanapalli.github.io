@@ -205,14 +205,20 @@
 </style>
 
 <div class="footer">
-    <a id="linkedin-share" href="https://www.linkedin.com/shareArticle?url=" onclick="window.open(this.href + window.location.href)">
+    <a id="linkedin-share" href="#" target="_blank">
         <img src="/public/icons/linkedin-share.png" alt="LinkedIn">
     </a>
-    <a id="x-share" href="https://twitter.com/share?text=Check+this+out:
-    &url=" onclick="window.open(this.href + window.location.href)">
+    <a id="x-share" href="#" target="_blank">
         <img src="/public/icons/x-share.png" alt="X">
     </a>
 </div>
+
+<script>
+    var linkedInBaseUrl = "https://www.linkedin.com/shareArticle?url="
+    var xBaseUrl = "https://twitter.com/share?text=Check+this+out:&url="
+    document.getElementById("linkedin-share").href = linkedInBaseUrl + window.location.href
+    document.getElementById("x-share").href = xBaseUrl + window.location.href
+</script>
 </div>
 
 <div class="related">
