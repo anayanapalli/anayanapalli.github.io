@@ -128,5 +128,3 @@ At its core, the book revolves around the premise that data, technology, and AI-
 What sets this book apart are the multitude of great ideas and intriguing thoughts presented by the author. The narrative not only effectively elucidates the potential of artificial intelligence but also adds a human touch to the discussion. The exploration of the Chinese startup ecosystem, the Chinese government's support and vision, and the ferocious competition in Chinese markets provides valuable insights into the rapid AI adoption in China.
 
 In summary, I found this to be a pretty good read. It not only delves into the exciting possibilities of AI but also offers a thoughtful examination of its potential impact on our lives.
-
-{% include foot.html %}
