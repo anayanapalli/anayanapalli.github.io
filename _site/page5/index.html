@@ -157,120 +157,62 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/2024/01/31/basic-tmux-cheatsheet/">
-        Basic tmux Cheatsheet
+      <a href="/2024/02/25/starting-a-community-from-scratch/">
+        Starting a Community from Scratch: Lessons from the Trenches
       </a>
     </h1>
 
-    <span class="post-date">31 Jan 2024</span>
+    <span class="post-date">25 Feb 2024</span>
 
-    <h2 id="install-tmux-on-a-mac">Install <code>tmux</code> on a Mac</h2>
+    <blockquote>
+  <p>“Coming together is a beginning; keeping together is progress; working together is success.” - Henry Ford</p>
+</blockquote>
 
-<pre><code class="language-bash">brew install tmux
-</code></pre>
+<p>So…I recently started a community within my company and I learnt a lot of things in the process. Maybe you are passionate about a particular topic, or you’re eager to help others, but you’re not quite sure where to begin. Well then, this post might be of some help to you.</p>
 
-<h2 id="check-tmux-version">Check <code>tmux</code> version</h2>
+<p>Here’s the list of things that I learnt in the process of starting a community:</p>
 
-<pre><code class="language-bash">tmux -V
-</code></pre>
+<h2 id="1-good-and-bad-reasons-to-start-a-community">1. Good and Bad Reasons to Start a Community</h2>
 
-<h2 id="tmux-abstractions"><code>tmux</code> abstractions</h2>
+<p>Let’s get one thing straight from the get-go: there are good reasons and bad reasons to start a community.</p>
 
-<p><strong>Sessions</strong> are composed of <strong>windows</strong> which inturn are composed of <strong>panes.</strong></p>
+<h3 id="bad-reasons">Bad Reasons</h3>
 
-<p><em>Sessions are terminated when the system restarts.</em></p>
+<p>If you’re in it to boost your ego, gain fame, or just for the sake of having a huge following, you might want to rethink your motivations.</p>
 
-<h2 id="tmux-prefix"><code>tmux</code> prefix</h2>
+<h3 id="good-reasons">Good Reasons</h3>
 
-<pre><code class="language-bash">&lt;control + b&gt;
-</code></pre>
+<p>However, if you’re genuinely passionate about a topic or a cause and you can’t bear the thought of the absence of a community for it, then you’re on the right track.</p>
 
-<p><em>All shortcuts are preceded by the prefix.</em></p>
+<h2 id="2-passion-initiative-and-embracing-failure">2. Passion, Initiative, and Embracing Failure</h2>
 
-<h2 id="enter-into-tmux-session">Enter into <code>tmux</code> session</h2>
+<p>Starting a community isn’t for the faint of heart. It takes passion, initiative, and most importantly a willingness to fail publicly. Yes, you heard me right. Embracing the possibility of failure in front of everyone is a crucial litmus test for your commitment.</p>
 
-<pre><code class="language-bash">tmux
-</code></pre>
+<h2 id="3-the-power-of-the-first-post">3. The Power of the First Post</h2>
 
-<h2 id="create-a-new-window">Create a new window</h2>
+<p>Your first post is like your community’s first impression. Make it count. From my experience, a conversational tone works wonders. People want to connect with real humans, not faceless corporations.</p>
 
-<pre><code class="language-bash">&lt;control + b&gt; + c
-</code></pre>
+<h2 id="4-the-importance-of-your-first-members">4. The Importance of Your First Members</h2>
 
-<p><em>Current windows are indicated with an asterisk.</em></p>
+<p>Those initial members? They’re your tribe. They’re the ones who truly care about what you’re building. Pay attention to them; take care of them. They are your biggest supporters.</p>
 
-<h2 id="rename-a-window">Rename a window</h2>
+<h2 id="5-understanding-your-community">5. Understanding Your Community</h2>
 
-<pre><code class="language-bash">&lt;control + b&gt; + ,
-</code></pre>
+<p>The best way to understand what your community wants is to ask them. It’s as simple as that. Forget the notion that people don’t know what they want until you show them. We are not building a high tech startup here. Your community knows best.</p>
 
-<h2 id="move-between-windows">Move between windows</h2>
+<h2 id="6-addressing-drop-offs">6. Addressing Drop-Offs</h2>
 
-<pre><code class="language-bash">&lt;control + b&gt; + &lt;window_number&gt;
-</code></pre>
+<p>If people are dropping off, don’t just throw more marketing at the problem. Take a step back and figure out why. Fix the root cause, not just the symptoms.</p>
 
-<h2 id="create-a-vertical-pane-in-window">Create a vertical pane in window</h2>
+<h2 id="7-quality-over-quantity">7. Quality Over Quantity</h2>
 
-<pre><code class="language-bash">&lt;control + b&gt; + %
-</code></pre>
+<p>A small, tight-knit community beats a massive, indifferent one any day. It’s not about the numbers; it’s about the connections you forge.</p>
 
-<h2 id="create-a-horizontal-pane-in-window">Create a horizontal pane in window</h2>
+<h2 id="8-the-journey-is-the-reward">8. The Journey Is the Reward</h2>
 
-<pre><code class="language-bash">&lt;control + b&gt; + "
-</code></pre>
+<p>Starting a community isn’t just about the destination; it’s about the journey. Along the way, you’ll learn a lot about people, influence, marketing, leadership and so much more. Trust me; it’s worth it.</p>
 
-<h2 id="move-cursor-between-panes">Move cursor between panes</h2>
-
-<pre><code class="language-bash">&lt;control + b&gt; + &lt;left|up|down|right&gt;
-</code></pre>
-
-<h2 id="delete-a-pane">Delete a pane</h2>
-
-<pre><code class="language-bash">exit
-</code></pre>
-<p><em>If you delete all the panes in a window you delete the window.</em></p>
-
-<h2 id="delete-a-window-tmux">Delete a window tmux</h2>
-
-<pre><code class="language-bash">tmux kill-window -t &lt;window-number&gt;
-</code></pre>
-<p><em>If you delete all the windows, you delete the session.</em></p>
-
-<h2 id="create-a-new-session">Create a new session</h2>
-
-<pre><code class="language-bash">tmux new -s &lt;session_name&gt;
-</code></pre>
-
-<h2 id="detach-from-a-session">Detach from a session</h2>
-
-<pre><code class="language-bash">&lt;control + b&gt; + d
-</code></pre>
-
-<h2 id="view-all-tmux-sessions">View all <code>tmux</code> sessions</h2>
-
-<pre><code class="language-bash">tmux ls
-</code></pre>
-
-<h2 id="attach-to-a-session">Attach to a session</h2>
-
-<pre><code class="language-bash">tmux attach -t &lt;session_name&gt;
-</code></pre>
-<p><em>The session_name is the session_number if it is not named.</em></p>
-
-<h2 id="rename-a-session">Rename a session</h2>
-
-<pre><code class="language-bash">tmux rename-session -t &lt;sessions_number&gt; &lt;session_name&gt;
-</code></pre>
-
-<h2 id="kill-a-session">Kill a session</h2>
-
-<pre><code class="language-bash">tmux kill-session -t &lt;sessions_name&gt;
-</code></pre>
-<p><em>The session_name is the session_number if it is not named.</em></p>
-<h2 id="kill-all-sessions">Kill all sessions</h2>
-
-<pre><code class="language-bash">tmux kill-server
-</code></pre>
+<p>In conclusion, starting a community is not easy. But if you’re willing to put in the effort and take a small risk, the rewards can be truly fulfilling, even if they are tiny.</p>
 
     <style>
     .footer {

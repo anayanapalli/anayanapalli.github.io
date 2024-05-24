@@ -4,7 +4,7 @@
  <title>Anish's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-05-23T15:31:37-04:00</updated>
+ <updated>2024-05-24T01:07:22-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Anish Nayanapalli</name>
@@ -13,100 +13,10 @@
 
  
  <entry>
-   <title>What Is the Difference Between Leadership and Management?</title>
-   <link href="http://localhost:4000/2024/05/03/what-is-the-difference-between-leadership-and-management/"/>
-   <updated>2024-05-03T00:00:00-04:00</updated>
-   <id>http://localhost:4000/2024/05/03/what-is-the-difference-between-leadership-and-management</id>
-   <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;“Your title makes you a manager. Your people make you a leader.” - Bill Campbell&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This post is based on an excerpt from the book &lt;a href=&quot;https://www.amazon.ca/Making-Manager-What-Everyone-Looks/dp/0735219567&quot; target=&quot;\_blank&quot;&gt;“The Making of a Manager”&lt;/a&gt; by the amazing Julie Zhuo.&lt;/p&gt;
-
-&lt;p&gt;I always considered the words “manager” and “leader” to be synonyms. Managers lead, and leaders manage, right? Nope, wrong. “Manager” is a specific role, just as an elementary school teacher and a heart surgeon are specific roles. There are clear principles outlining what a manager does and how their success is measured.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Leadership&lt;/strong&gt;, on the other hand, is the particular skill of being able &lt;strong&gt;to guide and influence&lt;/strong&gt; other people. Now, a manager who doesn’t know how to influence others isn’t going to be particularly effective at improving the outcomes of their team. So, to be a great manager, one must certainly be a leader.&lt;/p&gt;
-
-&lt;p&gt;A leader, on the other hand, doesn’t have to be a manager. Anyone can exhibit leadership, regardless of their role or stature. Think of a store clerk calmly directing shoppers to safety when the screeching tornado bell goes off in a mall. Think of a passionate citizen going door-to-door and convincing neighbors to join them in protesting a recent decision. Think of generations upon generations of mothers and fathers demonstrating to their children what it means to act like a responsible adult.&lt;/p&gt;
-
-&lt;p&gt;If you picture your own organization, you can probably come up with many examples of leadership: an individual contributor who surfaces important customer complaints and then coordinates solutions across multiple teams, a team member who rallies a group to work on a new idea, or a veteran employee who is a sought-out oracle of wisdom. If you can pinpoint a problem and motivate others to work with you to solve it, then you’re leading.&lt;/p&gt;
-
-&lt;p&gt;Leadership is a quality rather than a job. &lt;strong&gt;We are all leaders and followers at different points in our lives.&lt;/strong&gt; Managers should cultivate leadership not just in themselves but also within their teams. This is very important, as the role of a manager can be given to someone (or taken away), but leadership is not something that can be bestowed. It must be earned. People must want to follow you, and that only happens when they trust you.&lt;/p&gt;
-
-&lt;p&gt;You can be someone’s manager, but if that person does not trust or respect you, you will have limited ability to influence them. So, great leaders make for great managers.&lt;/p&gt;
-
-&lt;p&gt;The world needs more leaders—individuals who can actually mobilize people to solve important problems plaguing our communities.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Managing Your Knowledge Portfolio 📈</title>
-   <link href="http://localhost:4000/2024/04/09/managing-your-knowledge-portfolio/"/>
-   <updated>2024-04-09T00:00:00-04:00</updated>
-   <id>http://localhost:4000/2024/04/09/managing-your-knowledge-portfolio</id>
-   <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;“An investment in knowledge pays the best interest.” - Benjamin Franklin&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Your knowledge and experience are your most important day-to-day professional assets.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, they’re expiring assets. Your knowledge becomes out of date as new techniques, languages, and environments are developed. Changing market forces may render your experience obsolete or irrelevant. Given the ever-increasing pace of change in our technological society, this can happen pretty quickly.&lt;/p&gt;
-
-&lt;p&gt;As the value of your knowledge declines, so does your value to your company or client. You have to prevent this from ever happening. Your ability to learn new things is your most important strategic asset. But how do you learn how to learn, and how do you know what to learn?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This post is based on an excerpt drawn from the book &lt;a href=&quot;https://www.amazon.ca/Pragmatic-Programmer-journey-mastery-Anniversary-dp-0135957052/dp/0135957052/ref=dp_ob_title_bk&quot; target=&quot;\_blank&quot;&gt;“The Pragmatic Programmer”&lt;/a&gt; by the wise David Thomas and Andy Hunt. While this advice is aimed at programmers, the wisdom contained within is broadly applicable to any knowledge professional.&lt;/p&gt;
-
-&lt;h2 id=&quot;your-knowledge-portfolio&quot;&gt;Your Knowledge Portfolio&lt;/h2&gt;
-
-&lt;p&gt;Think of all the facts programmers know about computing, the application domains they work in, and all their experience as their knowledge portfolios. Managing a knowledge portfolio is very similar to managing a financial portfolio:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1. Serious investors invest regularly—as a habit.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. Diversification is the key to long-term success.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. Smart investors balance their portfolios between conservative and high-risk, high-reward investments.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4. Investors try to buy low and sell high for maximum return.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5. Portfolios should be reviewed and rebalanced periodically.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;To be successful in your career, you must invest in your knowledge portfolio using these same guidelines.&lt;/p&gt;
-
-&lt;p&gt;The good news is that managing this kind of investment is a skill just like any other—it can be learned. The trick is to make yourself do it initially and form a habit. Develop a routine which you follow until your brain internalizes it. At that point, you’ll find yourself sucking up new knowledge automatically.&lt;/p&gt;
-
-&lt;h2 id=&quot;building-your-portfolio&quot;&gt;Building Your Portfolio&lt;/h2&gt;
-
-&lt;h3 id=&quot;invest-regularly&quot;&gt;Invest regularly&lt;/h3&gt;
-
-&lt;p&gt;Just as in financial investing, you must invest in your knowledge portfolio regularly, even if it’s just a small amount. The habit is as important as the sums, so plan to use a consistent time and place, away from interruptions.&lt;/p&gt;
-
-&lt;h3 id=&quot;diversify&quot;&gt;Diversify&lt;/h3&gt;
-
-&lt;p&gt;The more different things you know, the more valuable you are. As a baseline, you need to know the ins and outs of the particular technology you are working with currently. But don’t stop there. The face of computing changes rapidly—hot technology today may well be close to useless (or at least not in demand) tomorrow. The more technologies you are comfortable with, the better you will be able to adjust to change. And don’t forget all the other skills you need, including those in non-technical areas.&lt;/p&gt;
-
-&lt;h3 id=&quot;manage-risk&quot;&gt;Manage risk&lt;/h3&gt;
-
-&lt;p&gt;Technology exists along a spectrum from risky, potentially high-reward to low-risk, low-reward standards. It’s not a good idea to invest all of your money in high-risk stocks that might collapse suddenly, nor should you invest all of it conservatively and miss out on possible opportunities. Don’t put all your technical eggs in one basket.&lt;/p&gt;
-
-&lt;h3 id=&quot;buy-low-sell-high&quot;&gt;Buy low, sell high&lt;/h3&gt;
-
-&lt;p&gt;Learning an emerging technology before it becomes popular can be just as hard as finding an undervalued stock, but the payoff can be just as rewarding. Learning Java back when it was first introduced and unknown may have been risky at the time, but it paid off handsomely for the early adopters when it became an industry mainstay later.&lt;/p&gt;
-
-&lt;h3 id=&quot;review-and-rebalance&quot;&gt;Review and rebalance&lt;/h3&gt;
-
-&lt;p&gt;This is a very dynamic industry. That hot technology you started investigating last month might be stone cold by now. Maybe you need to brush up on that database technology that you haven’t used in a while. Or perhaps you could be better positioned for that new job opening if you tried out that other language…&lt;/p&gt;
-
-&lt;p&gt;Of all these guidelines, the most important one is the simplest to do:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Invest regularly in your knowledge portfolio!!!&lt;/strong&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>The Evolution of Data Architectures: From Data Warehouses to Data Meshes</title>
-   <link href="http://localhost:4000/2024/03/23/the-evolution-of-data-architectures/"/>
-   <updated>2024-03-23T00:00:00-04:00</updated>
-   <id>http://localhost:4000/2024/03/23/the-evolution-of-data-architectures</id>
+   <link href="http://localhost:4000/2024/05/13/the-evolution-of-data-architectures/"/>
+   <updated>2024-05-13T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2024/05/13/the-evolution-of-data-architectures</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;“If you want to understand today, you have to search yesterday.” - Pearl S. Buck&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -221,67 +131,10 @@
  </entry>
  
  <entry>
-   <title>Starting a Community from Scratch: Lessons from the Trenches</title>
-   <link href="http://localhost:4000/2024/02/25/starting-a-community-from-scratch/"/>
-   <updated>2024-02-25T00:00:00-05:00</updated>
-   <id>http://localhost:4000/2024/02/25/starting-a-community-from-scratch</id>
-   <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;“Coming together is a beginning; keeping together is progress; working together is success.” - Henry Ford&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;So…I recently started a community within my company and I learnt a lot of things in the process. Maybe you are passionate about a particular topic, or you’re eager to help others, but you’re not quite sure where to begin. Well then, this post might be of some help to you.&lt;/p&gt;
-
-&lt;p&gt;Here’s the list of things that I learnt in the process of starting a community:&lt;/p&gt;
-
-&lt;h2 id=&quot;1-good-and-bad-reasons-to-start-a-community&quot;&gt;1. Good and Bad Reasons to Start a Community&lt;/h2&gt;
-
-&lt;p&gt;Let’s get one thing straight from the get-go: there are good reasons and bad reasons to start a community.&lt;/p&gt;
-
-&lt;h3 id=&quot;bad-reasons&quot;&gt;Bad Reasons&lt;/h3&gt;
-
-&lt;p&gt;If you’re in it to boost your ego, gain fame, or just for the sake of having a huge following, you might want to rethink your motivations.&lt;/p&gt;
-
-&lt;h3 id=&quot;good-reasons&quot;&gt;Good Reasons&lt;/h3&gt;
-
-&lt;p&gt;However, if you’re genuinely passionate about a topic or a cause and you can’t bear the thought of the absence of a community for it, then you’re on the right track.&lt;/p&gt;
-
-&lt;h2 id=&quot;2-passion-initiative-and-embracing-failure&quot;&gt;2. Passion, Initiative, and Embracing Failure&lt;/h2&gt;
-
-&lt;p&gt;Starting a community isn’t for the faint of heart. It takes passion, initiative, and most importantly a willingness to fail publicly. Yes, you heard me right. Embracing the possibility of failure in front of everyone is a crucial litmus test for your commitment.&lt;/p&gt;
-
-&lt;h2 id=&quot;3-the-power-of-the-first-post&quot;&gt;3. The Power of the First Post&lt;/h2&gt;
-
-&lt;p&gt;Your first post is like your community’s first impression. Make it count. From my experience, a conversational tone works wonders. People want to connect with real humans, not faceless corporations.&lt;/p&gt;
-
-&lt;h2 id=&quot;4-the-importance-of-your-first-members&quot;&gt;4. The Importance of Your First Members&lt;/h2&gt;
-
-&lt;p&gt;Those initial members? They’re your tribe. They’re the ones who truly care about what you’re building. Pay attention to them; take care of them. They are your biggest supporters.&lt;/p&gt;
-
-&lt;h2 id=&quot;5-understanding-your-community&quot;&gt;5. Understanding Your Community&lt;/h2&gt;
-
-&lt;p&gt;The best way to understand what your community wants is to ask them. It’s as simple as that. Forget the notion that people don’t know what they want until you show them. We are not building a high tech startup here. Your community knows best.&lt;/p&gt;
-
-&lt;h2 id=&quot;6-addressing-drop-offs&quot;&gt;6. Addressing Drop-Offs&lt;/h2&gt;
-
-&lt;p&gt;If people are dropping off, don’t just throw more marketing at the problem. Take a step back and figure out why. Fix the root cause, not just the symptoms.&lt;/p&gt;
-
-&lt;h2 id=&quot;7-quality-over-quantity&quot;&gt;7. Quality Over Quantity&lt;/h2&gt;
-
-&lt;p&gt;A small, tight-knit community beats a massive, indifferent one any day. It’s not about the numbers; it’s about the connections you forge.&lt;/p&gt;
-
-&lt;h2 id=&quot;8-the-journey-is-the-reward&quot;&gt;8. The Journey Is the Reward&lt;/h2&gt;
-
-&lt;p&gt;Starting a community isn’t just about the destination; it’s about the journey. Along the way, you’ll learn a lot about people, influence, marketing, leadership and so much more. Trust me; it’s worth it.&lt;/p&gt;
-
-&lt;p&gt;In conclusion, starting a community is not easy. But if you’re willing to put in the effort and take a small risk, the rewards can be truly fulfilling, even if they are tiny.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Basic tmux Cheatsheet</title>
-   <link href="http://localhost:4000/2024/01/31/basic-tmux-cheatsheet/"/>
-   <updated>2024-01-31T00:00:00-05:00</updated>
-   <id>http://localhost:4000/2024/01/31/basic-tmux-cheatsheet</id>
+   <link href="http://localhost:4000/2024/05/05/basic-tmux-cheatsheet/"/>
+   <updated>2024-05-05T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2024/05/05/basic-tmux-cheatsheet</id>
    <content type="html">&lt;h2 id=&quot;install-tmux-on-a-mac&quot;&gt;Install &lt;code&gt;tmux&lt;/code&gt; on a Mac&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;brew install tmux
@@ -389,6 +242,153 @@
 
 &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;tmux kill-server
 &lt;/code&gt;&lt;/pre&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>What Is the Difference Between Leadership and Management?</title>
+   <link href="http://localhost:4000/2024/05/03/what-is-the-difference-between-leadership-and-management/"/>
+   <updated>2024-05-03T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2024/05/03/what-is-the-difference-between-leadership-and-management</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;“Your title makes you a manager. Your people make you a leader.” - Bill Campbell&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This post is based on an excerpt from the book &lt;a href=&quot;https://www.amazon.ca/Making-Manager-What-Everyone-Looks/dp/0735219567&quot; target=&quot;\_blank&quot;&gt;“The Making of a Manager”&lt;/a&gt; by the amazing Julie Zhuo.&lt;/p&gt;
+
+&lt;p&gt;I always considered the words “manager” and “leader” to be synonyms. Managers lead, and leaders manage, right? Nope, wrong. “Manager” is a specific role, just as an elementary school teacher and a heart surgeon are specific roles. There are clear principles outlining what a manager does and how their success is measured.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Leadership&lt;/strong&gt;, on the other hand, is the particular skill of being able &lt;strong&gt;to guide and influence&lt;/strong&gt; other people. Now, a manager who doesn’t know how to influence others isn’t going to be particularly effective at improving the outcomes of their team. So, to be a great manager, one must certainly be a leader.&lt;/p&gt;
+
+&lt;p&gt;A leader, on the other hand, doesn’t have to be a manager. Anyone can exhibit leadership, regardless of their role or stature. Think of a store clerk calmly directing shoppers to safety when the screeching tornado bell goes off in a mall. Think of a passionate citizen going door-to-door and convincing neighbors to join them in protesting a recent decision. Think of generations upon generations of mothers and fathers demonstrating to their children what it means to act like a responsible adult.&lt;/p&gt;
+
+&lt;p&gt;If you picture your own organization, you can probably come up with many examples of leadership: an individual contributor who surfaces important customer complaints and then coordinates solutions across multiple teams, a team member who rallies a group to work on a new idea, or a veteran employee who is a sought-out oracle of wisdom. If you can pinpoint a problem and motivate others to work with you to solve it, then you’re leading.&lt;/p&gt;
+
+&lt;p&gt;Leadership is a quality rather than a job. &lt;strong&gt;We are all leaders and followers at different points in our lives.&lt;/strong&gt; Managers should cultivate leadership not just in themselves but also within their teams. This is very important, as the role of a manager can be given to someone (or taken away), but leadership is not something that can be bestowed. It must be earned. People must want to follow you, and that only happens when they trust you.&lt;/p&gt;
+
+&lt;p&gt;You can be someone’s manager, but if that person does not trust or respect you, you will have limited ability to influence them. So, great leaders make for great managers.&lt;/p&gt;
+
+&lt;p&gt;The world needs more leaders—individuals who can actually mobilize people to solve important problems plaguing our communities.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Managing Your Knowledge Portfolio 📈</title>
+   <link href="http://localhost:4000/2024/04/09/managing-your-knowledge-portfolio/"/>
+   <updated>2024-04-09T00:00:00-04:00</updated>
+   <id>http://localhost:4000/2024/04/09/managing-your-knowledge-portfolio</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;“An investment in knowledge pays the best interest.” - Benjamin Franklin&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Your knowledge and experience are your most important day-to-day professional assets.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, they’re expiring assets. Your knowledge becomes out of date as new techniques, languages, and environments are developed. Changing market forces may render your experience obsolete or irrelevant. Given the ever-increasing pace of change in our technological society, this can happen pretty quickly.&lt;/p&gt;
+
+&lt;p&gt;As the value of your knowledge declines, so does your value to your company or client. You have to prevent this from ever happening. Your ability to learn new things is your most important strategic asset. But how do you learn how to learn, and how do you know what to learn?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This post is based on an excerpt drawn from the book &lt;a href=&quot;https://www.amazon.ca/Pragmatic-Programmer-journey-mastery-Anniversary-dp-0135957052/dp/0135957052/ref=dp_ob_title_bk&quot; target=&quot;\_blank&quot;&gt;“The Pragmatic Programmer”&lt;/a&gt; by the wise David Thomas and Andy Hunt. While this advice is aimed at programmers, the wisdom contained within is broadly applicable to any knowledge professional.&lt;/p&gt;
+
+&lt;h2 id=&quot;your-knowledge-portfolio&quot;&gt;Your Knowledge Portfolio&lt;/h2&gt;
+
+&lt;p&gt;Think of all the facts programmers know about computing, the application domains they work in, and all their experience as their knowledge portfolios. Managing a knowledge portfolio is very similar to managing a financial portfolio:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Serious investors invest regularly—as a habit.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Diversification is the key to long-term success.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Smart investors balance their portfolios between conservative and high-risk, high-reward investments.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Investors try to buy low and sell high for maximum return.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Portfolios should be reviewed and rebalanced periodically.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To be successful in your career, you must invest in your knowledge portfolio using these same guidelines.&lt;/p&gt;
+
+&lt;p&gt;The good news is that managing this kind of investment is a skill just like any other—it can be learned. The trick is to make yourself do it initially and form a habit. Develop a routine which you follow until your brain internalizes it. At that point, you’ll find yourself sucking up new knowledge automatically.&lt;/p&gt;
+
+&lt;h2 id=&quot;building-your-portfolio&quot;&gt;Building Your Portfolio&lt;/h2&gt;
+
+&lt;h3 id=&quot;invest-regularly&quot;&gt;Invest regularly&lt;/h3&gt;
+
+&lt;p&gt;Just as in financial investing, you must invest in your knowledge portfolio regularly, even if it’s just a small amount. The habit is as important as the sums, so plan to use a consistent time and place, away from interruptions.&lt;/p&gt;
+
+&lt;h3 id=&quot;diversify&quot;&gt;Diversify&lt;/h3&gt;
+
+&lt;p&gt;The more different things you know, the more valuable you are. As a baseline, you need to know the ins and outs of the particular technology you are working with currently. But don’t stop there. The face of computing changes rapidly—hot technology today may well be close to useless (or at least not in demand) tomorrow. The more technologies you are comfortable with, the better you will be able to adjust to change. And don’t forget all the other skills you need, including those in non-technical areas.&lt;/p&gt;
+
+&lt;h3 id=&quot;manage-risk&quot;&gt;Manage risk&lt;/h3&gt;
+
+&lt;p&gt;Technology exists along a spectrum from risky, potentially high-reward to low-risk, low-reward standards. It’s not a good idea to invest all of your money in high-risk stocks that might collapse suddenly, nor should you invest all of it conservatively and miss out on possible opportunities. Don’t put all your technical eggs in one basket.&lt;/p&gt;
+
+&lt;h3 id=&quot;buy-low-sell-high&quot;&gt;Buy low, sell high&lt;/h3&gt;
+
+&lt;p&gt;Learning an emerging technology before it becomes popular can be just as hard as finding an undervalued stock, but the payoff can be just as rewarding. Learning Java back when it was first introduced and unknown may have been risky at the time, but it paid off handsomely for the early adopters when it became an industry mainstay later.&lt;/p&gt;
+
+&lt;h3 id=&quot;review-and-rebalance&quot;&gt;Review and rebalance&lt;/h3&gt;
+
+&lt;p&gt;This is a very dynamic industry. That hot technology you started investigating last month might be stone cold by now. Maybe you need to brush up on that database technology that you haven’t used in a while. Or perhaps you could be better positioned for that new job opening if you tried out that other language…&lt;/p&gt;
+
+&lt;p&gt;Of all these guidelines, the most important one is the simplest to do:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Invest regularly in your knowledge portfolio!!!&lt;/strong&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Starting a Community from Scratch: Lessons from the Trenches</title>
+   <link href="http://localhost:4000/2024/02/25/starting-a-community-from-scratch/"/>
+   <updated>2024-02-25T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2024/02/25/starting-a-community-from-scratch</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;“Coming together is a beginning; keeping together is progress; working together is success.” - Henry Ford&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So…I recently started a community within my company and I learnt a lot of things in the process. Maybe you are passionate about a particular topic, or you’re eager to help others, but you’re not quite sure where to begin. Well then, this post might be of some help to you.&lt;/p&gt;
+
+&lt;p&gt;Here’s the list of things that I learnt in the process of starting a community:&lt;/p&gt;
+
+&lt;h2 id=&quot;1-good-and-bad-reasons-to-start-a-community&quot;&gt;1. Good and Bad Reasons to Start a Community&lt;/h2&gt;
+
+&lt;p&gt;Let’s get one thing straight from the get-go: there are good reasons and bad reasons to start a community.&lt;/p&gt;
+
+&lt;h3 id=&quot;bad-reasons&quot;&gt;Bad Reasons&lt;/h3&gt;
+
+&lt;p&gt;If you’re in it to boost your ego, gain fame, or just for the sake of having a huge following, you might want to rethink your motivations.&lt;/p&gt;
+
+&lt;h3 id=&quot;good-reasons&quot;&gt;Good Reasons&lt;/h3&gt;
+
+&lt;p&gt;However, if you’re genuinely passionate about a topic or a cause and you can’t bear the thought of the absence of a community for it, then you’re on the right track.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-passion-initiative-and-embracing-failure&quot;&gt;2. Passion, Initiative, and Embracing Failure&lt;/h2&gt;
+
+&lt;p&gt;Starting a community isn’t for the faint of heart. It takes passion, initiative, and most importantly a willingness to fail publicly. Yes, you heard me right. Embracing the possibility of failure in front of everyone is a crucial litmus test for your commitment.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-the-power-of-the-first-post&quot;&gt;3. The Power of the First Post&lt;/h2&gt;
+
+&lt;p&gt;Your first post is like your community’s first impression. Make it count. From my experience, a conversational tone works wonders. People want to connect with real humans, not faceless corporations.&lt;/p&gt;
+
+&lt;h2 id=&quot;4-the-importance-of-your-first-members&quot;&gt;4. The Importance of Your First Members&lt;/h2&gt;
+
+&lt;p&gt;Those initial members? They’re your tribe. They’re the ones who truly care about what you’re building. Pay attention to them; take care of them. They are your biggest supporters.&lt;/p&gt;
+
+&lt;h2 id=&quot;5-understanding-your-community&quot;&gt;5. Understanding Your Community&lt;/h2&gt;
+
+&lt;p&gt;The best way to understand what your community wants is to ask them. It’s as simple as that. Forget the notion that people don’t know what they want until you show them. We are not building a high tech startup here. Your community knows best.&lt;/p&gt;
+
+&lt;h2 id=&quot;6-addressing-drop-offs&quot;&gt;6. Addressing Drop-Offs&lt;/h2&gt;
+
+&lt;p&gt;If people are dropping off, don’t just throw more marketing at the problem. Take a step back and figure out why. Fix the root cause, not just the symptoms.&lt;/p&gt;
+
+&lt;h2 id=&quot;7-quality-over-quantity&quot;&gt;7. Quality Over Quantity&lt;/h2&gt;
+
+&lt;p&gt;A small, tight-knit community beats a massive, indifferent one any day. It’s not about the numbers; it’s about the connections you forge.&lt;/p&gt;
+
+&lt;h2 id=&quot;8-the-journey-is-the-reward&quot;&gt;8. The Journey Is the Reward&lt;/h2&gt;
+
+&lt;p&gt;Starting a community isn’t just about the destination; it’s about the journey. Along the way, you’ll learn a lot about people, influence, marketing, leadership and so much more. Trust me; it’s worth it.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, starting a community is not easy. But if you’re willing to put in the effort and take a small risk, the rewards can be truly fulfilling, even if they are tiny.&lt;/p&gt;
 </content>
  </entry>
  
