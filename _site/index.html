@@ -114,54 +114,6 @@
           
         
       
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
     </nav>
 
     <p>&copy; 2024. All rights reserved.</p>
@@ -290,6 +242,396 @@
 <p>Please feel free to dig deeper into any of the above architectures that you are using to solve your specific data problem(s). There are many great resources to help you do that.</p>
 
 <p>Thanks for reading!</p>
+
+    <style>
+    .footer {
+        text-align: right;
+    }
+    .footer a {
+        display: inline-block;
+    }
+    .footer img {
+        width: auto; /* Optional: Adjust image size as needed */
+        height: 75px; /* Optional: Adjust image size as needed */
+    }
+</style>
+
+<div class="footer">
+    <a id="linkedin-share" href="#" target="_blank">
+        <img src="/public/icons/linkedin-share.png" alt="LinkedIn">
+    </a>
+    <a id="x-share" href="#" target="_blank">
+        <img src="/public/icons/x-share.png" alt="X">
+    </a>
+</div>
+
+<script>
+    var linkedInBaseUrl = "https://www.linkedin.com/shareArticle?url="
+    var xBaseUrl = "https://twitter.com/share?url="
+    document.getElementById("linkedin-share").href = linkedInBaseUrl + window.location.href
+    document.getElementById("x-share").href = xBaseUrl + window.location.href
+</script>
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2024/05/05/basic-tmux-cheatsheet/">
+        Basic tmux Cheatsheet
+      </a>
+    </h1>
+
+    <span class="post-date">05 May 2024</span>
+
+    <h2 id="install-tmux-on-a-mac">Install <code>tmux</code> on a Mac</h2>
+
+<pre><code class="language-bash">brew install tmux
+</code></pre>
+
+<h2 id="check-tmux-version">Check <code>tmux</code> version</h2>
+
+<pre><code class="language-bash">tmux -V
+</code></pre>
+
+<h2 id="tmux-abstractions"><code>tmux</code> abstractions</h2>
+
+<p><strong>Sessions</strong> are composed of <strong>windows</strong> which inturn are composed of <strong>panes.</strong></p>
+
+<p><em>Sessions are terminated when the system restarts.</em></p>
+
+<h2 id="tmux-prefix"><code>tmux</code> prefix</h2>
+
+<pre><code class="language-bash">&lt;control + b&gt;
+</code></pre>
+
+<p><em>All shortcuts are preceded by the prefix.</em></p>
+
+<h2 id="enter-into-tmux-session">Enter into <code>tmux</code> session</h2>
+
+<pre><code class="language-bash">tmux
+</code></pre>
+
+<h2 id="create-a-new-window">Create a new window</h2>
+
+<pre><code class="language-bash">&lt;control + b&gt; + c
+</code></pre>
+
+<p><em>Current windows are indicated with an asterisk.</em></p>
+
+<h2 id="rename-a-window">Rename a window</h2>
+
+<pre><code class="language-bash">&lt;control + b&gt; + ,
+</code></pre>
+
+<h2 id="move-between-windows">Move between windows</h2>
+
+<pre><code class="language-bash">&lt;control + b&gt; + &lt;window_number&gt;
+</code></pre>
+
+<h2 id="create-a-vertical-pane-in-window">Create a vertical pane in window</h2>
+
+<pre><code class="language-bash">&lt;control + b&gt; + %
+</code></pre>
+
+<h2 id="create-a-horizontal-pane-in-window">Create a horizontal pane in window</h2>
+
+<pre><code class="language-bash">&lt;control + b&gt; + "
+</code></pre>
+
+<h2 id="move-cursor-between-panes">Move cursor between panes</h2>
+
+<pre><code class="language-bash">&lt;control + b&gt; + &lt;left|up|down|right&gt;
+</code></pre>
+
+<h2 id="delete-a-pane">Delete a pane</h2>
+
+<pre><code class="language-bash">exit
+</code></pre>
+<p><em>If you delete all the panes in a window you delete the window.</em></p>
+
+<h2 id="delete-a-window-tmux">Delete a window tmux</h2>
+
+<pre><code class="language-bash">tmux kill-window -t &lt;window-number&gt;
+</code></pre>
+<p><em>If you delete all the windows, you delete the session.</em></p>
+
+<h2 id="create-a-new-session">Create a new session</h2>
+
+<pre><code class="language-bash">tmux new -s &lt;session_name&gt;
+</code></pre>
+
+<h2 id="detach-from-a-session">Detach from a session</h2>
+
+<pre><code class="language-bash">&lt;control + b&gt; + d
+</code></pre>
+
+<h2 id="view-all-tmux-sessions">View all <code>tmux</code> sessions</h2>
+
+<pre><code class="language-bash">tmux ls
+</code></pre>
+
+<h2 id="attach-to-a-session">Attach to a session</h2>
+
+<pre><code class="language-bash">tmux attach -t &lt;session_name&gt;
+</code></pre>
+<p><em>The session_name is the session_number if it is not named.</em></p>
+
+<h2 id="rename-a-session">Rename a session</h2>
+
+<pre><code class="language-bash">tmux rename-session -t &lt;sessions_number&gt; &lt;session_name&gt;
+</code></pre>
+
+<h2 id="kill-a-session">Kill a session</h2>
+
+<pre><code class="language-bash">tmux kill-session -t &lt;sessions_name&gt;
+</code></pre>
+<p><em>The session_name is the session_number if it is not named.</em></p>
+<h2 id="kill-all-sessions">Kill all sessions</h2>
+
+<pre><code class="language-bash">tmux kill-server
+</code></pre>
+
+    <style>
+    .footer {
+        text-align: right;
+    }
+    .footer a {
+        display: inline-block;
+    }
+    .footer img {
+        width: auto; /* Optional: Adjust image size as needed */
+        height: 75px; /* Optional: Adjust image size as needed */
+    }
+</style>
+
+<div class="footer">
+    <a id="linkedin-share" href="#" target="_blank">
+        <img src="/public/icons/linkedin-share.png" alt="LinkedIn">
+    </a>
+    <a id="x-share" href="#" target="_blank">
+        <img src="/public/icons/x-share.png" alt="X">
+    </a>
+</div>
+
+<script>
+    var linkedInBaseUrl = "https://www.linkedin.com/shareArticle?url="
+    var xBaseUrl = "https://twitter.com/share?url="
+    document.getElementById("linkedin-share").href = linkedInBaseUrl + window.location.href
+    document.getElementById("x-share").href = xBaseUrl + window.location.href
+</script>
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2024/05/03/what-is-the-difference-between-leadership-and-management/">
+        What Is the Difference Between Leadership and Management?
+      </a>
+    </h1>
+
+    <span class="post-date">03 May 2024</span>
+
+    <blockquote>
+  <p>“Your title makes you a manager. Your people make you a leader.” - Bill Campbell</p>
+</blockquote>
+
+<p><strong>Note:</strong> This post is based on an excerpt from the book <a href="https://www.amazon.ca/Making-Manager-What-Everyone-Looks/dp/0735219567" target="\_blank">“The Making of a Manager”</a> by the amazing Julie Zhuo.</p>
+
+<p>I always considered the words “manager” and “leader” to be synonyms. Managers lead, and leaders manage, right? Nope, wrong. “Manager” is a specific role, just as an elementary school teacher and a heart surgeon are specific roles. There are clear principles outlining what a manager does and how their success is measured.</p>
+
+<p><strong>Leadership</strong>, on the other hand, is the particular skill of being able <strong>to guide and influence</strong> other people. Now, a manager who doesn’t know how to influence others isn’t going to be particularly effective at improving the outcomes of their team. So, to be a great manager, one must certainly be a leader.</p>
+
+<p>A leader, on the other hand, doesn’t have to be a manager. Anyone can exhibit leadership, regardless of their role or stature. Think of a store clerk calmly directing shoppers to safety when the screeching tornado bell goes off in a mall. Think of a passionate citizen going door-to-door and convincing neighbors to join them in protesting a recent decision. Think of generations upon generations of mothers and fathers demonstrating to their children what it means to act like a responsible adult.</p>
+
+<p>If you picture your own organization, you can probably come up with many examples of leadership: an individual contributor who surfaces important customer complaints and then coordinates solutions across multiple teams, a team member who rallies a group to work on a new idea, or a veteran employee who is a sought-out oracle of wisdom. If you can pinpoint a problem and motivate others to work with you to solve it, then you’re leading.</p>
+
+<p>Leadership is a quality rather than a job. <strong>We are all leaders and followers at different points in our lives.</strong> Managers should cultivate leadership not just in themselves but also within their teams. This is very important, as the role of a manager can be given to someone (or taken away), but leadership is not something that can be bestowed. It must be earned. People must want to follow you, and that only happens when they trust you.</p>
+
+<p>You can be someone’s manager, but if that person does not trust or respect you, you will have limited ability to influence them. So, great leaders make for great managers.</p>
+
+<p>The world needs more leaders—individuals who can actually mobilize people to solve important problems plaguing our communities.</p>
+
+    <style>
+    .footer {
+        text-align: right;
+    }
+    .footer a {
+        display: inline-block;
+    }
+    .footer img {
+        width: auto; /* Optional: Adjust image size as needed */
+        height: 75px; /* Optional: Adjust image size as needed */
+    }
+</style>
+
+<div class="footer">
+    <a id="linkedin-share" href="#" target="_blank">
+        <img src="/public/icons/linkedin-share.png" alt="LinkedIn">
+    </a>
+    <a id="x-share" href="#" target="_blank">
+        <img src="/public/icons/x-share.png" alt="X">
+    </a>
+</div>
+
+<script>
+    var linkedInBaseUrl = "https://www.linkedin.com/shareArticle?url="
+    var xBaseUrl = "https://twitter.com/share?url="
+    document.getElementById("linkedin-share").href = linkedInBaseUrl + window.location.href
+    document.getElementById("x-share").href = xBaseUrl + window.location.href
+</script>
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2024/04/09/managing-your-knowledge-portfolio/">
+        Managing Your Knowledge Portfolio 📈
+      </a>
+    </h1>
+
+    <span class="post-date">09 Apr 2024</span>
+
+    <blockquote>
+  <p>“An investment in knowledge pays the best interest.” - Benjamin Franklin</p>
+</blockquote>
+
+<p>Your knowledge and experience are your most important day-to-day professional assets.</p>
+
+<p>Unfortunately, they’re expiring assets. Your knowledge becomes out of date as new techniques, languages, and environments are developed. Changing market forces may render your experience obsolete or irrelevant. Given the ever-increasing pace of change in our technological society, this can happen pretty quickly.</p>
+
+<p>As the value of your knowledge declines, so does your value to your company or client. You have to prevent this from ever happening. Your ability to learn new things is your most important strategic asset. But how do you learn how to learn, and how do you know what to learn?</p>
+
+<p><strong>Note:</strong> This post is based on an excerpt drawn from the book <a href="https://www.amazon.ca/Pragmatic-Programmer-journey-mastery-Anniversary-dp-0135957052/dp/0135957052/ref=dp_ob_title_bk" target="\_blank">“The Pragmatic Programmer”</a> by the wise David Thomas and Andy Hunt. While this advice is aimed at programmers, the wisdom contained within is broadly applicable to any knowledge professional.</p>
+
+<h2 id="your-knowledge-portfolio">Your Knowledge Portfolio</h2>
+
+<p>Think of all the facts programmers know about computing, the application domains they work in, and all their experience as their knowledge portfolios. Managing a knowledge portfolio is very similar to managing a financial portfolio:</p>
+
+<p><strong>1. Serious investors invest regularly—as a habit.</strong></p>
+
+<p><strong>2. Diversification is the key to long-term success.</strong></p>
+
+<p><strong>3. Smart investors balance their portfolios between conservative and high-risk, high-reward investments.</strong></p>
+
+<p><strong>4. Investors try to buy low and sell high for maximum return.</strong></p>
+
+<p><strong>5. Portfolios should be reviewed and rebalanced periodically.</strong></p>
+
+<p>To be successful in your career, you must invest in your knowledge portfolio using these same guidelines.</p>
+
+<p>The good news is that managing this kind of investment is a skill just like any other—it can be learned. The trick is to make yourself do it initially and form a habit. Develop a routine which you follow until your brain internalizes it. At that point, you’ll find yourself sucking up new knowledge automatically.</p>
+
+<h2 id="building-your-portfolio">Building Your Portfolio</h2>
+
+<h3 id="invest-regularly">Invest regularly</h3>
+
+<p>Just as in financial investing, you must invest in your knowledge portfolio regularly, even if it’s just a small amount. The habit is as important as the sums, so plan to use a consistent time and place, away from interruptions.</p>
+
+<h3 id="diversify">Diversify</h3>
+
+<p>The more different things you know, the more valuable you are. As a baseline, you need to know the ins and outs of the particular technology you are working with currently. But don’t stop there. The face of computing changes rapidly—hot technology today may well be close to useless (or at least not in demand) tomorrow. The more technologies you are comfortable with, the better you will be able to adjust to change. And don’t forget all the other skills you need, including those in non-technical areas.</p>
+
+<h3 id="manage-risk">Manage risk</h3>
+
+<p>Technology exists along a spectrum from risky, potentially high-reward to low-risk, low-reward standards. It’s not a good idea to invest all of your money in high-risk stocks that might collapse suddenly, nor should you invest all of it conservatively and miss out on possible opportunities. Don’t put all your technical eggs in one basket.</p>
+
+<h3 id="buy-low-sell-high">Buy low, sell high</h3>
+
+<p>Learning an emerging technology before it becomes popular can be just as hard as finding an undervalued stock, but the payoff can be just as rewarding. Learning Java back when it was first introduced and unknown may have been risky at the time, but it paid off handsomely for the early adopters when it became an industry mainstay later.</p>
+
+<h3 id="review-and-rebalance">Review and rebalance</h3>
+
+<p>This is a very dynamic industry. That hot technology you started investigating last month might be stone cold by now. Maybe you need to brush up on that database technology that you haven’t used in a while. Or perhaps you could be better positioned for that new job opening if you tried out that other language…</p>
+
+<p>Of all these guidelines, the most important one is the simplest to do:</p>
+
+<p><strong>Invest regularly in your knowledge portfolio!!!</strong></p>
+
+    <style>
+    .footer {
+        text-align: right;
+    }
+    .footer a {
+        display: inline-block;
+    }
+    .footer img {
+        width: auto; /* Optional: Adjust image size as needed */
+        height: 75px; /* Optional: Adjust image size as needed */
+    }
+</style>
+
+<div class="footer">
+    <a id="linkedin-share" href="#" target="_blank">
+        <img src="/public/icons/linkedin-share.png" alt="LinkedIn">
+    </a>
+    <a id="x-share" href="#" target="_blank">
+        <img src="/public/icons/x-share.png" alt="X">
+    </a>
+</div>
+
+<script>
+    var linkedInBaseUrl = "https://www.linkedin.com/shareArticle?url="
+    var xBaseUrl = "https://twitter.com/share?url="
+    document.getElementById("linkedin-share").href = linkedInBaseUrl + window.location.href
+    document.getElementById("x-share").href = xBaseUrl + window.location.href
+</script>
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2024/02/25/starting-a-community-from-scratch/">
+        Starting a Community from Scratch: Lessons from the Trenches
+      </a>
+    </h1>
+
+    <span class="post-date">25 Feb 2024</span>
+
+    <blockquote>
+  <p>“Coming together is a beginning; keeping together is progress; working together is success.” - Henry Ford</p>
+</blockquote>
+
+<p>So…I recently started a community within my company and I learnt a lot of things in the process. Maybe you are passionate about a particular topic, or you’re eager to help others, but you’re not quite sure where to begin. Well then, this post might be of some help to you.</p>
+
+<p>Here’s the list of things that I learnt in the process of starting a community:</p>
+
+<h2 id="1-good-and-bad-reasons-to-start-a-community">1. Good and Bad Reasons to Start a Community</h2>
+
+<p>Let’s get one thing straight from the get-go: there are good reasons and bad reasons to start a community.</p>
+
+<h3 id="bad-reasons">Bad Reasons</h3>
+
+<p>If you’re in it to boost your ego, gain fame, or just for the sake of having a huge following, you might want to rethink your motivations.</p>
+
+<h3 id="good-reasons">Good Reasons</h3>
+
+<p>However, if you’re genuinely passionate about a topic or a cause and you can’t bear the thought of the absence of a community for it, then you’re on the right track.</p>
+
+<h2 id="2-passion-initiative-and-embracing-failure">2. Passion, Initiative, and Embracing Failure</h2>
+
+<p>Starting a community isn’t for the faint of heart. It takes passion, initiative, and most importantly a willingness to fail publicly. Yes, you heard me right. Embracing the possibility of failure in front of everyone is a crucial litmus test for your commitment.</p>
+
+<h2 id="3-the-power-of-the-first-post">3. The Power of the First Post</h2>
+
+<p>Your first post is like your community’s first impression. Make it count. From my experience, a conversational tone works wonders. People want to connect with real humans, not faceless corporations.</p>
+
+<h2 id="4-the-importance-of-your-first-members">4. The Importance of Your First Members</h2>
+
+<p>Those initial members? They’re your tribe. They’re the ones who truly care about what you’re building. Pay attention to them; take care of them. They are your biggest supporters.</p>
+
+<h2 id="5-understanding-your-community">5. Understanding Your Community</h2>
+
+<p>The best way to understand what your community wants is to ask them. It’s as simple as that. Forget the notion that people don’t know what they want until you show them. We are not building a high tech startup here. Your community knows best.</p>
+
+<h2 id="6-addressing-drop-offs">6. Addressing Drop-Offs</h2>
+
+<p>If people are dropping off, don’t just throw more marketing at the problem. Take a step back and figure out why. Fix the root cause, not just the symptoms.</p>
+
+<h2 id="7-quality-over-quantity">7. Quality Over Quantity</h2>
+
+<p>A small, tight-knit community beats a massive, indifferent one any day. It’s not about the numbers; it’s about the connections you forge.</p>
+
+<h2 id="8-the-journey-is-the-reward">8. The Journey Is the Reward</h2>
+
+<p>Starting a community isn’t just about the destination; it’s about the journey. Along the way, you’ll learn a lot about people, influence, marketing, leadership and so much more. Trust me; it’s worth it.</p>
+
+<p>In conclusion, starting a community is not easy. But if you’re willing to put in the effort and take a small risk, the rewards can be truly fulfilling, even if they are tiny.</p>
 
     <style>
     .footer {

@@ -7,9 +7,7 @@ permalink:        pretty
 
 # Setup
 title:            Anish's Blog
-tagline:          ''
 description:      'Collection of my notes, ideas, and thoughts.'
-url:              http://hyde.getpoole.com
 baseurl:          /
 social_links:
   - url: "https://www.linkedin.com/in/anayanapalli/"
@@ -28,16 +26,6 @@ social_links:
     icon: "/public/icons/gmail.png"
     alt: "Email"
 
-author:
-  name:           'Anish Nayanapalli'
-  url:            https://twitter.com/anayanapalli
-
 paginate:         1
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
 
 plugins: [jekyll-paginate]
