@@ -12,24 +12,19 @@ description:      'Collection of my notes, ideas, and thoughts.'
 url:              http://hyde.getpoole.com
 baseurl:          /
 social_links:
-  - id: linkedin
-    url: "https://www.linkedin.com/in/anayanapalli/"
+  - url: "https://www.linkedin.com/in/anayanapalli/"
     icon: "/public/icons/linkedin.png"
     alt: "LinkedIn"
-  - id: github
-    url: "https://github.com/anayanapalli"
+  - url: "https://github.com/anayanapalli"
     icon: "/public/icons/github.png"
     alt: "GitHub"
-  - id: instagram
-    url: "https://www.instagram.com/stoicanish/"
+  - url: "https://www.instagram.com/stoicanish/"
     icon: "/public/icons/instagram.png"
     alt: "Instagram"
-  - id: twitter
-    url: "https://twitter.com/anayanapalli"
+  - url: "https://twitter.com/anayanapalli"
     icon: "/public/icons/twitter.png"
     alt: "Twitter"
-  - id: email
-    url: "mailto:anayanapalli@gmail.com"
+  - url: "mailto:anayanapalli@gmail.com"
     icon: "/public/icons/gmail.png"
     alt: "Email"
 
