@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      none
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -29,3 +29,6 @@ social_links:
 paginate:         1
 
 plugins: [jekyll-paginate]
+
+# Incremental Builds
+incremental: true
