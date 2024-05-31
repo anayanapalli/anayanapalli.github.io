@@ -60,6 +60,10 @@ html {
    width: 50%;
  }
 
+ .center-text {
+  text-align: center;
+}
+
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
