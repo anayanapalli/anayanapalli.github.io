@@ -30,4 +30,4 @@ paginate:         1
 plugins: [jekyll-paginate]
 
 # Incremental Builds
-incremental: true
+incremental: false
