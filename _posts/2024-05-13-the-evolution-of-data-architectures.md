@@ -7,7 +7,7 @@ title: "The Evolution of Data Architectures: From Data Warehouses to Data Meshes
 
 Over the past few decades, data architectures have undergone significant transformations in response to evolving data needs. While some changes successfully addressed existing challenges, others inadvertently gave rise to new complexities.
 
-This post offers a high-level exploration of this evolutionary trajectory, providing insights into the direction and pace of change in the field. Rather than delving into specific technologies, our focus is on understanding the overarching trends that have shaped data architecture over time.
+This post offers a high-level exploration of this evolutionary trajectory, providing insights into the direction and pace of change in the field. Rather than delving into specific technologies, our focus will be on understanding the overarching trends that have shaped data architecture over time.
 
 The following figure gives an overview of the architectures we will be discussing.
 
