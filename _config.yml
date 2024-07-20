@@ -1,0 +1,33 @@
+# Dependencies
+markdown:         kramdown
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Anish's Blog
+description:      'Collection of my notes, ideas, and thoughts.'
+baseurl:          /
+social_links:
+  - url: "https://www.linkedin.com/in/anayanapalli/"
+    icon: "/public/icons/linkedin.png"
+    alt: "LinkedIn"
+  - url: "https://github.com/anayanapalli"
+    icon: "/public/icons/github.png"
+    alt: "GitHub"
+  - url: "https://www.instagram.com/stoicanish/"
+    icon: "/public/icons/instagram.png"
+    alt: "Instagram"
+  - url: "https://twitter.com/anayanapalli"
+    icon: "/public/icons/twitter.png"
+    alt: "Twitter"
+  - url: "mailto:anayanapalli@gmail.com"
+    icon: "/public/icons/gmail.png"
+    alt: "Email"
+
+paginate:         1
+
+plugins: [jekyll-paginate]
+
+# Incremental Builds
+incremental: false

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  
+  <title>
+    
+      Anish's Blog &middot; Home
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <!-- Prism.js Code Highlighting -->
+  <link rel="stylesheet" href="/public/css/prism.css">
+  <script src="/public/js/prism.js"></script>
+</head>
+
+
+  <body class="theme-base-0x">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Anish's Blog
+        </a>
+      </h1>
+      <p class="sidebar-about">Collection of my notes, ideas, and thoughts.</p>
+    </div>
+
+    <div class="social-icons">
+      
+        <a href="https://www.linkedin.com/in/anayanapalli/" target="_blank">
+          <img src="/public/icons/linkedin.png" alt="LinkedIn">
+        </a>
+      
+        <a href="https://github.com/anayanapalli" target="_blank">
+          <img src="/public/icons/github.png" alt="GitHub">
+        </a>
+      
+        <a href="https://www.instagram.com/stoicanish/" target="_blank">
+          <img src="/public/icons/instagram.png" alt="Instagram">
+        </a>
+      
+        <a href="https://twitter.com/anayanapalli" target="_blank">
+          <img src="/public/icons/twitter.png" alt="Twitter">
+        </a>
+      
+        <a href="mailto:anayanapalli@gmail.com" target="_blank">
+          <img src="/public/icons/gmail.png" alt="Email">
+        </a>
+      
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about-me/">About Me</a>
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/all-posts/">All Posts</a>
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/bookfolio/">Bookfolio</a>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    </nav>
+
+    <p>&copy; 2024. All rights reserved.</p>
+  </div>
+</div>
+
+    <div class="content container">
+      <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2024/05/05/basic-tmux-cheatsheet/">
+        Basic tmux Cheatsheet
+      </a>
+    </h1>
+
+    <span class="post-date">05 May 2024</span>
+
+    <h2 id="install-tmux-on-a-mac">Install <code>tmux</code> on a Mac</h2>
+
+<pre><code class="language-bash">brew install tmux
+</code></pre>
+
+<h2 id="check-tmux-version">Check <code>tmux</code> version</h2>
+
+<pre><code class="language-bash">tmux -V
+</code></pre>
+
+<h2 id="tmux-abstractions"><code>tmux</code> abstractions</h2>
+
+<p><strong>Sessions</strong> are composed of <strong>windows</strong> which inturn are composed of <strong>panes.</strong></p>
+
+<p><em>Sessions are terminated when the system restarts.</em></p>
+
+<h2 id="tmux-prefix"><code>tmux</code> prefix</h2>
+
+<pre><code class="language-bash">&lt;control + b&gt;
+</code></pre>
+
+<p><em>All shortcuts are preceded by the prefix.</em></p>
+
+<h2 id="enter-into-tmux-session">Enter into <code>tmux</code> session</h2>
+
+<pre><code class="language-bash">tmux
+</code></pre>
+
+<h2 id="create-a-new-window">Create a new window</h2>
+
+<pre><code class="language-bash">&lt;control + b&gt; + c
+</code></pre>
+
+<p><em>Current windows are indicated with an asterisk.</em></p>
+
+<h2 id="rename-a-window">Rename a window</h2>
+
+<pre><code class="language-bash">&lt;control + b&gt; + ,
+</code></pre>
+
+<h2 id="move-between-windows">Move between windows</h2>
+
+<pre><code class="language-bash">&lt;control + b&gt; + &lt;window_number&gt;
+</code></pre>
+
+<h2 id="create-a-vertical-pane-in-window">Create a vertical pane in window</h2>
+
+<pre><code class="language-bash">&lt;control + b&gt; + %
+</code></pre>
+
+<h2 id="create-a-horizontal-pane-in-window">Create a horizontal pane in window</h2>
+
+<pre><code class="language-bash">&lt;control + b&gt; + "
+</code></pre>
+
+<h2 id="move-cursor-between-panes">Move cursor between panes</h2>
+
+<pre><code class="language-bash">&lt;control + b&gt; + &lt;left|up|down|right&gt;
+</code></pre>
+
+<h2 id="delete-a-pane">Delete a pane</h2>
+
+<pre><code class="language-bash">exit
+</code></pre>
+<p><em>If you delete all the panes in a window you delete the window.</em></p>
+
+<h2 id="delete-a-window-tmux">Delete a window tmux</h2>
+
+<pre><code class="language-bash">tmux kill-window -t &lt;window-number&gt;
+</code></pre>
+<p><em>If you delete all the windows, you delete the session.</em></p>
+
+<h2 id="create-a-new-session">Create a new session</h2>
+
+<pre><code class="language-bash">tmux new -s &lt;session_name&gt;
+</code></pre>
+
+<h2 id="detach-from-a-session">Detach from a session</h2>
+
+<pre><code class="language-bash">&lt;control + b&gt; + d
+</code></pre>
+
+<h2 id="view-all-tmux-sessions">View all <code>tmux</code> sessions</h2>
+
+<pre><code class="language-bash">tmux ls
+</code></pre>
+
+<h2 id="attach-to-a-session">Attach to a session</h2>
+
+<pre><code class="language-bash">tmux attach -t &lt;session_name&gt;
+</code></pre>
+<p><em>The session_name is the session_number if it is not named.</em></p>
+
+<h2 id="rename-a-session">Rename a session</h2>
+
+<pre><code class="language-bash">tmux rename-session -t &lt;sessions_number&gt; &lt;session_name&gt;
+</code></pre>
+
+<h2 id="kill-a-session">Kill a session</h2>
+
+<pre><code class="language-bash">tmux kill-session -t &lt;sessions_name&gt;
+</code></pre>
+<p><em>The session_name is the session_number if it is not named.</em></p>
+<h2 id="kill-all-sessions">Kill all sessions</h2>
+
+<pre><code class="language-bash">tmux kill-server
+</code></pre>
+
+    <style>
+    .footer {
+        text-align: right;
+    }
+    .footer a {
+        display: inline-block;
+    }
+    .footer img {
+        width: auto; /* Optional: Adjust image size as needed */
+        height: 75px; /* Optional: Adjust image size as needed */
+    }
+</style>
+
+<div class="footer">
+    <a id="linkedin-share" href="#" target="_blank">
+        <img src="/public/icons/linkedin-share.png" alt="LinkedIn">
+    </a>
+    <a id="x-share" href="#" target="_blank">
+        <img src="/public/icons/x-share.png" alt="X">
+    </a>
+</div>
+
+<script>
+    var linkedInBaseUrl = "https://www.linkedin.com/shareArticle?url="
+    var xBaseUrl = "https://twitter.com/share?url="
+    document.getElementById("linkedin-share").href = linkedInBaseUrl + window.location.href
+    document.getElementById("x-share").href = xBaseUrl + window.location.href
+</script>
+  </div>
+  
+</div>
+
+<div class="pagination">
+  
+    <a class="pagination-item older" href="/page3">Older</a>
+  
+  
+    
+      <a class="pagination-item newer" href="/">Newer</a>
+    
+  
+</div>
+    </div>
+  </body>
+</html>
