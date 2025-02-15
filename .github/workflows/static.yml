@@ -36,9 +36,12 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1  # Correct version
+        uses: actions/upload-artifact@v4  # Updated to v4
         with:
+          name: site-artifact  # Ensuring unique artifact name
           path: './_site/'  # Ensure this path is correct
+          overwrite: true  # Ensure artifact can be overwritten if needed
+          include-hidden-files: true  # Include hidden files if necessary
 
       - name: Deploy to GitHub Pages
         id: deployment
