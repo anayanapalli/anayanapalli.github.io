@@ -22,41 +22,22 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup GitHub Pages
-        uses: actions/configure-pages@v4
-
-      - name: Build Site
-        run: |
-          mkdir -p _site
-          echo "<h1>My GitHub Pages Site</h1>" > _site/index.html
-        # Replace the above command with the actual build process for your site (e.g., Jekyll, Hugo, or a static site generator)
-
-      - name: Upload site artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: github-pages  # Ensure artifact name matches expected name
-          path: ./_site/
-          overwrite: true
-
+  # Single deploy job since we're just deploying
   deploy:
-    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Download site artifact
-        uses: actions/download-artifact@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
         with:
-          name: github-pages  # Ensure artifact name matches what was uploaded
-          path: _site
-
+          # Upload entire repository
+          path: './_site/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
