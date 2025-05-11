@@ -47,7 +47,9 @@ Even in the most abstract fields—like theoretical physics—design plays a pro
 
 What set him apart wasn’t just intelligence. It was clarity. Elegance. He distilled the vast, invisible machinery of the universe into a single, deceptively simple equation:
 
-**E = mc²**
+<p style="text-align: center; font-size: 1.5em; font-weight: bold;">
+  E = mc²
+</p>
 
 That’s it. Three variables. One equation. And yet, it encapsulated the relationship between energy and mass in a way that was so clear, so intuitive, that it changed the course of science forever.
 
