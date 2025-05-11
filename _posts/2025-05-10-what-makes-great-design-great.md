@@ -15,7 +15,7 @@ Take the Golden Gate Bridge for example. The moment you lay eyes on it, you can�
   <img src="/public/images/4.jpeg" alt="The Golden Gate Bridge" style="max-width: 100%;" />
 </div>
 <div style="font-size: 0.85em; font-weight: bold; margin-top: -0.75em; margin-bottom: 1.5em;">
-  <em>The Golden Gate—a bridge not just across water, but across emotion, design, and time.</em>
+  <em>The Golden Gate—a bridge not just across water, but across engineering, design, and time.</em>
 </div>
 
 Or consider the experience of holding an Apple product. It’s just a computer, a phone, a piece of glass and metal. And yet, it feels like something more. You notice the weight, the perfect finish, the precision of every curve. You feel the intentionality behind every animation, every sound, every pixel. There’s an emotional connection. It delights. It calms. It inspires. And that’s not because of _what_ it does—but because of _how_ it makes you feel while it does it.
