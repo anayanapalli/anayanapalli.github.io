@@ -5,7 +5,11 @@ title: 'What Makes Great Design "Great"?'
 
 > "Everything is designed, but very few things are designed well." —Brian Reed
 
-Have you ever used a product, stood before a monument, or crossed a beautifully constructed bridge and suddenly felt something profound—an emotion you couldn’t quite name?
+<p class="lead">
+  <span class="first-letter">
+    H
+  </span>ave you ever used a product, stood before a monument, or crossed a beautifully constructed bridge and suddenly felt something profound—an emotion you couldn’t quite name?
+</p>
 
 A sense of admiration, joy, or calm that seemed to dawn upon you from nowhere. You didn’t analyze it. You didn’t reason with it. You just **_felt_** it. That feeling—that spark—is the hallmark of great design.
 

@@ -286,8 +286,18 @@ tbody tr:nth-child(odd) th {
 .lead {
   font-size: 1.15rem;
   font-weight: 300;
+  line-height: 1.5;
+  margin: 1.5rem 0;
 }
 
+.first-letter {
+  font-size: 2.5rem;
+  font-weight: 400;
+  vertical-align: baseline;
+  display: inline-block;
+  line-height: 1;
+  padding-right: 0.1rem;
+}
 
 /*
  * Messages
@@ -362,7 +372,7 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color:  rgb(27, 27, 27);
 }
 .page-title,
 .post-title {
