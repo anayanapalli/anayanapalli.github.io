@@ -142,6 +142,7 @@ strong {
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: rgb(27, 27, 27);
 }
 
 dt {
