@@ -22,7 +22,7 @@ Or consider the experience of holding an Apple product. It’s just a computer, 
 
 The same thing happens with great clothes. A well-designed coat or dress doesn’t scream for attention—it earns it. You see it once, and it lingers in your mind. You don’t know why, but it made an impression—because everything about it, from the materials, the stitching to the silhouette, was just _right_. It expressed something essential, something wordless, something in perfect harmony. And that’s the power of design done at the highest level.
 
-Now think of the Boeing 747. Just a machine—metal, engines, wings. And yet, it doesn’t feel that way. When it first rolled out, it captured people's imagination. The scale. The presence. The way it looked on the runway, ready to take flight—it was majestic. It wasn’t just a plane. It was a work of art. Graceful like a bird in the sky, commanding attention wherever it went. People stopped, stared and took pictures—not because it was loud or flashy, but because it was elegant.
+Now think of the Boeing 747. Just a machine—metal, engines, wings. And yet, it doesn’t feel that way. When it first rolled out, it captured people's imagination. The scale. The presence. The way it looked on the runway, ready to take flight—it was majestic. It wasn’t just a plane. It was a work of art. Graceful like a bird in the sky, commanding attention wherever it went. People stopped, stared and even took pictures—not because it was loud or flashy, but because it was elegant.
 
 And more than fifty years later, even after countless innovations in aviation, most commercial airliners still resemble the 747. That’s a sign that they got the design right early-on.
 
