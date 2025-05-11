@@ -5,7 +5,11 @@ title: "The Evolution of Data Architectures: From Data Warehouses to Data Meshes
 
 > "If you want to understand today, you have to search yesterday." - Pearl S. Buck
 
-Over the past few decades, data architectures have undergone significant transformations in response to evolving data needs. While some changes successfully addressed existing challenges, others inadvertently gave rise to new complexities.
+<p class="lead">
+  <span class="first-letter">
+    O
+  </span>ver the past few decades, data architectures have undergone significant transformations in response to evolving data needs. While some changes successfully addressed existing challenges, others inadvertently gave rise to new complexities.
+</p>
 
 This post offers a high-level exploration of this evolutionary trajectory, providing insights into the direction and pace of change in the field. Rather than delving into specific technologies, our focus will be on understanding the overarching trends that have shaped data architecture over time.
 
