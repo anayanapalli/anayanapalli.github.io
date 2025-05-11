@@ -20,7 +20,7 @@ Take the Golden Gate Bridge for example. The moment you lay eyes on it, you can�
 
 Or consider the experience of holding an Apple product. It’s just a computer, a phone, a piece of glass and metal. And yet, it feels like something more. You notice the weight, the perfect finish, the precision of every curve. You feel the intentionality behind every animation, every sound, every pixel. There’s an emotional connection. It delights. It calms. It inspires. And that’s not because of _what_ it does—but because of _how_ it makes you feel while it does it.
 
-The same thing happens with great clothes. A well-designed coat or dress doesn’t scream for attention—it earns it. You see it once, and it lingers in your mind. You don’t know why, but it made an impression—because everything about it, from the materials, the stitching to the silhouette, was just _right_. It expressed something essential, something wordless, something in perfect harmony. And that’s the power of design done at the highest level.
+The same thing happens with great clothes. A well-designed coat or dress doesn’t scream for attention—it earns it. You see it once, and it lingers in your mind. You don’t know why, but it made an impression—because everything about it, from the materials, the stitching to the silhouette, was just _perfect_. It expressed something essential, something wordless, something in perfect harmony. And that’s the power of design done at the highest level.
 
 Now think of the Boeing 747. Just a machine—metal, engines, wings. And yet, it doesn’t feel that way. When it first rolled out, it captured people's imagination. The scale. The presence. The way it looked on the runway, ready to take flight—it was majestic. It wasn’t just a plane. It was a work of art. Graceful like a bird in the sky, commanding attention wherever it went. People stopped, stared and even took pictures—not because it was loud or flashy, but because it was elegant.
 
@@ -47,7 +47,7 @@ What set him apart wasn’t just intelligence. It was clarity. Elegance. He dist
 
 That’s it. Three variables. One equation. And yet, it encapsulated the relationship between energy and mass in a way that was so clear, so intuitive, that it changed the course of science forever.
 
-And suddenly, the relationship between energy and mass became graspable—even to someone’s grandmother. That’s design. Not in the visual sense, but in the structural and conceptual sense. His general theory of relativity didn’t just work—it resonated. It revealed something essential about the nature of reality in a form that felt inevitable, almost poetic.
+And suddenly, the relationship between energy and mass became graspable—even to someone’s grandmother. That’s great design. Not in the visual sense, but in the structural and conceptual sense. His general theory of relativity didn’t just work—it resonated. It revealed something essential about the nature of reality in a form that felt inevitable, almost poetic.
 
 That’s what great design does. It simplifies without dumbing down. It reveals rather than obscures. It brings beauty to complexity—and in doing so, leaves a mark not just on the intellect, but on the soul.
 
