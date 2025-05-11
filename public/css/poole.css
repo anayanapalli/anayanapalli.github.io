@@ -129,7 +129,6 @@ p:not(blockquote p) {
   font-weight: bold;
   color: rgb(27, 27, 27);
   font-style: italic; /* replaces <em> */
-  text-align: left; 
   margin-top: -0.75em;
 }
 
