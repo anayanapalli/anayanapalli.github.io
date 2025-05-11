@@ -11,9 +11,14 @@ This post offers a high-level exploration of this evolutionary trajectory, provi
 
 The following figure gives an overview of the architectures we will be discussing.
 
-![The Evolution of Data Architectures](/public/images/3.png)
-*Figure Credit: [James Serra](https://www.linkedin.com/in/jamesserra/){:target="_blank"} and [Zhamak Dehghani](https://www.linkedin.com/in/zhamak-dehghani/){:target="_blank"}*
-{: .center-text}
+<div class="image-with-caption">
+  <img src="/public/images/3.png" alt="The Evolution of Data Architectures" />
+<div class="image-caption">
+  Figure Credit:
+  <a href="https://www.linkedin.com/in/jamesserra/" target="_blank">James Serra</a> and
+  <a href="https://www.linkedin.com/in/zhamak-dehghani/" target="_blank">Zhamak Dehghani</a>
+</div>
+</div>
 
 Please note that there is still no consensus among the data community about what these architectures entail, as the field is still very new and rapidly evolving. Therefore, the following definitions reflect my thoughts based on my research and experience.
 

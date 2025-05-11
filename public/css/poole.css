@@ -110,6 +110,29 @@ p {
   margin-bottom: 1rem;
 }
 
+p:not(blockquote p) {
+  color: rgb(27, 27, 27);
+}
+
+.image-with-caption {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.image-with-caption img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-caption {
+  font-size: 0.85em;
+  font-weight: bold;
+  color: rgb(27, 27, 27);
+  font-style: italic; /* replaces <em> */
+  text-align: left; 
+  margin-top: -0.75em;
+}
+
 strong {
   color: #303030;
 }
