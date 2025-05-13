@@ -3,7 +3,7 @@ layout: post
 title: "What Is the Difference Between Leadership and Management?"
 ---
 
-> "Your title makes you a manager. Your people make you a leader." - Bill Campbell
+> "Your title makes you a manager. Your people make you a leader." —Bill Campbell
 
 **Note:** This post is based on an excerpt from the book ["The Making of a Manager"](https://www.amazon.ca/Making-Manager-What-Everyone-Looks/dp/0735219567){:target="\_blank"} by the amazing Julie Zhuo.
 

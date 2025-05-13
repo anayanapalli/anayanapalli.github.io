@@ -3,7 +3,6 @@ layout: post
 title: "From PhDs to Programmers: The AI App Revolution with LLMs"
 ---
 
-
 ## Introduction:
 
 Gone are the days when developing artificial intelligence (AI) applications was exclusive to specialized PhDs. The era of empowerment has arrived, and now, anyone with coding skills can dive into the world of creating remarkably powerful AI apps, thanks to the advent of Large Language Models (LLMs). In this blog post, we'll explore how LLMs are breaking down barriers and democratizing the AI app development landscape, making it accessible to all coders, regardless of their academic background.

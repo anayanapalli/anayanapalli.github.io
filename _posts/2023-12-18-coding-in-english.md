@@ -3,11 +3,11 @@ layout: post
 title: "Coding in English: AGI's Game-Changing Role in Software 3.0"
 ---
 
-> "The hottest new programming language is English" - Andrej Karpathy
+> "The hottest new programming language is English" —Andrej Karpathy
 
 ## Introduction:
 
-The ever-evolving landscape of software development has witnessed transformative shifts over the years, each marked by a distinctive paradigm. As we delve into the realm of cutting-edge technologies, the emergence of Artificial General Intelligence (AGI) is playing a pivotal role in shaping the future—ushering in an era known as [Software 3.0](https://divgarg.substack.com/p/software-3){:target="_blank"}.
+The ever-evolving landscape of software development has witnessed transformative shifts over the years, each marked by a distinctive paradigm. As we delve into the realm of cutting-edge technologies, the emergence of Artificial General Intelligence (AGI) is playing a pivotal role in shaping the future—ushering in an era known as [Software 3.0](https://divgarg.substack.com/p/software-3){:target="\_blank"}.
 
 ## Software 1.0: Laying the Foundation
 
@@ -15,7 +15,7 @@ Traditionally, software development has been synonymous with the classical stack
 
 ## Software 2.0: The Rise of Neural Networks
 
-Enter [Software 2.0](https://karpathy.medium.com/software-2-0-a64152b37c35){:target="_blank"}, the neural network stack, which introduces abstraction and optimization through neural networks. This paradigm, often driven by optimization techniques like backpropagation and gradient descent, allows machines to learn from datasets, reducing the burden of explicit human coding. However, it remains less accessible to humans due to its abstract nature.
+Enter [Software 2.0](https://karpathy.medium.com/software-2-0-a64152b37c35){:target="\_blank"}, the neural network stack, which introduces abstraction and optimization through neural networks. This paradigm, often driven by optimization techniques like backpropagation and gradient descent, allows machines to learn from datasets, reducing the burden of explicit human coding. However, it remains less accessible to humans due to its abstract nature.
 
 ## The Dawn of Software 3.0: AGI Takes the Lead
 

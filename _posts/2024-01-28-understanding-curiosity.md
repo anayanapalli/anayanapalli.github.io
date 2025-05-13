@@ -3,7 +3,7 @@ layout: post
 title: "Understanding Curiosity: The Knowledge Emotion"
 ---
 
-> "Millions saw the apple fall, but Newton was the one who asked why." – Bernard Baruch
+> "Millions saw the apple fall, but Newton was the one who asked why." —Bernard Baruch
 
 ## Introduction:
 
@@ -11,10 +11,10 @@ People often categorize themselves as either naturally curious or incurious, ass
 
 ## What is Curiosity Anyway?
 
-Curiosity is defined as *"a strong desire to know or learn something."* While this definition suffices, it fails to explain the mechanics of curiosity that we can use to leverage it effectively. Let's try to understand it with an example. Consider the following questions:
+Curiosity is defined as _"a strong desire to know or learn something."_ While this definition suffices, it fails to explain the mechanics of curiosity that we can use to leverage it effectively. Let's try to understand it with an example. Consider the following questions:
 
-- *Do you know about Deinonychus and where it was found?*
-- *Do you know of a dinosaur whose fossil was found right in your state?*
+- _Do you know about Deinonychus and where it was found?_
+- _Do you know of a dinosaur whose fossil was found right in your state?_
 
 Most likely, the first question failed to spark much curiosity (unless you're a dinosaur expert). However, the second question likely piqued your interest significantly more. Why is that? This brings us to the concept of **"information gaps."**
 
@@ -26,7 +26,7 @@ In essence, to be curious about a topic, one must possess foundational knowledge
 
 ## How to Utilize Information Gaps:
 
-When striving to stimulate curiosity about a subject, start by creating information gaps. The simplest method is to see how the new information relates to your existing knowledge. *Metaphors and analogies often evoke "aha" moments by creating and filling in information gaps between your old and new knowledge.*
+When striving to stimulate curiosity about a subject, start by creating information gaps. The simplest method is to see how the new information relates to your existing knowledge. _Metaphors and analogies often evoke "aha" moments by creating and filling in information gaps between your old and new knowledge._
 
 Renowned authors like Agatha Christie strategically commence novels with mysterious scenes that create information gaps, keeping readers engaged and curious. The same goes with directors of movies and TV series, great professors, teachers and presenters in general, who start with interesting questions or facts or figures.
 

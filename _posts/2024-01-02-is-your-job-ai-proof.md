@@ -3,7 +3,7 @@ layout: post
 title: "Is Your Job AI-Proof? A Closer Look at Job Vulnerability"
 ---
 
-> "It is easier to build a world champion chess player than to build a mediocre plumber." - Kai-Fu Lee
+> "It is easier to build a world champion chess player than to build a mediocre plumber." —Kai-Fu Lee
 
 ## Introduction:
 
@@ -11,8 +11,7 @@ In the ever-advancing realm of technology, the rise of AI poses a significant th
 
 While AI excels in focused, data-driven tasks, it still is a bit far from replicating natural human interaction and the intricate dexterity found in our fingers and limbs. We need many breakthroughs in robotics and AI for this to happen. Tasks involving creative and strategically complex thinking, where inputs and outcomes aren't easily quantifiable, also pose a significant challenge for AI.
 
-Please note that this post is based on the information in [this](https://www.amazon.ca/AI-Superpowers-China-Silicon-Valley/dp/0358105587/ref=sr_1_1?crid=LQ88F8SYT7AB&keywords=ai+superpowers+china%2C+silicon+valley&qid=1704217212&sprefix=AI+s%2Caps%2C103&sr=8-1){:target="_blank"} book written by the brilliant [Kai-Fu Lee](https://www.linkedin.com/in/kaifulee/){:target="_blank"}.
-
+Please note that this post is based on the information in [this](https://www.amazon.ca/AI-Superpowers-China-Silicon-Valley/dp/0358105587/ref=sr_1_1?crid=LQ88F8SYT7AB&keywords=ai+superpowers+china%2C+silicon+valley&qid=1704217212&sprefix=AI+s%2Caps%2C103&sr=8-1){:target="\_blank"} book written by the brilliant [Kai-Fu Lee](https://www.linkedin.com/in/kaifulee/){:target="\_blank"}.
 
 ## What AI Can and Can't Do - The Risk-of-Replacement Graphs
 

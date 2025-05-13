@@ -3,10 +3,7 @@ layout: post
 title: 'What Makes Great Design "Great"?'
 ---
 
-<blockquote>
-  Everything is designed, but very few things are designed well.
-  <footer>—Brian Reed</footer>
-</blockquote>
+> "Everything is designed, but very few things are designed well." —Brian Reed
 
 <p class="lead">
   <span class="first-letter">
@@ -44,10 +41,7 @@ To understand this instinctive pull, consider a fascinating experiment from beha
 
 The best design doesn’t overwhelm. It doesn’t decorate for decoration’s sake. It feels inevitable. It’s like a perfectly composed piece of music—nothing extra, nothing missing. Just the right notes, in the right sequence, in the right silence.
 
-<blockquote>
-  True elegance lies in restraint, those who misunderstand simplicity often lack the refinement to appreciate it.
-  <footer>—Coco Chanel</footer>
-</blockquote>
+> "True elegance lies in restraint, those who misunderstand simplicity often lack the refinement to appreciate it." —Coco Chanel
 
 Even in the most abstract fields—like theoretical physics—design plays a profound, if often invisible, role. Take Albert Einstein. Many brilliant scientists were working on the mysteries of gravity and space-time, but it was Einstein who solved it in a way that was not only correct—but beautiful.
 
@@ -69,4 +63,4 @@ This post isn’t about a universal formula. Great design isn’t paint-by-numbe
 
 It’s not something you just see and forget. It becomes a reference point. A quiet standard. It lives on in your memory long after the moment has passed...
 
-It is, in a word, _timeless_.
+It is, in a word, **_timeless_**.
