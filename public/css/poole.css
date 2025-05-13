@@ -74,7 +74,10 @@ a strong {
   color: inherit;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
-a:hover,
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
 a:focus {
   text-decoration: underline;
 }
