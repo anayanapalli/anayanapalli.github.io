@@ -227,22 +227,39 @@ pre code {
   border-radius: 0;
 }
 
-/* Quotes */
 blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
+  position: relative;
+  font-family: 'Playfair Display';
+  font-size: 1.15rem;
+  line-height: 1.85;
+  font-style: italic;
+  color: #d22c2a;
+  padding: 0.5rem;
+  margin: 2rem auto;
+  max-width: 40rem;
+  quotes: "“" "”";
+}
+
+blockquote::before {
+  content: open-quote;
+  font-size: 5rem;
+  line-height: 0;
+  position: absolute;
+  top: -1rem;
+  left: 1.25rem;
   color: #c12926;
-  border-left: .25rem solid #c12926;
-  font-style: oblique;
+  opacity: 0.08;
+  font-family: 'Playfair Display';
+  pointer-events: none;
 }
-blockquote p:last-child {
-  margin-bottom: 0;
+
+blockquote p {
+  margin: 0;
 }
-@media (min-width: 30em) {
-  blockquote {
-    padding-right: 0rem;
-    padding-left: 1.25rem;
-  }
+
+blockquote footer {
+  text-align: right;
+
 }
 
 img {

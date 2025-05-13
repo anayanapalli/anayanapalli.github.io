@@ -3,7 +3,10 @@ layout: post
 title: "The Evolution of Data Architectures: From Data Warehouses to Data Meshes"
 ---
 
-> "If you want to understand today, you have to search yesterday." —Pearl S. Buck
+<blockquote>
+  If you want to understand today, you have to search yesterday.
+  <footer>—Pearl S. Buck</footer>
+</blockquote>
 
 <p class="lead">
   <span class="first-letter">
