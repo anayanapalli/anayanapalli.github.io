@@ -261,7 +261,7 @@ blockquote p {
   }
 
   blockquote::before {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
