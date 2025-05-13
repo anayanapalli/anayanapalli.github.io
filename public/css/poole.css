@@ -78,6 +78,7 @@ a:hover {
     text-decoration: underline;
     text-underline-offset: 4px;
 }
+
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
@@ -104,11 +105,9 @@ h4, h5, h6 {
 
 /* Body text */
 p {
-  /* text-align: justify; */
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
 p:not(blockquote p) {
   color: rgb(27, 27, 27);
   text-rendering: optimizeLegibility;
@@ -118,17 +117,15 @@ p:not(blockquote p) {
   text-align: center;
   margin-bottom: 1.5em;
 }
-
 .image-with-caption img {
   max-width: 100%;
   height: auto;
 }
-
 .image-caption {
   font-size: 0.85em;
   font-weight: bold;
   color: rgb(27, 27, 27);
-  font-style: italic; /* replaces <em> */
+  font-style: italic;
   margin-top: -0.75em;
 }
 
@@ -179,7 +176,7 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #C12926; /* Lighter text color for better contrast */
+  color: #C12926;
 }
 pre {
   display: block;
@@ -188,10 +185,8 @@ pre {
   padding: 1rem;
   font-size: .8rem;
   line-height: 1.4;
-  white-space: pre;
   white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
+  word-break: break-word;
   background-color: #f9f9f9;
 }
 pre code {
@@ -277,10 +272,7 @@ tbody tr:nth-child(odd) th {
 
 /*
  * Custom type
- *
- * Extend paragraphs with `.lead` for larger introductory text.
  */
-
 .lead {
   font-size: 1.15rem;
   font-weight: 400;
@@ -297,13 +289,10 @@ tbody tr:nth-child(odd) th {
   padding-right: 0.1rem;
 }
 
+
 /*
  * Messages
- *
- * Show alert messages to users. You may add it to single elements like a `<p>`,
- * or to a parent if there are multiple elements to show.
  */
-
 .message {
   margin-bottom: 1rem;
   padding: 1rem;
@@ -314,10 +303,7 @@ tbody tr:nth-child(odd) th {
 
 /*
  * Container
- *
- * Center the page content.
  */
-
 .container {
   max-width: 38rem;
   padding-left:  1rem;
@@ -329,10 +315,7 @@ tbody tr:nth-child(odd) th {
 
 /*
  * Masthead
- *
- * Super small header above the content for site name and short description.
  */
-
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
@@ -356,17 +339,11 @@ tbody tr:nth-child(odd) th {
 
 /*
  * Posts and pages
- *
- * Each post is wrapped in `.post` and is used on default and post layouts. Each
- * page is wrapped in `.page` and is only used on the page layout.
  */
-
 .page,
 .post {
   margin-bottom: 4em;
 }
-
-/* Blog post or page title */
 .page-title,
 .post-title,
 .post-title a {
@@ -376,16 +353,12 @@ tbody tr:nth-child(odd) th {
 .post-title {
   margin-top: 0;
 }
-
-/* Meta data line below post title */
 .post-date {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
 }
-
-/* Related posts */
 .related {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -413,21 +386,15 @@ tbody tr:nth-child(odd) th {
 
 /*
  * Pagination
- *
- * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
- * there are no more previous or next posts to show.
  */
-
 .pagination {
-  overflow: hidden; /* clearfix */
+  overflow: hidden;
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
 }
-
-/* Pagination items can be `span`s or `a`s */
 .pagination-item {
   display: block;
   padding: 1rem;
@@ -436,12 +403,9 @@ tbody tr:nth-child(odd) th {
 .pagination-item:first-child {
   margin-bottom: -1px;
 }
-
-/* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
   background-color: #f5f5f5;
 }
-
 @media (min-width: 30em) {
   .pagination {
     margin: 3rem 0;
@@ -460,4 +424,14 @@ a.pagination-item:hover {
     border-top-right-radius:    4px;
     border-bottom-right-radius: 4px;
   }
+}
+
+
+/* ----------------------------------------------------------------
+ * Add underline with spacing for anchor tags inside paragraphs
+ * ---------------------------------------------------------------- */
+p a,
+.image-caption a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
