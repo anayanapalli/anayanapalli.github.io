@@ -112,9 +112,6 @@ a.sidebar-nav-item:hover {
   text-decoration: underline;
   text-underline-offset: 4px; /* Add space between text and underline */
 }
-a.sidebar-nav-item:focus {
-  text-decoration: underline;
-}
 .sidebar-nav-item.active {
   font-weight: bold;
 }
