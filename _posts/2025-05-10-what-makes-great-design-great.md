@@ -3,10 +3,10 @@ layout: post
 title: 'What Makes Great Design "Great"?'
 ---
 
-<blockquote>
+<!-- <blockquote>
   Everything is designed, but very few things are designed well.
   <footer>— Brian Reed</footer>
-</blockquote>
+</blockquote> -->
 
 <p class="lead">
   <span class="first-letter">
