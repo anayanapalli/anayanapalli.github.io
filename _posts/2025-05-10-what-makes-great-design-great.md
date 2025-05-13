@@ -5,7 +5,7 @@ title: 'What Makes Great Design "Great"?'
 
 <blockquote>
   Everything is designed, but very few things are designed well.
-  <footer>— Brian Reed</footer>
+  <footer>—Brian Reed</footer>
 </blockquote>
 
 <p class="lead">
