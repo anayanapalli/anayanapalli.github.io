@@ -3,7 +3,7 @@ layout: post
 title: "Coding in English: AGI's Game-Changing Role in Software 3.0"
 ---
 
-> "The hottest new programming language is English" —Andrej Karpathy
+> The hottest new programming language is English. —Andrej Karpathy
 
 ## Introduction:
 

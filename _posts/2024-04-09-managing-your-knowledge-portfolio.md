@@ -3,7 +3,7 @@ layout: post
 title: "Managing Your Knowledge Portfolio 📈"
 ---
 
-> "An investment in knowledge pays the best interest." —Benjamin Franklin
+> An investment in knowledge pays the best interest. —Benjamin Franklin
 
 Your knowledge and experience are your most important day-to-day professional assets.
 

@@ -3,7 +3,7 @@ layout: post
 title: "Is Your Job AI-Proof? A Closer Look at Job Vulnerability"
 ---
 
-> "It is easier to build a world champion chess player than to build a mediocre plumber." —Kai-Fu Lee
+> It is easier to build a world champion chess player than to build a mediocre plumber. —Kai-Fu Lee
 
 ## Introduction:
 

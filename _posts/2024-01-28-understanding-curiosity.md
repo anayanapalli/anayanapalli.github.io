@@ -3,7 +3,7 @@ layout: post
 title: "Understanding Curiosity: The Knowledge Emotion"
 ---
 
-> "Millions saw the apple fall, but Newton was the one who asked why." —Bernard Baruch
+> Millions saw the apple fall, but Newton was the one who asked why. —Bernard Baruch
 
 ## Introduction:
 

@@ -19,7 +19,7 @@ What if people perceive you as less intelligent? Or worse, what if your future b
 
 ## Reality Check:
 
-> "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind." —Dr. Suess
+> Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind. —Dr. Suess
 
 The truth is, **nobody cares.** Those who read your content are the ones genuinely interested in the topics you hold dear. The preoccupations about what others might think gradually fade away when you realize that the audience you attract is precisely the audience that resonates with your passions.
 
@@ -37,7 +37,7 @@ All you have to do is **share!**
 
 We’re all terrified of being revealed as amateurs, but in fact, today it is the amateur—the enthusiast who pursues her work in the spirit of love (in French, the word means “lover”), regardless of the potential for fame, money, or career—who often has the advantage over the professional. Because they have little to lose, amateurs are willing to try anything and share the results. They take chances, experiment, and follow their whims. Sometimes, in the process of doing things in an unprofessional way, they make new discoveries.
 
-> “In the beginner’s mind, there are many possibilities. In the expert’s mind, there are few.” —Shunryu Suzuki
+> In the beginner’s mind, there are many possibilities. In the expert’s mind, there are few. —Shunryu Suzuki
 
 Amateurs are not afraid to make mistakes or look ridiculous in public. They’re in love, so they don’t hesitate to do work that others think of as silly or just plain stupid.
 
@@ -51,7 +51,7 @@ The world is changing at such a rapid rate that it’s turning us all into amate
 
 ## 3. Share What You Know
 
-> “The impulse to keep to yourself what you have learned is not only shameful, it is destructive. Anything you do not give freely and abundantly becomes lost to you. You open your safe and find ashes.” —Annie Dillard
+> The impulse to keep to yourself what you have learned is not only shameful, it is destructive. Anything you do not give freely and abundantly becomes lost to you. You open your safe and find ashes. —Annie Dillard
 
 Think about what you can share from your process that would inform the people you’re trying to reach. Have you learned a craft? What are your techniques? Are you skilled at using certain tools and materials? What kind of knowledge comes along with your job?
 
@@ -63,7 +63,7 @@ Best of all, when you share your knowledge and your work with others, you receiv
 
 ## 4. Don't Turn Into a Human Spammer
 
-> "You want hearts, not eyeballs." —Austin Kleon
+> You want hearts, not eyeballs. —Austin Kleon
 
 “The writing community is full of lame-o people who want to be published in journals even though they don’t read the magazines that they want to be published in,” says writer Dan Chaon. “These people deserve the rejections that they will undoubtedly receive, and no one should feel sorry for them when they cry about how they can’t get anyone to accept their stories.”
 
@@ -75,7 +75,7 @@ If you’re only pointing to your stuff online, you’re doing it wrong. You hav
 
 ## 5. Stick Around, Don't Quit
 
-> "The people who get what they’re after are very often the ones who just stick around long enough. It’s very important not to quit prematurely." —Austin Kleon
+> The people who get what they’re after are very often the ones who just stick around long enough. It’s very important not to quit prematurely. —Austin Kleon
 
 Every career is full of ups and downs, and just like with stories, when you’re in the middle of living out your life and career, you don’t know whether you’re up or down or what’s about to happen next. “If you want a happy ending,” actor Orson Welles wrote, “that depends, of course, on where you stop your story.” Author F. Scott Fitzgerald wrote, “There are no second acts in American life,” but if you look around, you’ll notice that not only are there second acts, but there are third, fourth, and even fifth ones.
 

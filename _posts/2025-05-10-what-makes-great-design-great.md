@@ -3,7 +3,7 @@ layout: post
 title: 'What Makes Great Design "Great"?'
 ---
 
-> "Everything is designed, but very few things are designed well." —Brian Reed
+> Everything is designed, but very few things are designed well. —Brian Reed
 
 <p class="lead">
   <span class="first-letter">
@@ -41,7 +41,7 @@ To understand this instinctive pull, consider a fascinating experiment from beha
 
 The best design doesn’t overwhelm. It doesn’t decorate for decoration’s sake. It feels inevitable. It’s like a perfectly composed piece of music—nothing extra, nothing missing. Just the right notes, in the right sequence, in the right silence.
 
-> "True elegance lies in restraint, those who misunderstand simplicity often lack the refinement to appreciate it." —Coco Chanel
+> True elegance lies in restraint, those who misunderstand simplicity often lack the refinement to appreciate it. —Coco Chanel
 
 Even in the most abstract fields—like theoretical physics—design plays a profound, if often invisible, role. Take Albert Einstein. Many brilliant scientists were working on the mysteries of gravity and space-time, but it was Einstein who solved it in a way that was not only correct—but beautiful.
 

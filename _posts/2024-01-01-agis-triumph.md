@@ -3,7 +3,7 @@ layout: post
 title: "AGI's Triumph: Democratisation of Innovation or Consolidation of Wealth?"
 ---
 
-> "The distribution of wealth is just as important as its creation." —William Randolph Hearst
+> The distribution of wealth is just as important as its creation. —William Randolph Hearst
 
 ## Introduction:
 
