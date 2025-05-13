@@ -255,6 +255,17 @@ blockquote p {
   margin: 0;
 }
 
+@media (max-width: 480px) {
+  /* blockquote {
+    padding-top: 4rem;
+  } */
+
+  blockquote::before {
+    font-size: 4rem;
+    top: 0.25rem;
+  }
+}
+
 img {
   display: block;
   max-width: 100%;
