@@ -11,7 +11,7 @@ Unfortunately, they’re expiring assets. Your knowledge becomes out of date as 
 
 As the value of your knowledge declines, so does your value to your company or client. You have to prevent this from ever happening. Your ability to learn new things is your most important strategic asset. But how do you learn how to learn, and how do you know what to learn?
 
-**Note:** This post is based on an excerpt drawn from the book ["The Pragmatic Programmer"](https://www.amazon.ca/Pragmatic-Programmer-journey-mastery-Anniversary-dp-0135957052/dp/0135957052/ref=dp_ob_title_bk){:target="\_blank"} by the wise David Thomas and Andy Hunt. While this advice is aimed at programmers, the wisdom contained within is broadly applicable to any knowledge professional.
+**Note:** This post is based on an excerpt drawn from the book [The Pragmatic Programmer](https://www.amazon.ca/Pragmatic-Programmer-journey-mastery-Anniversary-dp-0135957052/dp/0135957052/ref=dp_ob_title_bk){:target="\_blank"} by the wise David Thomas and Andy Hunt. While this advice is aimed at programmers, the wisdom contained within is broadly applicable to any knowledge professional.
 
 ## Your Knowledge Portfolio
 
