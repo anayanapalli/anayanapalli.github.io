@@ -39,9 +39,9 @@ And more than fifty years later, even after countless innovations in aviation, m
 
 To understand this instinctive pull, consider a fascinating experiment from behavioral biology. There’s a species of bird that cares for its chicks based on a single cue: a red spot on the beak. Researchers discovered that the parent bird would nurture even a lifeless object—as long as it had that red dot. Remove or alter the color, and the response turned hostile. That red spot is a _trigger_. And great designers? They are masters of discovering and harnessing such triggers—those subconscious signals that speak directly to the human soul.
 
-The best design doesn’t overwhelm. It doesn’t decorate for decoration’s sake. It feels inevitable. It’s like a perfectly composed piece of music—nothing extra, nothing missing. Just the right notes, in the right sequence, in the right silence.
+> True elegance lies in restraint. Those who misunderstand simplicity often lack the refinement to appreciate it. —Coco Chanel
 
-> True elegance lies in restraint, those who misunderstand simplicity often lack the refinement to appreciate it. —Coco Chanel
+The best design doesn’t overwhelm. It doesn’t decorate for decoration’s sake. It feels inevitable. It’s like a perfectly composed piece of music—nothing extra, nothing missing. Just the right notes, in the right sequence, in the right silence.
 
 Even in the most abstract fields—like theoretical physics—design plays a profound, if often invisible, role. Take Albert Einstein. Many brilliant scientists were working on the mysteries of gravity and space-time, but it was Einstein who solved it in a way that was not only correct—but beautiful.
 
