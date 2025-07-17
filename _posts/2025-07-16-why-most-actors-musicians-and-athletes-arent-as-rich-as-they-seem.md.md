@@ -3,7 +3,7 @@ layout: post
 title: "Why Most Actors, Musicians, and Athletes Aren’t as Rich as They Seem"
 ---
 
-> In a power law distribution, the average is meaningless. Most people will never be average, because the distribution is so skewed. —Albert-László Barabási
+> The world is not ruled by averages, but by the tails. —Nassim Nicholas Taleb
 
 <p class="lead">
   <span class="first-letter">
@@ -34,7 +34,7 @@ In bell curve careers, success is constrained by time. A lawyer can only meet so
 
 And when you combine scale with **scarcity of attention**, you get a winner-take-most outcome. People don’t listen to a hundred good songs—they listen to a few great ones. They don’t hire twenty freelancers—they pick the most visible. Investors don’t back all startups—they bet on a few notable ones.
 
-> Mediocristan is where things are predictable, like height or weight. Extremistan is where one event can massively outweigh all others—like wealth or book sales. —Nassim Nicholas Taleb
+> In a normal distribution, most things are average. In a power-law distribution, a few things are huge, and most are tiny.
 
 In power law careers, **talent is just the starting line**. What matters more is distribution, timing, network, visibility, and often, luck. It’s not just about being good.
 
@@ -49,5 +49,3 @@ None of this means you shouldn’t go for it. Some of the most impactful work ha
 In bell curve careers, progress is linear. In power law careers, it’s spiky, delayed, and invisible—until suddenly, it isn’t.
 
 **The key is knowing what kind of game you’re playing and to play accordingly.**
-
-WIP 🚧
