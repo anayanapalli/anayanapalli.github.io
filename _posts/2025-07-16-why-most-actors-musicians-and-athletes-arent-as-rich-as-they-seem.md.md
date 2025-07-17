@@ -21,6 +21,13 @@ Consider law, medicine, consulting, software engineering or most regular jobs. T
 
 Now compare that to acting, music, sports, writing, or startups. These are **power law professions**. Here, a tiny number of people earn almost all the rewards. The top one percent make fortunes. The next ten percent do okay. The rest—some of them just as skilled—barely survive.
 
+<div class="image-with-caption">
+  <img src="/public/images/6.jpeg" alt="Bell vs. Power Law Distribution" />
+  <div class="image-caption">
+    <em>Bell vs. Power Law Distribution</em>
+  </div>
+</div>
+
 This isn’t about fairness. It’s about **how the system is built**.
 
 In bell curve careers, success is constrained by time. A lawyer can only meet so many clients. A surgeon can only perform so many operations. An engineer can only do one job full-time. Their work doesn’t scale easily. But in power law fields, the work _does_ scale. One song can be streamed a billion times. One app can reach millions overnight. One book can outsell a thousand others. In these worlds, replication is free and reach is unlimited.
