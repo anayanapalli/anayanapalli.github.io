@@ -23,7 +23,7 @@ Now compare that to acting, music, sports, writing, or startups. These are **pow
 
 This isn’t about fairness. It’s about **how the system is built**.
 
-In bell curve careers, success is constrained by time. A lawyer can only meet so many clients. A surgeon can only perform so many operations. Their work doesn’t scale easily. An engineer can only do one job. But in power law fields, the work _does_ scale. One song can be streamed a billion times. One app can reach millions overnight. One book can outsell a thousand others. In these worlds, replication is free and reach is unlimited.
+In bell curve careers, success is constrained by time. A lawyer can only meet so many clients. A surgeon can only perform so many operations. An engineer can only do one job full-time. Their work doesn’t scale easily. But in power law fields, the work _does_ scale. One song can be streamed a billion times. One app can reach millions overnight. One book can outsell a thousand others. In these worlds, replication is free and reach is unlimited.
 
 And when you combine scale with **scarcity of attention**, you get a winner-take-most outcome. People don’t listen to a hundred good songs—they listen to a few great ones. They don’t hire twenty freelancers—they pick the most visible. Investors don’t back all startups—they bet on the few notable ones.
 
@@ -41,4 +41,4 @@ None of this means you shouldn’t go for it. Some of the most impactful work ha
 
 In bell curve careers, progress is linear. In power law careers, it’s spiky, delayed, and invisible—until suddenly, it isn’t.
 
-**The key is knowing what kind of game you’re playing and play accordingly**
+**The key is knowing what kind of game you’re playing and to play accordingly**
