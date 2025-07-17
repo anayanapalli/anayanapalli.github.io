@@ -3,8 +3,6 @@ layout: post
 title: "Why Most Actors, Musicians, and Athletes Aren’t as Rich as They Seem"
 ---
 
-**STILL WORKING ON IT 😅**
-
 > In a power law distribution, the average is meaningless. Most people will never be average, because the distribution is so skewed. —Albert-László Barabási
 
 <p class="lead">
@@ -43,4 +41,4 @@ None of this means you shouldn’t go for it. Some of the most impactful work ha
 
 In bell curve careers, progress is linear. In power law careers, it’s spiky, delayed, and invisible—until suddenly, it isn’t.
 
-**The key is knowing what kind of game you’re playing and to play accordingly**
+**The key is knowing what kind of game you’re playing and to play accordingly.**
