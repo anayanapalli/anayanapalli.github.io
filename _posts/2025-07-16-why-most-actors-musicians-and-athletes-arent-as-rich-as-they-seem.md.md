@@ -3,6 +3,8 @@ layout: post
 title: "Why Most Actors, Musicians, and Athletes Aren’t as Rich as They Seem"
 ---
 
+**STILL WORKING ON IT 😅**
+
 > In a power law distribution, the average is meaningless. Most people will never be average, because the distribution is so skewed. —Albert-László Barabási
 
 <p class="lead">
@@ -17,7 +19,7 @@ But not every field works that way.
 
 Some careers play by different rules. You can be smart, driven, and genuinely talented—and still struggle for years. Not because you’re doing anything wrong, but because the game itself is different.
 
-Consider law, medicine, consulting, software engineering or most regular jobs. These are **bell curve professions**. Most people cluster around the middle. A good doctor and a great doctor might earn different salaries, but the gap won’t be astronomical. There’s a ceiling, but there’s also a floor. The system is stable and fairly distributed. Your success doesn’t limit mine. There’s room for many winners.
+Consider law, medicine, consulting, software engineering or most regular jobs. These are **bell curve professions**. Most people cluster around the middle. A good doctor and a great doctor might earn different salaries, but the gap won’t be astronomical. There’s a ceiling, but there’s also a floor. The system is stable and fairly distributed. Your success doesn’t limit mine as much. There’s room for many winners.
 
 Now compare that to acting, music, sports, writing, or startups. These are **power law professions**. Here, a tiny number of people earn almost all the rewards. The top one percent make fortunes. The next ten percent do okay. The rest—some of them just as skilled—barely survive.
 
