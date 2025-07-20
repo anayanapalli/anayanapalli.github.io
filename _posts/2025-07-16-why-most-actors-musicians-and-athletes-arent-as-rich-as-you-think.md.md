@@ -27,7 +27,7 @@ Now compare that to acting, music, sports, writing, or startups. These are **pow
   </div>
 </div>
 
-This isn’t about fairness. It’s about **how the system works**.
+This isn’t about fairness. It’s just **how the system works**.
 
 In bell curve careers, success is constrained by time. A lawyer can only meet so many clients. A surgeon can only perform so many operations. An engineer can only do one job full-time. Their work doesn’t scale easily. But in power law fields, the work _does_ scale. One song can be streamed a billion times. One app can reach millions overnight. One book can outsell a thousand others. In these worlds, replication is free and reach is unlimited.
 
