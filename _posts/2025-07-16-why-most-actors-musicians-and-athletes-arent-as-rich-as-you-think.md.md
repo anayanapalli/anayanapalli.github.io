@@ -31,7 +31,7 @@ This isn’t about fairness. It’s just **how the system works**.
 
 In bell curve careers, success is constrained by time. A lawyer can only meet so many clients. A surgeon can only perform so many operations. An engineer can only do one job full-time. Their work doesn’t scale easily. But in power law fields, the work _does_ scale. One song can be streamed a billion times. One app can reach millions overnight. One book can outsell a thousand others. In these worlds, replication is free and reach is unlimited.
 
-And when you combine scale with **scarcity of attention**, you get a **winner-take-most** outcome. People don’t listen to a hundred good songs—they listen to a few great ones. They don’t go through all Amazon products—they buy the most visible. Investors don’t back all startups—they bet on a few notable ones.
+And when you combine scale with **scarcity of attention**, you get a **winner-take-most** outcome. People don’t listen to a hundred good songs—they listen to a few great ones. They don’t go through all the Amazon products—they just buy the most visible stuff. Investors don’t back all startups—they bet on a few notable ones.
 
 In power law careers, **talent is just the starting line**. What matters more is distribution, timing, network, visibility, and often, luck. It’s not just about being good.
 
