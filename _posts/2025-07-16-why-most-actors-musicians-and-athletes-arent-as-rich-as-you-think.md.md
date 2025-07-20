@@ -18,7 +18,7 @@ Some careers play by different rules. You can be smart, driven, and genuinely ta
 
 Consider law, medicine, consulting, software engineering or most regular jobs. These are **bell curve professions**. Most people cluster around the middle. A good doctor and a great doctor might earn different salaries, but the gap won’t be astronomical. There’s a ceiling, but there’s also a floor. The system is stable and fairly distributed. Your success doesn’t limit mine as much. There’s room for many winners.
 
-Now compare that to acting, music, sports, writing, or startups. These are **power law professions**. Here, a tiny number of people earn almost all the rewards. The top tiny percent make fortunes. The next few percent do okay. The rest—some of them just as skilled—barely survive.
+Now compare that to acting, music, sports, writing, or startups. These are **power law professions**. Here, a small number of people earn almost all the rewards. The top tiny percent make fortunes. The next few percent do okay. The rest—some of them just as skilled—barely survive.
 
 <div class="image-with-caption">
   <img src="/public/images/6.jpeg" alt="Bell vs. Power Law Distribution" />
