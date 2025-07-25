@@ -39,7 +39,7 @@ The problem is, we often confuse the two worlds. We apply bell curve thinking to
 
 But in power law markets, timing and luck are just as or even more important than ability. These systems are not absolute meritocracies.
 
-And misunderstanding that leads to real pain. People enter these fields without realizing how long the tail really is. They expect gradual progress, but see none. They measure themselves against the top, without realizing how rare those outcomes are. It’s easy to end up burned out, bitter, or stuck chasing a version of success that was never realistically designed to include most people.
+And misunderstanding that leads to real pain. People enter these fields without realizing how skewed the distribution really is. They compare themselves against the top, without realizing how rare those outcomes are. It’s easy to end up burned out, bitter, or stuck chasing a version of success that was never realistically designed to include most people.
 
 None of this means you shouldn’t go for it. Some of the most impactful work happens in power law fields. But you need to understand the terrain. You need to know the risks, and what it really takes to succeed.
 
