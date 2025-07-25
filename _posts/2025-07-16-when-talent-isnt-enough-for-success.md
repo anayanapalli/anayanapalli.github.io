@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why Most Actors, Musicians, and Athletes Aren’t as Rich as You Think"
+title: "When Talent Isn’t Enough for Success"
 ---
 
 > In a normal distribution, most things are average. In a power-law distribution, a few things are huge, and most are tiny.
