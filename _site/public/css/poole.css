@@ -233,7 +233,7 @@ blockquote {
   line-height: 1.5;
   font-style: italic;
   color: #d22c2a;
-  padding: 0.5rem;
+  padding: 1rem;
   margin: 2rem auto;
   max-width: 40rem;
   quotes: "“" "”";
