@@ -230,35 +230,17 @@ pre code {
 blockquote {
   position: relative;
   font-size: 1.15rem;
-  line-height: 1.5;
+  line-height: 1.25;
   font-style: italic;
   color: #d22c2a;
   padding: 1rem;
-  margin: 2rem auto;
+  margin: .5rem auto;
   max-width: 40rem;
   quotes: "“" "”";
 }
 
-blockquote::before {
-  content: open-quote;
-  font-size: 5rem;
-  line-height: 0;
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  color: #c12926;
-  opacity: 0.15;
-  pointer-events: none;
-}
-
 blockquote p {
   margin: 0;
-}
-
-@media (max-width: 640px) {
-  blockquote::before {
-    display: none;
-  }
 }
 
 img {
