@@ -229,14 +229,12 @@ pre code {
 
 blockquote {
   position: relative;
-  font-size: 1.15rem;
-  line-height: 1.25;
-  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.40;
   color: #d22c2a;
   padding: 1rem;
-  margin: .5rem auto;
+  margin: .5rem 1rem;
   max-width: 40rem;
-  quotes: "“" "”";
 }
 
 blockquote p {
