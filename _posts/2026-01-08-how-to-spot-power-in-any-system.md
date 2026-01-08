@@ -26,4 +26,4 @@ You will stop looking for signs of power which can be easily faked and start pur
 
 That person, role or team is the place where the system has placed its _ultimate_ trust.
 
-<strong>And trust, at scale, is real power.</strong>
+<strong>And trust, at scale, is power.</strong>
