@@ -18,7 +18,7 @@ title: "How to Spot Power in Any System"
   </div>
 </div>
 
-Once you internalize this principle, you can go to any organization, company, government, fund or institute and easily spot where real power lives.
+Once you internalize this principle, you can go to any organization, company, government, fund or institute and easily spot where real power actually lives.
 
 You will stop looking for signals of power and start asking its defining question:
 
