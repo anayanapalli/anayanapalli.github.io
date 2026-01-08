@@ -3,7 +3,7 @@ layout: post
 title: "How to Spot Power in Any System?"
 ---
 
-> The real power players in any system are the people trusted to make the most expensive decisions that cannot be easily undone.
+> Power players in any system are the people trusted to make the most expensive decisions that cannot be easily undone.
 
 <p class="lead">
   <span class="first-letter">V</span>isibility, charisma, and confidence look like power. They can be side effects of power, but they are not power itself.
@@ -18,7 +18,7 @@ title: "How to Spot Power in Any System?"
   </div>
 </div>
 
-Once you internalize this principle, you can go to any organization, company, government, fund or institution and clearly spot where real power actually lives.
+Once you internalize this principle, you can go to any organization, company, government, fund or institution and clearly spot where power actually lives.
 
 You will stop looking for signs of power which can be easily faked and start pursuing its defining characteristic:
 
