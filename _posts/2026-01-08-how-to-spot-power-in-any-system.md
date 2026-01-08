@@ -3,7 +3,7 @@ layout: post
 title: "How to Spot Power in Any System"
 ---
 
-> Real power players in any system are the people trusted to make the most expensive decisions that cannot be easily undone.
+> The real power players in any system are the people trusted to make the most expensive decisions that cannot be easily undone.
 
 <p class="lead">
   <span class="first-letter">V</span>isibility, charisma, and confidence often look like power, but they are just signals of power, not power itself.
