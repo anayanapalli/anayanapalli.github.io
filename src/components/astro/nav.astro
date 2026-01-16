@@ -1,7 +1,9 @@
 ---
 import { en } from "~/config"
 
-const { home, archive, custom, links, about } = en.navigation
+const { custom } = en.navigation as {
+  custom?: { label: string; link: string }[]
+}
 ---
 
 <div

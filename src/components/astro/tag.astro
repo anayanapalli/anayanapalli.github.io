@@ -23,12 +23,7 @@ const filteredPosts = posts.filter((post: any) => post.data.tags?.includes(tag))
     filteredPosts.length > 0 ? (
       <ul class="space-y-4">
         {filteredPosts.map((post: any) => (
-          <PostList
-            post={post}
-            lang={lang}
-            dateFormat="YYYY-MM-DD"
-            dateWidth="w-32"
-          />
+          <PostList post={post} dateFormat="YYYY-MM-DD" dateWidth="w-32" />
         ))}
       </ul>
     ) : (

@@ -93,8 +93,8 @@ export const en = {
   siteName: "Anish Nayanapalli",
   meta: {
     ...common.meta,
-    title: "Guoqi Sun",
-    slogan: "A Romantic Rationalist",
+    title: "Anish Nayanapalli",
+    slogan: "A Stoic Engineer",
     description: "Reading, Photography, Programming, Traveling",
   },
   navigation: {
