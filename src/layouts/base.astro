@@ -3,10 +3,8 @@ import { NoiseBackground } from "~/components/react/noise-background"
 import { getLangFromUrl } from "~/i18n/utils"
 import { GoogleAnalytics } from "astro-google-analytics"
 import { en, zh } from "~/config"
-import { ClientRouter } from "astro:transitions"
 
 import "~/styles/tailwind.css"
-import "~/styles/view-transition.css"
 
 const lang = getLangFromUrl(Astro.url)
 
@@ -87,7 +85,6 @@ const config = en
         <GoogleAnalytics id={config.googleAnalyticsId} />
       )
     }
-    <ClientRouter />
   </head>
   <body
     class="flex min-h-screen w-full justify-center px-6 md:px-0 dark:bg-[#121212] dark:text-white"
