@@ -1,0 +1,26 @@
+---
+import { en } from "~/config"
+import AboutContentEn from "~/config/en/about.mdx"
+import { getLangFromUrl } from "~/i18n/utils"
+import MainLayout from "~/layouts/main.astro"
+import { getLanguagePaths } from "~/utils/langs"
+
+export function getStaticPaths() {
+  return getLanguagePaths()
+}
+
+const lang = getLangFromUrl(Astro.url)
+const pageMeta = en.pageMeta
+const AboutContent = AboutContentEn
+---
+
+<MainLayout
+  title={pageMeta.about.title}
+  description={pageMeta.about.description}
+  ogImage={pageMeta.about.ogImage}
+  needComment={true}
+>
+  <div class="prose dark:prose-invert max-w-3xl">
+    <AboutContent />
+  </div>
+</MainLayout>
