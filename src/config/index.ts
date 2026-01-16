@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { GrInstagram } from "react-icons/gr"
 
 export const defaultLanguage: string = "en"
 
@@ -10,11 +11,11 @@ export const common = {
   },
   googleAnalyticsId: "",
   social: [
-    // {
-    //   icon: FaInstagram,
-    //   label: "Instagram",
-    //   link: "https://instagram.com/stoicanish/",
-    // },
+    {
+      icon: GrInstagram,
+      label: "Instagram",
+      link: "https://instagram.com/stoicanish/",
+    },
     {
       icon: FaLinkedin,
       label: "LinkedIn",
@@ -89,7 +90,7 @@ export const zh = {
 
 export const en = {
   ...common,
-  siteName: "Guoqi Sun",
+  siteName: "Anish Nayanapalli",
   meta: {
     ...common.meta,
     title: "Guoqi Sun",
@@ -99,10 +100,10 @@ export const en = {
   navigation: {
     ...common.navigation,
     custom: [
-      {
-        label: "CamLife",
-        link: "https://camlife.cn",
-      },
+      // {
+      //   label: "CamLife",
+      //   link: "https://camlife.cn",
+      // },
     ],
   },
   pageMeta: {
