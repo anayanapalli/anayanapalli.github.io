@@ -9,8 +9,7 @@ export const common = {
   domain: "https://astro-air.guoqi.dev",
   meta: {
     favicon: "/avatar.png",
-    title: "Anish Nayanapalli",
-    slogan: "A Stoic Engineer",
+    title: "Anish Nayanapalli's Blog",
     description: "Reading, Photography, Programming, Traveling",
     url: "https://blog.sunguoqi.com",
   },
