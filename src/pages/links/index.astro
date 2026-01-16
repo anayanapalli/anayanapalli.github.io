@@ -1,34 +1,34 @@
 ---
 import LinkCard from "~/components/astro/link-card.astro"
-import { en } from "~/config"
+import { common } from "~/config"
 import LinksContentEn from "~/config/en/links.mdx"
 import { links } from "~/config/links"
-import { getLangFromUrl, useTranslations } from "~/i18n/utils"
 import MainLayout from "~/layouts/main.astro"
-import { getLanguagePaths } from "~/utils/langs"
 
-export function getStaticPaths() {
-  return getLanguagePaths()
-}
-
-const lang = getLangFromUrl(Astro.url)
-const t = useTranslations(lang)
+// Always English-only
 const LinksContent = LinksContentEn
-const pageMeta = en.pageMeta
+
+// Safe fallback in case pageMeta is missing
+const pageMeta = common.pageMeta?.links ?? {
+  title: "My Friends",
+  description: "Here are my friends and links",
+  ogImage: "/images/page-meta/en/links.png",
+}
 ---
 
 <MainLayout
-  title={pageMeta.links.title}
-  description={pageMeta.links.description}
-  ogImage={pageMeta.links.ogImage}
+  title={pageMeta.title}
+  description={pageMeta.description}
+  ogImage={pageMeta.ogImage}
   needComment={true}
 >
-  <h3 class="my-10 text-center text-xl font-bold">{t("links.title")}</h3>
+  <h3 class="my-10 text-center text-xl font-bold">{pageMeta.title}</h3>
 
   <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
     {links.map((link) => <LinkCard {...link} />)}
   </div>
-  <div class="prose dark:prose-invert max-w-3xl">
+
+  <div class="prose dark:prose-invert my-10 max-w-3xl">
     <LinksContent />
   </div>
 </MainLayout>

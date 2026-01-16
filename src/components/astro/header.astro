@@ -1,30 +1,39 @@
 ---
 import { Rss } from "lucide-react"
 import { ThemeToggle } from "~/components/react/theme-toggle"
-import { en } from "~/config"
+import { common } from "~/config"
 
-const config = en
+const config = common
 ---
 
-<header class="flex h-24 w-full items-center justify-between">
+<header class="flex h-24 w-full items-center justify-between px-4 md:px-0">
+  <!-- Site title / logo -->
   <a href="/" aria-label={config.siteName}>
     <div class="text-2xl font-semibold">{config.siteName}</div>
   </a>
 
+  <!-- Social + RSS + Theme toggle -->
   <div class="flex items-center gap-6">
     {
       config.rss && (
-        <a href="/rss.xml" target="_blank" aria-label="RSS" title="RSS">
+        <a
+          href="/rss.xml"
+          target="_blank"
+          aria-label="RSS"
+          title="RSS"
+          class="text-2xl transition-colors duration-200 hover:text-blue-600"
+        >
           <Rss />
         </a>
       )
     }
+
     {
       config.social.map((social) => (
         <a
           href={social.link}
           target="_blank"
-          class="hidden text-2xl md:block"
+          class="hidden text-2xl transition-colors duration-200 hover:text-blue-600 md:block"
           aria-label={social.label}
           title={social.label}
         >
@@ -33,7 +42,6 @@ const config = en
       ))
     }
 
-    {/* Remove LanguageToggle since there’s only English */}
     <ThemeToggle client:load />
   </div>
 </header>

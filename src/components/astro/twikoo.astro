@@ -1,17 +1,21 @@
+---
+import { common } from "~/config"
+import "~/styles/twikoo.css"
+---
+
 <div id="tcomment"></div>
 
-<script>
+<script type="module">
   import twikoo from "twikoo"
-  import { common, defaultLanguage } from "~/config"
-  import "~/styles/twikoo.css"
+  import { common } from "~/config"
 
   function initTwikoo() {
     twikoo({
       envId: common.comments.twikoo.envId,
       el: "#tcomment",
-      lang: defaultLanguage === "zh" ? "zh-CN" : "en-GB",
+      lang: "en-GB",
     }).then(() => {
-      console.log("comment loading success")
+      console.log("Twikoo loaded successfully")
     })
   }
 

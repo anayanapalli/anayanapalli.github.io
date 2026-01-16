@@ -1,23 +1,20 @@
 ---
 import { NoiseBackground } from "~/components/react/noise-background"
-import { getLangFromUrl } from "~/i18n/utils"
 import { GoogleAnalytics } from "astro-google-analytics"
-import { en, zh } from "~/config"
+import { common } from "~/config"
 
 import "~/styles/tailwind.css"
-
-const lang = getLangFromUrl(Astro.url)
 
 const { title, description, ogImage } = Astro.props
 
 const ogImageURL = new URL(ogImage, Astro.site).href
 const permalink = new URL(Astro.url.pathname, Astro.site).href
 
-const config = en
+const config = common
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -30,10 +27,7 @@ const config = en
       }
     </title>
     <meta name="generator" content={Astro.generator} />
-    <meta
-      name="description"
-      content={description ? description : config.meta.description}
-    />
+    <meta name="description" content={description ?? config.meta.description} />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -49,6 +43,7 @@ const config = en
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content={ogImageURL} />
 
+    <!-- Theme initialization -->
     <script is:inline>
       const setTheme = () => {
         const theme = localStorage.getItem("theme") ?? "light"
@@ -70,10 +65,12 @@ const config = en
 
       setTheme()
 
+      // Ensure theme persists on client navigation
       document.addEventListener("astro:after-swap", setTheme)
       document.addEventListener("astro:page-load", setTheme)
     </script>
 
+    <!-- Analytics -->
     <script
       is:inline
       src="https://umami.guoqi.dev/script.js"
@@ -86,6 +83,7 @@ const config = en
       )
     }
   </head>
+
   <body
     class="flex min-h-screen w-full justify-center px-6 md:px-0 dark:bg-[#121212] dark:text-white"
   >
