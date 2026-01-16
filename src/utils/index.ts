@@ -1,5 +1,9 @@
 import { getCollection } from "astro:content"
 
+/**
+ * Formats a Date or date string into a given format.
+ * Default format: "YYYY-MM-DD"
+ */
 export const formatDate = (
   date: Date | string | undefined,
   format: string = "YYYY-MM-DD",
@@ -18,12 +22,15 @@ export const formatDate = (
   return format.replace(/YYYY|MM|DD|HH|mm|ss/g, (match) => tokens[match])
 }
 
-export const getPostsByLocale = async (locale: string) => {
-  const posts =
-    locale === "en"
-      ? await getCollection("enPosts")
-      : await getCollection("zhPosts")
+/**
+ * Returns all posts from the English collection, sorted by pubDate descending.
+ * @param locale - defaults to "en"
+ */
+export const getPostsByLocale = async (locale: string = "en") => {
+  // Only English is used now
+  const posts = await getCollection("enPosts")
   return posts.sort(
-    (a: any, b: any) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+    (a, b) =>
+      new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf(),
   )
 }
