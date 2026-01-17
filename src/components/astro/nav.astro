@@ -1,7 +1,17 @@
 ---
 import { common } from "~/config"
 
-const { custom } = common.navigation as {
+const {
+  links: showLinks,
+  custom,
+  home,
+  archive,
+  about,
+} = common.navigation as {
+  home?: boolean
+  archive?: boolean
+  links?: boolean
+  about?: boolean
   custom?: { label: string; link: string }[]
 }
 ---
@@ -9,26 +19,32 @@ const { custom } = common.navigation as {
 <nav
   class="mt-4 mb-10 flex gap-4 overflow-x-auto text-lg whitespace-nowrap [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
 >
-  <!-- Static nav links -->
-  <a
-    href="/"
-    class="hover:underline hover:underline-offset-4"
-    aria-label="Home"
-    title="Home"
-  >
-    Home
-  </a>
+  {
+    home && (
+      <a
+        href="/"
+        class="hover:underline hover:underline-offset-4"
+        aria-label="Home"
+        title="Home"
+      >
+        Home
+      </a>
+    )
+  }
 
-  <a
-    href="/archive"
-    class="hover:underline hover:underline-offset-4"
-    aria-label="Archive"
-    title="Archive"
-  >
-    Archive
-  </a>
+  {
+    archive && (
+      <a
+        href="/archive"
+        class="hover:underline hover:underline-offset-4"
+        aria-label="Archive"
+        title="Archive"
+      >
+        Archive
+      </a>
+    )
+  }
 
-  <!-- Custom links -->
   {
     custom?.map((tab) => (
       <a
@@ -43,21 +59,29 @@ const { custom } = common.navigation as {
     ))
   }
 
-  <!-- <a
-    href="/links"
-    class="hover:underline hover:underline-offset-4"
-    aria-label="Links"
-    title="Links"
-  >
-    Links
-  </a> -->
+  {
+    showLinks && (
+      <a
+        href="/links"
+        class="hover:underline hover:underline-offset-4"
+        aria-label="Links"
+        title="Links"
+      >
+        Links
+      </a>
+    )
+  }
 
-  <a
-    href="/about"
-    class="hover:underline hover:underline-offset-4"
-    aria-label="About"
-    title="About"
-  >
-    About
-  </a>
+  {
+    about && (
+      <a
+        href="/about"
+        class="hover:underline hover:underline-offset-4"
+        aria-label="About"
+        title="About"
+      >
+        About
+      </a>
+    )
+  }
 </nav>

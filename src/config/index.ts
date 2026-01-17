@@ -31,19 +31,19 @@ export const common = {
       link: "https://github.com/anayanapalli",
     },
   ],
-  rss: true,
+  rss: false,
   navigation: {
     home: true,
     archive: true,
     custom: [] as NavItem[],
-    links: true,
+    links: false,
     about: true,
   },
   latestPosts: 8,
   comments: {
-    enabled: true,
+    enabled: false,
     twikoo: {
-      enabled: true,
+      enabled: false,
       envId: import.meta.env.PUBLIC_TWIKOO_ENV_ID ?? "",
     },
   },
