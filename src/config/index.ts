@@ -35,7 +35,7 @@ export const common = {
   navigation: {
     home: true,
     archive: true,
-    custom: [] as NavItem[], // type-safe empty array
+    custom: [] as NavItem[],
     links: true,
     about: true,
   },

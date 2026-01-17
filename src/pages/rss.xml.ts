@@ -1,10 +1,12 @@
 import rss from "@astrojs/rss"
-import { defaultLanguage, en, zh } from "~/config"
+import { common } from "~/config"
 import { getPostsByLocale } from "~/utils"
 
+/** Generate the RSS feed */
 export async function GET() {
-  const posts = await getPostsByLocale(defaultLanguage)
-  const config = defaultLanguage === "en" ? en : zh
+  // Fetch posts (currently only English)
+  const posts = await getPostsByLocale("en")
+  const config = common
 
   return rss({
     title: config.meta.title,
@@ -20,6 +22,7 @@ export async function GET() {
       link: `/posts/${post.id}/`,
       content: post.rendered ? post.rendered.html : post.data.description,
     })),
+    // Optional: custom XML for RSS extensions
     customData: "",
   })
 }
