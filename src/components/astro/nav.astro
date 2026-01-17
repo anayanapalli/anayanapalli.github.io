@@ -2,18 +2,12 @@
 import { common } from "~/config"
 
 const {
-  links: showLinks,
-  custom,
   home,
   archive,
+  links: showLinks,
   about,
-} = common.navigation as {
-  home?: boolean
-  archive?: boolean
-  links?: boolean
-  about?: boolean
-  custom?: { label: string; link: string }[]
-}
+  custom = [],
+} = common.navigation
 ---
 
 <nav
@@ -46,10 +40,11 @@ const {
   }
 
   {
-    custom?.map((tab) => (
+    custom.map((tab) => (
       <a
         href={tab.link}
         target="_blank"
+        rel="noopener noreferrer"
         class="hover:underline hover:underline-offset-4"
         aria-label={tab.label}
         title={tab.label}

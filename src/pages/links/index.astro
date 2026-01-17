@@ -1,12 +1,8 @@
 ---
 import LinkCard from "~/components/astro/link-card.astro"
 import { common } from "~/config"
-import LinksContentEn from "~/config/en/links.mdx"
 import { links } from "~/config/links"
 import MainLayout from "~/layouts/main.astro"
-
-// Always English-only
-const LinksContent = LinksContentEn
 
 // Safe fallback in case pageMeta is missing
 const pageMeta = common.pageMeta?.links ?? {
@@ -22,13 +18,7 @@ const pageMeta = common.pageMeta?.links ?? {
   ogImage={pageMeta.ogImage}
   needComment={true}
 >
-  <h3 class="my-10 text-center text-xl font-bold">{pageMeta.title}</h3>
-
   <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
     {links.map((link) => <LinkCard {...link} />)}
-  </div>
-
-  <div class="prose dark:prose-invert my-10 max-w-3xl">
-    <LinksContent />
   </div>
 </MainLayout>

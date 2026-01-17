@@ -1,14 +1,29 @@
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa"
+import { GrInstagram } from "react-icons/gr"
+
 export const links = [
   {
-    name: "Astro",
-    link: "https://astro.build",
-    description: "The web framework for content-driven websites",
-    avatar: "/links/astro.svg",
+    name: "GitHub",
+    link: "https://github.com/anayanapalli",
+    description: "@anayanapalli",
+    icon: FaGithub,
   },
   {
-    name: "Guoqi Sun",
-    link: "https://blog.sunguoqi.com",
-    description: "Try, fail, retry. That's the rhythm of growth.",
-    avatar: "https://assets.guoqi.dev/images/avatar.png",
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/anayanapalli/",
+    description: "@anayanapalli",
+    icon: FaLinkedin,
+  },
+  {
+    name: "Instagram",
+    link: "https://instagram.com/stoicanish/",
+    description: "@stoicanish",
+    icon: GrInstagram,
+  },
+  {
+    name: "Email",
+    link: "mailto:anayanapalli@gmail.com",
+    description: "anayanapalli@gmail.com",
+    icon: FaEnvelope,
   },
 ]

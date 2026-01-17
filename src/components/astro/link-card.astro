@@ -1,31 +1,56 @@
 ---
-interface Props {
+import type { ComponentType } from "react"
+
+interface BaseProps {
   name: string
   link: string
   description: string
-  avatar: string
 }
 
-const { name, link, description, avatar } = Astro.props
+type AvatarProps = BaseProps & {
+  avatar: string
+  icon?: never
+}
+
+type IconProps = BaseProps & {
+  icon: ComponentType
+  avatar?: never
+}
+
+type Props = AvatarProps | IconProps
+
+const { name, link, description } = Astro.props
+const avatar = "avatar" in Astro.props ? Astro.props.avatar : null
+const Icon = "icon" in Astro.props ? Astro.props.icon : null
 ---
 
 <a
   href={link}
   target="_blank"
-  class="flex items-center gap-4 rounded-lg border border-neutral-200 p-4 hover:scale-[1.02] hover:bg-neutral-100 hover:shadow-lg dark:border-neutral-800 dark:hover:bg-neutral-900"
+  rel="noopener noreferrer"
+  class="flex items-center gap-4 rounded-lg border border-neutral-200 p-4 dark:border-neutral-800"
 >
-  <img
-    src={avatar}
-    alt={name}
-    class="h-12 w-12 rounded-full object-cover transition-transform duration-300 hover:scale-110"
-  />
-  <div class="flex h-full flex-col">
-    <span class="text-lg font-medium transition-colors">
-      {name}
-    </span>
-    <span
-      class="line-clamp-2 flex-1 text-sm text-neutral-600 dark:text-neutral-400"
-    >
+  {
+    avatar && (
+      <img
+        src={avatar}
+        alt={name}
+        class="h-12 w-12 rounded-full object-cover"
+      />
+    )
+  }
+
+  {
+    Icon && (
+      <div class="flex h-12 w-12 items-center justify-center text-2xl text-neutral-700 dark:text-neutral-300">
+        <Icon />
+      </div>
+    )
+  }
+
+  <div class="flex flex-col">
+    <span class="text-lg font-medium">{name}</span>
+    <span class="text-sm text-neutral-600 dark:text-neutral-400">
       {description}
     </span>
   </div>

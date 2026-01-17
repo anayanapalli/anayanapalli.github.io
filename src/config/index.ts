@@ -36,7 +36,7 @@ export const common = {
     home: true,
     archive: true,
     custom: [] as NavItem[],
-    links: false,
+    links: true,
     about: true,
   },
   latestPosts: 8,
