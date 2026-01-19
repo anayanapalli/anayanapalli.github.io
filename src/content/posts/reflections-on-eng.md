@@ -1,13 +1,6 @@
 ---
 title: "Reflections on Engineering"
 pubDate: 2026-01-16
-description: "This is the first post of my new Astro blog."
-ogImage: "https://sunguoqi.com/me.png"
-author: "Astro Learner"
-image:
-  url: "https://docs.astro.build/assets/rose.webp"
-  alt: "The Astro logo on a dark background with a pink glow."
-tags: []
 ---
 
 **Motivation is fragile and must be protected**

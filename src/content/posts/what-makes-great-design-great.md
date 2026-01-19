@@ -1,13 +1,6 @@
 ---
 title: 'What Makes Great Design "Great"?'
 pubDate: 2025-05-10
-description: "This is the first post of my new Astro blog."
-ogImage: "https://sunguoqi.com/me.png"
-author: "Astro Learner"
-image:
-  url: "https://docs.astro.build/assets/rose.webp"
-  alt: "The Astro logo on a dark background with a pink glow."
-tags: []
 ---
 
 > Everything is designed, but very few things are designed well. —Brian Reed

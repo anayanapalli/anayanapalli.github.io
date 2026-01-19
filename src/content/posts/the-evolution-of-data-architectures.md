@@ -1,13 +1,6 @@
 ---
 title: "The Evolution of Data Architectures"
 pubDate: 2024-09-13
-description: "This is the first post of my new Astro blog."
-ogImage: "https://sunguoqi.com/me.png"
-author: "Astro Learner"
-image:
-  url: "https://docs.astro.build/assets/rose.webp"
-  alt: "The Astro logo on a dark background with a pink glow."
-tags: []
 ---
 
 > If you want to understand today, you have to search yesterday. —Pearl S. Buck

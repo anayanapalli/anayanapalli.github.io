@@ -1,13 +1,6 @@
 ---
 title: "When Talent Isn’t Enough for Success"
 pubDate: 2025-07-16
-description: "This is the first post of my new Astro blog."
-ogImage: "https://sunguoqi.com/me.png"
-author: "Astro Learner"
-image:
-  url: "https://docs.astro.build/assets/rose.webp"
-  alt: "The Astro logo on a dark background with a pink glow."
-tags: []
 ---
 
 > In a normal distribution, most things are average. In a power law distribution, a few things are huge, and most are tiny.

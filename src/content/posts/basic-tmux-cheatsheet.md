@@ -1,13 +1,6 @@
 ---
 title: "Basic tmux Cheatsheet"
 pubDate: 2024-05-05
-description: "This is the first post of my new Astro blog."
-ogImage: "https://sunguoqi.com/me.png"
-author: "Astro Learner"
-image:
-  url: "https://docs.astro.build/assets/rose.webp"
-  alt: "The Astro logo on a dark background with a pink glow."
-tags: []
 ---
 
 ## Install `tmux` on a Mac
