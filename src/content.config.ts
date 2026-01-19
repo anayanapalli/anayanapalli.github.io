@@ -12,7 +12,7 @@ const postSchema = z.object({
 })
 
 const enPostsCollection = defineCollection({
-  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/posts/en" }),
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/posts" }),
   schema: postSchema,
 })
 
