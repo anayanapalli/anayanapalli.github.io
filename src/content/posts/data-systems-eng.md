@@ -63,7 +63,7 @@ Citizens never see the system. When it works, nothing happens. When it fails, tr
 
 Modern data systems behave the same way. Data flows through lakes, warehouses, streaming systems, transformation layers, semantic models, and serving layers. Metadata systems act as the system’s nervous system. MDM defines identity and consistency. Observability detects subtle degradation long before dashboards fail. Governance exists because data is now a strategic asset.
 
-This is not plumbing. It is **_systems engineering._**
+This is not plumbing. It is **systems engineering.**
 
 ## Why “Data Systems Engineering” Is the Right Name
 
