@@ -8,8 +8,3 @@ article code {
 .dark article code {
   background-color: rgba(249, 115, 22, 0.8);
 }
-
-article code::before,
-article code::after {
-  content: none !important;
-}
