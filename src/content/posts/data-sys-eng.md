@@ -3,7 +3,7 @@ title: "Data Systems Engineering"
 pubDate: 2026-01-10
 ---
 
-There was a time when the term data engineering accurately described the work. Data lived in a handful of operational databases. Analytics lived elsewhere. The engineer’s job was to extract data, apply transformations, and load it into a destination system. If the pipeline ran and tables populated, the system was considered healthy. Systems were simple, the scope was narrow, and expectations were limited.
+There was a time when the term "data engineering" accurately described the work. Data lived in a handful of operational databases. Analytics lived elsewhere. The engineer’s job was to extract data, apply transformations, and load it into a destination system. If the pipeline ran and tables populated, the system was considered healthy. Systems were simple, the scope was narrow, and expectations were limited.
 
 That world no longer exists.
 
