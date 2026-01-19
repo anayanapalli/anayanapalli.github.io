@@ -24,7 +24,7 @@ export default defineConfig({
       plugins: [pluginCollapsibleSections(), pluginLineNumbers()],
       themes: ["material-theme-lighter", "material-theme-darker"],
       defaultProps: {
-        showLineNumbers: true,
+        showLineNumbers: false,
       },
     }),
     mdx(),
