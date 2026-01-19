@@ -1,8 +1,7 @@
 import { OGImageRoute } from "astro-og-canvas"
-import { defaultLanguage } from "~/config"
 import { getPostsByLocale } from "~/utils"
 
-const posts = await getPostsByLocale(defaultLanguage)
+const posts = await getPostsByLocale("en")
 
 // Transform the collection into an object
 // @ts-ignore
@@ -19,7 +18,6 @@ export const { getStaticPaths, GET } = OGImageRoute({
   getImageOptions: async (_, { data }: (typeof pages)[string]) => {
     return {
       title: data.title,
-      description: data.description,
       bgGradient: [
         [6, 38, 45],
         [8, 3, 2],
