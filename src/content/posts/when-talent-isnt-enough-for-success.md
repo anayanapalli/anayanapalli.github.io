@@ -17,7 +17,7 @@ Now compare that to acting, music, sports, writing, or startups. These are **pow
 
 <figure class="text-center">
   <img
-    src="/public/images/6.png"
+    src="/images/6.png"
     alt="Bell vs. Power Law Distribution"
     class="rounded-md mx-auto"
   />

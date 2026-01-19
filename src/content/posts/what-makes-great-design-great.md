@@ -13,7 +13,7 @@ Take the Golden Gate Bridge for example. The moment you lay eyes on it, you can�
 
 <figure class="text-center">
   <img
-    src="/public/images/4.jpeg"
+    src="/images/4.jpeg"
     alt="The Golden Gate—a bridge not just across water, but across engineering, design, and time."
     class="rounded-md mx-auto"
   />
@@ -32,7 +32,7 @@ And more than fifty years later, even after countless innovations in aviation, m
 
 <figure class="text-center">
   <img
-    src="/public/images/5.jpeg"
+    src="/images/5.jpeg"
     alt="TThe Boeing 747-8 Intercontinental—elegant and graceful as a bird in the sky."
     class="rounded-md mx-auto"
   />
