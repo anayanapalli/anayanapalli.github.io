@@ -47,7 +47,7 @@ Now consider the same requirement implemented as a data pipeline.
 
 Purchase events are ingested from production systems:
 
-```bash
+```
 {
   "event_id": "e123",
   "user_id": "u456",
