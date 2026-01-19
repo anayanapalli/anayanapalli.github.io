@@ -6,12 +6,12 @@ type NavItem = { label: string; link: string }
 
 export const common = {
   siteName: "Anish Nayanapalli",
-  domain: "https://astro-air.guoqi.dev",
+  domain: "https://anayanapalli.github.io",
   meta: {
     favicon: "/avatar.png",
     title: "Anish Nayanapalli's Blog",
-    description: "Reading, Photography, Programming, Traveling",
-    url: "https://blog.sunguoqi.com",
+    description: "Reading, Programming, Minimalism",
+    url: "https://anayanapalli.github.io",
   },
   googleAnalyticsId: "",
   social: [
