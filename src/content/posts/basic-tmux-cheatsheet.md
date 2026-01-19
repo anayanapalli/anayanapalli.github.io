@@ -3,25 +3,25 @@ title: "Basic tmux Cheatsheet"
 pubDate: 2024-05-05
 ---
 
-## Install `tmux` on a Mac
+## Install on a Mac
 
 ```
 brew install tmux
 ```
 
-## Check tmux version
+## Check version
 
 ```
 tmux -V
 ```
 
-## `tmux` abstractions
+## Abstractions
 
 Sessions are composed of windows which inturn are composed of panes.
 
 Sessions are terminated when the system restarts.
 
-## `tmux` prefix
+## Prefix
 
 ```
 <control + b>
@@ -29,7 +29,7 @@ Sessions are terminated when the system restarts.
 
 All shortcuts are preceded by the prefix.
 
-## Enter into `tmux` session
+## Enter into session
 
 ```
 tmux
