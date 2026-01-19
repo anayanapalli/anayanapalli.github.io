@@ -5,15 +5,16 @@ pubDate: 2026-01-14
 
 Testing in data engineering is often discussed as an extension of traditional software testing. This framing is misleading. The two disciplines differ not because of tooling or scale, but because they relate to reality in fundamentally different ways.
 
-In traditional software engineering, the system defines its own reality.
+In traditional software engineering, the system **defines its own reality.**
 
-In data engineering, the system observes reality and attempts to preserve it.
+In data engineering, the system **observes reality and attempts to preserve it.**
 
 This distinction changes what correctness means, what failures look like, and what testing is ultimately responsible for.
 
 Consider a simple example: computing daily revenue.
 
-The software engineering case
+## The Software Engineering Case
+
 A software engineer might implement this requirement as a function:
 
 ```python
@@ -40,7 +41,7 @@ Here, correctness is deterministic. The function defines what inputs are valid a
 
 Once these tests pass and the code is deployed, the problem is considered solved until the code changes.
 
-**The data engineering case**
+## The Data Engineering Case
 
 Now consider the same requirement implemented as a data pipeline.
 
