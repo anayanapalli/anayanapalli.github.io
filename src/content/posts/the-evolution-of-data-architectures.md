@@ -13,7 +13,7 @@ The following figure gives an overview of the architectures we will be discussin
 
 <figure class="text-center">
   <img
-    src="/images/3.png"
+    src="/public/images/3.png"
     alt="The Evolution of Data Architectures"
     class="rounded-md mx-auto"
   />

@@ -47,7 +47,7 @@ Modern data engineering is city-scale water systems engineering.
 
 <figure class="text-center">
   <img
-    src="/images/7.png"
+    src="/public/images/7.png"
     alt="An illustrated diagram of a city's water system"
     class="rounded-md mx-auto"
   />
