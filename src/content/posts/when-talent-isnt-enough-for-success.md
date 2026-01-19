@@ -15,7 +15,16 @@ Consider law, medicine, consulting, software engineering or most regular jobs. T
 
 Now compare that to acting, music, sports, writing, or startups. These are **power law professions.** Here, a small number of people earn almost all the rewards. The top tiny percent make fortunes. The next few percent do okay. The rest—some of them just as skilled—barely survive.
 
-![Bell vs. Power Law Distribution](/images/6.jpeg)
+<figure class="text-center">
+  <img
+    src="/images/6.png"
+    alt="Bell vs. Power Law Distribution"
+    class="rounded-md mx-auto"
+  />
+  <figcaption>
+    Bell vs. Power Law Distribution
+  </figcaption>
+</figure>
 
 This isn’t about fairness. It’s just **how the system works.**
 
