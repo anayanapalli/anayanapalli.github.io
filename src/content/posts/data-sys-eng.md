@@ -40,7 +40,8 @@ As the gap between the name and the reality widened, the industry began inventin
 
 These terms exist because something real changed. They are partial answers to a deeper identity problem.
 
-A Better Mental Model: City Water Systems
+## A Better Mental Model: City Water Systems
+
 Early data engineering was plumbing. You built pipes. If water flowed from one place to another, the job was done. The system was small, isolated, and easy to reason about.
 
 Modern data engineering is city-scale water systems engineering.
