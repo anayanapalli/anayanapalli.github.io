@@ -16,7 +16,6 @@ const pageMeta = common.pageMeta?.links ?? {
   title={pageMeta.title}
   description={pageMeta.description}
   ogImage={pageMeta.ogImage}
-  needComment={true}
 >
   <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
     {links.map((link) => <LinkCard {...link} />)}

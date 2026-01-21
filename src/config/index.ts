@@ -40,13 +40,6 @@ export const common = {
     about: true,
   },
   latestPosts: 8,
-  comments: {
-    enabled: false,
-    twikoo: {
-      enabled: false,
-      envId: import.meta.env.PUBLIC_TWIKOO_ENV_ID ?? "",
-    },
-  },
   pageMeta: {
     archive: {
       title: "All Posts",
