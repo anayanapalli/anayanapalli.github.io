@@ -5,11 +5,11 @@ import { GrInstagram } from "react-icons/gr"
 type NavItem = { label: string; link: string }
 
 export const common = {
-  siteName: "Anish Nayanapalli",
+  siteName: "Anish's Blog",
   domain: "https://anayanapalli.github.io",
   meta: {
     favicon: "/avatar.png",
-    title: "Anish Nayanapalli's Blog",
+    title: "Anish's Blog",
     description: "Reading, Programming, Minimalism",
     url: "https://anayanapalli.github.io",
   },
