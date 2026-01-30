@@ -1,6 +1,5 @@
 ---
 import { render } from "astro:content"
-import Footer from "~/components/astro/footer.astro"
 import MainLayout from "~/layouts/main.astro"
 import "~/styles/post.css"
 import "~/styles/post.scss"
@@ -35,5 +34,4 @@ const { Content } = await render(post)
       <Content />
     </div>
   </article>
-  <Footer />
 </MainLayout>
