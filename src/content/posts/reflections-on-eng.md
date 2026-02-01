@@ -98,5 +98,3 @@ Leaving an environment that degrades judgment is an act of self-respect.
 Careers are long. Craft is fragile. It is easier to preserve than to rebuild.
 
 The best engineers that I know are not the ones who stayed everywhere. They are the ones who knew when a place could no longer teach them.
-
----
