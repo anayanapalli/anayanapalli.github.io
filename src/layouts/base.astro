@@ -40,7 +40,7 @@ const config = common
     <!-- Theme initialization -->
     <script is:inline>
       const setTheme = () => {
-        const theme = localStorage.getItem("theme") ?? "light"
+        const theme = localStorage.getItem("theme") ?? "dark"
 
         if (theme === "dark") {
           document.documentElement.classList.add("dark")
