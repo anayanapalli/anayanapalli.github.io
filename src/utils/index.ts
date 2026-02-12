@@ -1,17 +1,29 @@
 import { getCollection } from "astro:content"
 
-/**
- * Formats a Date or date string into a given format.
- * Default format: "YYYY-MM-DD"
- */
 export const formatDate = (
   date: Date | string | undefined,
-  format: string = "YYYY-MM-DD",
+  format: string = "DD MMM YYYY",
 ): string => {
   const validDate = date ? new Date(date) : new Date()
 
+  const monthsShort = [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+  ]
+
   const tokens: Record<string, string> = {
     YYYY: validDate.getFullYear().toString(),
+    MMM: monthsShort[validDate.getMonth()],
     MM: String(validDate.getMonth() + 1).padStart(2, "0"),
     DD: String(validDate.getDate()).padStart(2, "0"),
     HH: String(validDate.getHours()).padStart(2, "0"),
@@ -19,7 +31,7 @@ export const formatDate = (
     ss: String(validDate.getSeconds()).padStart(2, "0"),
   }
 
-  return format.replace(/YYYY|MM|DD|HH|mm|ss/g, (match) => tokens[match])
+  return format.replace(/YYYY|MMM|MM|DD|HH|mm|ss/g, (match) => tokens[match])
 }
 
 /**

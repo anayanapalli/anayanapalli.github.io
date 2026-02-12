@@ -38,7 +38,7 @@ const pageMeta = common.pageMeta?.archive ?? {
       <section class="year-group my-8">
         <h2 class="my-4 text-2xl font-bold">{year}</h2>
         {postsByYear[year].map((post: any) => (
-          <PostList post={post} dateFormat="MM-DD" dateWidth="w-20" />
+          <PostList post={post} dateFormat="DD MMM" dateWidth="w-20" />
         ))}
       </section>
     ))
