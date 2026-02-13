@@ -13,3 +13,24 @@ article code::before,
 article code::after {
   content: none !important;
 }
+
+@layer base {
+  /* Remove blockquote quotes */
+  .prose blockquote p::before,
+  .prose blockquote p::after,
+  .prose.dark blockquote p::before,
+  .prose.dark blockquote p::after {
+    content: none !important;
+  }
+
+  /* Light mode sidebar */
+  .prose blockquote {
+    border-left-style: solid;
+    border-left-color: #000000 !important; /* black */
+  }
+
+  /* Dark mode sidebar - ensure parent has .dark */
+  .dark .prose blockquote {
+    border-left-color: #ffffff !important; /* white */
+  }
+}
