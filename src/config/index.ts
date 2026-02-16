@@ -47,8 +47,8 @@ export const common = {
       ogImage: "/images/page-meta/en/archive.png",
     },
     links: {
-      title: "My Friends",
-      description: "Here are my friends",
+      title: "My Links",
+      description: "Here are my links",
       ogImage: "/images/page-meta/en/links.png",
     },
     about: {

@@ -7,10 +7,15 @@ import "~/styles/tailwind.css"
 
 const { title, description, ogImage } = Astro.props
 
+const config = common
+
+// Compute stable values once
+const pageTitle = title ? `${title} | ${config.meta.title}` : config.meta.title
+
+const pageDescription = description ?? config.meta.description
+
 const ogImageURL = new URL(ogImage, Astro.site).href
 const permalink = new URL(Astro.url.pathname, Astro.site).href
-
-const config = common
 ---
 
 <!doctype html>
@@ -19,22 +24,24 @@ const config = common
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/png" href={config.meta.favicon} />
-    <title>{config.meta.title}</title>
-    <meta name="generator" content={Astro.generator} />
-    <meta name="description" content={description ?? config.meta.description} />
 
-    <!-- Open Graph / Facebook -->
+    <title>{pageTitle}</title>
+
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={pageDescription} />
+
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content={permalink} />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
     <meta property="og:image" content={ogImageURL} />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content={permalink} />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
+    <meta property="twitter:title" content={pageTitle} />
+    <meta property="twitter:description" content={pageDescription} />
     <meta property="twitter:image" content={ogImageURL} />
 
     <!-- Theme initialization -->
@@ -59,23 +66,18 @@ const config = common
 
       setTheme()
 
-      // Ensure theme persists on client navigation
       document.addEventListener("astro:after-swap", setTheme)
       document.addEventListener("astro:page-load", setTheme)
     </script>
 
-    <!-- Analytics -->
-    <!-- <script
+    <!-- Analytics (optional) -->
+    <!--
+    <script
       is:inline
       src="https://umami.guoqi.dev/script.js"
       data-website-id="759e9e56-20d3-463b-8d6e-abba5c53128b"
       data-domains="astro-air.guoqi.dev"></script>
-
-    {
-      config.googleAnalyticsId && (
-        <GoogleAnalytics id={config.googleAnalyticsId} />
-      )
-    } -->
+    -->
   </head>
 
   <body
