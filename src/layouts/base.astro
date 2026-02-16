@@ -1,6 +1,5 @@
 ---
 import { NoiseBackground } from "~/components/react/noise-background"
-// import { GoogleAnalytics } from "astro-google-analytics"
 import { common } from "~/config"
 
 import "~/styles/tailwind.css"
@@ -70,14 +69,18 @@ const permalink = new URL(Astro.url.pathname, Astro.site).href
       document.addEventListener("astro:page-load", setTheme)
     </script>
 
-    <!-- Analytics (optional) -->
-    <!--
-    <script
-      is:inline
-      src="https://umami.guoqi.dev/script.js"
-      data-website-id="759e9e56-20d3-463b-8d6e-abba5c53128b"
-      data-domains="astro-air.guoqi.dev"></script>
-    -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-REYCC2NCJP"
+    ></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "G-REYCC2NCJP")
+    </script>
   </head>
 
   <body
