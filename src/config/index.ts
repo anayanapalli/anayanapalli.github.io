@@ -8,7 +8,7 @@ export const common = {
   siteName: "Anish's Blog",
   domain: "https://anayanapalli.github.io",
   meta: {
-    favicon: "/avatar.png",
+    favicon: "/favicon.png",
     title: "Anish's Blog",
     description: "Reading, Programming, Minimalism",
     url: "https://anayanapalli.github.io",
