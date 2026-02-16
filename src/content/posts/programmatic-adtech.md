@@ -30,3 +30,41 @@ Let's say you put your favourite book in your Amazon shopping cart and didn't ch
   />
   <figcaption>Flow chart</figcaption>
 </figure>
+
+```
+            ┌───────────────┐
+            │   Publisher   │
+            └───────┬───────┘
+                    │ Impression
+                    ▼
+               ┌─────────┐
+               │  DSP    │
+               └────┬────┘
+                    │ Bid decision using CDP score
+                    ▼
+               [Ad shown]
+                    │
+                    ▼
+            Click / No Click
+                    │
+                    ▼
+               Purchase Event
+                    │
+                    ▼
+               ┌─────────┐
+               │   CDP   │
+               └────┬────┘
+                    │
+           Identity stitching
+                    │
+           Attribution modeling
+                    │
+           Update conversion data
+                    │
+           Retrain ML models
+                    │
+           Export updated scores
+                    │
+                    ▼
+                  DSP
+```
