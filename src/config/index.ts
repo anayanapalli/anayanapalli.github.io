@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { FaGithub } from "react-icons/fa"
 import { GrInstagram } from "react-icons/gr"
 
 // Optional type for custom nav items
@@ -20,11 +20,11 @@ export const common = {
       label: "Instagram",
       link: "https://instagram.com/stoicanish/",
     },
-    {
-      icon: FaLinkedin,
-      label: "LinkedIn",
-      link: "https://www.linkedin.com/in/anayanapalli/",
-    },
+    // {
+    //   icon: FaLinkedin,
+    //   label: "LinkedIn",
+    //   link: "https://www.linkedin.com/in/anayanapalli/",
+    // },
     {
       icon: FaGithub,
       label: "GitHub",
