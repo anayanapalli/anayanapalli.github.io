@@ -1,5 +1,4 @@
 import { FaGithub } from "react-icons/fa"
-import { GrInstagram } from "react-icons/gr"
 
 // Optional type for custom nav items
 type NavItem = { label: string; link: string }
@@ -15,11 +14,11 @@ export const common = {
   },
   googleAnalyticsId: "",
   social: [
-    {
-      icon: GrInstagram,
-      label: "Instagram",
-      link: "https://instagram.com/stoicanish/",
-    },
+    // {
+    //   icon: GrInstagram,
+    //   label: "Instagram",
+    //   link: "https://instagram.com/stoicanish/",
+    // },
     // {
     //   icon: FaLinkedin,
     //   label: "LinkedIn",
