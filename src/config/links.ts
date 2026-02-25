@@ -1,5 +1,4 @@
 import { FaEnvelope, FaGithub } from "react-icons/fa"
-import { GrInstagram } from "react-icons/gr"
 
 export const links = [
   {
@@ -14,12 +13,12 @@ export const links = [
   //   description: "@anayanapalli",
   //   icon: FaLinkedin,
   // },
-  {
-    name: "Instagram",
-    link: "https://instagram.com/stoicanish/",
-    description: "@stoicanish",
-    icon: GrInstagram,
-  },
+  // {
+  //   name: "Instagram",
+  //   link: "https://instagram.com/stoicanish/",
+  //   description: "@stoicanish",
+  //   icon: GrInstagram,
+  // },
   {
     name: "Email",
     link: "mailto:anayanapalli@gmail.com",
