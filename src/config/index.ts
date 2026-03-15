@@ -1,4 +1,4 @@
-import { FaGithub, FaGoodreads } from "react-icons/fa"
+import { FaGithub } from "react-icons/fa"
 
 // Optional type for custom nav items
 type NavItem = { label: string; link: string }
@@ -28,11 +28,6 @@ export const common = {
       icon: FaGithub,
       label: "GitHub",
       link: "https://github.com/anayanapalli",
-    },
-    {
-      icon: FaGoodreads,
-      label: "Goodreads",
-      link: "https://www.goodreads.com/anayanapalli",
     },
   ],
   rss: false,
