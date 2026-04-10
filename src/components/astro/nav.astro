@@ -9,7 +9,15 @@ const {
   custom = [],
 } = common.navigation
 
-const path = Astro.url.pathname
+const normalize = (p: string) => (p === "/" ? "/" : p.replace(/\/$/, ""))
+const path = normalize(Astro.url.pathname)
+
+const isActive = (href: any) => path === normalize(href)
+
+const linkClass = (href: any) =>
+  isActive(href)
+    ? "underline underline-offset-4"
+    : "hover:underline hover:underline-offset-4"
 ---
 
 <nav
