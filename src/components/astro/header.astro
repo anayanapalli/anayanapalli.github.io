@@ -8,8 +8,16 @@ const config = common
 
 <header class="flex h-24 w-full items-center justify-between md:px-0">
   <!-- Site title / logo -->
-  <a href="/" aria-label={config.siteName}>
-    <div class="text-2xl font-semibold">{config.siteName}</div>
+  <a href="/" aria-label={config.siteName} class="flex items-center gap-2">
+    <img
+      src="/favicon.png"
+      alt=""
+      class="h-5 w-5 shrink-0"
+      aria-hidden="true"
+    />
+    <span class="text-2xl leading-none font-medium">
+      {config.siteName}
+    </span>
   </a>
 
   <!-- Social + RSS + Theme toggle -->
