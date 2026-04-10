@@ -9,7 +9,7 @@ export const common = {
   meta: {
     favicon: "/favicon.png",
     title: "Anish's Blog",
-    description: "Reading, Programming, Minimalism",
+    description: "📚 Reading, 💻 Programming, 🌱 Minimalism",
     url: "https://anayanapalli.github.io",
   },
   googleAnalyticsId: "",
@@ -41,18 +41,18 @@ export const common = {
   latestPosts: 8,
   pageMeta: {
     archive: {
-      title: "All Posts",
+      title: "Archive",
       description: "Here are all my posts",
       ogImage: "/images/page-meta/en/archive.png",
     },
     links: {
-      title: "My Links",
+      title: "Links",
       description: "Here are my links",
       ogImage: "/images/page-meta/en/links.png",
     },
     about: {
       title: "About Me",
-      description: "Here is my self-introduction",
+      description: "Here's my self-introduction",
       ogImage: "/images/page-meta/en/about.png",
     },
   },

@@ -22,7 +22,7 @@ const years = Object.keys(postsByYear).sort((a, b) => Number(b) - Number(a))
 
 // Fallback for pageMeta in case it's missing
 const pageMeta = common.pageMeta?.archive ?? {
-  title: "All Posts",
+  title: "Archive",
   description: "Here are all the posts",
   ogImage: "/images/page-meta/en/archive.png",
 }

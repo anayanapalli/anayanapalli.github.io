@@ -8,75 +8,94 @@ const {
   about,
   custom = [],
 } = common.navigation
+
+const path = Astro.url.pathname
 ---
 
 <nav
-  class="mt-4 mb-10 flex gap-4 overflow-x-auto text-lg whitespace-nowrap [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+  class="mt-4 mb-10 flex items-center gap-5 overflow-x-auto text-lg whitespace-nowrap"
 >
   {
     home && (
-      <a
-        href="/"
-        class="hover:underline hover:underline-offset-4"
-        aria-label="Home"
-        title="Home"
-      >
-        Home
+      <a href="/" class="hidden items-center gap-1 md:inline-flex">
+        <span>🏠</span>
+        <span
+          class={
+            path === "/"
+              ? "underline underline-offset-4"
+              : "hover:underline hover:underline-offset-4"
+          }
+        >
+          Home
+        </span>
       </a>
     )
   }
 
   {
     archive && (
-      <a
-        href="/archive"
-        class="hover:underline hover:underline-offset-4"
-        aria-label="Archive"
-        title="Archive"
-      >
-        Archive
+      <a href="/archive" class="inline-flex items-center gap-1">
+        <span>🏛️</span>
+        <span
+          class={
+            path === "/archive"
+              ? "underline underline-offset-4"
+              : "hover:underline hover:underline-offset-4"
+          }
+        >
+          Archive
+        </span>
       </a>
     )
   }
 
   {
-    custom.map((tab) => (
-      <a
-        href={tab.link}
-        target="_blank"
-        rel="noopener noreferrer"
-        class="hover:underline hover:underline-offset-4"
-        aria-label={tab.label}
-        title={tab.label}
-      >
-        {tab.label}
-      </a>
-    ))
-  }
-
-  {
     showLinks && (
-      <a
-        href="/links"
-        class="hover:underline hover:underline-offset-4"
-        aria-label="Links"
-        title="Links"
-      >
-        Links
+      <a href="/links" class="inline-flex items-center gap-1">
+        <span>🔗</span>
+        <span
+          class={
+            path === "/links"
+              ? "underline underline-offset-4"
+              : "hover:underline hover:underline-offset-4"
+          }
+        >
+          Links
+        </span>
       </a>
     )
   }
 
   {
     about && (
-      <a
-        href="/about"
-        class="hover:underline hover:underline-offset-4"
-        aria-label="About"
-        title="About"
-      >
-        About
+      <a href="/about" class="inline-flex items-center gap-1">
+        <span>👨🏻‍💻</span>
+        <span
+          class={
+            path === "/about"
+              ? "underline underline-offset-4"
+              : "hover:underline hover:underline-offset-4"
+          }
+        >
+          About Me
+        </span>
       </a>
     )
+  }
+
+  {
+    custom.map((tab) => (
+      <a href={tab.link} class="inline-flex items-center gap-1">
+        <span
+          class={
+            path === tab.link
+              ? "underline underline-offset-4"
+              : "hover:underline hover:underline-offset-4"
+          }
+        >
+          {tab.label}
+        </span>
+      </a>
+    ))
   }
 </nav>
