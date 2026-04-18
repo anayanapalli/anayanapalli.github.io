@@ -71,15 +71,21 @@ Good management often looks like matching people to environments where their nat
 
 ---
 
-**One-on-ones are where reality actually shows up**
+**One-on-ones are the primary feedback loop of the system**
 
-Most organizations do not fail because of lack of information. They fail because information is filtered before it reaches decision-makers.
+Most organizations don’t fail because information doesn’t exist. They fail because information does not reliably move upward in a clean form.
 
-One-on-ones are one of the few places where that filtering reduces.
+One-on-ones are the mechanism that keeps that signal alive.
 
-When they are frequent and consistent, people tend to surface problems earlier and more honestly. When they are rare, issues accumulate quietly until they become visible too late.
+Without them, the system starts to degrade in a predictable way. Problems are still present, but they surface late, and usually in distorted form. By the time they reach a manager, they are no longer raw signals, but already interpreted, softened, or filtered through multiple layers of social caution.
 
-The quality of these conversations often determines how aligned a manager’s understanding is with reality.
+Over time, this creates a gap between how the system actually behaves and how leadership believes it behaves.
+
+Frequent one-on-ones reduce that gap. They create a low-friction channel where reality can surface continuously, including the small issues that later become structural problems.
+
+Just as important as listening is response. If information is collected but not acted on, the feedback loop breaks. People eventually stop sharing, not because issues disappear, but because nothing changes.
+
+In that sense, one-on-ones are not a communication ritual. They are part of the control system. When they work well, the organization stays adaptive. When they fail, the organization becomes slow to notice and even slower to correct.
 
 ---
 
