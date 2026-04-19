@@ -93,7 +93,7 @@ Just as important as listening is response. If information is collected but not 
 
 The strongest managers rarely rely on authority as their default tool.
 
-Most of the time, alignment through clarity and context is more durable than enforcement.
+Most of the time, alignment through clarity and context is more durable than strict enforcement.
 
 When authority becomes the primary mechanism, it usually signals that earlier alignment has failed.
 
