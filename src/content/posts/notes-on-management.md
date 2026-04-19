@@ -1,5 +1,5 @@
 ---
-title: "Thoughts on Management"
+title: "Notes on Management"
 pubDate: 2026-04-16
 ---
 
