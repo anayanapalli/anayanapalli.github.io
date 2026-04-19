@@ -1,19 +1,19 @@
 ---
 title: "Notes on Management"
-pubDate: 2026-04-16
+pubDate: 2026-04-19
 ---
 
-**Management is a high-leverage system**
+**Management is a high-leverage discipline**
 
 Management is one of those roles where the work is rarely visible in a direct way, but the impact is amplified through others.
 
 Small decisions around people, priorities, and structure tend to compound over time. A shift in direction or a single hiring decision can quietly change the trajectory of a team.
 
-The leverage is real, but it is also unforgiving. Good decisions scale. Bad decisions scale just as easily.
+The leverage is real, but it's also unforgiving. Good (and bad) decisions scale just as easily.
 
 ---
 
-**Most management mistakes come from short-term thinking**
+**Most management mistakes are a product of short-term thinking**
 
 A lot of breakdowns in teams come from optimizing for the immediate problem without thinking about what it unlocks later.
 
@@ -25,15 +25,15 @@ But over time, they are usually what defines whether a team becomes stable or sl
 
 ---
 
-**A manager’s output is the output of the team**
+**A manager’s output is the output of his team**
 
 Management is not about producing work directly. It is about shaping the conditions under which work happens.
 
-Because of that, the most honest signal of managerial effectiveness is the team itself.
+Because of that, the most honest signal of managerial effectiveness is the performance of the team itself.
 
 If the team is consistently performing well, it usually reflects clarity, structure, and good judgment.
 
-If performance is inconsistent or degrading over time, it is rarely just an individual issue. It often points to something systemic in direction or management.
+If performance is inconsistent or degrading over time. It often points to something systemic in direction or management.
 
 ---
 
@@ -57,6 +57,8 @@ They communicate what kind of behavior and performance the system actually value
 
 When promotions are misaligned, the consequences are not limited to the individual. Strong performers notice. Trust erodes slowly. And over time, the organization loses both credibility and capability at the same time.
 
+"When you promote the wrong employee, you create a bad employee and lose the good ones."
+
 ---
 
 **Role fit is more than capability**
@@ -67,25 +69,23 @@ Beyond technical skill, there is temperament, communication style, and how someo
 
 Some roles reward clarity of thought and deep focus. Others require visibility, persuasion, and constant interaction.
 
-Good management often looks like matching people to environments where their natural tendencies are not constantly being fought against.
+Good management often looks like matching people to environments where their natural tendencies are celebrated, not fought against.
 
 ---
 
-**One-on-ones are the primary feedback loop of the system**
+**One-on-ones are the primary feedback/learning loop of the organization**
 
 Most organizations don’t fail because information doesn’t exist. They fail because information does not reliably move upward in a clean form.
 
-One-on-ones are the mechanism that keeps that signal alive.
+One-on-ones are the mechanism to keep that signal alive.
 
-Without them, the system starts to degrade in a predictable way. Problems are still present, but they surface late, and usually in distorted form. By the time they reach a manager, they are no longer raw signals, but already interpreted, softened, or filtered through multiple layers of social caution.
+Without them, the system starts to degrade. Problems are still present, but they surface late, and usually in distorted ways. By the time they reach a manager, they are no longer raw signals, but already interpreted, softened, or filtered through multiple layers of social caution.
 
 Over time, this creates a gap between how the system actually behaves and how leadership believes it behaves.
 
-Frequent one-on-ones reduce that gap. They create a low-friction channel where reality can surface continuously, including the small issues that later become structural problems.
+Frequent one-on-ones reduce that drift. They create a low-friction channel where reality can surface continuously, including the small issues that later become structural problems.
 
 Just as important as listening is response. If information is collected but not acted on, the feedback loop breaks. People eventually stop sharing, not because issues disappear, but because nothing changes.
-
-In that sense, one-on-ones are not a communication ritual. They are part of the control system. When they work well, the organization stays adaptive. When they fail, the organization becomes slow to notice and even slower to correct.
 
 ---
 
