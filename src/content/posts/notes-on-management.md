@@ -101,6 +101,28 @@ In that sense, authority is less a tool for driving performance and more a mecha
 
 ---
 
+**Performance reviews define the integrity of the system**
+
+Performance reviews are one of the most sensitive and high-impact responsibilities a manager carries.
+
+They are not just administrative exercises. They are the primary mechanism through which individuals understand how they are perceived, where they stand, and how they can improve.
+
+For that reason, they must be grounded in reality. Vague or inflated feedback may feel easier in the moment, but it distorts the signal. Over time, this erodes trust in both the manager and the system itself.
+
+Precision matters. Constructive feedback matters. Honesty matters.
+
+A performance review places the manager in a position that is, in many ways, both evaluative and consequential. The outcome influences reputation, trajectory, and sometimes continued employment. That level of influence requires discipline.
+
+When the process is compromised, the damage is rarely immediate but almost always cumulative.
+
+If strong performers are misjudged or treated unfairly, they eventually leave. Others notice, even if nothing is said openly. The organization begins to select for a different kind of behavior, where perception management and politics replace actual contribution.
+
+Over time, this shift becomes visible in the culture. What was once a performance-driven environment slowly turns into one optimized for signaling and compliance.
+
+Maintaining the integrity of performance reviews is not just about fairness to individuals. It is about preserving the long-term quality and credibility of the entire system.
+
+---
+
 **Underperformance usually has two causes**
 
 When someone is not performing well, it usually comes down to either capability or motivation.
