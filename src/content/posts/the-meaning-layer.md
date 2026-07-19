@@ -80,7 +80,7 @@ The difficult question became:
 
 ---
 
-# The same metric, different meanings
+## The same metric, different meanings
 
 Consider a simple metric:
 
@@ -148,7 +148,7 @@ Now three dashboards show three different answers.
 
 ---
 
-# Why this becomes an engineering problem
+## Why this becomes an engineering problem
 
 At a small company, this can be solved through conversations.
 
@@ -181,7 +181,7 @@ That does not scale.
 
 ---
 
-# The semantic layer as an API for data
+## The semantic layer as an API for data
 
 Software engineers solved a similar problem years ago.
 
@@ -233,7 +233,7 @@ The semantic layer becomes the API between data and the business.
 
 ---
 
-# Example: Revenue
+## Example: Revenue
 
 Without a semantic layer, different teams may define revenue differently.
 
@@ -289,7 +289,7 @@ Product does not redefine revenue.
 
 ---
 
-# Metrics become software artifacts
+## Metrics become software artifacts
 
 This is the biggest shift.
 
@@ -321,7 +321,7 @@ It is changing business logic.
 
 ---
 
-# The semantic layer does not restrict analysts
+## The semantic layer does not restrict analysts
 
 A common concern is:
 
@@ -353,7 +353,7 @@ The semantic layer creates consistency without eliminating innovation.
 
 ---
 
-# Transformation layer vs semantic layer
+## Transformation layer vs semantic layer
 
 Modern data platforms separate responsibilities.
 
@@ -406,7 +406,7 @@ The second problem is where most organizations struggle.
 
 ---
 
-# The mature data platform
+## The mature data platform
 
 A modern data platform is not just a warehouse.
 
@@ -479,7 +479,7 @@ Question:
 
 ---
 
-# Data becomes valuable when people trust its meaning
+## Data becomes valuable when people trust its meaning
 
 A company can have:
 
