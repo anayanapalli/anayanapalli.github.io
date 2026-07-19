@@ -39,7 +39,7 @@ This is the problem a semantic layer solves.
 
 ---
 
-# The evolution of data engineering
+## The evolution of data engineering
 
 In the early days of analytics, the main challenge was moving data.
 
