@@ -55,7 +55,7 @@ A more mature organization might have tickets for the current state, target vers
 
 The engineers still do the same technical work.
 
-The difference is that the organization has created a **persistent representation of its reasoning**.
+The difference is that the organization has created a **trail of its reasoning and effort**.
 
 The answer six months later is no longer “Ask Sarah.”
 
@@ -73,21 +73,25 @@ Process is often criticized for making organizations slower.
 
 Sometimes it does.
 
-But the absence of process creates its own hidden cost.
+But the absence of process usually makes it even slower in the long run.
 
-An engineer investigates a production problem. They spend hours tracing dependencies, testing hypotheses and finding the root cause. They explain their findings in a meeting, and then everyone moves on.
+By passing processes looks like "saving time" becuase the bill arrives very late and is distributed across time.
+
+Let's take an example:
+
+An engineer investigates a production problem. He spends days tracing dependencies, testing hypotheses and finding the root cause. Then explains his findings in a meeting, and then everyone moves on.
 
 Months later, the same problem appears.
 
 A different engineer starts the investigation from scratch.
 
-The organization saved fifteen minutes by not documenting the first investigation and then spent hours paying for that decision again.
+The organization "saved" a few hours by not documenting the first investigation and then spent hours paying for that same decision again.
 
 Good process prevents organizations from repeatedly paying for the same thinking.
 
 That is one reason documentation, tickets and decision records matter.
 
-Their value is not that management gets to watch rectangles move across a board.
+Their value is not that management gets to watch tickets move across a board.
 
 Their value is that they create a **system of record**.
 
@@ -100,6 +104,7 @@ A good record can answer:
 - What decisions have already been made?
 - What remains uncertain?
 - What does completion mean?
+- How long did it take?
 
 The goal is not to document every conversation.
 
@@ -123,7 +128,7 @@ Repeated ambiguity becomes clearer ownership and decomposition.
 
 A history of poor decisions becomes a decision-making framework.
 
-In that sense, **good process is a compression algorithm for experience**.
+In that sense, **good process is a manifestation of reflected experience**.
 
 The organization doesn't have to rediscover the same lesson every time.
 
@@ -143,9 +148,9 @@ The simplest test is:
 
 If nobody can answer that question, the process deserves scrutiny.
 
-A five-minute configuration change should not necessarily have the same governance as a production database migration.
+A five-minute easily reversible configuration change should not necessarily have the same governance as a production database migration.
 
-A reversible experiment does not need the same approval process as an irreversible architectural decision.
+A small PoC does not need the same approval process as an irreversible architectural decision.
 
 Good organizations therefore don't simply have process.
 
@@ -185,13 +190,13 @@ There is another misconception worth challenging:
 
 Engineering doesn't work that way.
 
-An engineer may spend hours understanding an unfamiliar architecture, tracing a dependency, learning a runtime, investigating why something works, or thinking through a migration.
+An engineer may spend many hours or days understanding an unfamiliar architecture, tracing a dependency, learning a runtime, investigating why something works, or thinking through a migration.
 
 Those activities may not produce an immediately visible artifact.
 
 But understanding compounds.
 
-If engineers are constantly pushed from ticket to ticket, an organization can get plenty of activity without building much expertise.
+If engineers are constantly pushed from ticket to ticket, an organization can get plenty of "execution" without building much expertise.
 
 Good engineering organizations leave room for people to think because the understanding gained today can make everything that follows faster and better.
 
@@ -215,7 +220,9 @@ But good organizations continuously try to move knowledge from:
 
 That is one of the most important functions of process.
 
-And it has almost nothing to do with organizational age. A five-year-old company can have excellent operational discipline, while a fifty-year-old company can still operate primarily through meetings, spreadsheets and tribal knowledge.
+And it has almost nothing to do with organizational age.
+
+A five-year-old company can have excellent operational discipline, while a fifty-year-old company can still operate primarily through meetings, spreadsheets and tribal knowledge.
 
 Age provides experience.
 
@@ -227,7 +234,7 @@ Ultimately, I think this is the deepest purpose of organizational process.
 
 A good organization doesn't merely accumulate experience.
 
-It **crystallizes experience into mechanisms that help people make better decisions.**
+It **crystallizes experience into mechanisms that help people make better decisions automatically.**
 
 It learns:
 
@@ -255,7 +262,7 @@ That is what good process looks like.
 
 It is not bureaucracy for bureaucracy's sake.
 
-**It is organizational learning made durable.**
+**It is organizational learning in practice.**
 
 So the mature question isn't:
 
