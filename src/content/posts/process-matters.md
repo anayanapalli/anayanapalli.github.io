@@ -3,11 +3,7 @@ title: "Process Matters"
 pubDate: 2026-08-08
 ---
 
-# Process Matters
-
-**08 Aug 2026**
-
-There is a common instinct in some organizations to treat process as unnecessary.
+There is a common instinct in some organizations and teams to treat process as unnecessary.
 
 “Don’t create another ticket.”
 
