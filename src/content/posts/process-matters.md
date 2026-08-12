@@ -75,7 +75,7 @@ Sometimes it does.
 
 But the absence of process usually makes it even slower in the long run.
 
-By passing processes looks like "saving time" becuase the bill arrives very late and is distributed across time.
+Bypassing processes looks like "saving time" becuase the bill arrives very late and is distributed across time.
 
 Let's take an example:
 
