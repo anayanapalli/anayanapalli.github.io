@@ -1,6 +1,6 @@
 ---
 title: "Process Matters"
-pubDate: 2026-08-08
+pubDate: 2026-08-16
 ---
 
 There is a common instinct in some organizations and teams to treat process as unnecessary.

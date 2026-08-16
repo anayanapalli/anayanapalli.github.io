@@ -1,6 +1,6 @@
 ---
 title: "Psuedo-Agile Projects"
-pubDate: 2026-08-16
+pubDate: 2026-08-08
 ---
 
 I've seen this in quite a few teams and companies, and I think it's worth calling out because it can be surprisingly difficult to notice when you're actually inside the project.
