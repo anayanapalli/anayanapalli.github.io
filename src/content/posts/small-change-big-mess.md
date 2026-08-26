@@ -243,7 +243,7 @@ Mike is now mission-critical infrastructure.
 
 Engineers who ask why or attempt to fix the system are the rebels and revolutionaries.
 
-## So We Hire More Engineers
+## We Need More Engineers
 
 The business notices that development is slowing down.
 
