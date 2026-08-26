@@ -461,7 +461,7 @@ You have just generated a very sophisticated mess.
 
 And the beautiful thing is that **it probably works.**
 
-## AI Has Made Code Cheap
+## AI Has Made Code Dangerously Cheap
 
 This is perhaps the most important change.
 
