@@ -60,8 +60,6 @@ The architect says:
 
 > "We'll clean this up later."
 
-Narrator:
-
 **They did not clean it up later.**
 
 ## The Second Shortcut Is Built on the First
