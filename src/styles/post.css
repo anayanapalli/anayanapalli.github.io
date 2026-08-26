@@ -31,6 +31,6 @@ article code::after {
 
   /* Dark mode sidebar - ensure parent has .dark */
   .dark .prose blockquote {
-    border-left-color: #ffffff !important; /* white */
+    border-left-color: #f3f4f6 !important; /* white */
   }
 }
