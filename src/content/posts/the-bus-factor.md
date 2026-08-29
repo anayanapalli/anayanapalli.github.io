@@ -76,13 +76,13 @@ Imagine a team like this:
 <figure class="text-center">
   <img
     src="/images/8.png"
-    alt="Bus Factor Illustration"
+    alt="Bus Factor Illustration #1"
     class="rounded-md mx-auto dark:hidden"
   />
 
 <img
     src="/images/8-d.png"
-    alt="Bus Factor Illustration"
+    alt="Bus Factor Illustration #1"
     class="rounded-md mx-auto hidden dark:block"
   />
 
@@ -104,9 +104,20 @@ This is where the idea connects to something I have found increasingly useful in
 
 Suppose a system looks like this:
 
-```text
-Build → Test → Deploy → Monitor → Recover
-```
+<figure class="text-center">
+  <img
+    src="/images/9.png"
+    alt="Bus Factor Illustration #2"
+    class="rounded-md mx-auto dark:hidden"
+  />
+
+<img
+    src="/images/9-d.png"
+    alt="Bus Factor Illustration #2"
+    class="rounded-md mx-auto hidden dark:block"
+  />
+
+</figure>
 
 Perhaps five engineers can build.
 
@@ -612,7 +623,7 @@ Incident response creates shared operational experience.
 
 All of these practices are, in one way or another, mechanisms for reducing dependency concentration.
 
-## From heroes to systems
+## Well-designed systems are more reliable than heroes
 
 Perhaps the most important lesson is that great engineering organizations don't eliminate experts.
 
