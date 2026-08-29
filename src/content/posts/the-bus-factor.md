@@ -77,8 +77,15 @@ Imagine a team like this:
   <img
     src="/images/8.png"
     alt="Bus Factor Illustration"
-    class="rounded-md mx-auto"
+    class="rounded-md mx-auto dark:hidden"
   />
+
+<img
+    src="/images/8-d.png"
+    alt="Bus Factor Illustration"
+    class="rounded-md mx-auto hidden dark:block"
+  />
+
 </figure>
 
 Suddenly, the team's resilience becomes much easier to see.
