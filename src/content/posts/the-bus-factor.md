@@ -179,17 +179,7 @@ That distinction matters.
 
 I think of capability as requiring several things:
 
-```text
-Knowledge
-   +
-Practice
-   +
-Access
-   +
-Authority
-   =
-Operational Capability
-```
+> Knowledge + Practice + Access + Authority = Operational Capability
 
 Someone may understand the deployment process but lack production access.
 
