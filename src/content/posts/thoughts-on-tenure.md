@@ -1143,43 +1143,5 @@ The résumé cannot tell you that.
 
 You have to look for the feedback.
 
-## Tenure measures time. Experience measures feedback.
-
-Perhaps that is the simplest way I can summarize the whole idea.
-
-**Tenure measures elapsed time.**
-
-**Experience measures accumulated feedback.**
-
-And the relationship between the two depends on the system.
-
-A fast-moving environment can generate many feedback cycles in a short period.
-
-A slow-moving environment may require years.
-
-A small technical system can produce rapid feedback.
-
-A massive transformation can take a decade.
-
-An engineer can learn through relatively short technical cycles.
-
-A manager needs longer cycles to understand the consequences of decisions about people and organizations.
-
-A director, executive, or founder may need even longer horizons to see the effects of the systems they create.
-
-So when I look at a résumé, I don't want to count the years first.
-
-I want to understand the loops.
-
-**What did this person decide?**
-
-**What happened?**
-
-**What did they learn?**
-
-**And what did they do differently the next time?**
-
-Because ultimately, that is what experience really is.
-
 > **The résumé tells you where someone has been.**
 > **The feedback cycles tell you what they may have learned.**
