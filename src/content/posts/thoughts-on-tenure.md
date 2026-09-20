@@ -390,7 +390,7 @@ Someone who has experienced failure but learned nothing from it may repeat the s
 
 Someone who understands why the failure happened and changes how they operate afterward has completed a very valuable feedback cycle.
 
-## A three-year founder and a ten-year executive
+## A three-year founder vs. a ten-year executive
 
 Imagine two people.
 
