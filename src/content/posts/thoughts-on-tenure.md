@@ -194,54 +194,6 @@ The larger the system you are responsible for, the longer it can take for your d
 
 And that makes tenure increasingly important as scope increases.
 
-## This is why short tenure means something different at different levels
-
-Suppose I see an engineer with three jobs over six years.
-
-I don't immediately think:
-
-> "Why can't this person stay anywhere?"
-
-I want to understand what they did.
-
-Perhaps they worked on three increasingly difficult technical problems.
-
-Perhaps each role gave them more ownership.
-
-Perhaps they repeatedly built systems, operated them, encountered failures, and learned from them.
-
-That's potentially a very strong trajectory.
-
-Now suppose I see a VP who has changed companies every eighteen months.
-
-I wouldn't automatically conclude that something is wrong.
-
-But I would have substantially more questions.
-
-What did they actually change?
-
-Did they inherit the strategy or create it?
-
-Did they build the organization?
-
-Did they hire the leadership team?
-
-Did the strategy have time to play out?
-
-Did they observe the consequences?
-
-Did they leave because the transformation was complete?
-
-Was the company acquired?
-
-Was the role eliminated?
-
-Were they asked to leave?
-
-Did they move to a substantially larger role?
-
-The same tenure number carries a different meaning because the **feedback cycle is different**.
-
 ## Professional growth can be misleading...
 
 There is another signal that can be just as misleading as tenure: **professional growth within an organization**.
@@ -526,33 +478,3 @@ The experience isn't.
 This is why the most useful interview questions are often not about chronology.
 
 They're about **causality**.
-
-## Ask about the feedback loop
-
-Instead of asking only:
-
-> "How long were you there?"
-
-ask:
-
-> **"What did you change?"**
-
-Then:
-
-> **"Why did you change it?"**
-
-Then:
-
-> **"What happened?"**
-
-Then:
-
-> **"What surprised you?"**
-
-And finally:
-
-> **"What would you do differently now?"**
-
-That last question is particularly revealing.
-
-Because it tells you whether the person merely accumulated events or actually converted those events into learning.
