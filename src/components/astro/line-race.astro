@@ -1,0 +1,389 @@
+---
+const chartId = `line-race-${Math.random().toString(36).slice(2)}`
+---
+
+<div id={chartId} style="width: 100%; height: 700px;"></div>
+
+<script is:inline define:vars={{ chartId }}>
+  const chartDom = document.getElementById(chartId)
+
+  if (!chartDom) {
+    console.error("Line Race: chart container not found")
+  } else {
+    let myChart = null
+    let animationFrame = null
+
+    // How long the entire 1950 → final year progression takes.
+    const RACE_DURATION = 3000
+
+    // Fixed Y-axis range.
+    const Y_AXIS_MIN = 0
+    const Y_AXIS_MAX = 70000
+
+    const getTheme = () => {
+      return document.documentElement.classList.contains("dark") ? "dark" : null
+    }
+
+    const loadECharts = () => {
+      if (window.echarts) {
+        runChart()
+        return
+      }
+
+      const script = document.createElement("script")
+
+      script.src =
+        "https://cdn.jsdelivr.net/npm/echarts@6.1.0/dist/echarts.min.js"
+
+      script.onload = runChart
+
+      script.onerror = () => {
+        console.error("Line Race: ECharts failed to load")
+      }
+
+      document.head.appendChild(script)
+    }
+
+    const runChart = () => {
+      if (animationFrame) {
+        cancelAnimationFrame(animationFrame)
+        animationFrame = null
+      }
+
+      if (myChart) {
+        myChart.dispose()
+      }
+
+      myChart = window.echarts.init(chartDom, getTheme())
+
+      fetch("/data/life-expectancy-table.json")
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}: ${response.statusText}`)
+          }
+
+          return response.json()
+        })
+        .then((rawData) => {
+          console.log("Line Race: data loaded")
+
+          const countries = [
+            "Finland",
+            "France",
+            "Germany",
+            "Iceland",
+            "Norway",
+            "Poland",
+            "Russia",
+            "United Kingdom",
+          ]
+
+          const headers = rawData[0]
+
+          const yearIndex = headers.indexOf("Year")
+          const countryIndex = headers.indexOf("Country")
+          const incomeIndex = headers.indexOf("Income")
+
+          if (yearIndex === -1 || countryIndex === -1 || incomeIndex === -1) {
+            throw new Error(
+              "Line Race: could not find Year, Country, or Income columns",
+            )
+          }
+
+          /*
+           * Build the complete dataset for each country.
+           */
+          const countryData = countries.map((country) => {
+            const rows = rawData
+              .slice(1)
+              .filter(
+                (row) =>
+                  row[countryIndex] === country &&
+                  Number(row[yearIndex]) >= 1950,
+              )
+              .map((row) => [Number(row[yearIndex]), Number(row[incomeIndex])])
+              .sort((a, b) => a[0] - b[0])
+
+            return {
+              country,
+              data: rows,
+            }
+          })
+
+          /*
+           * Determine the actual year range.
+           */
+          const allYears = countryData.flatMap(({ data }) =>
+            data.map((point) => point[0]),
+          )
+
+          const startYear = Math.min(...allYears)
+          const endYear = Math.max(...allYears)
+
+          console.log(`Line Race: ${startYear} → ${endYear}`)
+
+          const isDark = document.documentElement.classList.contains("dark")
+
+          /*
+           * Initial chart configuration.
+           *
+           * IMPORTANT:
+           * The Y-axis is now fixed at 0 → 70,000.
+           */
+          const option = {
+            animation: false,
+
+            backgroundColor: "transparent",
+
+            title: {
+              text: `Income since ${startYear}`,
+              left: "center",
+            },
+
+            tooltip: {
+              trigger: "axis",
+              order: "valueDesc",
+            },
+
+            legend: {
+              show: false,
+            },
+
+            xAxis: {
+              type: "value",
+
+              min: startYear - 5,
+              max: endYear,
+
+              name: "Year",
+              nameLocation: "middle",
+              nameGap: 30,
+
+              axisLabel: {
+                color: isDark ? "#ccc" : "#555",
+              },
+
+              axisLine: {
+                lineStyle: {
+                  color: isDark ? "#777" : "#aaa",
+                },
+              },
+
+              splitLine: {
+                lineStyle: {
+                  color: isDark ? "rgba(255,255,255,0.10)" : "rgba(0,0,0,0.08)",
+                },
+              },
+            },
+
+            yAxis: {
+              type: "value",
+
+              // Fixed Y-axis.
+              min: Y_AXIS_MIN,
+              max: Y_AXIS_MAX,
+
+              name: "Income",
+
+              axisLabel: {
+                color: isDark ? "#ccc" : "#555",
+
+                formatter: function (value) {
+                  return value.toLocaleString()
+                },
+              },
+
+              axisLine: {
+                lineStyle: {
+                  color: isDark ? "#777" : "#aaa",
+                },
+              },
+
+              splitLine: {
+                lineStyle: {
+                  color: isDark ? "rgba(255,255,255,0.10)" : "rgba(0,0,0,0.08)",
+                },
+              },
+            },
+
+            grid: {
+              left: 80,
+              right: 180,
+              top: 80,
+              bottom: 70,
+            },
+
+            series: countries.map((country) => ({
+              name: country,
+              type: "line",
+              showSymbol: false,
+              data: [],
+
+              endLabel: {
+                show: true,
+
+                formatter: function (params) {
+                  return (
+                    country + ": " + Number(params.value[1]).toLocaleString()
+                  )
+                },
+              },
+
+              labelLayout: {
+                moveOverlap: "shiftY",
+              },
+
+              emphasis: {
+                focus: "series",
+              },
+            })),
+          }
+
+          myChart.setOption(option)
+          myChart.resize()
+
+          /*
+           * Start the slow historical progression.
+           */
+          const startTime = performance.now()
+
+          const animate = (currentTime) => {
+            const elapsed = currentTime - startTime
+
+            const progress = Math.min(elapsed / RACE_DURATION, 1)
+
+            /*
+             * Convert animation progress into
+             * a historical year.
+             */
+            const currentYear = startYear + (endYear - startYear) * progress
+
+            /*
+             * Reveal observations progressively.
+             */
+            const animatedSeries = countryData.map(({ country, data }) => {
+              const visibleData = data.filter(
+                (point) => point[0] <= currentYear,
+              )
+
+              return {
+                name: country,
+                type: "line",
+                showSymbol: false,
+
+                data: visibleData,
+
+                endLabel: {
+                  show: true,
+
+                  formatter: function (params) {
+                    return (
+                      country + ": " + Number(params.value[1]).toLocaleString()
+                    )
+                  },
+                },
+
+                labelLayout: {
+                  moveOverlap: "shiftY",
+                },
+
+                emphasis: {
+                  focus: "series",
+                },
+              }
+            })
+
+            /*
+             * Update the chart.
+             *
+             * Notice that we are NOT changing
+             * the Y-axis here.
+             */
+            myChart.setOption({
+              title: {
+                text: `Income since ${Math.floor(currentYear)}`,
+              },
+
+              series: animatedSeries,
+            })
+
+            if (progress < 1) {
+              animationFrame = requestAnimationFrame(animate)
+            } else {
+              animationFrame = null
+
+              /*
+               * Final frame.
+               */
+              myChart.setOption({
+                title: {
+                  text: `Income since ${endYear}`,
+                },
+
+                series: countryData.map(({ country, data }) => ({
+                  name: country,
+                  type: "line",
+                  showSymbol: false,
+                  data,
+
+                  endLabel: {
+                    show: true,
+
+                    formatter: function (params) {
+                      return (
+                        country +
+                        ": " +
+                        Number(params.value[1]).toLocaleString()
+                      )
+                    },
+                  },
+
+                  labelLayout: {
+                    moveOverlap: "shiftY",
+                  },
+
+                  emphasis: {
+                    focus: "series",
+                  },
+                })),
+              })
+            }
+          }
+
+          animationFrame = requestAnimationFrame(animate)
+
+          console.log("Line Race: slow animation started")
+        })
+        .catch((error) => {
+          console.error("Line Race: failed to load data", error)
+        })
+    }
+
+    loadECharts()
+
+    /*
+     * Responsive resizing.
+     */
+    const resizeObserver = new ResizeObserver(() => {
+      if (myChart) {
+        myChart.resize()
+      }
+    })
+
+    resizeObserver.observe(chartDom)
+
+    /*
+     * Rebuild when switching light/dark mode.
+     */
+    const themeObserver = new MutationObserver(() => {
+      requestAnimationFrame(() => {
+        runChart()
+      })
+    })
+
+    themeObserver.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["class"],
+    })
+  }
+</script>

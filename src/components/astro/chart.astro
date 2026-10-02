@@ -1,0 +1,96 @@
+---
+interface Props {
+  option?: Record<string, any>
+  dataUrl?: string
+  height?: string
+}
+
+const { option = {}, dataUrl = "", height = "500px" } = Astro.props
+
+const chartId = `chart-${Math.random().toString(36).slice(2)}`
+---
+
+<div id={chartId} style={`width: 100%; height: ${height};`}></div>
+
+<script is:inline define:vars={{ chartId, option, dataUrl }}>
+  const chartElement = document.getElementById(chartId)
+
+  if (chartElement) {
+    let chart = null
+
+    const loadECharts = () => {
+      if (window.echarts) {
+        initializeChart()
+        return
+      }
+
+      const script = document.createElement("script")
+
+      script.src =
+        "https://cdn.jsdelivr.net/npm/echarts@6.1.0/dist/echarts.min.js"
+
+      script.onload = initializeChart
+
+      document.head.appendChild(script)
+    }
+
+    const getTheme = () => {
+      return document.documentElement.classList.contains("dark") ? "dark" : null
+    }
+
+    const initializeChart = async () => {
+      if (chart) {
+        chart.dispose()
+      }
+
+      chart = window.echarts.init(chartElement, getTheme())
+
+      let finalOption = { ...option }
+
+      if (dataUrl) {
+        try {
+          const response = await fetch(dataUrl)
+          const data = await response.json()
+
+          finalOption = {
+            ...finalOption,
+
+            xAxis: {
+              ...finalOption.xAxis,
+              data: data.categories,
+            },
+
+            series: data.series,
+          }
+        } catch (error) {
+          console.error("Could not load chart data:", error)
+        }
+      }
+
+      chart.setOption(finalOption)
+
+      chart.resize()
+    }
+
+    loadECharts()
+
+    const resizeObserver = new ResizeObserver(() => {
+      if (chart) {
+        chart.resize()
+      }
+    })
+
+    resizeObserver.observe(chartElement)
+
+    const themeObserver = new MutationObserver(() => {
+      requestAnimationFrame(() => {
+        initializeChart()
+      })
+    })
+
+    themeObserver.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["class"],
+    })
+  }
+</script>
