@@ -1,0 +1,266 @@
+---
+const GOODREADS_USER_ID = "204912076"
+
+const GOODREADS_URL = `https://www.goodreads.com/review/list_rss/${GOODREADS_USER_ID}?shelf=currently-reading`
+
+const PROFILE_URL = `https://www.goodreads.com/user/show/${GOODREADS_USER_ID}`
+
+interface Book {
+  title: string
+  author: string
+  link: string
+  cover: string
+}
+
+function decodeXml(value: string): string {
+  return value
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;|&#39;/g, "'")
+    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, code) =>
+      String.fromCodePoint(parseInt(code, 16)),
+    )
+    .trim()
+}
+
+function getField(xml: string, tag: string): string {
+  const escapedTag = tag.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+
+  const pattern = new RegExp(
+    `<${escapedTag}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${escapedTag}>`,
+    "i",
+  )
+
+  const match = xml.match(pattern)
+
+  return match ? decodeXml(match[1]) : ""
+}
+
+let books: Book[] = []
+
+try {
+  const response = await fetch(GOODREADS_URL, {
+    headers: {
+      "User-Agent": "Mozilla/5.0 (compatible; PersonalReadingShelf/1.0)",
+    },
+  })
+
+  if (response.ok) {
+    const xml = await response.text()
+
+    const items = xml.match(/<item(?:\s[^>]*)?>[\s\S]*?<\/item>/gi) ?? []
+
+    books = items
+      .map((item) => ({
+        title: getField(item, "title"),
+        author: getField(item, "author_name"),
+        link: getField(item, "link"),
+        cover:
+          getField(item, "book_large_image_url") ||
+          getField(item, "book_image_url"),
+      }))
+      .filter((book) => book.title && book.link)
+      .slice(0, 4)
+  }
+} catch {
+  console.warn("Could not load the Goodreads currently-reading shelf.")
+}
+---
+
+<section
+  class="goodreads-currently-reading"
+  aria-labelledby="goodreads-currently-reading-title"
+>
+  <div class="shelf-heading">
+    <h2 id="goodreads-currently-reading-title">📚 Currently reading</h2>
+  </div>
+
+  {
+    books.length > 0 ? (
+      <div class="book-list">
+        {books.map((book) => (
+          <article class="book-card">
+            <div class="book-cover">
+              {book.cover ? (
+                <img
+                  src={book.cover}
+                  alt={`Cover of ${book.title}`}
+                  loading="lazy"
+                />
+              ) : (
+                <div class="cover-placeholder" aria-hidden="true">
+                  <span>{book.title}</span>
+                </div>
+              )}
+            </div>
+
+            <div class="book-info">
+              <h3>
+                <a
+                  class="book-title-link"
+                  href={book.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {book.title}
+                </a>
+              </h3>
+
+              {book.author && <p class="book-author">{book.author}</p>}
+            </div>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <p class="shelf-fallback">
+        My reading list is available on{" "}
+        <a href={PROFILE_URL} target="_blank" rel="noopener noreferrer">
+          Goodreads
+        </a>
+        .
+      </p>
+    )
+  }
+</section>
+
+<style>
+  .goodreads-currently-reading {
+    margin-block: 3rem 1rem;
+    padding-block: 1.75rem;
+    border-top: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+    color: inherit;
+  }
+
+  .shelf-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .shelf-heading h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  .book-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .book-card {
+    display: grid;
+    grid-template-columns: 84px minmax(0, 1fr);
+    align-items: center;
+    gap: 1rem;
+    min-width: 0;
+    padding: 0.9rem;
+    border: 1px solid color-mix(in srgb, currentColor 13%, transparent);
+    border-radius: 10px;
+  }
+
+  .book-cover {
+    width: 84px;
+    aspect-ratio: 2 / 3;
+    overflow: hidden;
+    border-radius: 3px;
+    background: color-mix(in srgb, currentColor 6%, transparent);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 12%);
+  }
+
+  .book-cover img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cover-placeholder {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0.4rem;
+    text-align: center;
+    font-size: 0.65rem;
+    overflow-wrap: anywhere;
+  }
+
+  .book-info {
+    min-width: 0;
+  }
+
+  .book-info h3 {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+
+  .book-title-link {
+    color: inherit;
+    text-decoration: none;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 180ms ease;
+  }
+
+  .book-title-link:hover,
+  .book-title-link:focus-visible {
+    text-decoration: underline;
+  }
+
+  .book-title-link:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+    border-radius: 1px;
+  }
+
+  .book-author {
+    margin: 0.45rem 0 0;
+    font-size: 0.84rem;
+    line-height: 1.5;
+    opacity: 0.68;
+  }
+
+  .shelf-fallback {
+    margin-block: 1.25rem;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    opacity: 0.8;
+  }
+
+  .shelf-fallback a {
+    color: inherit;
+    text-underline-offset: 3px;
+  }
+
+  @media (max-width: 560px) {
+    .book-list {
+      grid-template-columns: 1fr;
+    }
+
+    .book-card {
+      grid-template-columns: 76px minmax(0, 1fr);
+    }
+
+    .book-cover {
+      width: 76px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .book-title-link {
+      transition: none;
+    }
+  }
+</style>

@@ -1,5 +1,5 @@
 ---
-title: "The Difficulty of Being Good"
+title: "Difficulty of Being Good"
 pubDate: 2026-10-10
 ---
 
