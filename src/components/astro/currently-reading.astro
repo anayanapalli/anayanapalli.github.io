@@ -1,8 +1,6 @@
 ---
 const GOODREADS_USER_ID = "204912076"
-
 const GOODREADS_URL = `https://www.goodreads.com/review/list_rss/${GOODREADS_USER_ID}?shelf=currently-reading`
-
 const PROFILE_URL = `https://www.goodreads.com/user/show/${GOODREADS_USER_ID}`
 
 interface Book {
@@ -12,26 +10,57 @@ interface Book {
   cover: string
 }
 
+/**
+ * Decode XML entities and unwrap CDATA sections.
+ */
 function decodeXml(value: string): string {
-  return value
-    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
-    .replace(/&amp;/g, "&")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&quot;/g, '"')
-    .replace(/&apos;|&#39;/g, "'")
-    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
-    .replace(/&#x([0-9a-f]+);/gi, (_, code) =>
-      String.fromCodePoint(parseInt(code, 16)),
+  const unwrapped = value.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
+
+  return unwrapped
+    .replace(
+      /&(#x[0-9a-f]+|#\d+|amp|lt|gt|quot|apos);/gi,
+      (entity, code: string) => {
+        const namedEntities: Record<string, string> = {
+          amp: "&",
+          lt: "<",
+          gt: ">",
+          quot: '"',
+          apos: "'",
+        }
+
+        if (code.charAt(0) !== "#") {
+          return namedEntities[code.toLowerCase()] ?? entity
+        }
+
+        const isHex = code.charAt(1).toLowerCase() === "x"
+
+        const number = isHex
+          ? parseInt(code.slice(2), 16)
+          : parseInt(code.slice(1), 10)
+
+        if (
+          !Number.isInteger(number) ||
+          number < 0 ||
+          number > 0x10ffff ||
+          (number >= 0xd800 && number <= 0xdfff)
+        ) {
+          return entity
+        }
+
+        return String.fromCodePoint(number)
+      },
     )
     .trim()
 }
 
+/**
+ * Extract a field from an RSS XML fragment.
+ */
 function getField(xml: string, tag: string): string {
   const escapedTag = tag.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
 
   const pattern = new RegExp(
-    `<${escapedTag}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${escapedTag}>`,
+    `<${escapedTag}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${escapedTag}\\s*>`,
     "i",
   )
 
@@ -40,34 +69,68 @@ function getField(xml: string, tag: string): string {
   return match ? decodeXml(match[1]) : ""
 }
 
-let books: Book[] = []
+/**
+ * Accept only HTTP(S) URLs from the external RSS feed.
+ */
+function getSafeUrl(value: string): string {
+  try {
+    const url = new URL(value)
 
-try {
+    if (url.protocol === "https:" || url.protocol === "http:") {
+      return url.href
+    }
+  } catch {
+    // Ignore missing or malformed URLs.
+  }
+
+  return ""
+}
+
+/**
+ * Retrieve the currently-reading shelf from Goodreads.
+ */
+async function getCurrentlyReading(): Promise<Book[]> {
   const response = await fetch(GOODREADS_URL, {
     headers: {
       "User-Agent": "Mozilla/5.0 (compatible; PersonalReadingShelf/1.0)",
     },
+    signal: AbortSignal.timeout(8000),
   })
 
-  if (response.ok) {
-    const xml = await response.text()
+  if (!response.ok) {
+    throw new Error(`Goodreads RSS request failed: ${response.status}`)
+  }
 
-    const items = xml.match(/<item(?:\s[^>]*)?>[\s\S]*?<\/item>/gi) ?? []
+  const xml = await response.text()
 
-    books = items
-      .map((item) => ({
+  const items = xml.match(/<item(?:\s[^>]*)?>[\s\S]*?<\/item\s*>/gi) ?? []
+
+  return items
+    .map((item): Book => {
+      const coverUrl =
+        getField(item, "book_large_image_url") ||
+        getField(item, "book_image_url")
+
+      return {
         title: getField(item, "title"),
         author: getField(item, "author_name"),
-        link: getField(item, "link"),
-        cover:
-          getField(item, "book_large_image_url") ||
-          getField(item, "book_image_url"),
-      }))
-      .filter((book) => book.title && book.link)
-      .slice(0, 4)
-  }
-} catch {
-  console.warn("Could not load the Goodreads currently-reading shelf.")
+        link: getSafeUrl(getField(item, "link")),
+        cover: getSafeUrl(coverUrl),
+      }
+    })
+    .filter((book) => book.title && book.link)
+    .slice(0, 4)
+}
+
+let books: Book[] = []
+
+try {
+  books = await getCurrentlyReading()
+} catch (error) {
+  console.warn(
+    "Could not load the Goodreads currently-reading shelf.",
+    error instanceof Error ? error.message : error,
+  )
 }
 ---
 
@@ -90,6 +153,7 @@ try {
                   src={book.cover}
                   alt={`Cover of ${book.title}`}
                   loading="lazy"
+                  decoding="async"
                 />
               ) : (
                 <div class="cover-placeholder" aria-hidden="true">
@@ -125,16 +189,21 @@ try {
       </p>
     )
   }
+
+  <!-- Matches the divider at the end of blog posts. -->
+  <div class="mt-12 flex justify-center">
+    <div class="h-px w-24 rounded-full bg-black dark:bg-gray-400"></div>
+  </div>
 </section>
 
 <style>
   .goodreads-currently-reading {
     margin-block: 3rem 1rem;
-    padding-block: 1.75rem;
-    border-top: 1px solid color-mix(in srgb, currentColor 18%, transparent);
     color: inherit;
+    font-family: inherit;
   }
 
+  /* Section heading */
   .shelf-heading {
     display: flex;
     justify-content: space-between;
@@ -145,11 +214,12 @@ try {
 
   .shelf-heading h2 {
     margin: 0;
-    font-size: 1.25rem;
-    font-weight: 500;
-    line-height: 1.4;
+    font-size: 1.125rem;
+    font-weight: inherit;
+    line-height: 1.5;
   }
 
+  /* Book grid */
   .book-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -167,6 +237,7 @@ try {
     border-radius: 10px;
   }
 
+  /* Book covers */
   .book-cover {
     width: 84px;
     aspect-ratio: 2 / 3;
@@ -194,14 +265,15 @@ try {
     overflow-wrap: anywhere;
   }
 
+  /* Book details */
   .book-info {
     min-width: 0;
   }
 
   .book-info h3 {
     margin: 0;
-    font-size: 0.95rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: inherit;
     line-height: 1.5;
     overflow-wrap: anywhere;
   }
@@ -227,11 +299,12 @@ try {
 
   .book-author {
     margin: 0.45rem 0 0;
-    font-size: 0.84rem;
+    font-size: 0.875rem;
     line-height: 1.5;
     opacity: 0.68;
   }
 
+  /* Goodreads fallback */
   .shelf-fallback {
     margin-block: 1.25rem;
     font-size: 0.95rem;
@@ -244,9 +317,10 @@ try {
     text-underline-offset: 3px;
   }
 
+  /* Responsive layout */
   @media (max-width: 560px) {
     .book-list {
-      grid-template-columns: 1fr;
+      grid-template-columns: minmax(0, 1fr);
     }
 
     .book-card {
@@ -258,6 +332,7 @@ try {
     }
   }
 
+  /* Respect reduced-motion preferences. */
   @media (prefers-reduced-motion: reduce) {
     .book-title-link {
       transition: none;

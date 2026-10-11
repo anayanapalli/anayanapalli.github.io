@@ -1,5 +1,5 @@
 ---
-import GoodreadsCurrentlyReading from "~/components/astro/goodreads-currently-reading.astro"
+import CurrentlyReading from "~/components/astro/currently-reading.astro"
 import { common } from "~/config"
 import AboutContentEn from "~/config/mdx/about.mdx"
 import MainLayout from "~/layouts/main.astro"
@@ -23,5 +23,5 @@ const pageMeta = common.pageMeta?.about ?? {
   <div class="prose dark:prose-invert prose-img:my-0 max-w-3xl">
     <AboutContent />
   </div>
-  <GoodreadsCurrentlyReading />
+  <CurrentlyReading />
 </MainLayout>
