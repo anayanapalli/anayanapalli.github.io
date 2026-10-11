@@ -1,11 +1,11 @@
 import rss from "@astrojs/rss"
 import { common } from "~/config"
-import { getPostsByLocale } from "~/utils"
+import { getPosts } from "~/utils"
 
 /** Generate the RSS feed */
 export async function GET() {
   // Fetch posts (currently only English)
-  const posts = await getPostsByLocale("en")
+  const posts = await getPosts()
   const config = common
 
   return rss({

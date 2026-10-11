@@ -35,12 +35,11 @@ export const formatDate = (
 }
 
 /**
- * Returns all posts from the English collection, sorted by pubDate descending.
- * @param locale - defaults to "en"
+ * Returns all English posts, sorted by publication date descending.
  */
-export const getPostsByLocale = async (locale: string = "en") => {
-  // Only English is used now
+export const getPosts = async () => {
   const posts = await getCollection("enPosts")
+
   return posts.sort(
     (a, b) =>
       new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf(),

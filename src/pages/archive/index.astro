@@ -2,10 +2,10 @@
 import PostList from "~/components/astro/post-list.astro"
 import { common } from "~/config"
 import MainLayout from "~/layouts/main.astro"
-import { getPostsByLocale } from "~/utils"
+import { getPosts } from "~/utils"
 
 // Use English posts only
-const posts = await getPostsByLocale("en")
+const posts = await getPosts()
 
 // Group posts by year
 const postsByYear = posts.reduce(

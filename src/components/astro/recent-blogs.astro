@@ -1,10 +1,10 @@
 ---
 import { common } from "~/config"
-import { getPostsByLocale } from "~/utils"
+import { getPosts } from "~/utils"
 import PostList from "./post-list.astro"
 
 // Always English
-const allPosts = await getPostsByLocale("en")
+const allPosts = await getPosts()
 const posts = allPosts.slice(0, common.latestPosts)
 ---
 
