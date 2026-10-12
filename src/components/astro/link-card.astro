@@ -28,13 +28,13 @@ const Icon = "icon" in Astro.props ? Astro.props.icon : null
   href={link}
   target="_blank"
   rel="noopener noreferrer"
-  class="flex items-center gap-4 rounded-lg px-0 py-0"
+  class="flex items-center gap-4 rounded-lg"
 >
   {
     avatar && (
       <img
         src={avatar}
-        alt={name}
+        alt=""
         class="h-12 w-12 rounded-full object-cover"
       />
     )
@@ -42,7 +42,10 @@ const Icon = "icon" in Astro.props ? Astro.props.icon : null
 
   {
     Icon && (
-      <span class="shrink-0 text-2xl text-neutral-700 dark:text-neutral-300">
+      <span
+        aria-hidden="true"
+        class="shrink-0 text-2xl text-neutral-700 dark:text-neutral-300"
+      >
         <Icon />
       </span>
     )
