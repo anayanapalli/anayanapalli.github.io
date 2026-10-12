@@ -28,7 +28,7 @@ const Icon = "icon" in Astro.props ? Astro.props.icon : null
   href={link}
   target="_blank"
   rel="noopener noreferrer"
-  class="flex items-center gap-4 rounded-lg px-0 py-2"
+  class="flex items-center gap-4 rounded-lg px-0 py-0"
 >
   {
     avatar && (
@@ -42,9 +42,9 @@ const Icon = "icon" in Astro.props ? Astro.props.icon : null
 
   {
     Icon && (
-      <div class="flex h-12 w-12 items-center justify-center text-2xl text-neutral-700 dark:text-neutral-300">
+      <span class="shrink-0 text-2xl text-neutral-700 dark:text-neutral-300">
         <Icon />
-      </div>
+      </span>
     )
   }
 
