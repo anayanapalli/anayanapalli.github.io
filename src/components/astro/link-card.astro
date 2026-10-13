@@ -24,12 +24,7 @@ const avatar = "avatar" in Astro.props ? Astro.props.avatar : null
 const Icon = "icon" in Astro.props ? Astro.props.icon : null
 ---
 
-<a
-  href={link}
-  target="_blank"
-  rel="noopener noreferrer"
-  class="flex items-center gap-4 rounded-lg"
->
+<div class="flex items-center gap-4 rounded-lg">
   {
     avatar && (
       <img src={avatar} alt="" class="h-12 w-12 rounded-full object-cover" />
@@ -47,12 +42,12 @@ const Icon = "icon" in Astro.props ? Astro.props.icon : null
     )
   }
 
-  <div class="flex flex-col">
+  <a href={link} target="_blank" rel="noopener noreferrer" class="flex flex-col">
     <span class="text-base underline-offset-[0.2em] hover:underline">
       {name}
     </span>
     <span class="text-sm text-neutral-600 dark:text-neutral-400">
       {description}
     </span>
-  </div>
-</a>
+  </a>
+</div>
