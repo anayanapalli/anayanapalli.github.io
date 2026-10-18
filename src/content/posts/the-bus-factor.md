@@ -3,75 +3,41 @@ title: "The Bus Factor"
 pubDate: 2026-08-29
 ---
 
-There are certain engineering concepts that are deceptively simple.
+The bus factor describes how much a team depends on individual people to keep its systems running. It asks a simple question: how many people could become unavailable before something important stops working?
 
-You hear them once, and they sound almost trivial. But the more you think about them, the more you realize that they describe something fundamental about how systems work.
+The name is deliberately provocative. If one person is the only person who knows how to deploy a system, what happens if that person suddenly becomes unavailable?
 
-The **bus factor** is one of those concepts.
+Deployment stops.
 
-The basic idea is simple:
+The problem is not necessarily that the person has unique expertise. It is that the organization has no reliable way to perform a critical operation without them.
 
-> **How many people can be hit by a bus tomorrow and disappear from a team before something important stops working?**
+I find the bus factor useful because it connects several engineering concerns that are often treated separately: dependency concentration, redundancy, documentation, automation, and organizational resilience. They are all related to the same question: what happens when the person who normally performs a critical task cannot do it?
 
-The name is intentionally provocative. If one person is the only person who knows how to deploy a system, what happens if that person suddenly becomes unavailable?
+## A team of five with one deployment engineer
 
-The obvious answer is: deployment stops.
+Imagine a team with five engineers. On paper, it seems reasonably well staffed. There are five people who can contribute to the system.
 
-But I think there is a much deeper idea hiding underneath this simple question.
+Now suppose only one of them knows how production deployments work.
 
-The bus factor is really a way of thinking about **dependency concentration, redundancy, and organizational resilience**.
+Deploying the application requires knowledge of the pipeline, access to production, familiarity with the configuration, an understanding of the release procedure, and the ability to troubleshoot failures. The other four engineers have never performed a deployment themselves.
 
-And once I started looking at teams through that lens, I realized that it connects surprisingly well with many of the principles we already use to design reliable technical systems.
+Those engineers may know the application inside out. They may build features, write tests, investigate bugs, and design architecture. But none of that means they can deploy the application.
 
-## The team with five engineers that behaves like a team of one
+For this particular capability, the team has an effective redundancy of one.
 
-Imagine a team with five engineers.
+The distinction matters because headcount tells us little about whether a team can continue operating when someone becomes unavailable.
 
-At first glance, it seems reasonably well staffed. There are five people who can presumably contribute to the system.
+A more useful question is:
 
-Now imagine that only one of them knows how production deployments work.
+> How many people can independently perform each operation the system needs to function?
 
-The deployment process requires:
+This shifts the focus from the number of people on a team to the capabilities they can actually provide.
 
-- knowledge of the deployment pipeline
-- access to production
-- familiarity with the configuration
-- knowledge of the release procedure
-- knowledge of how to troubleshoot deployment failures
+## Bus factor varies by capability
 
-The other four engineers have never done it.
+I think saying that a team has a bus factor of two can be misleading. A team does not necessarily have one bus factor that adequately describes all its operational risks.
 
-So although the team has five engineers, when it comes to deployment, the organization effectively has:
-
-**Deployment capability = 1**
-
-The other four people may be excellent engineers. They may know the application inside out. They may be able to build features, write tests, investigate bugs, and design architecture.
-
-But none of that changes the fact that the deployment capability is concentrated in one person.
-
-That person has become a **single point of failure**.
-
-And this is where the bus factor becomes interesting.
-
-The question isn't really:
-
-> "How many engineers are on the team?"
-
-The better question is:
-
-> **"How many independent people can perform each capability that the system needs in order to function?"**
-
-That is a much more useful way to think about team resilience.
-
-## Bus factor is really about capability concentration
-
-I increasingly think that saying "the team has a bus factor of two" is somewhat imprecise.
-
-A team doesn't necessarily have one single bus factor.
-
-Different **capabilities** have different bus factors.
-
-Imagine a team like this:
+Different capabilities have different levels of redundancy.
 
 <figure class="text-center">
   <img
@@ -79,30 +45,24 @@ Imagine a team like this:
     alt="Bus Factor Illustration #1"
     class="rounded-md mx-auto dark:hidden"
   />
-
-<img
+  <img
     src="/images/8-d.png"
     alt="Bus Factor Illustration #1"
     class="rounded-md mx-auto hidden dark:block"
   />
-
 </figure>
 
-Suddenly, the team's resilience becomes much easier to see.
+The illustration shows why headcount alone is a poor measure of resilience. A team can have several engineers while still depending on one person for a critical operation.
 
-The team may look large and well staffed, but recover capability is still highly concentrated.
+A ten-person team may be less resilient than a three-person team if the larger team has concentrated its critical knowledge and authority in one or two people.
 
-This is an important distinction:
+**Headcount is not redundancy. The ability to perform a task independently is.**
 
-> **Headcount is not redundancy. Capability redundancy is redundancy.**
+This also means that a team can be well staffed for everyday development but poorly equipped to handle a production incident. Its overall resilience depends partly on how well it distributes the capabilities required at critical points.
 
-A ten-person team can have less operational resilience than a three-person team if the ten-person team has concentrated its critical knowledge and authority in one or two people.
+## The weakest point on the critical path
 
-## The critical path matters more than the average
-
-This is where the idea connects to something I have found increasingly useful in engineering: **systems thinking**.
-
-Suppose a system looks like this:
+Consider another team:
 
 <figure class="text-center">
   <img
@@ -110,198 +70,117 @@ Suppose a system looks like this:
     alt="Bus Factor Illustration #2"
     class="rounded-md mx-auto dark:hidden"
   />
-
-<img
+  <img
     src="/images/9-d.png"
     alt="Bus Factor Illustration #2"
     class="rounded-md mx-auto hidden dark:block"
   />
-
 </figure>
 
-Perhaps five engineers can build.
+Perhaps five engineers can build the application, four can test it, and three can monitor it. But only one knows how to recover the system after a serious production failure.
 
-Four can test.
+The team has redundancy in several areas, yet recovery remains dependent on one person.
 
-Three can monitor.
+This resembles a bottleneck in a technical system. A pipeline might have ample capacity at most stages, but a single constrained stage can limit the throughput of the entire pipeline. Similarly, a team may have enough people to perform most of its work but still be unable to recover from a failure without a particular engineer.
 
-But only one can recover the system after a serious production failure.
+The relevant question is not whether everyone knows everything. It is where a lack of redundancy can prevent the team from continuing to operate.
 
-It doesn't matter that the other capabilities are highly redundant.
+That gives engineering managers a more practical question to ask:
 
-The recovery capability is still a critical bottleneck.
+> Where are the single points of failure along our critical path?
 
-The system's resilience is constrained by that weakest critical capability.
+The answer may have little to do with the number of engineers or their general technical ability. It may instead depend on who can restore a service, approve a change, access a production environment, or make a decision during an incident.
 
-This is similar to how we think about bottlenecks in other systems.
+## Knowing how something works is not the same as being able to do it
 
-A pipeline can have enormous capacity in four stages, but if one stage has very little capacity, that stage constrains the whole system.
+Suppose Engineer A is the deployment expert. Engineer B has watched A deploy several times, read the documentation, and learned how the deployment pipeline works.
 
-Teams behave similarly.
-
-So rather than asking:
-
-> "Does everyone know everything?"
-
-I think a better question is:
-
-> **"Where are the single points of failure along our critical path?"**
-
-That question is much more actionable.
-
-## Not all knowledge is the same
-
-There is another subtlety here.
-
-Sometimes we say that two people "know" something when only one person actually knows how to perform it independently.
-
-Imagine that Engineer A is the deployment expert.
-
-Engineer B has watched A deploy several times.
-
-Engineer B has read the documentation.
-
-Engineer B understands the architecture.
-
-Do we now have a bus factor of two?
+Does the team now have two people who can deploy independently?
 
 Not necessarily.
 
-There is a difference between:
+There is a difference between understanding a process and being able to execute it without assistance.
 
-**Knowing about a capability**
-
-and
-
-**being independently capable of executing it.**
-
-That distinction matters.
-
-I think of capability as requiring several things:
+I think of operational capability as depending on four things:
 
 > Knowledge + Practice + Access + Authority = Operational Capability
 
-Someone may understand the deployment process but lack production access.
+Someone may understand the deployment procedure but lack production access. Another person may have access but never have performed a deployment. Someone else may know the procedure and have the necessary access but lack the authority to make the change.
 
-Someone may have access but never have performed a deployment.
+Even when all these conditions are met, experience matters. An engineer who has successfully deployed an application once may still be unable to diagnose a failure or recover from a bad release.
 
-Someone may know how to do it but lack the authority to make the change.
+This is why distributing documentation is not enough. The objective is to distribute the ability to perform and recover from critical operations.
 
-Someone may have done it once but be unable to troubleshoot when something goes wrong.
+## Documentation and organizational memory
 
-So the real goal isn't simply to distribute documentation.
+A runbook is valuable. So are architecture documents, deployment checklists, and well-maintained tickets.
 
-The goal is to distribute **operational capability**.
+Their value lies partly in their ability to preserve knowledge outside an individual's memory.
 
-## Documentation is necessary, but documentation alone isn't redundancy
+Without these records, a team can become dependent on informal arrangements:
 
-This is one reason I have come to appreciate good engineering processes more.
+> Ask John.
 
-A runbook is valuable.
+That instruction may work for a while. But it also reveals a dependency. If John is unavailable, the team may not know what to do, where to find the necessary information, or how to proceed safely.
 
-A Jira ticket is valuable.
+Documentation helps turn individual knowledge into something the organization can retain and reuse. It does not automatically make another engineer capable of performing the task, but it gives that engineer a place to start.
 
-Architecture documentation is valuable.
+The distinction is between a capability that depends on a particular person and one that the organization can reproduce without them.
 
-A deployment checklist is valuable.
+The second requires more than written instructions. It requires people who understand the instructions, have the necessary access, and can carry out the work.
 
-But these things are not valuable because they make an organization look organized.
+## From tribal knowledge to independent execution
 
-They are valuable because they **externalize knowledge**.
+Consider how a team might develop redundancy for a production operation.
 
-Without documentation, knowledge often lives inside someone's head.
+**Level 1: Tribal knowledge**
 
-You end up with:
+> Sarah knows how this works.
 
-> "Ask John."
+The knowledge resides primarily with Sarah. If she becomes unavailable, the team may be unable to perform the operation.
 
-That phrase is an organizational smell.
+**Level 2: Documentation**
 
-It means the organization has allowed a capability to become attached to an individual.
+> Sarah has written down how it works.
 
-A more mature organization tries to turn:
+The instructions now exist outside Sarah's head. Another engineer can consult them, but may not yet be able to use them successfully.
 
-> "John knows how to do this."
+**Level 3: Shadowing**
 
-into:
+> John has worked alongside Sarah.
 
-> "The organization knows how to do this."
+John has seen the process in practice and understands more of its details. He may still need Sarah's help to perform it.
 
-That's a profound difference.
+**Level 4: Independent execution**
 
-The first is a **person-dependent capability**.
+> John has performed the operation himself.
 
-The second is an **organizational capability**.
+The team now has another person who can carry out the task without relying on Sarah.
 
-## From tribal knowledge to organizational knowledge
+**Level 5: Independent troubleshooting**
 
-I think there is a natural progression here.
+> John can perform the operation, diagnose failures, roll back changes, and recover the system.
 
-### Level 1: Tribal knowledge
+The team has meaningful operational redundancy, including some ability to handle situations that fall outside the normal procedure.
 
-> "Sarah knows how this works."
+These levels are not a universal maturity model, and every operation does not need to progress through them in exactly this order. They illustrate the difference between making information available and developing another person who can use it effectively.
 
-Nobody else really knows.
+Documentation is one mechanism for distributing capability. Training, pairing, rotation, and automation are others.
 
-Bus factor: **1**
+## Jira as organizational memory
 
-### Level 2: Documentation
+Work-management practices also affect how dependent a team is on individual memory.
 
-> "Sarah wrote down how it works."
+Consider a team migrating servers. Someone says:
 
-Now the knowledge exists outside Sarah's head.
+> We're migrating the servers. John is handling it.
 
-Better, but someone may still be unable to execute the process.
+The statement identifies an owner, but it tells the rest of the team very little. They may not know what has been completed, what remains, which dependencies have been resolved, or what needs to happen next.
 
-### Level 3: Shadowing
-
-> "John has worked alongside Sarah."
-
-John understands the process.
-
-Better again.
-
-### Level 4: Independent execution
-
-> "John has performed the operation himself."
-
-Now there is real redundancy.
-
-### Level 5: Independent troubleshooting
-
-> "John can perform the operation, handle failures, roll back, and recover."
-
-Now we have meaningful operational redundancy.
-
-The distinction is important.
-
-> **The goal isn't to distribute information. The goal is to distribute capability.**
-
-Documentation is one mechanism for achieving that.
-
-Training is another.
-
-Pairing is another.
-
-Rotation is another.
-
-Automation is another.
-
-## Jira is more than a project-management tool
-
-This is also why I think good work-management practices are more important than they sometimes appear.
-
-A poorly structured team might have a conversation like:
-
-> "We're migrating the servers. John is handling it."
-
-That statement contains almost no organizational memory.
-
-A better system breaks the work into explicit units:
+A more useful representation breaks the migration into explicit tasks:
 
 ```text
 Server Migration
-
 ├── Inventory servers
 ├── Identify dependencies
 ├── Obtain credentials
@@ -313,366 +192,156 @@ Server Migration
 └── Monitor after cutover
 ```
 
-Now the work exists outside of John's head.
+The work is now represented in a form that other people can inspect and continue.
 
-Someone else can understand what has happened.
+They can see which tasks are complete, which are blocked, what information is missing, and who is responsible for the next step. If John becomes unavailable, another engineer has a better chance of understanding the state of the migration and taking over.
 
-Someone else can pick up the next task.
+This is one of the useful functions of tools such as Jira. They do not merely track progress for management. When used well, they preserve enough context for work to continue across changes in ownership.
 
-Dependencies become visible.
+Of course, breaking work into tickets does not guarantee that someone else can perform it. A ticket may describe a task without explaining how to execute it. Credentials, technical decisions, and operational knowledge may still reside with one person.
 
-Missing information becomes visible.
+Work-management systems are most useful when they make the state of the work visible and connect it to the information needed to continue.
 
-Blocked work becomes visible.
+## Engineering processes and dependency reduction
 
-Ownership becomes visible.
+Many established engineering practices help reduce dependence on individual memory and judgment.
 
-This is one of the less obvious purposes of project-management systems.
+Code review gives other engineers exposure to changes they did not write. CI/CD makes build, test, and deployment procedures repeatable. Runbooks record operational instructions. On-call rotations expose more engineers to production behavior. Postmortems preserve what the team learned from incidents.
 
-They aren't merely there to tell management what everyone is doing.
+Access controls and ownership rules also matter. A procedure may be documented and understood by several people, yet remain dependent on one person if only that person has the authority or credentials to execute it.
 
-They are a form of **organizational memory**.
+These practices address different parts of the same problem. Some preserve information. Others develop experience, distribute authority, or make a process reproducible.
 
-## Mature engineering organizations are deliberately boring
+They do not eliminate the need for expertise. They make it less likely that the absence of one expert will prevent the organization from functioning.
 
-There is something interesting about highly mature engineering organizations.
+## The cost of relying on the fastest engineer
 
-They often seem almost obsessive about process.
+Consider an engineer who is exceptionally good at a particular task. They know the system well and can complete the work much faster than anyone else.
 
-They care about:
+The obvious response is to give the task to them. They finish sooner, and the team gets more work done.
 
-- code review
-- CI/CD
-- automated testing
-- runbooks
-- incident procedures
-- documentation
-- ownership
-- ticketing
-- on-call rotations
-- postmortems
-- deployment procedures
-- access controls
+Repeatedly making that decision can create a dependency, however. Other engineers get fewer opportunities to learn the task, while the expert becomes increasingly central to its execution.
 
-From the outside, this can sometimes look bureaucratic.
-
-But there is a deeper reason for it.
-
-These mechanisms gradually remove the organization from dependence on individual memory.
-
-They transform:
-
-**tacit knowledge → explicit knowledge**
-
-**manual procedure → repeatable process**
-
-**individual expertise → team capability**
-
-**heroic intervention → system behavior**
-
-The mature organization is not necessarily the one with the smartest individual engineers.
-
-It is the one where the organization can continue functioning even when those engineers aren't available.
-
-## The paradox of the highly efficient engineer
-
-This becomes particularly interesting when thinking about high performers.
-
-Suppose there is an engineer who is exceptionally good at a particular task.
-
-The natural management response is:
-
-> "Give it to them. They're the fastest."
-
-And locally, that makes perfect sense.
-
-They complete the work faster.
-
-The team gets more throughput.
-
-Everyone is happy.
-
-But something else is happening.
-
-The organization is increasing its dependency on that individual.
-
-Eventually:
+The arrangement may look like this:
 
 ```text
 Task
   ↓
 Expert
   ↓
-Everything gets done quickly
+Fast completion
 ```
 
-looks efficient.
+But if the task cannot be completed without that expert, the same arrangement also creates a single point of failure.
 
-But underneath it is:
+The team has optimized for local efficiency at the expense of resilience.
 
-```text
-Task
-  ↓
-Single point of failure
-```
+This does not mean that the fastest engineer should stop doing difficult work or that every task should be distributed regardless of cost. Some work genuinely benefits from specialization, and the cost of training another person may not always be justified.
 
-The organization has optimized **local efficiency** at the expense of **systemic resilience**.
+The tradeoff becomes important when a task is both critical and heavily dependent on one individual.
 
-This is one of those engineering tradeoffs that isn't immediately visible.
+In that case, it may be worth letting another engineer perform the task more slowly while they learn it. The immediate cost is reduced throughput. The benefit is that the team gains another person who can eventually perform the work independently.
 
-Sometimes the right decision is deliberately to let another engineer perform a task more slowly.
+Whether that investment makes sense depends on the importance of the capability and the consequences of losing access to the expert.
 
-Not because efficiency doesn't matter.
+## Automation as another form of redundancy
 
-But because you're purchasing redundancy.
+Training more people is one way to reduce dependency on an individual. Another is to remove the need for that person to perform the task manually.
 
-You're investing in the future resilience of the system.
+Suppose a deployment requires an engineer to carry out fifteen steps. The team could train five engineers to perform those steps. That would increase human redundancy.
 
-## The bus factor and automation
-
-There is another way to increase the bus factor that I think is even more interesting.
-
-You can train more people.
-
-Or you can eliminate the dependency altogether.
-
-Suppose deployment currently requires an engineer to manually perform fifteen steps.
-
-You could train five engineers to perform those fifteen steps.
-
-That increases human redundancy.
-
-But a better long-term solution might be:
+Alternatively, it could automate much of the process:
 
 ```text
 Code
- ↓
+  ↓
 CI
- ↓
+  ↓
 Automated Tests
- ↓
+  ↓
 Automated Deployment
- ↓
+  ↓
 Verification
- ↓
+  ↓
 Monitoring
 ```
 
-Now the organization has reduced its dependence on individual human knowledge.
+The automated workflow reduces the number of steps that require individual knowledge and intervention. Engineers still need to understand the system, maintain the pipeline, investigate failures, and decide when a deployment is safe. Automation does not eliminate those responsibilities.
 
-This is an important insight:
+It does, however, make routine execution less dependent on who happens to be available.
 
-> **Automation is not merely a productivity tool. It is also a mechanism for reducing organizational dependency.**
+This is one reason automation should be considered a reliability investment as well as a productivity improvement. A well-designed automated process can reduce variation between operators, make procedures reproducible, and allow more people to carry out routine operations safely.
 
-Every time we automate a fragile manual process, we are effectively moving capability from a person's head into the system.
+There is an important qualification: automation can itself become a source of dependency. If only one engineer understands the deployment pipeline, can change its configuration, or knows how to recover it when it fails, the organization has moved the dependency rather than eliminated it.
 
-The organization becomes more resilient.
+The goal is to make the process reproducible and maintainable, not simply to replace manual steps with code that only one person understands.
 
-## Think of people like components in a distributed system
+## Applying distributed-systems thinking to teams
 
-This is perhaps the analogy I find most useful.
+The analogy between engineering teams and distributed systems is useful because both have to deal with failures, dependencies, and recovery.
 
-When designing distributed systems, we worry about:
+In a distributed system, we consider whether a component can fail without bringing down the whole service. We use replication, failover, monitoring, and recovery procedures to reduce the consequences of individual failures.
 
-- single points of failure
-- replication
-- failover
-- redundancy
-- observability
-- recovery
-- graceful degradation
+Similar ideas apply to teams.
 
-Why shouldn't we apply similar thinking to engineering organizations?
+Multiple engineers who can independently perform an operation provide a form of redundancy. Cross-training allows work to continue when the usual operator is unavailable. Documentation preserves information between people. Automation reduces the need for manual intervention. On-call rotations distribute operational experience, while postmortems help the team improve after failures.
 
-A person can become a single point of failure.
+The analogy has limits. People are not interchangeable components. They have different levels of expertise, learn at different rates, and exercise judgment in ways that cannot always be captured by a procedure.
 
-Multiple engineers can provide replication.
+Still, the underlying concern is similar: a system should not fail simply because one component is unavailable when the failure could reasonably have been anticipated and mitigated.
 
-Cross-training provides failover.
+For a team, that means understanding which dependencies are acceptable and which create an unacceptable risk to its ability to operate.
 
-Documentation provides persistent state.
+## How much redundancy is enough?
 
-Automation reduces human dependency.
+A high bus factor does not mean everyone should know everything. That would be expensive, and in many cases there would be little benefit.
 
-On-call rotations distribute operational knowledge.
+Specialization is useful. Some capabilities require deep expertise, and not every task is important enough to justify training several people to perform it.
 
-Postmortems improve the system after failure.
+The question is how much redundancy a particular capability needs.
 
-Observability tells us where the dependencies are.
+If a rarely used capability has little effect on the team's ability to deliver or operate its systems, having one specialist may be acceptable. If a capability is required to restore production, a single point of failure may be a serious operational risk.
 
-The analogy isn't perfect, of course. People aren't servers.
+The decision depends on several factors:
 
-But the underlying principle is remarkably similar:
+- **Criticality:** How much damage would the absence of this capability cause?
+- **Likelihood of unavailability:** How likely is it that the person or people responsible will be unavailable when needed?
+- **Recovery cost:** How long would it take to restore the capability, and what would that delay cost?
 
-> **A robust system should not depend critically on a component simply because that component happens to be present.**
+These factors help determine whether the team needs another trained engineer, better documentation, automation, a change in access controls, or some combination of measures.
 
-## But we don't want everyone to know everything
+The appropriate level of redundancy will vary. A team does not need to eliminate every individual dependency. It needs to identify the dependencies that could prevent it from meeting its responsibilities and decide which ones are worth addressing.
 
-There is an important qualification.
+## Questions for engineering managers
 
-A high bus factor does not mean everyone needs to know everything.
+If I were managing an engineering team, I would periodically ask:
 
-That would be incredibly inefficient.
+> If this person were unavailable tomorrow, what would stop working?
 
-Engineers need specialization.
+The hypothetical is useful because it directs attention to the dependencies that routine operations can conceal.
 
-Specialization is valuable.
+I would then ask how long it would take the team to recover, what another engineer would need to take over, and whether the cost of distributing that capability justified the investment.
 
-The goal is not:
+The answers may reveal that the problem is not simply a lack of documentation or training. The team might be missing production access, relying on an approval that only one person can provide, or depending on an undocumented decision made months earlier.
 
-> "Everyone should be able to do every job."
+These are organizational dependencies, but they have direct operational consequences. A team can have well-written code, comprehensive tests, and good documentation while still being unable to act because the necessary authority or access is concentrated in one person.
 
-The goal is:
+Looking at the bus factor in terms of specific capabilities helps make these dependencies visible and gives the team a concrete way to address them.
 
-> **"Critical capabilities should have enough redundancy to tolerate reasonable failures."**
+## Building capability beyond individual expertise
 
-If a capability is extremely rare and non-critical, perhaps one person knowing it is acceptable.
+The bus factor is useful because it directs attention to where critical knowledge and operational ability reside.
 
-If a capability is required to keep production running, having only one person who understands it is a serious risk.
+Documentation preserves knowledge. Training and pairing help other engineers acquire it. Rotation gives them opportunities to use it. Work-management systems preserve the state of ongoing work. Code review spreads understanding of the codebase. Automation makes routine procedures reproducible.
 
-So redundancy should be proportional to:
+None of these practices is sufficient on its own. Documentation without practice may leave an engineer unable to execute a procedure. Training without the necessary access or authority may not help during an incident. Automation without shared ownership may create a new dependency on the person who maintains it.
 
-**criticality × probability of failure × cost of recovery**
+Their value depends on whether they allow the organization to continue performing critical work when an individual is unavailable.
 
-This turns bus factor from a slogan into an engineering decision.
+This does not make experts less valuable. Teams need specialists, technical leaders, and engineers who understand difficult systems in depth. The aim is to ensure that their expertise strengthens the organization rather than becoming a dependency that only they can satisfy.
 
-## The question I would ask every engineering manager
+When a critical operation depends on one person, the first question should not be how to make that person permanently available. It should be whether the operation can be redesigned so that the team can perform it without them.
 
-If I were managing a team, one question I would periodically ask is:
+That is the same question we ask when designing reliable software: what happens when something fails, and can the system recover?
 
-> **"If this person were unavailable tomorrow, what would stop working?"**
-
-Not because I expect anyone to disappear.
-
-The hypothetical is useful because it exposes dependencies.
-
-Then I would ask:
-
-> "How long would it take us to recover?"
-
-And then:
-
-> "What exactly would another engineer need to take over?"
-
-And finally:
-
-> "Why isn't that capability already distributed?"
-
-Those questions reveal an enormous amount about the architecture of a team.
-
-You begin to discover that the real bottlenecks aren't always in the code.
-
-Sometimes they are in:
-
-- knowledge
-- access
-- decision-making
-- approvals
-- credentials
-- domain expertise
-- deployment authority
-- undocumented procedures
-
-In other words, the organization's architecture starts to become visible.
-
-## The deeper problem is knowledge trapped inside people
-
-This is ultimately what makes the bus factor such a powerful concept for me.
-
-The real organizational smell isn't:
-
-> "Only one person can deploy."
-
-That's merely the symptom.
-
-The deeper problem is:
-
-> **"A critical organizational capability exists primarily inside one person's head."**
-
-Once you see the problem that way, many engineering practices start to make sense.
-
-Documentation takes knowledge out of someone's head.
-
-Training moves capability between people.
-
-Pairing creates redundancy.
-
-Rotation prevents knowledge from becoming permanently concentrated.
-
-Jira creates organizational memory.
-
-Automation moves procedures into systems.
-
-CI/CD makes processes reproducible.
-
-Runbooks make operational knowledge explicit.
-
-Code review distributes understanding.
-
-Incident response creates shared operational experience.
-
-All of these practices are, in one way or another, mechanisms for reducing dependency concentration.
-
-## Well-designed systems are more reliable than heroes
-
-Perhaps the most important lesson is that great engineering organizations don't eliminate experts.
-
-They make sure the organization doesn't **depend** on a single expert.
-
-You still want people who know a system deeply.
-
-You still want specialists.
-
-You still want technical leaders.
-
-You still want people who can solve extraordinarily difficult problems.
-
-But their expertise should gradually become an asset of the organization rather than a private dependency of the organization.
-
-The progression looks something like this:
-
-```text
-Individual expertise
-        ↓
-Shared knowledge
-        ↓
-Documented processes
-        ↓
-Distributed capability
-        ↓
-Automation
-        ↓
-Organizational resilience
-```
-
-That, to me, is the deeper meaning of the bus factor.
-
-It isn't really about buses.
-
-It is about asking a very fundamental engineering question:
-
-> **"What happens when something fails?"**
-
-We ask that question of databases.
-
-We ask it of servers.
-
-We ask it of networks.
-
-We ask it of distributed systems.
-
-We should ask it of teams too.
-
-Because people are part of the system.
-
-And if the disappearance of one person can bring a critical operation to a halt, then the problem isn't necessarily that the person is indispensable.
-
-The problem is that **the system was designed to depend on them.**
-
-Good engineering is ultimately about designing systems that remain useful when individual components fail.
-
-That principle applies just as much to organizations as it does to software.
-
-**The goal isn't to build teams full of indispensable people.**
-
-**The goal is to build teams where no single person has to be indispensable.**
+People are part of the system too.
