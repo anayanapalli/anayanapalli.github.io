@@ -1,5 +1,5 @@
 ---
-title: "The Bus Factor"
+title: "Bus Factor"
 pubDate: 2026-08-29
 ---
 
