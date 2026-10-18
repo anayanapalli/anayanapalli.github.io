@@ -3,48 +3,50 @@ title: "Data Systems Engineering"
 pubDate: 2026-01-10
 ---
 
-There was a time when the term "data engineering" accurately described the work. Data lived in a handful of operational databases. Analytics lived elsewhere. The engineer’s job was to extract data, apply transformations, and load it into a destination system. If the pipeline ran and tables populated, the system was considered healthy. Systems were simple, the scope was narrow, and expectations were limited.
+There was a time when the term "data engineering" described the work fairly well. Operational databases held the data, separate systems handled analytics, and engineers built pipelines to extract, transform, and load data into a destination. If the pipeline ran and the tables populated, the system was usually considered healthy. The architecture was relatively simple, the scope was narrow, and the expectations were limited.
 
-That world no longer exists.
+That description no longer fits much of the work.
 
-What we call data engineering today is not an evolution of the same job. It is a different class of engineering altogether. The change is not just about scale or tooling. It is about responsibility, system boundaries, and the long-term guarantees the engineer is expected to provide.
+Modern data engineering involves more than moving data at a larger scale. Engineers must understand how components interact, how data changes as it moves through a system, and whether the results remain correct as the system evolves. A pipeline can run successfully while producing incorrect results. Maintaining a reliable data system requires more than ensuring that individual jobs complete.
 
-## When Pipelines Stopped Being the Problem
+## When Pipelines Became Part of a Larger System
 
-Early data pipelines were linear. A source fed a warehouse. A warehouse fed dashboards. Failure was visible. If a job failed, reports went blank. If data was wrong, someone noticed quickly. Quality was enforced informally and locally.
+Early data pipelines were largely linear. A source fed a warehouse, and the warehouse fed dashboards. Failures were often visible: a failed job left reports without fresh data, while incorrect results might be caught by someone familiar with the underlying information. Quality checks were often informal and specific to individual pipelines.
 
-As organizations matured, data stopped being a reporting artifact and became shared infrastructure. Sources multiplied. SaaS systems, event streams, logs, IoT devices, external data providers. Each source arrived with different schemas, formats, latencies, and reliability guarantees.
+As organizations accumulated more data, the architecture became harder to reason about. Sources multiplied, including SaaS applications, event streams, logs, IoT devices, and external data providers. Each came with its own schema, format, delivery schedule, and reliability characteristics.
 
-At the same time, the internal architecture thickened. Data lakes appeared alongside warehouses. Columnar formats such as Parquet and ORC replaced row-based storage. Streaming systems coexisted with batch. Compute separated from storage. Lakehouses attempted to unify them. Transformation layers became shared assets rather than isolated scripts.
+The systems processing that data grew more complex as well. Data lakes appeared alongside warehouses. Columnar formats such as Parquet and ORC became common. Batch processing and streaming operated side by side. Compute separated from storage, while lakehouse architectures sought to combine the advantages of lakes and warehouses. Transformation logic that once lived in isolated scripts became shared code on which multiple teams and applications depended.
 
-This is also where new system layers emerged:
+Additional components emerged to manage these systems:
 
-- **Metadata stores** to track schemas, ownership, freshness, and lineage
-- **Crawlers** to discover datasets and infer structure at scale
-- **MDM systems** to reconcile identity, enforce golden records, and manage canonical entities
-- **Data quality frameworks** to assert invariants rather than validate outputs
-- **Observability layers** to monitor freshness, volume, distribution drift, and anomalies
-- **Access control and governance systems** to manage who can see and use what
+- **Metadata stores** track schemas, ownership, freshness, and lineage.
+- **Crawlers** discover datasets and infer their structure.
+- **Master data management (MDM) systems** reconcile identities and maintain canonical records.
+- **Data quality frameworks** check whether data satisfies defined rules and invariants.
+- **Observability systems** monitor freshness, volume, distribution changes, and anomalies.
+- **Access control and governance systems** determine who can access data and how it may be used.
 
-None of these components exist to move data from A to B. They exist to make the system intelligible, trustworthy, and operable over time.
+These components address different problems. Metadata helps engineers understand datasets and their dependencies. MDM systems reconcile representations of the same entity across sources. Quality frameworks check whether data meets defined expectations, while observability systems help detect failures that ordinary job-status checks miss. Governance controls how data can be accessed and used.
 
-At this point, the pipeline is no longer the unit of work. The system is.
+The pipeline remains an important part of the architecture, but it is no longer sufficient as the main unit of analysis. Engineers must also understand the components around it and how they behave together.
 
-## Why New Names Started Appearing
+## Data Platform Engineering and DataOps
 
-As the gap between the name and the reality widened, the industry began inventing new labels.
+As the work expanded, the industry introduced new terms to describe different parts of it.
 
-“Data platform engineering” emerged to describe teams building shared ingestion frameworks, transformation layers, metadata services, and orchestration platforms. It correctly identified that the work had become foundational. But the word platform pulls attention toward infrastructure, and tooling, when much of the real complexity lies in semantics, contracts, and correctness.
+**Data platform engineering** describes the development of shared ingestion frameworks, transformation layers, metadata services, and orchestration infrastructure. These capabilities support multiple teams and data workloads. The term is useful when discussing the infrastructure that makes data work possible, but it does not fully capture problems involving data semantics, contracts, and correctness.
 
-“DataOps” emerged from operational pain. Silent data failures, schema drift, broken downstream consumers, and loss of trust forced teams to adopt versioning, testing, CI/CD, monitoring, and incident response. Borrowed from DevOps, DataOps captured the need for operational rigor. But it describes how teams work, not what they are fundamentally building.
+**DataOps** addresses the practices used to develop and operate data systems. Drawing on DevOps, it emphasizes testing, version control, CI/CD, monitoring, and incident response. These practices help teams detect failures, manage changes, and maintain reliable systems. However, they describe how teams build and operate data systems more than the full scope of the systems themselves.
 
-These terms exist because something real changed. They are partial answers to a deeper identity problem.
+Both terms describe important parts of modern data engineering. Neither necessarily encompasses the architecture, state, dependencies, and long-term correctness of the complete system.
 
-## A Better Mental Model: City Water Systems
+The distinction is one of emphasis. Data platform engineering focuses on shared infrastructure. DataOps focuses on operational practices. A broader engineering discipline must account for both, along with the behavior of the data and the relationships between system components.
 
-Early data engineering was plumbing. You built pipes. If water flowed from one place to another, the job was done. The system was small, isolated, and easy to reason about.
+## A City Water System as an Analogy
 
-Modern data engineering is city-scale water systems engineering.
+Early data engineering resembled plumbing. You connected a source to a destination, moved the data, and checked that it arrived. When the system was small, its behavior could often be understood by examining a handful of pipelines.
+
+Modern data engineering is closer to designing and operating a city's water system.
 
 <figure class="text-center">
   <img
@@ -57,41 +59,58 @@ Modern data engineering is city-scale water systems engineering.
   </figcaption>
 </figure>
 
-Water now comes from many sources, each with different properties and risks. It must be treated, tested, stored, routed, and continuously monitored. Quality is not assumed. It is measured. Sensors track purity, pressure, and flow. Governance exists because water is a shared public good. A small upstream issue can contaminate the entire city if it goes undetected.
+A city's water supply comes from multiple sources, each with different properties and risks. Water must be treated, tested, stored, and distributed. Sensors monitor quality, pressure, and flow. Operators need to detect problems before they affect consumers. A failure upstream can affect an entire network, even when the pipes and equipment downstream are working as designed.
 
-Citizens never see the system. When it works, nothing happens. When it fails, trust collapses.
+The same principle applies to data systems. A warehouse, transformation job, or serving layer can function correctly in isolation while the overall system produces stale, inconsistent, or misleading results.
 
-Modern data systems behave the same way. Data flows through lakes, warehouses, streaming systems, transformation layers, semantic models, and serving layers. Metadata systems act as the system’s nervous system. MDM defines identity and consistency. Observability detects subtle degradation long before dashboards fail. Governance exists because data is now a strategic asset.
+Data moves through lakes, warehouses, streaming platforms, transformation layers, semantic models, and serving systems. Each component has its own responsibilities and assumptions. A change in one component can affect many others.
 
-This is not plumbing. It is **systems engineering.**
+Metadata helps engineers trace dependencies and understand the structure of the system. MDM systems establish consistent identities for entities represented across different sources. Observability helps detect degradation that ordinary job-status checks miss. Governance controls how shared data can be accessed and used.
 
-## Why “Data Systems Engineering” Is the Right Name
+Checking each component independently cannot establish that the whole system is reliable. Engineers also need to understand the dependencies between components, the assumptions they make about one another, and what happens when those assumptions no longer hold.
 
-A system is a collection of components with state, interfaces, invariants, and failure modes, operating over time.
+That is a systems engineering problem.
 
-Modern data platforms meet this definition _precisely._
+## What Data Systems Engineering Covers
 
-Data engineers today reason about:
+A system consists of interacting components with state, interfaces, constraints, and failure modes. Its behavior depends not only on what each component does, but also on how the components interact over time.
 
-- State and state transitions across storage layers
-- Contracts between producers and consumers
-- Schema evolution and backward compatibility
-- Impact analysis through lineage graphs
-- Correctness over time, not just at rest
-- Failure detection in the absence of explicit errors
+Modern data platforms fit this description. Consider the questions engineers must answer:
 
-Data quality checks are not validations. They are assertions about system invariants. Metadata is not documentation. It is executable knowledge. Alerts are not notifications. They are control signals.
+- **State and state transitions:** What happens when data is reprocessed, corrected, or delivered late? Do storage layers and downstream consumers converge on the same result?
+- **Contracts between producers and consumers:** What does a dataset promise to its users? Which changes can be made without breaking those promises?
+- **Schema evolution:** Can a source change its schema without causing failures or silently changing the meaning of downstream data?
+- **Dependency analysis:** If a dataset changes, which transformations, reports, applications, and business processes might be affected?
+- **Correctness over time:** Does a dataset remain consistent as new records arrive, historical data is corrected, and business rules change?
+- **Failure detection:** Can the system detect incorrect or incomplete data even when every scheduled job reports success?
 
-Calling this “data engineering” understates the work by focusing on the material rather than the structure. Calling it “platform engineering” overemphasizes infrastructure. Calling it “DataOps” captures discipline but not scope.
+These questions concern more than pipeline implementation. They concern a system whose components may evolve independently but must continue to work together.
 
-“Data systems engineering” names the field accurately.
+This broader view also changes how familiar data engineering practices should be understood.
 
-## A Discipline That Changed Category
+A data quality check can express an invariant that must hold for a dataset to be considered correct. Metadata can support automated decisions about dependencies, compatibility, and ownership rather than serving only as documentation. An observability alert can trigger investigation or remediation before a downstream consumer encounters a visible failure.
 
-Some fields evolve by improving tools. Others evolve by expanding responsibility. Data engineering did the latter.
+Consider a pipeline that finishes without errors but produces duplicate records. The execution succeeded, yet the resulting dataset may violate an assumption about uniqueness. The same problem can occur when an upstream schema change silently alters the meaning of a metric. Neither issue is necessarily detectable through job-status monitoring alone. Detecting it requires a definition of correct behavior and a way to check whether the system still meets that definition.
 
-The modern data stack is no longer an analytics pipeline. It is core organizational infrastructure. It supports decision-making, automation, compliance, and strategy. Trust in data is now a requirement, not a nicety.
+This is the difference between verifying that a component executed and verifying that the system produced the intended result.
 
-The work has already crossed the boundary into systems engineering. The only thing lagging behind is the name.
+The terminology can be understood in terms of these different responsibilities:
 
-“Data systems engineering” captures what the field has become, whether the industry is ready to admit it or not.
+- **Data engineering** emphasizes building and maintaining data pipelines and transformations.
+- **Data platform engineering** emphasizes the shared infrastructure and capabilities that support data workloads.
+- **DataOps** emphasizes the practices used to develop, deploy, monitor, and maintain data systems.
+- **Data systems engineering** emphasizes the design and operation of the complete system, including its components, contracts, dependencies, and behavior over time.
+
+These activities overlap. Data systems engineering is not intended to replace the other terms or suggest that every data engineer performs all these kinds of work. It provides a broader name for the engineering discipline required when the correctness of individual pipelines is no longer enough.
+
+## The Scope of the Work
+
+Data engineering has changed as organizations have become more dependent on the systems that produce and distribute their data.
+
+Data now supports reporting, operational decisions, automation, and regulatory obligations. Many teams and applications consume it, often far removed from the systems that originally produced it. A change that appears harmless at the source can affect an entire chain of downstream dependencies.
+
+Engineers must therefore consider more than whether a pipeline works under current conditions. They need to understand its assumptions, assess how changes might propagate, and establish ways to detect when the system stops behaving as expected.
+
+Not every data engineering task requires this level of reasoning. A small, isolated pipeline may still be little more than a straightforward data transfer. But as data systems become shared infrastructure, the engineering problem increasingly concerns the behavior of the whole rather than the execution of individual parts.
+
+"Data systems engineering" describes this broader scope. The term emphasizes the design, dependencies, correctness, and ongoing operation of data systems, rather than data movement alone.
