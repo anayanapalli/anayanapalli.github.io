@@ -7,7 +7,7 @@ We have a strange relationship with tenure.
 
 A résumé with frequent job changes can make someone look unreliable. A résumé with long stretches at the same company can make someone look stable, experienced, and trustworthy.
 
-There are countless heuristics around this.
+We rely on heuristics to judge people from their employment history:
 
 _"They've only stayed two years. That's a red flag."_
 
@@ -15,27 +15,21 @@ _"They've been there for ten years. They must be very experienced."_
 
 _"They've changed companies five times in seven years. They probably won't stay."_
 
-Sometimes these heuristics are useful.
+Sometimes these heuristics are useful. But they tell us less than we think.
 
-But I increasingly think they are far too simplistic.
+The question isn't simply how long someone stayed in a role. It is how much meaningful experience they accumulated during that time.
 
-The more I think about tenure, the more I believe that the important question isn't simply **how long someone stayed**.
+Consider a more useful question:
 
-The more interesting question is:
+> How long does it take for someone in this role, in this environment, to receive meaningful feedback on the decisions they make?
 
-> **How long does it take for someone in this role, in this environment, to receive meaningful feedback on the decisions they make?**
+One year as an engineer, one year as a manager, and one year as an executive can represent very different amounts of experience. The decisions they make, the systems they affect, and the time it takes to understand the consequences all differ.
 
-That changes everything.
-
-Because one year as an engineer, one year as a manager, one year as a director, and one year as an executive can represent radically different amounts of experience.
-
-Tenure is measured by the calendar.
-
-Experience is accumulated through **feedback cycles**.
+Tenure is measured by the calendar. Experience accumulates through feedback.
 
 ## The feedback cycle
 
-Almost every meaningful job has some version of the same loop:
+Almost every meaningful job involves some version of the same process:
 
 <figure class="text-center">
   <img
@@ -49,127 +43,57 @@ Almost every meaningful job has some version of the same loop:
     alt="Feedback Cycle Illustration #0"
     class="rounded-md mx-auto hidden dark:block"
   />
-
 </figure>
 
-You make a decision.
+You make a decision, act on it, and the system responds. Eventually, the consequences become visible. You receive feedback, understand what happened, and, ideally, change how you operate.
 
-You act on it.
+That is how experience becomes judgment.
 
-The system responds.
-
-Eventually, the consequences become visible.
-
-You receive feedback.
-
-You understand what happened.
-
-And, ideally, you change how you operate.
-
-That is experience.
-
-The important variable is therefore not simply the amount of time that has passed.
-
-It is **how many meaningful feedback cycles have been completed**.
-
-And the length of those cycles varies enormously.
+The number of meaningful feedback cycles someone has completed may tell us more about their experience than the time they have spent in a role. The length of those cycles varies considerably across roles and environments.
 
 ## An engineer's feedback cycle
 
 Consider an engineer working on a substantial technical system.
 
-They might:
+They need to understand the problem, design an architecture, make trade-offs, implement the solution, deploy it, and operate it. They may then encounter unexpected behavior, discover scaling or reliability problems, and redesign parts of the system based on what they learn.
 
-- understand the problem
-- design an architecture
-- make trade-offs
-- implement it
-- deploy it
-- operate it
-- encounter unexpected behavior
-- discover scaling or reliability problems
-- learn from those problems
-- redesign part of the system
+Depending on the project, that entire cycle might take a few months.
 
-Depending on the project, that entire cycle might happen within a few months.
+For many software engineering projects, a year or two can provide substantial technical feedback. An engineer can make decisions, observe their consequences in production, and use what they learn to improve the system.
 
-For a reasonably sized engineering project, a year or two can provide a tremendous amount of technical feedback.
+Of course, this depends on the work. An engineer involved in a decade-long infrastructure transformation operates on a very different timeline.
 
-Of course, this is not universal.
+Technical feedback cycles are relatively short in many software environments. If someone has strong technical skills, good references, meaningful ownership, and can explain the systems they built and the trade-offs they made, a short tenure does not tell me much about their reliability.
 
-An engineer working on a decade-long infrastructure transformation is operating on a completely different timeline.
+There are several possible explanations. They may have finished the problem they came to solve, wanted a harder challenge, or reached the limits of what their current environment could teach them. The company may simply not have been a good fit. They may also have had opportunities elsewhere that were worth pursuing.
 
-But in many software environments, technical feedback cycles are relatively fast.
+The résumé tells me they left. It doesn't tell me why, what they accomplished, or how much they learned.
 
-That is one reason I am not particularly alarmed by a one- or two-year engineering tenure by itself.
+## Management decisions take longer to evaluate
 
-If the person has strong technical skills, good references, meaningful ownership, and can clearly explain the systems they built and the trade-offs they made, a short tenure does not necessarily tell me much about their reliability.
+The feedback cycle becomes more complicated when we move into management.
 
-It may simply mean they have more optionality.
+An engineer primarily changes a technical system. A manager changes a system of people.
 
-They may have finished the problem they came to solve.
+That difference matters because the consequences of organizational decisions can take much longer to become visible.
 
-They may have wanted a harder problem.
+Suppose a manager changes the team's ownership model. Initially, things improve. People have more autonomy, there are fewer meetings, and decisions appear to happen faster. Six months later, cross-team dependencies begin accumulating, and teams struggle to coordinate their work.
 
-They may have learned everything they could from that particular environment.
+Or suppose a manager introduces more process because the team feels chaotic. Predictability improves at first. A year later, engineers have stopped taking initiative because nearly every decision requires approval.
 
-They may have found that the next stage of growth wasn't available where they were.
+Hiring decisions can take even longer to evaluate. The people hired today may become critical contributors, mediocre performers, or sources of organizational problems two years later.
 
-Or the company may simply not have been a good fit.
+Management decisions often have second-order effects. A change improves one part of the organization, which alters how people behave elsewhere, eventually creating consequences that were not obvious when the decision was made.
 
-The résumé tells me they left.
+The manager needs time to see those consequences, understand what caused them, and adjust their approach.
 
-It doesn't tell me why.
+A manager who leaves after a year may have made several important decisions without seeing their full effects. Someone who stays longer may have the opportunity to understand what worked, what failed, and why.
 
-## The same clock does not apply to management though
-
-This becomes much more interesting when we move into management.
-
-An engineer primarily changes a technical system.
-
-A manager changes a **system of people**.
-
-That difference matters because people and organizations often have much much longer feedback cycles.
-
-Suppose a manager changes the team's ownership model.
-
-At first, everything might look better.
-
-People have more autonomy.
-
-There are fewer meetings.
-
-Decisions appear to happen faster.
-
-But six months later, cross-team dependencies start accumulating.
-
-Or suppose the manager introduces more process because the team feels chaotic.
-
-Initially, predictability improves.
-
-A year later, engineers may have stopped taking initiative because every decision now requires approval.
-
-Or a manager changes hiring standards.
-
-The immediate effect might not be visible at all.
-
-The people hired today may become critical contributors, mediocre performers, or organizational problems two years later.
-
-Management decisions frequently have **second-order effects**.
-
-You change one part of the system.
-
-The system adapts.
-
-That adaptation changes another part.
-
-Eventually, the consequences return to you.
-
-That can take a long time.
+Staying longer does not automatically produce better judgment, but observing the consequences of one's decisions is an important part of developing it.
 
 ## The feedback cycle changes with scope
 
-As responsibility expands, the distance between a decision and its consequences generally increases.
+As responsibility expands, the distance between a decision and its consequences often increases.
 
 <figure class="text-center">
   <img
@@ -183,298 +107,164 @@ As responsibility expands, the distance between a decision and its consequences 
     alt="Feedback Cycle Illustration #1"
     class="rounded-md mx-auto hidden dark:block"
   />
-
 </figure>
 
-These aren't rules.
+This is not a rigid rule. It is a way of thinking about causal distance: how far a decision must travel through a system before its consequences become visible.
 
-They are just a way of thinking about **causal distance**.
+An engineer might discover the consequences of an implementation decision within days or weeks. A manager may need months to understand the effects of a change in team structure. A director responsible for several teams may need years to understand how changes in hiring, incentives, architecture, and organizational design affect the wider organization.
 
-The larger the system you are responsible for, the longer it can take for your decisions to propagate through that system and return to you as meaningful feedback.
+The larger the system, the more difficult it can be to isolate the effects of individual decisions. Other changes are happening at the same time, and the consequences may emerge in places far removed from where the original decision was made.
 
-And that makes tenure increasingly important as scope increases.
+Someone responsible for a large system needs opportunities to observe how that system responds to their decisions. Time spent occupying the role is not enough on its own.
 
-## Professional growth can be misleading...
+## Professional growth can be misleading
 
-There is another signal that can be just as misleading as tenure: **professional growth within an organization**.
+Tenure is not the only signal we can misread. Professional progression within an organization can be misleading, too.
 
-We tend to look at someone who has steadily moved upward and assume that the progression itself is evidence of increasing capability.
+We often see someone move steadily upward and assume that each promotion reflects a corresponding increase in capability.
 
 Engineer → Senior Engineer → Manager → Senior Manager → Director → VP.
 
-It is certainly evidence that the organization kept giving that person larger responsibilities. But it is not necessarily evidence that their knowledge, judgment, or experience grew at the same rate.
+That progression tells us the organization continued to entrust the person with greater responsibility. But it does not necessarily tell us whether their knowledge, judgment, and experience developed at the same rate.
 
-Organizations are complicated systems.
+People get promoted for different reasons.
 
-People get promoted for many reasons.
+Some are genuinely excellent and have earned progressively larger responsibilities. Others move up because the business is growing and needs people to fill new positions. Someone with deep institutional knowledge may be the obvious person available when a role opens. A departing manager may leave the next person in line with a promotion. Someone else may be particularly good at working within the organization's existing culture and processes.
 
-Sometimes they are genuinely excellent and have earned progressively larger scope.
+Timing matters, too. A person can benefit from circumstances that have little to do with their underlying ability.
 
-Sometimes the business is growing quickly and needs people to fill new positions.
+Someone's organizational seniority can grow faster than their accumulated judgment.
 
-Sometimes someone has deep institutional knowledge and is the obvious person available.
+Imagine someone who becomes a manager after a few years as an engineer. Before they have experienced the longer-term consequences of their management decisions, the organization grows and they become a senior manager. Another manager leaves, and they become a director. A few years later, they are running a large organization.
 
-Sometimes a manager leaves and the next person in line gets promoted.
+From the outside, the trajectory looks impressive. But consider what they have actually had time to learn.
 
-Sometimes someone is exceptionally good at operating within the organization's existing culture and processes.
+They may never have stayed in one managerial system long enough to understand the consequences of their decisions. They may have inherited organizations rather than built them, implemented strategies designed by others, or moved on before the effects of difficult decisions became visible.
 
-Sometimes they are simply in the right place at the right time.
+They may even have been promoted during a period of organizational change that made it difficult to determine whether their decisions had solved the original problems.
 
-And sometimes a person can keep moving upward because **the organization keeps changing around them faster than the feedback from their previous decisions can arrive**.
+None of this means the person is necessarily incompetent. They may be highly capable. A record of promotions does not, by itself, establish that someone has developed the judgment required for each successive level.
 
-That last case is particularly interesting.
+This can be particularly difficult to assess in large organizations.
 
-Imagine someone who becomes a manager after a few years as an engineer.
+Large companies have established processes, experienced staff, strong peers, and multiple layers of management. A leader may have excellent people working underneath them, while their peers help compensate for gaps in their knowledge. Leaders above them may correct decisions before they become consequential. Large teams may absorb mistakes that would be immediately visible in a smaller organization.
 
-Before they have really experienced the consequences of their management decisions, the organization grows and they become a senior manager.
+These arrangements can make someone effective, but they can also conceal the limits of their judgment. The organization may continue functioning well without making it clear how much of that success comes from the individual and how much comes from the surrounding system.
 
-Then another manager leaves, and they become a director.
+The scope of someone's responsibility should be commensurate with their knowledge, experience, and judgment. Promotions and titles are relevant evidence, but they are not substitutes for understanding what someone has actually done and learned.
 
-A few years later, they are running a large organization.
+## Industry velocity matters
 
-From the outside, the trajectory looks extraordinary.
+The time required to receive meaningful feedback also depends on the industry.
 
-But if we trace the actual feedback cycles, something different might emerge.
+A technology startup might move from an idea to a product, acquire customers, encounter scaling problems, and restructure its organization within a few years.
 
-They may never have stayed in one managerial system long enough to understand its long-term consequences.
+A heavily regulated industry might take years to move through a comparable cycle. A major infrastructure project could take a decade. Pharmaceutical development operates on its own timeline. A financial institution may have technological and organizational systems whose consequences emerge over many years.
 
-They may have inherited organizations rather than built them.
-
-They may have implemented strategies designed by someone else.
-
-They may have moved on before the consequences of difficult decisions became visible.
-
-They may have been promoted precisely when the organization was changing enough that the old problems disappeared before anyone could determine whether their decisions had actually solved them.
-
-In other words, **their organizational seniority may have grown faster than their accumulated judgment**.
-
-This is why I don't think professional progression should be treated as a simple proxy for experience.
-
-A person can be promoted repeatedly without necessarily completing the feedback cycles that would normally develop the judgment required for the next level.
-
-And this can be particularly difficult to see in large organizations.
-
-Large companies have enormous organizational inertia.
-
-Once someone reaches a certain level, they can sometimes operate successfully because the systems around them are strong enough to compensate for weaknesses in their own judgment.
-
-They may have excellent staff.
-
-They may have experienced people underneath them.
-
-They may have established processes.
-
-They may have strong peers.
-
-They may have a powerful brand behind them.
-
-They may have large teams that absorb mistakes.
-
-They may have leaders above them who quietly correct decisions before those decisions become consequential.
-
-The organization can therefore create an environment in which someone appears highly effective without necessarily exposing the full limits of their judgment.
-
-This is another reason I think **scope should match knowledge, experience, and judgment**.
-
-## The pace of the industry matters too
-
-There is another variable that I think is often overlooked.
-
-**Industry velocity.**
-
-Different environments produce feedback at very different speeds.
-
-A technology startup might go from idea to product to customers to scaling problems to organizational restructuring in a few years.
-
-A heavily regulated or conservative industry might take years to move through a comparable cycle.
-
-A major infrastructure project might take a decade.
-
-A pharmaceutical development program can operate on a completely different timeline.
-
-A financial institution may have technology and organizational systems whose consequences emerge over many years.
-
-So tenure has to be interpreted relative to the environment.
+The same tenure can therefore represent very different amounts of experience depending on the environment.
 
 Three years is not a universal unit of experience.
 
-## The startup founder is a fascinating example
+## The startup founder
 
 Consider someone who starts a technology company and runs it for three years.
 
-In those three years, they may have experienced:
+During that time, they might work through product development, customer discovery, pricing, sales, hiring, firing, fundraising, cash-flow management, organizational design, competition, and product-market fit. They might encounter scaling problems, cultural problems, and strategic mistakes. They might eventually fail.
 
-- product development
-- customer discovery
-- pricing
-- sales
-- hiring
-- firing
-- fundraising
-- cash-flow management
-- organizational design
-- competition
-- product-market fit
-- scaling problems
-- cultural problems
-- strategic mistakes
-- and perhaps failure
+That can be a dense learning experience. In three years, a founder may encounter problems that someone in a larger organization takes much longer to face.
 
-They might even shut the company down.
+Failure is particularly interesting in this context.
 
-That can be an extraordinarily deep feedback cycle.
+A founder who starts a company, makes difficult decisions, watches the consequences unfold, realizes the business is not working, and eventually shuts it down may leave with considerable practical knowledge. They have seen how their assumptions held up against reality, where their judgment was wrong, and what they might do differently next time.
 
-In fact, there is something interesting about failure.
+I would call that scar tissue.
 
-A founder who starts a company, makes difficult decisions, watches the consequences unfold, eventually realizes the business isn't working, shuts it down, and genuinely reflects on why it failed may come out of that experience with enormous practical knowledge.
+But scar tissue alone is not enough. Failure does not automatically produce wisdom. Someone can experience the same problems repeatedly without understanding why they occur.
 
-I would call that **scar tissue**.
+A founder who understands why the business failed and adjusts their approach has completed a valuable feedback cycle. Someone who simply blames the market, their employees, or bad luck may have learned much less, even if they went through the same events.
 
-But scar tissue alone isn't enough.
+The distinction is between experiencing something and learning from it.
 
-Failure does not automatically produce wisdom.
-
-Reflection is what turns experience into learning.
-
-> **Scar tissue becomes experience when it is accompanied by reflection and changed behavior.**
-
-Someone who has experienced failure but learned nothing from it may repeat the same mistakes.
-
-Someone who understands why the failure happened and changes how they operate afterward has completed a very valuable feedback cycle.
-
-## A three-year founder vs. a ten-year executive
+## Three years as a founder versus ten years as an executive
 
 Imagine two people.
 
-One spent ten years at a stable company.
+One spent ten years at a stable company. The other founded a startup and spent three years trying to make it work.
 
-The other founded a startup and spent three years trying to make it work.
+The first person may have substantial institutional knowledge. They may understand the company's systems, relationships, and decision-making processes in considerable depth.
 
-The first person may have enormous institutional knowledge.
+The second may have gone through an entire business-building cycle:
 
-The second may have experienced:
+> Idea → product → customers → hiring → growth → mistakes → strategic change → failure
 
-> idea → product → customers → hiring → growth → mistakes → strategic change → failure
+That experience may have exposed the founder to a wider range of consequential decisions in a shorter period.
 
-The second person may have gone through an entire business-building cycle in three years.
+It does not automatically make them a better leader. The ten-year executive may have managed larger teams, made more complex decisions, or learned lessons that the founder has not yet encountered.
 
-That doesn't automatically make them a better leader.
+The comparison illustrates why calendar time alone is a poor proxy for experience. The amount someone learns depends on the decisions they make, the consequences they observe, and how well they understand those consequences.
 
-But it demonstrates why **calendar time alone is a poor proxy for experience**.
+Three years can be enough to learn an enormous amount. Ten years can also pass without much development in a particular area.
 
-The founder may have been exposed to far more consequential decisions and much faster feedback.
+## Slow-moving environments
 
-## But the opposite can also be true
+The opposite case matters just as much.
 
-Now imagine someone working in a very slow-moving industry.
+Imagine someone working in a slow-moving industry who spends five years on a major transformation.
 
-They might spend five years on a major transformation.
+The first two years involve planning. The next two involve implementation. In the fifth year, the organization finally begins to see the consequences of the changes.
 
-The first two years involve planning.
+Five years might seem like a long tenure, but the person may have had only one opportunity to observe the results of their decisions. They may now have valuable experience precisely because they stayed long enough to see the transformation through.
 
-The next two involve implementation.
+This is why I would not prescribe a universal minimum tenure for managers or directors.
 
-The fifth year is when the organization finally begins seeing the consequences.
+A manager does not necessarily need three years in a role, nor does a director necessarily need five. Those numbers are arbitrary without an understanding of the work.
 
-In that environment, five years might not be unusually long.
+Tenure should be interpreted relative to the time required for a system to produce meaningful feedback.
 
-It may simply be what the system requires to produce meaningful feedback.
+## Project scale matters
 
-This is why I wouldn't say:
+Industry velocity is only part of the picture. The scale of the project and the scope of the person's responsibility matter, too.
 
-> "A manager needs three years."
+An engineer working on a small service may be able to design, build, deploy, operate, and improve the system several times within a few years. An engineer working on a massive infrastructure transformation may not get the same number of opportunities.
 
-Or:
+The same applies to management. A manager of a ten-person team in a rapidly changing startup may receive organizational feedback much faster than a manager responsible for a large, heavily regulated operation.
 
-> "A director needs five years."
+A founder building a consumer application may learn from customer behavior within days. Someone building a business in which major customer contracts take two years to close will have to wait much longer to find out whether their commercial decisions were sound.
 
-Those numbers are too arbitrary.
+Several factors affect how much someone can learn during a given period: how quickly feedback arrives, the size and complexity of the system they manage, the duration of their projects, the pace of change in their industry, and whether they reflect on what happened and adjust their approach.
 
-Instead:
+These variables interact. A large project in a fast-moving industry may still produce slow feedback, while a small project in a slow-moving industry may allow relatively quick learning.
 
-> **The required tenure should be interpreted relative to the feedback cycle of the system.**
+Tenure cannot be evaluated independently of the system in which the person works.
 
-## Project scale matters too
+## The résumé is not the experience
 
-Industry velocity isn't the only variable.
+This is ultimately why résumés can be deceptive.
 
-Project scale matters.
+A résumé tells you where someone worked and when they worked there. It gives you a timeline, but only a partial account of what happened during that time.
 
-An engineer working on a small service may be able to design, build, deploy, operate, and improve the system several times within a few years.
-
-An engineer working on a massive infrastructure transformation may not.
-
-The same is true for management.
-
-A manager of a ten-person team in a rapidly changing startup may experience organizational feedback much faster than a manager responsible for a large, heavily regulated operation.
-
-And a founder building a consumer application may experience dramatically faster feedback than someone building a business where every major customer contract takes two years to close.
-
-So I think the model really has several dimensions:
-
-<figure class="text-center">
-  <img
-    src="/images/11.png"
-    alt="Feedback Cycle Illustration #2"
-    class="rounded-md mx-auto dark:hidden"
-  />
-
-<img
-    src="/images/11-d.png"
-    alt="Feedback Cycle Illustration #2"
-    class="rounded-md mx-auto hidden dark:block"
-  />
-
-</figure>
-
-Tenure is therefore not a standalone variable.
-
-It is a variable embedded inside a system.
-
-## The résumé is a map, not the territory
-
-This is ultimately why I think résumés can be deceptive.
-
-A résumé tells you:
-
-**where someone worked**
-
-and
-
-**when they worked there.**
-
-It doesn't tell you:
-
-**what happened.**
-
-Two people can have identical résumés:
+Consider two people with identical employment histories:
 
 ```text
-Company A — 2 years
-Company B — 2 years
-Company C — 2 years
+Company A: 2 years
+Company B: 2 years
+Company C: 2 years
 ```
 
-But one person might have spent those six years:
+One person might have spent those six years building systems, owning production, dealing with failures, leading migrations, learning from mistakes, and progressively taking on more responsibility.
 
-- building systems
-- owning production
-- dealing with failures
-- leading migrations
-- learning from mistakes
-- progressively increasing responsibility
+The other might have spent those years working on narrow components, avoiding ownership, leaving before projects were completed, and rarely seeing the consequences of their work in production.
 
-while the other might have spent them:
+The résumés look the same. The experience is different.
 
-- working on narrow components
-- avoiding ownership
-- moving before projects completed
-- rarely seeing production consequences
+The same distinction applies to managers. Two people may have identical titles and tenure, yet one may have built teams, dealt with the consequences of difficult organizational decisions, and adjusted their approach over several years. The other may have moved between roles without seeing the long-term effects of their decisions.
 
-The résumé looks the same.
+Neither job titles nor employment dates tell us enough to distinguish between them.
 
-The experience isn't.
+The more useful questions concern what the person actually did, what decisions they made, what happened as a result, and what they learned.
 
-This is why the most useful interview questions are often not about chronology.
+In an interview, I would want to understand the sequence: What problem were they trying to solve? Why did they choose that approach? What happened after they implemented it? What surprised them? What would they do differently now?
 
-They're about **causality**.
+These questions help establish whether someone has merely occupied a role or developed a deeper understanding of the work.
+
+Tenure tells us how long someone was there. To understand their experience, we need to know what happened while they were there.
